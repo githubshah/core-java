@@ -73,24 +73,24 @@ public class Overloading {
         System.out.println("ObjectString " + String);
     }
 
-    public void fun(int i, long l) {
-        System.out.println("intlong " + i);
+    public void fun(Number i, Number l) {
+        System.out.println("numbernumber " + i);
     }
 
-    public void fun(long i, long l) {
-        System.out.println("longlong " + i);
+    public void fun(Number i, Object l) {
+        System.out.println("numbernumber " + i);
     }
 
-    public void fun(int i, int l) {
-        System.out.println("intint " + i);
+    public void fun(Object i, Number l) {
+        System.out.println("numbernumber " + i);
     }
 
-    public void fun(long i, int l) {
-        System.out.println("longint " + i);
+    public void fun(Object i, Object l) {
+        System.out.println("objobj " + i);
     }
 
     public static void main(String[] args) {
         Overloading overloading = new Overloading();
-        overloading.fun(1);
+        overloading.fun(1, 2);
     }
 }
