@@ -33,6 +33,10 @@ public class Overloading {
         System.out.println("double " + double1);
     }
 
+    public void fun(Boolean Boolean1) {
+        System.out.println("Boolean " + Boolean1);
+    }
+
     public void fun(Integer Integer1) {
         System.out.println("Integer " + Integer1);
     }
@@ -59,6 +63,6 @@ public class Overloading {
 
     public static void main(String[] args) {
         Overloading overloading = new Overloading();
-        overloading.fun(1);
+        overloading.fun(true);
     }
 }
