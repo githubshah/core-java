@@ -1,6 +1,4 @@
-package overloading;
-
-import java.io.IOException;
+package core.overiding;
 
 public class Child extends Parent{
 

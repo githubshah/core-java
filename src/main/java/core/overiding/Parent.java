@@ -1,6 +1,4 @@
-package overloading;
-
-import java.io.IOException;
+package core.overiding;
 
 public abstract class Parent {
     private int intPrimitive;
