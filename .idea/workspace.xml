@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/overloading/Overloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/overloading/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/overiding/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/overloading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/overiding/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/overloading/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/overiding/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/overloading/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/overloading/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/overloading/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/overloading/Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/overloading/Overloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/overloading/Overloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/overloading/Overloading.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,22 +169,22 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="359" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.834@0.23.1440.834" timestamp="1583034087967" />
-    <state width="1378" height="192" key="GridCell.Tab.0.bottom" timestamp="1583040333252">
+    <state width="1378" height="125" key="GridCell.Tab.0.bottom" timestamp="1583046738948">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1378" height="192" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1583040333252" />
-    <state width="1378" height="192" key="GridCell.Tab.0.center" timestamp="1583040333250">
+    <state width="1378" height="125" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1583046738948" />
+    <state width="1378" height="125" key="GridCell.Tab.0.center" timestamp="1583046738946">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1378" height="192" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1583040333250" />
-    <state width="1378" height="192" key="GridCell.Tab.0.left" timestamp="1583040333249">
+    <state width="1378" height="125" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1583046738946" />
+    <state width="1378" height="125" key="GridCell.Tab.0.left" timestamp="1583046738946">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1378" height="192" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1583040333249" />
-    <state width="1378" height="192" key="GridCell.Tab.0.right" timestamp="1583040333251">
+    <state width="1378" height="125" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1583046738946" />
+    <state width="1378" height="125" key="GridCell.Tab.0.right" timestamp="1583046738947">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1378" height="192" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1583040333251" />
+    <state width="1378" height="125" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1583046738947" />
     <state x="248" y="103" key="Maven.ArtifactSearchDialog" timestamp="1582907802296">
       <screen x="0" y="23" width="1440" height="834" />
     </state>

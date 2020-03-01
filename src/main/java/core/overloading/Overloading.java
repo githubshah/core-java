@@ -33,36 +33,64 @@ public class Overloading {
         System.out.println("double " + double1);
     }
 
-    public void fun(Boolean Boolean1) {
-        System.out.println("Boolean " + Boolean1);
+    public void fun(Boolean Boolean) {
+        System.out.println("Boolean " + Boolean);
     }
 
-    public void fun(Integer Integer1) {
-        System.out.println("Integer " + Integer1);
+    public void fun(Integer Integer) {
+        System.out.println("Integer " + Integer);
     }
 
-    public void fun(Long Long1) {
-        System.out.println("Long " + Long1);
+    public void fun(Long Long) {
+        System.out.println("Long " + Long);
     }
 
-    public void fun(Float Float1) {
-        System.out.println("Float " + Float1);
+    public void fun(Float Float) {
+        System.out.println("Float " + Float);
     }
 
-    public void fun(Double Double1) {
-        System.out.println("Double " + Double1);
+    public void fun(Double Double) {
+        System.out.println("Double " + Double);
     }
 
-    public void fun(Number number1) {
-        System.out.println("Number " + number1);
+    public void fun(Number Number) {
+        System.out.println("Number " + Number);
     }
 
-    public void fun(Object Object1) {
-        System.out.println("Object " + Object1);
+    public void fun(Object Object) {
+        System.out.println("Object " + Object);
+    }
+
+    public void fun(String String) {
+        System.out.println("String " + String);
+    }
+
+    public void fun(String String, Object Object) {
+        System.out.println("StringObject " + String);
+    }
+
+    public void fun(Object Object, String String) {
+        System.out.println("ObjectString " + String);
+    }
+
+    public void fun(int i, long l) {
+        System.out.println("intlong " + i);
+    }
+
+    public void fun(long i, long l) {
+        System.out.println("longlong " + i);
+    }
+
+    public void fun(int i, int l) {
+        System.out.println("intint " + i);
+    }
+
+    public void fun(long i, int l) {
+        System.out.println("longint " + i);
     }
 
     public static void main(String[] args) {
         Overloading overloading = new Overloading();
-        overloading.fun(true);
+        overloading.fun(1);
     }
 }
