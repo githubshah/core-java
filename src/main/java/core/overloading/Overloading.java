@@ -73,6 +73,22 @@ public class Overloading {
         System.out.println("ObjectString " + String);
     }
 
+    public void fun(int i, int l) {
+        System.out.println("intint " + i);
+    }
+
+    public void fun(int i, long l) {
+        System.out.println("intlong " + i);
+    }
+
+    public void fun(long i, int l) {
+        System.out.println("longint " + i);
+    }
+
+    public void fun(long i, long l) {
+        System.out.println("longlong " + i);
+    }
+
     public void fun(Number i, Number l) {
         System.out.println("numbernumber " + i);
     }
