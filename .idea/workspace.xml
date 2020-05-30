@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/customAnnotation/RunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/customAnnotation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/customAnnotation/TestExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/customAnnotation/TesterInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/enum8/ColorAbstractMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/enum8/ColorConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/enum8/EnumImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/overiding/Overriding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zainab/Zainab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/overloading/Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/overloading/Overloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/overiding/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/overiding/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/overiding/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/overiding/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/overiding/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/overiding/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/overiding/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/overiding/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/overiding/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/overiding/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/overiding/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/overiding/Parent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/core/overloading/Overloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/overloading/Overloading.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -52,17 +68,20 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core.enum8" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Overloading">
-    <configuration name="MatrixLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recusion.MatrixLearn" />
+  <component name="RunManager" selected="Application.RunTest">
+    <configuration name="EnumImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.enum8.EnumImpl" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recusion.*" />
+          <option name="PATTERN" value="core.enum8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recusion.Merge" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.customAnnotation.Main" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recusion.*" />
+          <option name="PATTERN" value="core.customAnnotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Overloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.overloading.Overloading" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.overiding.Main" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.overloading.*" />
+          <option name="PATTERN" value="core.overiding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access_modifier.test.Test" />
+    <configuration name="RunTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.customAnnotation.RunTest" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access_modifier.test.*" />
+          <option name="PATTERN" value="core.customAnnotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recusion.Tree" />
+    <configuration name="Zainab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zainab.Zainab" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recusion.*" />
+          <option name="PATTERN" value="zainab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Overloading" />
-        <item itemvalue="Application.MatrixLearn" />
-        <item itemvalue="Application.Tree" />
-        <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.RunTest" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.EnumImpl" />
+        <item itemvalue="Application.Zainab" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +174,13 @@
       <option name="presentableId" value="Default" />
       <updated>1582907558042</updated>
       <workItem from="1582907560345" duration="4601000" />
+      <workItem from="1583800918991" duration="5357000" />
+      <workItem from="1583807747248" duration="920000" />
+      <workItem from="1584256759170" duration="1225000" />
+      <workItem from="1585419270538" duration="209000" />
+      <workItem from="1585812721030" duration="773000" />
+      <workItem from="1585882646674" duration="1075000" />
+      <workItem from="1590857449577" duration="3053000" />
     </task>
     <servers />
   </component>
@@ -162,34 +188,51 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="523" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1583037427796">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state x="523" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1590860054870">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
+    <state x="523" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1590860054870" />
     <state x="523" y="135" key="#com.intellij.ide.util.MemberChooser/0.23.1440.834@0.23.1440.834" timestamp="1583037427796" />
     <state x="359" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583034087967">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="359" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.834@0.23.1440.834" timestamp="1583034087967" />
-    <state width="1378" height="125" key="GridCell.Tab.0.bottom" timestamp="1583048025719">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state x="472" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590858973407">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1378" height="125" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1583048025719" />
-    <state width="1378" height="125" key="GridCell.Tab.0.center" timestamp="1583048025718">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state x="472" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.830@0.23.1440.830" timestamp="1590858973407" />
+    <state width="1378" height="188" key="GridCell.Tab.0.bottom" timestamp="1590860949143">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1378" height="125" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1583048025718" />
-    <state width="1378" height="125" key="GridCell.Tab.0.left" timestamp="1583048025717">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state width="1378" height="188" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1590860949143" />
+    <state width="1378" height="379" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1584892974579" />
+    <state width="1378" height="379" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584954181810" />
+    <state width="1378" height="188" key="GridCell.Tab.0.center" timestamp="1590860949142">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1378" height="125" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1583048025717" />
-    <state width="1378" height="125" key="GridCell.Tab.0.right" timestamp="1583048025718">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state width="1378" height="188" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1590860949142" />
+    <state width="1378" height="379" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1584892974577" />
+    <state width="1378" height="379" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1584954181808" />
+    <state width="1378" height="188" key="GridCell.Tab.0.left" timestamp="1590860949142">
+      <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1378" height="125" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1583048025718" />
+    <state width="1378" height="188" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1590860949142" />
+    <state width="1378" height="379" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1584892974575" />
+    <state width="1378" height="379" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1584954181807" />
+    <state width="1378" height="188" key="GridCell.Tab.0.right" timestamp="1590860949143">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1378" height="188" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1590860949143" />
+    <state width="1378" height="379" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1584892974578" />
+    <state width="1378" height="379" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1584954181809" />
     <state x="248" y="103" key="Maven.ArtifactSearchDialog" timestamp="1582907802296">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="248" y="103" key="Maven.ArtifactSearchDialog/0.23.1440.834@0.23.1440.834" timestamp="1582907802296" />
+    <state x="366" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1586314421951">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="366" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1586314421951" />
     <state x="417" y="66" key="refactoring.ChangeSignatureDialog" timestamp="1582909265626">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
