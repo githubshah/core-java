@@ -12,4 +12,6 @@ public @interface Test {
     //should ignore this test?
     public boolean enabled() default true;
 
+    public String name() default "java8 example";
+
 }
