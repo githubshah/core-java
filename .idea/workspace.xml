@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ActiveMq/MonitorAMQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collectiontest/ObjectAsKeyInMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collectiontest/StringAsKeyInMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collectiontest/StringMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/ThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/optional8/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/optional8/OptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream8/innerJoin/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream8/innerJoin/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream8/innerJoin/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/lock/ThreadSafety.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/ThreadLocalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collectiontest/MapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collectiontest/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/ThreadSafe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMq/MonitorAMQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/HashMapProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/ThreadSafe.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +54,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -72,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MonitorAMQ">
+  <component name="RunManager" selected="Application.ThreadLocalExample">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream8.innerJoin.Main" />
       <module name="demo_java" />
@@ -99,25 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectiontest.ObjectAsKeyInMap" />
+    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.threadlocal.ThreadLocalExample" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectiontest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectiontest.StringAsKeyInMap" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collectiontest.*" />
+          <option name="PATTERN" value="core.multiThreading.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,7 +110,20 @@
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.*" />
+          <option name="PATTERN" value="core.multiThreading.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadSafety" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.lock.ThreadSafety" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.multiThreading.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalExample" />
+        <item itemvalue="Application.ThreadSafety" />
+        <item itemvalue="Application.ThreadSafe" />
         <item itemvalue="Application.MonitorAMQ" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StringAsKeyInMap" />
-        <item itemvalue="Application.ObjectAsKeyInMap" />
-        <item itemvalue="Application.ThreadSafe" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +176,7 @@
       <workItem from="1594811642932" duration="3579000" />
       <workItem from="1596788045444" duration="2746000" />
       <workItem from="1597519163109" duration="1697000" />
+      <workItem from="1597802428146" duration="853000" />
     </task>
     <servers />
   </component>
@@ -198,22 +192,22 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="472" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.830@0.23.1440.830" timestamp="1596788698055" />
-    <state width="1368" height="133" key="GridCell.Tab.0.bottom" timestamp="1597297005043">
+    <state width="1388" height="133" key="GridCell.Tab.0.bottom" timestamp="1597803325848">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1368" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597297005043" />
-    <state width="1368" height="133" key="GridCell.Tab.0.center" timestamp="1597297005039">
+    <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803325848" />
+    <state width="1388" height="133" key="GridCell.Tab.0.center" timestamp="1597803325847">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1368" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597297005039" />
-    <state width="1368" height="133" key="GridCell.Tab.0.left" timestamp="1597297005031">
+    <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803325847" />
+    <state width="1388" height="133" key="GridCell.Tab.0.left" timestamp="1597803325846">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1368" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597297005031" />
-    <state width="1368" height="133" key="GridCell.Tab.0.right" timestamp="1597297005042">
+    <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803325846" />
+    <state width="1388" height="133" key="GridCell.Tab.0.right" timestamp="1597803325847">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1368" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597297005042" />
+    <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803325847" />
     <state x="145" y="23" width="1149" height="830" key="Maven.ArtifactSearchDialog" timestamp="1597519331363">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
