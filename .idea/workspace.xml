@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/lock/ThreadSafety.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/ThreadLocalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/ThreadSafe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ActiveMq/MonitorAMQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/HashMapProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/ThreadSafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/ThreadLocalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/ThreadLocalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/threadlocal/ThreadLocalExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/threadlocal/ThreadLocalExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +172,7 @@
       <workItem from="1594811642932" duration="3579000" />
       <workItem from="1596788045444" duration="2746000" />
       <workItem from="1597519163109" duration="1697000" />
-      <workItem from="1597802428146" duration="853000" />
+      <workItem from="1597802428146" duration="1098000" />
     </task>
     <servers />
   </component>
@@ -192,22 +188,22 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="472" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.830@0.23.1440.830" timestamp="1596788698055" />
-    <state width="1388" height="133" key="GridCell.Tab.0.bottom" timestamp="1597803325848">
+    <state width="1388" height="133" key="GridCell.Tab.0.bottom" timestamp="1597803574074">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803325848" />
-    <state width="1388" height="133" key="GridCell.Tab.0.center" timestamp="1597803325847">
+    <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
+    <state width="1388" height="133" key="GridCell.Tab.0.center" timestamp="1597803574067">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803325847" />
-    <state width="1388" height="133" key="GridCell.Tab.0.left" timestamp="1597803325846">
+    <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
+    <state width="1388" height="133" key="GridCell.Tab.0.left" timestamp="1597803574064">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803325846" />
-    <state width="1388" height="133" key="GridCell.Tab.0.right" timestamp="1597803325847">
+    <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
+    <state width="1388" height="133" key="GridCell.Tab.0.right" timestamp="1597803574071">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803325847" />
+    <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
     <state x="145" y="23" width="1149" height="830" key="Maven.ArtifactSearchDialog" timestamp="1597519331363">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
