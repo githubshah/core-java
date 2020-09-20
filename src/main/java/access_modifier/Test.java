@@ -1,4 +1,4 @@
-package access_modifier.test;
+package access_modifier;
 
 import access_modifier.america.America;
 
