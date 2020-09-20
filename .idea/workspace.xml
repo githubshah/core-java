@@ -3,11 +3,26 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/collectiontest/RetainAndRemoveAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/access_modifier/india/India.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/access_modifier/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/access_modifier/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Form.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GZIPOutputStreamDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/demo_java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/access_modifier/india/India.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/access_modifier/test/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +73,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -69,13 +85,13 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalExample">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream8.innerJoin.Main" />
+  <component name="RunManager" selected="Application.RetainAndRemoveAll">
+    <configuration name="MonitorAMQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActiveMq.MonitorAMQ" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream8.innerJoin.*" />
+          <option name="PATTERN" value="ActiveMq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonitorAMQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ActiveMq.MonitorAMQ" />
+    <configuration name="RetainAndRemoveAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectiontest.RetainAndRemoveAll" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ActiveMq.*" />
+          <option name="PATTERN" value="collectiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RetainAndRemoveAll" />
         <item itemvalue="Application.ThreadLocalExample" />
         <item itemvalue="Application.ThreadSafety" />
         <item itemvalue="Application.ThreadSafe" />
         <item itemvalue="Application.MonitorAMQ" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +199,7 @@
       <workItem from="1596788045444" duration="2746000" />
       <workItem from="1597519163109" duration="1697000" />
       <workItem from="1597802428146" duration="1098000" />
-      <workItem from="1600585039635" duration="283000" />
+      <workItem from="1600585039635" duration="789000" />
     </task>
     <servers />
   </component>
@@ -211,30 +227,30 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="472" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.830@0.23.1440.830" timestamp="1596788698055" />
-    <state width="1388" height="133" key="GridCell.Tab.0.bottom" timestamp="1597803574074">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state width="1388" height="203" key="GridCell.Tab.0.bottom" timestamp="1600594890866">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="133" key="GridCell.Tab.0.center" timestamp="1597803574067">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state width="1388" height="203" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1600594890866" />
+    <state width="1388" height="203" key="GridCell.Tab.0.center" timestamp="1600594890863">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="133" key="GridCell.Tab.0.left" timestamp="1597803574064">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state width="1388" height="203" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1600594890863" />
+    <state width="1388" height="203" key="GridCell.Tab.0.left" timestamp="1600594890863">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="133" key="GridCell.Tab.0.right" timestamp="1597803574071">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state width="1388" height="203" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1600594890863" />
+    <state width="1388" height="203" key="GridCell.Tab.0.right" timestamp="1600594890866">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
+    <state width="1388" height="203" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1600594890866" />
     <state x="145" y="23" width="1149" height="830" key="Maven.ArtifactSearchDialog" timestamp="1597519331363">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="145" y="23" width="1149" height="830" key="Maven.ArtifactSearchDialog/0.23.1440.830@0.23.1440.830" timestamp="1597519331363" />
-    <state x="358" y="202" width="703" height="472" key="find.popup" timestamp="1591576448221">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="358" y="202" width="703" height="472" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1591576448221" />
     <state x="375" y="180" width="670" height="673" key="search.everywhere.popup" timestamp="1594258215547">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
