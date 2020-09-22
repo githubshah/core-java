@@ -14,15 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collectiontest/RetainAndRemoveAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid10827.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid10884.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid10904.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid10912.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/opencv_java320.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javafx/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javafx/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javafx/update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Form.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GZIPOutputStreamDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/demo_java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/access_modifier/india/India.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/access_modifier/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +61,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1YRZqZnxmqhKvJ94tFtqqv8KNWm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -85,13 +90,26 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RetainAndRemoveAll">
-    <configuration name="MonitorAMQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ActiveMq.MonitorAMQ" />
+  <component name="RunManager" selected="Application.update">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javafx.Main" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ActiveMq.*" />
+          <option name="PATTERN" value="javafx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javafx.MediaPlayer" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javafx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,38 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.threadlocal.ThreadLocalExample" />
+    <configuration name="update" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jyothi.update" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.threadlocal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.ThreadSafe" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.multiThreading.lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadSafety" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.lock.ThreadSafety" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.multiThreading.lock.*" />
+          <option name="PATTERN" value="jyothi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,13 +156,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.someOpenCVTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo_java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="someOpenCVTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.update" />
+        <item itemvalue="JUnit.MainTest.someOpenCVTest" />
+        <item itemvalue="Application.MediaPlayer" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.RetainAndRemoveAll" />
-        <item itemvalue="Application.ThreadLocalExample" />
-        <item itemvalue="Application.ThreadSafety" />
-        <item itemvalue="Application.ThreadSafe" />
-        <item itemvalue="Application.MonitorAMQ" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +201,12 @@
       <workItem from="1596788045444" duration="2746000" />
       <workItem from="1597519163109" duration="1697000" />
       <workItem from="1597802428146" duration="1098000" />
-      <workItem from="1600585039635" duration="789000" />
+      <workItem from="1600585039635" duration="1178000" />
+      <workItem from="1600682273742" duration="3336000" />
+      <workItem from="1600750957147" duration="1543000" />
+      <workItem from="1600756833879" duration="70000" />
+      <workItem from="1600758953591" duration="9000" />
+      <workItem from="1600761006041" duration="809000" />
     </task>
     <servers />
   </component>
@@ -218,6 +225,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="523" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1596788248148">
       <screen x="0" y="23" width="1440" height="830" />
@@ -227,26 +237,42 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="472" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.830@0.23.1440.830" timestamp="1596788698055" />
-    <state width="1388" height="203" key="GridCell.Tab.0.bottom" timestamp="1600594890866">
+    <state width="1388" height="255" key="GridCell.Tab.0.bottom" timestamp="1600752563986">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="203" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1600594890866" />
-    <state width="1388" height="203" key="GridCell.Tab.0.center" timestamp="1600594890863">
+    <state width="1388" height="255" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1600752563986" />
+    <state width="1388" height="255" key="GridCell.Tab.0.center" timestamp="1600752563985">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="203" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1600594890863" />
-    <state width="1388" height="203" key="GridCell.Tab.0.left" timestamp="1600594890863">
+    <state width="1388" height="255" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1600752563985" />
+    <state width="1388" height="255" key="GridCell.Tab.0.left" timestamp="1600752563984">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="203" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1600594890863" />
-    <state width="1388" height="203" key="GridCell.Tab.0.right" timestamp="1600594890866">
+    <state width="1388" height="255" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1600752563984" />
+    <state width="1388" height="255" key="GridCell.Tab.0.right" timestamp="1600752563985">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="203" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1600594890866" />
+    <state width="1388" height="255" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1600752563985" />
+    <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1388" height="255" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1600752563988" />
+    <state width="1388" height="255" key="GridCell.Tab.1.center" timestamp="1600752563987">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1388" height="255" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1600752563987" />
+    <state width="1388" height="255" key="GridCell.Tab.1.left" timestamp="1600752563986">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1388" height="255" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1600752563986" />
+    <state width="1388" height="255" key="GridCell.Tab.1.right" timestamp="1600752563987">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1388" height="255" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1600752563987" />
     <state x="145" y="23" width="1149" height="830" key="Maven.ArtifactSearchDialog" timestamp="1597519331363">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
