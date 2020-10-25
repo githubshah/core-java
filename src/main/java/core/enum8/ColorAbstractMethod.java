@@ -1,5 +1,6 @@
 package core.enum8;
 
+// enum can have abstract method
 enum ColorAbstractMethod {
     red {
         @Override

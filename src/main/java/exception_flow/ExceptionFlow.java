@@ -4,7 +4,7 @@ package exception_flow;
 public class ExceptionFlow {
 
     public static void main(String[] args) {
-        System.out.println(call());
+        System.out.println("main "+call());
     }
 
     private static int call() {
@@ -12,10 +12,11 @@ public class ExceptionFlow {
         try {
             throw new RuntimeException();
         } catch (Exception e) {
-            System.out.println("1");
-            return i + 100;
+            System.out.println("catch 1");
+            return ++i;
         } finally {
-            System.out.println("2");
+            System.out.println("final 2");
+            return i+700;
         }
     }
 }

@@ -1,8 +1,12 @@
 package dev;
 
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import com.google.gson.Gson;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 public class Main {
 
@@ -22,7 +26,7 @@ public class Main {
         System.out.println(totalGscContact.size());*/
 
 
-        Stream<String> mongoContact = Stream.of("1165f7358ae63f58", "11e8dccc8c9695ff", "11f1c52408975b59", "11feee260e430efa", "14562da88bacc736", "1673486f093b58f9", "17c13038ddf2903", "1af5b12a0a9c6e16", "1cb248710bb45bd7", "1ce2ce208c33cbf", "1d0388948db995bd", "1d0be69c0ee08fa4", "1d3c5dd30b47534f", "1e3b51e588183488", "1f7d9c608e2d7f40", "1fc65c3b0f4c1faa", "1fcef86689996c65", "229017b00baa3d71", "229219cf8e16ef1e", "22d71d180f0f0d5c", "233f0eeb8b6f8783", "2354f55f8b38d2a1", "24eb226c0eeed3ac", "27033aae09aab19c", "272aab808404399", "272ce0738a4ef99d", "28f146778df375c2", "28f4484f8b3d2c86", "2cc7855e0ba6d078", "2e08e9150df5fa89", "2e61cbb188c10a79", "2fe3ed410a2ff117", "312abcca0bb6ac2b", "3207f7a98a7e4916", "322c76860dc5a516", "32581ecb8b40911a", "33c49498b3afad4", "33fc262608dac3d5", "372912a20d30328c", "375090740cb6e3a7", "379e17200cd9a96d", "39ded8d80b2445ad", "3a2e10d98fb7e039", "3baff7180d0ea2ac", "3c9ffbbb08926fd3", "3e0e80528e7ad349", "3ebece0b8d7c21ea", "40f53f730918f2e1", "4121dfa78aaa0748", "4157b24309e5b9b2", "45c58fb10d597bf6", "4665087409a42f53", "468d441309e0d50c", "47e5aae18e874440", "484106398cbd5336", "49682c828eca1a38", "49795b038888959c", "49ad260c0f091b13", "49d78b8f0b1100fa", "4a2b16e18d9d5ef7", "4a471c238c648943", "4abd2a620c70c69a", "4dd2a8368ca2eb32", "508a042588c1e7ea", "50cf39dc8ad288b8", "50ec54be8d609f92", "522450e68fd1fd6a", "528e5ff0899f0193", "529ec6d48d3cf7c7", "532601c898c6ae7", "532bca420d78dc4f", "5348ba070f657de8", "55917600b1c4e9d", "5613a5de09a02cd9", "58ff6be78fab2b5b", "599e9ff908782c3e", "59cbe15f0dc50092", "5a24e92b0cf336dc", "5c01a8e589d7cc7b", "5e1a04030cb645bb", "5e1f09860c7d3138", "5fbd6fbf0a07a040", "108eee1a8e4a12e6", "109a79ff8a4235fa", "10ab6aa40c1157ab", "10cf832b0e041693", "10cfa4680d7d035b", "10d610fe8a42182b", "1120429b885b608f", "9b1b1c28ec938d1", "628655a68bd3259c", "6292431b89603eb7", "62944c0b8ef109c1", "6356ab040c33d03f", "63b1d8188fad8757", "647150c88b050c6f", "647770280f154a52", "6506f3490d42fe0e", "6534b3810cc83b27", "6619a5c88a7235f", "676bb6668a452196", "67a118570a549e9b", "6886832e8b92ec22", "68de1ea08dd94d80", "6a64bf5c893ee1c9", "6a9fff680d85e4a2", "6aeab9130be45fcf", "6b64c3990caf8d90", "6b76029a8fe6083b", "6bf81c878a6ed0ac", "6c85b36a0a86dac8", "6ed0ac358d124ec2", "6fa2e61b0f3598a5", "6fb50f5908f667a9", "6fdfabc708ef0774", "70af5cd78c7b6865", "714d835e8ae5328b", "714fecc58fd79e1a", "715d1a3d08626507", "71816ec18eb1f404", "71d7d82008cc2bda", "7322790bfe2238", "7347c36f89fcfc73", "737770470d6140f3", "73d029050b7de104", "73eec17c0ca4e3c3", "74fb6acd88029d2b", "75a08a088a92d696", "75a5055d8cf80a23", "75abe7158cbb173c", "75f3e8620c097f17", "772b73920a7ebea4", "781d15698e09925d", "78c5df6b080498c1", "79153a750b310c99", "7979b0a989749a83", "7a208b680cb8ece6", "7ab85cd50b570425", "7b12d3548edfa53e", "7b1f70a30af884bf", "7c08a7f70fb34059", "7d53e0688a193c3", "7dd325a08c57645e", "7f36af9b0dbcfacc", "7fd3fce28c5e6d12", "8047ae48c064d60", "8aae0860905dce6", "913c84b0f1be4c1", "93f53ee8912eb1b", "a0559250f33d5aa", "a3401cc8f00ab4a", "ad4a8d68903e472", "addbc968896f1d6", "b3a96ef8eb0ee6d", "b649b8b0de0d9aa", "be914b68cfd1d3e", "c07e1020c86ed9f", "c0bc85a0966bd3a", "c72f00e891e178f", "cab03df8f5f219d", "dc848178fc6837c", "e9b005b0f5529c4", "fb667188c950460", "fc252980c20f7e6", "fcc45d40afe8e7d", "10edff6b0ae8cc06", "12ac98a58ed64a50", "12c917e28970aed9", "12d85b260a4069ee", "12f1f4e208bc2911", "13312f3b8c864c9c", "135b8dda0f796f57", "137030438d731f52", "143397ae0e91bef0", "1504ecf2090cf1b7", "15f1acbd0a1b244e", "1705ce1008d02f74", "4032107f0fef61b6", "19565e698af1d156", "199497d90e4a581d", "19a3c6800a5e6203", "19d95a540f8165fe", "1b276f2a8c94285a", "1bea0ba08d326283", "1c0555078dee47af", "1ed5f8ce8f05d205", "238d666989a98a29", "252d22958d71830c", "25df662d8c8f0f67", "263749dc882a5a17", "26ccb4020b728b83", "2817e2258f422dfc", "2977f22e896bf7c5", "29bf8266092ce95e", "2a3297048d0898cd", "2bda41a8e13836f", "2d54da960f9e083e", "2d57095608d08b66", "2ee2106b8cdb806c", "2f0be5820ca5a35a", "307ae4118e55da9b", "30b45de08f59e4a7", "15de8ef38c6770cf", "35149c5c8ae32d1f", "3669b171081a0093", "368edef80a2c106f", "3697ac230a7b5b7f", "369b92760ba86a17", "38057118e361911", "384f2a4c0c0d5dd1", "3904e89f0cd7ed47", "391b1c038b8fd667", "3deaf6a40d5a2e3e", "3f3779790cf9edcc", "428d6f488d72f125", "444a51018a28aa50", "4570b17688fe8858", "457bb4f68b72e7b8", "472d025889488c39", "4764f540ff3b735", "47752eb70bf1b597", "48ac2d1e0e327ecb", "48f5b4ff086f2981", "4af982668e44ae05", "4b4b2b9e0c9b985b", "4bbea95b0a2104d9", "4cf662678f8e6ef9", "4d57c5ae0a566b95", "4d5a70cb0d856f5a", "4f0936240c8c0dca", "4f9f7c4109051c1f", "5126d06f8f35e2fe", "51797c8f0b64d00e", "5189b3c40b4e51e6", "3f0903078b444d22", "54d28dd00ed88e01", "571f9120ef701e4", "57832a388a65d2e9", "57b770a508e4d4a6", "5aa21eeb8cd509d9", "5cf5fa7308a1da3a", "5d5e8a8e9a18b2", "6003e4208826e885");
+        /*Stream<String> mongoContact = Stream.of("1165f7358ae63f58", "11e8dccc8c9695ff", "11f1c52408975b59", "11feee260e430efa", "14562da88bacc736", "1673486f093b58f9", "17c13038ddf2903", "1af5b12a0a9c6e16", "1cb248710bb45bd7", "1ce2ce208c33cbf", "1d0388948db995bd", "1d0be69c0ee08fa4", "1d3c5dd30b47534f", "1e3b51e588183488", "1f7d9c608e2d7f40", "1fc65c3b0f4c1faa", "1fcef86689996c65", "229017b00baa3d71", "229219cf8e16ef1e", "22d71d180f0f0d5c", "233f0eeb8b6f8783", "2354f55f8b38d2a1", "24eb226c0eeed3ac", "27033aae09aab19c", "272aab808404399", "272ce0738a4ef99d", "28f146778df375c2", "28f4484f8b3d2c86", "2cc7855e0ba6d078", "2e08e9150df5fa89", "2e61cbb188c10a79", "2fe3ed410a2ff117", "312abcca0bb6ac2b", "3207f7a98a7e4916", "322c76860dc5a516", "32581ecb8b40911a", "33c49498b3afad4", "33fc262608dac3d5", "372912a20d30328c", "375090740cb6e3a7", "379e17200cd9a96d", "39ded8d80b2445ad", "3a2e10d98fb7e039", "3baff7180d0ea2ac", "3c9ffbbb08926fd3", "3e0e80528e7ad349", "3ebece0b8d7c21ea", "40f53f730918f2e1", "4121dfa78aaa0748", "4157b24309e5b9b2", "45c58fb10d597bf6", "4665087409a42f53", "468d441309e0d50c", "47e5aae18e874440", "484106398cbd5336", "49682c828eca1a38", "49795b038888959c", "49ad260c0f091b13", "49d78b8f0b1100fa", "4a2b16e18d9d5ef7", "4a471c238c648943", "4abd2a620c70c69a", "4dd2a8368ca2eb32", "508a042588c1e7ea", "50cf39dc8ad288b8", "50ec54be8d609f92", "522450e68fd1fd6a", "528e5ff0899f0193", "529ec6d48d3cf7c7", "532601c898c6ae7", "532bca420d78dc4f", "5348ba070f657de8", "55917600b1c4e9d", "5613a5de09a02cd9", "58ff6be78fab2b5b", "599e9ff908782c3e", "59cbe15f0dc50092", "5a24e92b0cf336dc", "5c01a8e589d7cc7b", "5e1a04030cb645bb", "5e1f09860c7d3138", "5fbd6fbf0a07a040", "108eee1a8e4a12e6", "109a79ff8a4235fa", "10ab6aa40c1157ab", "10cf832b0e041693", "10cfa4680d7d035b", "10d610fe8a42182b", "1120429b885b608f", "9b1b1c28ec938d1", "628655a68bd3259c", "6292431b89603eb7", "62944c0b8ef109c1", "6356ab040c33d03f", "63b1d8188fad8757", "647150c88b050c6f", "647770280f154a52", "6506f3490d42fe0e", "6534b3810cc83b27", "6619a5c88a7235f", "676bb6668a452196", "67a118570a549e9b", "6886832e8b92ec22", "68de1ea08dd94d80", "6a64bf5c893ee1c9", "6a9fff680d85e4a2", "6aeab9130be45fcf", "6b64c3990caf8d90", "6b76029a8fe6083b", "6bf81c878a6ed0ac", "6c85b36a0a86dac8", "6ed0ac358d124ec2", "6fa2e61b0f3598a5", "6fb50f5908f667a9", "6fdfabc708ef0774", "70af5cd78c7b6865", "714d835e8ae5328b", "714fecc58fd79e1a", "715d1a3d08626507", "71816ec18eb1f404", "71d7d82008cc2bda", "7322790bfe2238", "7347c36f89fcfc73", "737770470d6140f3", "73d029050b7de104", "73eec17c0ca4e3c3", "74fb6acd88029d2b", "75a08a088a92d696", "75a5055d8cf80a23", "75abe7158cbb173c", "75f3e8620c097f17", "772b73920a7ebea4", "781d15698e09925d", "78c5df6b080498c1", "79153a750b310c99", "7979b0a989749a83", "7a208b680cb8ece6", "7ab85cd50b570425", "7b12d3548edfa53e", "7b1f70a30af884bf", "7c08a7f70fb34059", "7d53e0688a193c3", "7dd325a08c57645e", "7f36af9b0dbcfacc", "7fd3fce28c5e6d12", "8047ae48c064d60", "8aae0860905dce6", "913c84b0f1be4c1", "93f53ee8912eb1b", "a0559250f33d5aa", "a3401cc8f00ab4a", "ad4a8d68903e472", "addbc968896f1d6", "b3a96ef8eb0ee6d", "b649b8b0de0d9aa", "be914b68cfd1d3e", "c07e1020c86ed9f", "c0bc85a0966bd3a", "c72f00e891e178f", "cab03df8f5f219d", "dc848178fc6837c", "e9b005b0f5529c4", "fb667188c950460", "fc252980c20f7e6", "fcc45d40afe8e7d", "10edff6b0ae8cc06", "12ac98a58ed64a50", "12c917e28970aed9", "12d85b260a4069ee", "12f1f4e208bc2911", "13312f3b8c864c9c", "135b8dda0f796f57", "137030438d731f52", "143397ae0e91bef0", "1504ecf2090cf1b7", "15f1acbd0a1b244e", "1705ce1008d02f74", "4032107f0fef61b6", "19565e698af1d156", "199497d90e4a581d", "19a3c6800a5e6203", "19d95a540f8165fe", "1b276f2a8c94285a", "1bea0ba08d326283", "1c0555078dee47af", "1ed5f8ce8f05d205", "238d666989a98a29", "252d22958d71830c", "25df662d8c8f0f67", "263749dc882a5a17", "26ccb4020b728b83", "2817e2258f422dfc", "2977f22e896bf7c5", "29bf8266092ce95e", "2a3297048d0898cd", "2bda41a8e13836f", "2d54da960f9e083e", "2d57095608d08b66", "2ee2106b8cdb806c", "2f0be5820ca5a35a", "307ae4118e55da9b", "30b45de08f59e4a7", "15de8ef38c6770cf", "35149c5c8ae32d1f", "3669b171081a0093", "368edef80a2c106f", "3697ac230a7b5b7f", "369b92760ba86a17", "38057118e361911", "384f2a4c0c0d5dd1", "3904e89f0cd7ed47", "391b1c038b8fd667", "3deaf6a40d5a2e3e", "3f3779790cf9edcc", "428d6f488d72f125", "444a51018a28aa50", "4570b17688fe8858", "457bb4f68b72e7b8", "472d025889488c39", "4764f540ff3b735", "47752eb70bf1b597", "48ac2d1e0e327ecb", "48f5b4ff086f2981", "4af982668e44ae05", "4b4b2b9e0c9b985b", "4bbea95b0a2104d9", "4cf662678f8e6ef9", "4d57c5ae0a566b95", "4d5a70cb0d856f5a", "4f0936240c8c0dca", "4f9f7c4109051c1f", "5126d06f8f35e2fe", "51797c8f0b64d00e", "5189b3c40b4e51e6", "3f0903078b444d22", "54d28dd00ed88e01", "571f9120ef701e4", "57832a388a65d2e9", "57b770a508e4d4a6", "5aa21eeb8cd509d9", "5cf5fa7308a1da3a", "5d5e8a8e9a18b2", "6003e4208826e885");
         List<String> totalMongoContact = mongoContact.collect(Collectors.toList());
 
         System.out.println(totalMongoContact.size());
@@ -39,7 +43,61 @@ public class Main {
 
         Stream<String> gscGscContactsEntry = Stream.of("6a2aea400fada368","4a42fe320f5d1b74","1898eff00be16948","3a51ca2e0e331983","7ec6e77c8c5ea614","396de1028eae38af","1ba790aa08de9192","294e418108429474","34f9dd9609f6ef40","372e4c8d8972ccca","6a20de380e27bd67","86065a18dc600e7","3da59d098c7f74c4","37e13bd08ef40f3a","1dc66c258fcb7ddc","3db837fc8d933793","1f04b3ce8ada88bf","3a162f9e8ef42421","5b70b5d589ade233","59edc4a18d144f25","4cf99cd90b3a8c22","545f22218eca826d","6747d67c8b2ab9fd","1f61e7fc8f80a6bc","3a39ae028c73f6ba","1553a5c50c1dd5a1","1d5e0a790afb44c2","fe319e8a6c6cab","582a4bd20e7f5faa","5b004de28e1a86e2","3ebb2a1d08e429e9","42f78ba08db620f","2241348309862c20","17ac6fbf89aa6af1","53bc75f40fb721a1");
         List<String> totalGscContact123 = gscGscContactsEntry.collect(Collectors.toList());
-        System.out.println(totalGscContact123.size());
+        System.out.println(totalGscContact123.size());*/
 
+        String a = null;
+        String b = null;
+
+        Set<String> s = new HashSet<>();
+        s.add(a);
+        s.add(b);
+
+        System.out.println("Size of set: " + s.size());
+
+        Set set = new HashSet();
+        set.add("1");
+        set.add(1);
+        set.add(null);
+        set.add("null");
+        set.add("null");
+        System.out.println(set);
+
+        System.out.println(Apple.apple);
+
+
+        String a1 = "a1";
+        String a2 = "a2";
+        Set <String> sedd = new HashSet<>();
+        sedd.add(a1);
+        sedd.add(a2);
+        System.out.println(sedd);
+        a1 = "a3";
+        System.out.println(sedd);
+
+
+
+        String jsonString = "{\"name\":\"James Baca\",\"contactEmail\":\"james@casadebaca.com\",\"googleId\":\"110201415332254321946\",\"isAdmin\":true,\"pictureUrl\":\"https://lh3.googleusercontent.com/a-/AOh14Gic4d_qEg_rNj62hrSOD_wgRZRe400K2L-4Xoww_gE:s96-c\",\"landingSite\":\"GSC\"}";
+        Gson gson = new Gson();
+        Map map = gson.fromJson(jsonString, Map.class);
+
+
+        Map <String,String>hashMap = new HashMap();
+        hashMap.put(null,"shaid");
+        hashMap.put(null,"shaid");
+
+        System.out.println(hashMap.size());
+
+
+    }
+
+    enum Apple {
+        apple("1"),
+        mango("2");
+
+        String s = null;
+
+        Apple(String s) {
+            this.s = s;
+        }
     }
 }
