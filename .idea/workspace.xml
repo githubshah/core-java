@@ -14,22 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hs_err_pid81950.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid82342.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/implMap/HashMapCustomApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javafx/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern/decorator/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/enum8/ColorAbstractMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/enum8/ColorAbstractMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/exception_flow/ExceptionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_flow/ExceptionFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/exception_flow/ExceptionFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exception_flow/ExceptionFlow.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +83,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaStore">
+  <component name="RunManager" selected="Application.ExceptionFlow">
     <configuration name="ExceptionFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception_flow.ExceptionFlow" />
       <module name="demo_java" />
@@ -162,21 +149,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.ExceptionFlow" />
+        <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RunTest" />
         <item itemvalue="Application.ThreadLocalExample" />
@@ -217,7 +206,8 @@
       <workItem from="1601909731984" duration="1887000" />
       <workItem from="1602431162427" duration="2592000" />
       <workItem from="1602756108619" duration="2088000" />
-      <workItem from="1603363473015" duration="14978000" />
+      <workItem from="1603363473015" duration="18042000" />
+      <workItem from="1603956335594" duration="251000" />
     </task>
     <servers />
   </component>
@@ -252,26 +242,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="184" key="GridCell.Tab.0.bottom" timestamp="1603630793444">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom" timestamp="1603956396199">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1603630793444" />
-    <state width="1388" height="184" key="GridCell.Tab.0.center" timestamp="1603630793442">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1603956396199" />
+    <state width="1388" height="184" key="GridCell.Tab.0.center" timestamp="1603956396196">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1603630793442" />
-    <state width="1388" height="184" key="GridCell.Tab.0.left" timestamp="1603630793442">
+    <state width="1388" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1603956396196" />
+    <state width="1388" height="184" key="GridCell.Tab.0.left" timestamp="1603956396195">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1603630793442" />
-    <state width="1388" height="184" key="GridCell.Tab.0.right" timestamp="1603630793443">
+    <state width="1388" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1603956396195" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right" timestamp="1603956396197">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="184" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1603630793443" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1603956396197" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
