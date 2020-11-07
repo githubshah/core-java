@@ -70,7 +70,7 @@ public class HighestSalaryInEachDept {
 
         List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-        Integer reduce = integers.stream().reduce(0, (x, y) -> x + y);
+        Integer reduce = integers.stream().reduce(0, Integer::sum);
         System.out.println(reduce);
 
 
