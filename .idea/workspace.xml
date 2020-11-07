@@ -69,6 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -208,7 +209,7 @@
       <workItem from="1602756108619" duration="2088000" />
       <workItem from="1603363473015" duration="18042000" />
       <workItem from="1603956335594" duration="5052000" />
-      <workItem from="1604760047457" duration="2161000" />
+      <workItem from="1604760047457" duration="3473000" />
     </task>
     <servers />
   </component>
@@ -244,26 +245,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="139" key="GridCell.Tab.0.bottom" timestamp="1604762205017">
+    <state width="1388" height="213" key="GridCell.Tab.0.bottom" timestamp="1604763535533">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="139" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604762205017" />
-    <state width="1388" height="139" key="GridCell.Tab.0.center" timestamp="1604762205015">
+    <state width="1388" height="213" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604763535533" />
+    <state width="1388" height="213" key="GridCell.Tab.0.center" timestamp="1604763535532">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="139" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604762205015" />
-    <state width="1388" height="139" key="GridCell.Tab.0.left" timestamp="1604762205014">
+    <state width="1388" height="213" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604763535532" />
+    <state width="1388" height="213" key="GridCell.Tab.0.left" timestamp="1604763535532">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="139" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604762205014" />
-    <state width="1388" height="139" key="GridCell.Tab.0.right" timestamp="1604762205017">
+    <state width="1388" height="213" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604763535532" />
+    <state width="1388" height="213" key="GridCell.Tab.0.right" timestamp="1604763535533">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="139" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604762205017" />
+    <state width="1388" height="213" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604763535533" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -285,6 +286,10 @@
     </state>
     <state x="145" y="23" width="1149" height="830" key="Maven.ArtifactSearchDialog/0.23.1440.830@0.23.1440.830" timestamp="1597519331363" />
     <state x="145" y="23" key="Maven.ArtifactSearchDialog/0.23.1440.837@0.23.1440.837" timestamp="1603451974967" />
+    <state x="540" y="136" key="extract.method.dialog" timestamp="1604763549193">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="540" y="136" key="extract.method.dialog/0.23.1440.837@0.23.1440.837" timestamp="1604763549193" />
     <state x="0" y="28" key="new project wizard" timestamp="1602770719491">
       <screen x="0" y="23" width="1440" height="837" />
     </state>

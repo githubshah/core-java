@@ -2,47 +2,69 @@ package stream8;
 
 import java.time.LocalDate;
 import java.time.Month;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 //from  w w w . j  a  v a 2s . com
 public class HighestSalaryInEachDept {
     public static void main(String[] args) {
-        //highest salary in each department
-        Map<Employee.Department, Employee> highestEarnerByGender = Employee.persons()
-            .stream()
-            .collect(Collectors.toMap(Employee::getDepartment, Function.identity(),
-                (oldPerson, newPerson) -> newPerson.getIncome() > oldPerson.getIncome() ? newPerson : oldPerson));
-        System.out.println(highestEarnerByGender);
 
-        Map<Employee.Department, Double> collect = Employee.persons()
+        /**
+         * {SALES=(3, Quentin,  SALES,  1989-05-29,  9753.00)
+         * , HR=(5, Stef,  HR,  1987-12-13,  9999.00)
+         * , IT=(6, viktor,  IT,  1990-06-09,  9988.00)
+         * }
+         */
+        //highestSalaryObjectInEachDepartment();
+
+        /**
+         * {SALES=9753.0, HR=9999.0, IT=9988.0}
+         */
+        //highestSalaryInEachDepartment();
+
+        /**
+         * {SALES=2, HR=2, IT=4}
+         */
+        //totalEmpCountInEachDepartment();
+
+        /**
+         * {IT=Munish, Shaid, Liza, viktor, SALES=Quentin, Jully, HR=Stef, Barbie}
+         */
+        //totalEmpNameInEachDepartment();
+
+        /**
+         * {SALES={OCTOBER=Jully, MAY=Quentin}, HR={DECEMBER=Stef, JUNE=Barbie}, IT={JUNE=Liza, viktor, JANUARY=Munish, JULY=Shaid}}
+         */
+        //groupByDeptThenDOB();
+
+        /**
+         * {IT=Optional[9876.0], SALES=Optional[6543.0], HR=Optional[3210.0]}
+         */
+        //secondHighestSalaryInEachDepartment();
+
+        sum();
+    }
+
+    private static void sum() {
+        List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        Integer reduce = integers.stream().reduce(0, Integer::sum);
+        System.out.println(reduce);
+    }
+
+    private static void secondHighestSalaryInEachDepartment() {
+        Map<Employee.Department, Optional<Double>> collect = Employee.persons()
             .stream()
-            .collect(Collectors.toMap(Employee::getDepartment, Employee::getIncome, (old1, new1) -> new1 > old1 ? new1 : old1));
+            .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Collectors.toList(),
+                x -> x.stream().map(Employee::getIncome).sorted(Comparator.reverseOrder()).distinct().limit(2).skip(1).findFirst())));
         System.out.println(collect);
+    }
 
-        //Total count for each department
-        Map<Employee.Department, Long> collect56 = Employee.persons()
-            .stream()
-            .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.counting()));
-        System.out.println(collect56);
-
-        //Total name for each department
-        Map<Employee.Department, String> namesByGender = Employee.persons()
-            .stream()
-            .collect(Collectors.groupingBy(Employee::getDepartment,
-                Collectors.mapping(Employee::getName, Collectors.joining(", "))));
-        System.out.println(namesByGender);
-
-        //group by dept and then dob
+    private static void groupByDeptThenDOB() {
         Map personsByDepartmentAndDobMonth
             = Employee.persons()
             .stream()
@@ -50,30 +72,36 @@ public class HighestSalaryInEachDept {
                 Collectors.groupingBy(getEven -> getEven.getDob().getMonth(),
                     Collectors.mapping(Employee::getName, Collectors.joining(", ")))));
         System.out.println(personsByDepartmentAndDobMonth);
+    }
 
-        //  second highest salary
-        Employee.persons()
+    private static void totalEmpNameInEachDepartment() {
+        Map<Employee.Department, String> namesByGender = Employee.persons()
             .stream()
-            .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Collectors.toList(),
-                x -> x.stream().map(Employee::getIncome).sorted(Comparator.reverseOrder()).distinct().limit(2).skip(1).findFirst())));
+            .collect(Collectors.groupingBy(Employee::getDepartment,
+                Collectors.mapping(Employee::getName, Collectors.joining(", "))));
+        System.out.println(namesByGender);
+    }
 
+    private static void totalEmpCountInEachDepartment() {
+        Map<Employee.Department, Long> collect56 = Employee.persons()
+            .stream()
+            .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.counting()));
+        System.out.println(collect56);
+    }
 
+    private static void highestSalaryInEachDepartment() {
+        Map<Employee.Department, Double> collect = Employee.persons()
+            .stream()
+            .collect(Collectors.toMap(Employee::getDepartment, Employee::getIncome, (old1, new1) -> new1 > old1 ? new1 : old1));
+        System.out.println(collect);
+    }
 
-        /*Predicate<Integer> getEven = o -> o % 2 == 0;
-
-        Supplier<Stream<Integer>> streamSupplier = () -> Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-
-        List<Integer> streamInteger = streamSupplier.get().filter(getEven).collect(Collectors.toList());
-
-        Map<Boolean, List<Integer>> collect = streamSupplier.get().collect(Collectors.partitioningBy(getEven));
-        */
-
-        List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-
-        Integer reduce = integers.stream().reduce(0, Integer::sum);
-        System.out.println(reduce);
-
-
+    private static void highestSalaryObjectInEachDepartment() {
+        Map<Employee.Department, Employee> highestEarnerByGender = Employee.persons()
+            .stream()
+            .collect(Collectors.toMap(Employee::getDepartment, Function.identity(),
+                (oldPerson, newPerson) -> newPerson.getIncome() > oldPerson.getIncome() ? newPerson : oldPerson));
+        System.out.println(highestEarnerByGender);
     }
 }
 
