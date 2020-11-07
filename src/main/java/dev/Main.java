@@ -74,7 +74,7 @@ public class Main {
         a1 = "a3";
         System.out.println(sedd);
 
-
+        System.out.println(a1);
 
         String jsonString = "{\"name\":\"James Baca\",\"contactEmail\":\"james@casadebaca.com\",\"googleId\":\"110201415332254321946\",\"isAdmin\":true,\"pictureUrl\":\"https://lh3.googleusercontent.com/a-/AOh14Gic4d_qEg_rNj62hrSOD_wgRZRe400K2L-4Xoww_gE:s96-c\",\"landingSite\":\"GSC\"}";
         Gson gson = new Gson();
@@ -83,8 +83,9 @@ public class Main {
 
         Map <String,String>hashMap = new HashMap();
         hashMap.put(null,"shaid");
-        hashMap.put(null,"shaid");
+        hashMap.put(null,"hussain");
 
+        System.out.println(hashMap.get(null));
         System.out.println(hashMap.size());
 
 

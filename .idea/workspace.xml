@@ -14,9 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_method/SimpleDefaultExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/default_method/override/SameNameDefaultExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collectiontest/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/default_method/override/DefaultMethodInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/default_method/override/DefaultMethodInterface1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/default_method/override/SameNameDefaultExample.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/default_method/override" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -83,7 +85,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SameNameDefaultExample">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ExceptionFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception_flow.ExceptionFlow" />
       <module name="demo_java" />
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.decorator.PizzaStore" />
+    <configuration name="RetainAndRemoveAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectiontest.RetainAndRemoveAll" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.decorator.pizza.type.*" />
+          <option name="PATTERN" value="collectiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,26 +151,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RetainAndRemoveAll" />
         <item itemvalue="Application.SameNameDefaultExample" />
         <item itemvalue="Application.SimpleDefaultExample" />
         <item itemvalue="Application.ExceptionFlow" />
-        <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +208,7 @@
       <workItem from="1602756108619" duration="2088000" />
       <workItem from="1603363473015" duration="18042000" />
       <workItem from="1603956335594" duration="5052000" />
+      <workItem from="1604760047457" duration="655000" />
     </task>
     <servers />
   </component>
@@ -243,26 +244,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="184" key="GridCell.Tab.0.bottom" timestamp="1603984811130">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom" timestamp="1604760393524">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1603984811130" />
-    <state width="1388" height="184" key="GridCell.Tab.0.center" timestamp="1603984811127">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604760393524" />
+    <state width="1388" height="184" key="GridCell.Tab.0.center" timestamp="1604760393521">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1603984811127" />
-    <state width="1388" height="184" key="GridCell.Tab.0.left" timestamp="1603984811119">
+    <state width="1388" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604760393521" />
+    <state width="1388" height="184" key="GridCell.Tab.0.left" timestamp="1604760393516">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1603984811119" />
-    <state width="1388" height="184" key="GridCell.Tab.0.right" timestamp="1603984811128">
+    <state width="1388" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604760393516" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right" timestamp="1604760393522">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="184" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1603984811128" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604760393522" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
