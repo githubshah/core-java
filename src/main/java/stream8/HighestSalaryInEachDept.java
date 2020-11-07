@@ -17,8 +17,6 @@ import java.util.stream.Stream;
 //from  w w w . j  a  v a 2s . com
 public class HighestSalaryInEachDept {
     public static void main(String[] args) {
-
-
         //highest salary in each department
         Map<Employee.Department, Employee> highestEarnerByGender = Employee.persons()
             .stream()
