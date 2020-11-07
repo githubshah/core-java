@@ -3,6 +3,7 @@ package stream8;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -52,6 +53,8 @@ public class HighestSalaryInEachDept {
          */
         //highestSalaryObjectInEachDepartment(); // toMap
 
+        //eachEmpNameInEachDepartment1();
+
         sum();
     }
 
@@ -93,6 +96,13 @@ public class HighestSalaryInEachDept {
             .collect(Collectors.groupingBy(Employee::getDepartment,
                 Collectors.mapping(Employee::getName, Collectors.joining(", "))));
         System.out.println(namesByGender);
+    }
+
+    private static void eachEmpNameInEachDepartment1() {
+        Map<Employee.Department, List<Employee>> collect = Employee.persons()
+            .stream()
+            .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Collectors.toList(), Collections::unmodifiableList)));
+        System.out.println(collect);
     }
 
     private static void totalEmpCountInEachDepartment() {
