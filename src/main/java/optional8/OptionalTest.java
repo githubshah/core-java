@@ -21,13 +21,6 @@ public class OptionalTest {
             .orElseGet(() -> Optional.ofNullable(lName()))
             .ifPresent(OptionalTest::doSomething);
 
-        System.out.println("imparative call 1");
-        Optional.ofNullable(fName()).map(Optional::of)
-            .orElseGet(() -> Optional.ofNullable(mName())).map(Optional::of)
-            .orElseGet(() -> Optional.ofNullable(lName()))
-            .ifPresent(OptionalTest::doSomething);
-
-
     }
 
     private static Optional<Car> get3() {
