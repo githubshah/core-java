@@ -5,8 +5,7 @@ public class PossibleCombinationOfString {
         char[] set = {'a', 'b', 'c'};
         int setSize = 3;
 
-        long pow_set_size =
-            (long) Math.pow(2, setSize);
+        long pow_set_size = (long) Math.pow(2, setSize); // possible consecutive char combination
         int counter, j;
 
         for (counter = 0; counter < pow_set_size; counter++) {
