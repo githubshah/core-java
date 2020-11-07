@@ -80,9 +80,16 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GCD">
+  <component name="RunManager" selected="Application.GetBinary">
     <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GCD" />
+      <module name="demo_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetBinary" />
       <module name="demo_java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,19 +114,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stream8.innerJoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.Main" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetBinary" />
         <item itemvalue="Application.GCD" />
         <item itemvalue="Application.HighestSalaryInEachDept" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MaxWeight" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +191,7 @@
       <workItem from="1602756108619" duration="2088000" />
       <workItem from="1603363473015" duration="18042000" />
       <workItem from="1603956335594" duration="5052000" />
-      <workItem from="1604760047457" duration="5666000" />
+      <workItem from="1604760047457" duration="6189000" />
     </task>
     <servers />
   </component>
@@ -233,26 +227,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="213" key="GridCell.Tab.0.bottom" timestamp="1604765324636">
+    <state width="1388" height="213" key="GridCell.Tab.0.bottom" timestamp="1604766259234">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="213" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604765324636" />
-    <state width="1388" height="213" key="GridCell.Tab.0.center" timestamp="1604765324635">
+    <state width="1388" height="213" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604766259234" />
+    <state width="1388" height="213" key="GridCell.Tab.0.center" timestamp="1604766259232">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="213" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604765324635" />
-    <state width="1388" height="213" key="GridCell.Tab.0.left" timestamp="1604765324635">
+    <state width="1388" height="213" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604766259232" />
+    <state width="1388" height="213" key="GridCell.Tab.0.left" timestamp="1604766259231">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="213" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604765324635" />
-    <state width="1388" height="213" key="GridCell.Tab.0.right" timestamp="1604765324636">
+    <state width="1388" height="213" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604766259231" />
+    <state width="1388" height="213" key="GridCell.Tab.0.right" timestamp="1604766259233">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="213" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604765324636" />
+    <state width="1388" height="213" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604766259233" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>

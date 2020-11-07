@@ -1,4 +1,4 @@
-public class GetBinary {
+public class PossibleCombinationOfString {
 
     public static void main(String as[]) {
 
