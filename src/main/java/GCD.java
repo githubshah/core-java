@@ -1,7 +1,7 @@
 public class GCD {
 
     public static void main(String as[]) {
-        long a = 100, b = 120;
+        long a = 90, b = 240;
 
         long gcd = _gcd(a, b);
         long lcm = _lcm(a, b, gcd);
@@ -16,7 +16,6 @@ public class GCD {
         if (a == 0) {
             return b;
         }
-
         return a > b ? _gcd(b, a % b) : _gcd(a, b % a);
     }
 
