@@ -15,10 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collectiontest/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/default_method/override/DefaultMethodInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/default_method/override/DefaultMethodInterface1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/default_method/override/SameNameDefaultExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MaxPath/MaxWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaxPath/MaxWeight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +82,13 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ExceptionFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception_flow.ExceptionFlow" />
+  <component name="RunManager" selected="Application.MaxWeight">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.Main" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception_flow.*" />
+          <option name="PATTERN" value="dev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.Main" />
+    <configuration name="MaxWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxPath.MaxWeight" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.*" />
+          <option name="PATTERN" value="MaxPath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxWeight" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RetainAndRemoveAll" />
         <item itemvalue="Application.SameNameDefaultExample" />
         <item itemvalue="Application.SimpleDefaultExample" />
-        <item itemvalue="Application.ExceptionFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +205,7 @@
       <workItem from="1602756108619" duration="2088000" />
       <workItem from="1603363473015" duration="18042000" />
       <workItem from="1603956335594" duration="5052000" />
-      <workItem from="1604760047457" duration="655000" />
+      <workItem from="1604760047457" duration="1012000" />
     </task>
     <servers />
   </component>
@@ -244,26 +241,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="184" key="GridCell.Tab.0.bottom" timestamp="1604760393524">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom" timestamp="1604760939796">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604760393524" />
-    <state width="1388" height="184" key="GridCell.Tab.0.center" timestamp="1604760393521">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604760939796" />
+    <state width="1388" height="184" key="GridCell.Tab.0.center" timestamp="1604760939795">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604760393521" />
-    <state width="1388" height="184" key="GridCell.Tab.0.left" timestamp="1604760393516">
+    <state width="1388" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604760939795" />
+    <state width="1388" height="184" key="GridCell.Tab.0.left" timestamp="1604760939794">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604760393516" />
-    <state width="1388" height="184" key="GridCell.Tab.0.right" timestamp="1604760393522">
+    <state width="1388" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604760939794" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right" timestamp="1604760939795">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="184" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604760393522" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604760939795" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
