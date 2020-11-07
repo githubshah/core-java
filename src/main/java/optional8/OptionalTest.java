@@ -22,8 +22,8 @@ public class OptionalTest {
             .ifPresent(OptionalTest::doSomething);
 
         Boolean aBoolean = Optional.ofNullable("shaid")
-            .map(x -> x.equals("shaid"))
-            .orElseGet(() -> true);
+            .map(x -> x.equals("shaid"))   // if
+            .orElseGet(() -> true);        // else
     }
 
     private static Optional<Car> get3() {
