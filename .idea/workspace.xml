@@ -14,10 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_method/SimpleDefaultExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_method/override/SameNameDefaultExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exception_flow/ExceptionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_flow/ExceptionFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exception_flow/ExceptionFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exception_flow/ExceptionFlow.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/default_method/override" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -80,10 +79,11 @@
       <recent name="core.enum8" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/default_method/override" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionFlow">
+  <component name="RunManager" selected="Application.SameNameDefaultExample">
     <configuration name="ExceptionFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception_flow.ExceptionFlow" />
       <module name="demo_java" />
@@ -123,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.customAnnotation.RunTest" />
+    <configuration name="SameNameDefaultExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_method.override.SameNameDefaultExample" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.customAnnotation.*" />
+          <option name="PATTERN" value="default_method.override.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.threadlocal.ThreadLocalExample" />
+    <configuration name="SimpleDefaultExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_method.SimpleDefaultExample" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.threadlocal.*" />
+          <option name="PATTERN" value="default_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SameNameDefaultExample" />
+        <item itemvalue="Application.SimpleDefaultExample" />
         <item itemvalue="Application.ExceptionFlow" />
         <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RunTest" />
-        <item itemvalue="Application.ThreadLocalExample" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +207,7 @@
       <workItem from="1602431162427" duration="2592000" />
       <workItem from="1602756108619" duration="2088000" />
       <workItem from="1603363473015" duration="18042000" />
-      <workItem from="1603956335594" duration="251000" />
+      <workItem from="1603956335594" duration="5052000" />
     </task>
     <servers />
   </component>
@@ -230,10 +230,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="523" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1596788248148">
-      <screen x="0" y="23" width="1440" height="830" />
+    <state x="523" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1603967609779">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="523" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1596788248148" />
+    <state x="523" y="101" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1603967609779" />
     <state x="472" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596788698055">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
@@ -242,26 +243,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="184" key="GridCell.Tab.0.bottom" timestamp="1603956396199">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom" timestamp="1603984811130">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1603956396199" />
-    <state width="1388" height="184" key="GridCell.Tab.0.center" timestamp="1603956396196">
+    <state width="1388" height="184" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1603984811130" />
+    <state width="1388" height="184" key="GridCell.Tab.0.center" timestamp="1603984811127">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1603956396196" />
-    <state width="1388" height="184" key="GridCell.Tab.0.left" timestamp="1603956396195">
+    <state width="1388" height="184" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1603984811127" />
+    <state width="1388" height="184" key="GridCell.Tab.0.left" timestamp="1603984811119">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1603956396195" />
-    <state width="1388" height="184" key="GridCell.Tab.0.right" timestamp="1603956396197">
+    <state width="1388" height="184" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1603984811119" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right" timestamp="1603984811128">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="184" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1603956396197" />
+    <state width="1388" height="184" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1603984811128" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -287,9 +288,9 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="0" y="28" key="new project wizard/0.23.1440.837@0.23.1440.837" timestamp="1602770719491" />
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1603628931771">
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1603963299471">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1603628931771" />
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1603963299471" />
   </component>
 </project>
