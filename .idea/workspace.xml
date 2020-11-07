@@ -16,9 +16,6 @@
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stream8/HighestSalaryInEachDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream8/HighestSalaryInEachDept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stream8/Employee$Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stream8/Employee$Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stream8/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stream8/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stream8/HighestSalaryInEachDept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stream8/HighestSalaryInEachDept.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +206,7 @@
       <workItem from="1602756108619" duration="2088000" />
       <workItem from="1603363473015" duration="18042000" />
       <workItem from="1603956335594" duration="5052000" />
-      <workItem from="1604760047457" duration="3473000" />
+      <workItem from="1604760047457" duration="4441000" />
     </task>
     <servers />
   </component>

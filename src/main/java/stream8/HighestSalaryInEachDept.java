@@ -15,37 +15,42 @@ public class HighestSalaryInEachDept {
     public static void main(String[] args) {
 
         /**
-         * {SALES=(3, Quentin,  SALES,  1989-05-29,  9753.00)
-         * , HR=(5, Stef,  HR,  1987-12-13,  9999.00)
-         * , IT=(6, viktor,  IT,  1990-06-09,  9988.00)
-         * }
-         */
-        //highestSalaryObjectInEachDepartment();
-
-        /**
-         * {SALES=9753.0, HR=9999.0, IT=9988.0}
-         */
-        //highestSalaryInEachDepartment();
-
-        /**
          * {SALES=2, HR=2, IT=4}
          */
-        //totalEmpCountInEachDepartment();
+        //totalEmpCountInEachDepartment(); // groupBy -> counting
 
         /**
          * {IT=Munish, Shaid, Liza, viktor, SALES=Quentin, Jully, HR=Stef, Barbie}
          */
-        //totalEmpNameInEachDepartment();
+        //totalEmpNameInEachDepartment();  // groupBy -> maping -> and joining
 
         /**
          * {SALES={OCTOBER=Jully, MAY=Quentin}, HR={DECEMBER=Stef, JUNE=Barbie}, IT={JUNE=Liza, viktor, JANUARY=Munish, JULY=Shaid}}
          */
-        //groupByDeptThenDOB();
+        //groupByDeptThenDOB(); // groupBy -> groupBy -> maping -> and joining
 
         /**
          * {IT=Optional[9876.0], SALES=Optional[6543.0], HR=Optional[3210.0]}
          */
         //secondHighestSalaryInEachDepartment();
+
+        /**
+         * {IT=Optional[9988.0], SALES=Optional[9753.0], HR=Optional[9999.0]}
+         */
+        //highestSalaryInEachDepartment1(); // groupBy -> collectionAndThen ->
+
+        /**
+         * {SALES=9753.0, HR=9999.0, IT=9988.0}
+         */
+        //highestSalaryInEachDepartment();  // toMap
+
+        /**
+         * {SALES=(3, Quentin,  SALES,  1989-05-29,  9753.00)
+         * , HR=(5, Stef,  HR,  1987-12-13,  9999.00)
+         * , IT=(6, viktor,  IT,  1990-06-09,  9988.00)
+         * }
+         */
+        //highestSalaryObjectInEachDepartment(); // toMap
 
         sum();
     }
@@ -54,6 +59,14 @@ public class HighestSalaryInEachDept {
         List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         Integer reduce = integers.stream().reduce(0, Integer::sum);
         System.out.println(reduce);
+    }
+
+    private static void highestSalaryInEachDepartment1() {
+        Map<Employee.Department, Optional<Double>> collect = Employee.persons()
+            .stream()
+            .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Collectors.toList(),
+                x -> x.stream().map(Employee::getIncome).sorted(Comparator.reverseOrder()).distinct().limit(1).findFirst())));
+        System.out.println(collect);
     }
 
     private static void secondHighestSalaryInEachDepartment() {
