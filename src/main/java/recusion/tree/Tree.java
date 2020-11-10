@@ -62,7 +62,7 @@ public class Tree {
             printLevel(root.left, level);
             printLevel(root.right, level);
             if (root.level == level) {
-                System.out.print(root.data + " : " + root.level + ", ");
+                System.out.print(root.data + " ");
             }
         }
     }
