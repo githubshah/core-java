@@ -14,9 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MetrixWell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recusion/tree/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recusion/tree/TreeOrders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recusion/FindSubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recusion/FindSubSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recusion/FindSubSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recusion/FindSubSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recusion/MatrixLearn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recusion/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recusion/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recusion/MatrixLearn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recusion/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recusion/Tree.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +91,20 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindSubSet">
-    <configuration name="FindSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recusion.FindSubSet" />
+  <component name="RunManager" selected="Application.TreeOrders">
+    <configuration name="MetrixWell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MetrixWell" />
+      <module name="demo_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recusion.Rec" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recusion.*" />
+          <option name="PATTERN" value="recusion.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,26 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GCD" />
-      <module name="demo_java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetBinary" />
-      <module name="demo_java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HighestSalaryInEachDept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream8.HighestSalaryInEachDept" />
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recusion.tree.Tree" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream8.*" />
+          <option name="PATTERN" value="recusion.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +125,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream8.innerJoin.Main" />
+    <configuration name="Tree11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recusion.Tree11" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream8.innerJoin.*" />
+          <option name="PATTERN" value="recusion.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recusion.tree.TreeOrders" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recusion.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindSubSet" />
-        <item itemvalue="Application.GetBinary" />
-        <item itemvalue="Application.GCD" />
-        <item itemvalue="Application.HighestSalaryInEachDept" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.TreeOrders" />
+        <item itemvalue="Application.Tree2" />
+        <item itemvalue="Application.Tree11" />
+        <item itemvalue="Application.Rec" />
+        <item itemvalue="Application.MetrixWell" />
       </list>
     </recent_temporary>
   </component>
@@ -231,26 +244,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="435" key="GridCell.Tab.0.bottom" timestamp="1604770157481">
+    <state width="1388" height="291" key="GridCell.Tab.0.bottom" timestamp="1604999648713">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="435" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604770157481" />
-    <state width="1388" height="435" key="GridCell.Tab.0.center" timestamp="1604770157479">
+    <state width="1388" height="291" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604999648713" />
+    <state width="1388" height="291" key="GridCell.Tab.0.center" timestamp="1604999648707">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="435" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604770157479" />
-    <state width="1388" height="435" key="GridCell.Tab.0.left" timestamp="1604770157478">
+    <state width="1388" height="291" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604999648707" />
+    <state width="1388" height="291" key="GridCell.Tab.0.left" timestamp="1604999648694">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="435" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604770157478" />
-    <state width="1388" height="435" key="GridCell.Tab.0.right" timestamp="1604770157480">
+    <state width="1388" height="291" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604999648694" />
+    <state width="1388" height="291" key="GridCell.Tab.0.right" timestamp="1604999648712">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="435" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604770157480" />
+    <state width="1388" height="291" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604999648712" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -284,9 +297,9 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="414" y="202" key="refactoring.ChangeSignatureDialog/0.23.1440.837@0.23.1440.837" timestamp="1604770183609" />
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1603963299471">
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1604996418486">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1603963299471" />
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1604996418486" />
   </component>
 </project>
