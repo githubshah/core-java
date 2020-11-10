@@ -2,9 +2,9 @@ package recusion.tree;
 
 public class Tree {
     Node root;
+    int depth;
 
     static class Node {
-
         int data;
         Node left;
         Node right;
@@ -26,6 +26,7 @@ public class Tree {
 
     Node addNode(int[] arr, Node node, int i, int level) {
         if (i < arr.length) {
+            this.depth = level;
             node = new Tree.Node(arr[i], level++);
             node.left = addNode(arr, node.left, 2 * i + 1, level);
             node.right = addNode(arr, node.right, 2 * i + 2, level);
@@ -65,5 +66,9 @@ public class Tree {
                 System.out.print(root.data + " ");
             }
         }
+    }
+
+    public int getDepth() {
+        return depth + 1;
     }
 }
