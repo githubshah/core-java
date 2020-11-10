@@ -14,16 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MetrixWell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recusion/tree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recusion/tree/TreeOrders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recusion/MatrixLearn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recusion/Tree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recusion/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recusion/MatrixLearn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recusion/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recusion/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recusion/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recusion/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/recusion/tree/TreeOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recusion/tree/TreeOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recusion/tree/Tree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recusion/tree/Tree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recusion/tree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recusion/tree/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/recusion/tree/TreeOrders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recusion/tree/TreeOrders.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,11 +227,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="523" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1603967609779">
+    <state x="523" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1605000558385">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="523" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1440.830@0.23.1440.830" timestamp="1596788248148" />
-    <state x="523" y="101" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1603967609779" />
+    <state x="523" y="101" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1605000558385" />
     <state x="472" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596788698055">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
@@ -244,26 +240,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="291" key="GridCell.Tab.0.bottom" timestamp="1604999648713">
+    <state width="1388" height="243" key="GridCell.Tab.0.bottom" timestamp="1605000852276">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="291" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604999648713" />
-    <state width="1388" height="291" key="GridCell.Tab.0.center" timestamp="1604999648707">
+    <state width="1388" height="243" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1605000852276" />
+    <state width="1388" height="243" key="GridCell.Tab.0.center" timestamp="1605000852275">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="291" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604999648707" />
-    <state width="1388" height="291" key="GridCell.Tab.0.left" timestamp="1604999648694">
+    <state width="1388" height="243" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1605000852275" />
+    <state width="1388" height="243" key="GridCell.Tab.0.left" timestamp="1605000852274">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="291" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604999648694" />
-    <state width="1388" height="291" key="GridCell.Tab.0.right" timestamp="1604999648712">
+    <state width="1388" height="243" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1605000852274" />
+    <state width="1388" height="243" key="GridCell.Tab.0.right" timestamp="1605000852275">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="291" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604999648712" />
+    <state width="1388" height="243" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1605000852275" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
