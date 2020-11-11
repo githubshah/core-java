@@ -14,11 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/recusion/MergeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recusion/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recusion/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recusion/tree/TreeOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recusion/tree/TreeOrders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recusion/tree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recusion/tree/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recusion/tree/TreeOrders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recusion/tree/TreeOrders.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="recusion" />
       <recent name="core.enum8" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -86,20 +84,26 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeOrders">
-    <configuration name="MetrixWell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MetrixWell" />
+  <component name="RunManager" selected="Application.MergeTest">
+    <configuration name="FindSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recusion.FindSubSet" />
       <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recusion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recusion.Rec" />
+    <configuration name="MergeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recusion.MergeTest" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recusion.tree.*" />
+          <option name="PATTERN" value="recusion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTest" />
+        <item itemvalue="Application.FindSubSet" />
         <item itemvalue="Application.TreeOrders" />
         <item itemvalue="Application.Tree2" />
         <item itemvalue="Application.Tree11" />
-        <item itemvalue="Application.Rec" />
-        <item itemvalue="Application.MetrixWell" />
       </list>
     </recent_temporary>
   </component>
@@ -239,26 +243,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="243" key="GridCell.Tab.0.bottom" timestamp="1605001168241">
+    <state width="1388" height="324" key="GridCell.Tab.0.bottom" timestamp="1605066590982">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="243" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1605001168241" />
-    <state width="1388" height="243" key="GridCell.Tab.0.center" timestamp="1605001168240">
+    <state width="1388" height="324" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1605066590982" />
+    <state width="1388" height="324" key="GridCell.Tab.0.center" timestamp="1605066590981">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="243" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1605001168240" />
-    <state width="1388" height="243" key="GridCell.Tab.0.left" timestamp="1605001168239">
+    <state width="1388" height="324" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1605066590981" />
+    <state width="1388" height="324" key="GridCell.Tab.0.left" timestamp="1605066590980">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="243" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1605001168239" />
-    <state width="1388" height="243" key="GridCell.Tab.0.right" timestamp="1605001168241">
+    <state width="1388" height="324" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1605066590980" />
+    <state width="1388" height="324" key="GridCell.Tab.0.right" timestamp="1605066590982">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="243" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1605001168241" />
+    <state width="1388" height="324" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1605066590982" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1600752563988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
