@@ -105,8 +105,31 @@ public class Overloading {
         System.out.println("objobj " + i);
     }
 
+    void m(String a) {
+        System.out.println("String");
+    }
+
+    void m(Integer a) {
+        System.out.println("Integer");
+    }
+
+    void m(Object a) {
+        System.out.println("Object");
+    }
+
+    void m(Double a) {
+        System.out.println("Double");
+    }
+
     public static void main(String[] args) {
         Overloading overloading = new Overloading();
         overloading.fun(1, 2);
+
+        String a = null;
+        overloading.m(a);
+        Object obj = null;
+        overloading.m(obj);
+        //overloading.m(null); // embeguity
+
     }
 }
