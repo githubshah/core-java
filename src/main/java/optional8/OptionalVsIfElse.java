@@ -2,7 +2,7 @@ package optional8;
 
 import java.util.Optional;
 
-public class SimpleOptional {
+public class OptionalVsIfElse {
 
     public static void main(String[] args) {
         Integer a = 10;
