@@ -14,14 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/optional8/OrElseVsOrElseGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collectiontest/iterrator/FailFastAndFailSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collectiontest/iterrator/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/optional8/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/optional8/OptionalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/optional8/SimpleOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/optional8/OptionalVsIfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/optional8/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/optional8/OptionalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/optional8/SimpleOptional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/optional8/OrElseVsOrElseGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/optional8/OrElseVsOrElseGet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +86,26 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrElseVsOrElseGet">
-    <configuration name="EnumWithAccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.enum8.EnumWithAccessModifier" />
+  <component name="RunManager" selected="Application.FailFastAndFailSafe">
+    <configuration name="FailFastAndFailSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectiontest.iterrator.FailFastAndFailSafe" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.enum8.*" />
+          <option name="PATTERN" value="collectiontest.iterrator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectiontest.iterrator.Main" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectiontest.iterrator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,39 +146,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Overloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.overloading.Overloading" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.overloading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FailFastAndFailSafe" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.OrElseVsOrElseGet" />
         <item itemvalue="Application.OptionalVsIfElse" />
         <item itemvalue="Application.MathFromula" />
-        <item itemvalue="Application.Overloading" />
-        <item itemvalue="Application.EnumWithAccessModifier" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +206,8 @@
       <workItem from="1604760047457" duration="6189000" />
       <workItem from="1605152877773" duration="630000" />
       <workItem from="1605162105739" duration="1095000" />
-      <workItem from="1605689156425" duration="2340000" />
+      <workItem from="1605689156425" duration="3142000" />
+      <workItem from="1606127842288" duration="2177000" />
     </task>
     <servers />
   </component>
@@ -243,26 +238,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="171" key="GridCell.Tab.0.bottom" timestamp="1605691536551">
+    <state width="1388" height="150" key="GridCell.Tab.0.bottom" timestamp="1606132413312">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1597803574074" />
-    <state width="1388" height="171" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1605691536551" />
-    <state width="1388" height="171" key="GridCell.Tab.0.center" timestamp="1605691536549">
+    <state width="1388" height="150" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1606132413312" />
+    <state width="1388" height="150" key="GridCell.Tab.0.center" timestamp="1606132413310">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1597803574067" />
-    <state width="1388" height="171" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1605691536549" />
-    <state width="1388" height="171" key="GridCell.Tab.0.left" timestamp="1605691536548">
+    <state width="1388" height="150" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1606132413310" />
+    <state width="1388" height="150" key="GridCell.Tab.0.left" timestamp="1606132413309">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1597803574064" />
-    <state width="1388" height="171" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1605691536548" />
-    <state width="1388" height="171" key="GridCell.Tab.0.right" timestamp="1605691536550">
+    <state width="1388" height="150" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1606132413309" />
+    <state width="1388" height="150" key="GridCell.Tab.0.right" timestamp="1606132413311">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="133" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1597803574071" />
-    <state width="1388" height="171" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1605691536550" />
+    <state width="1388" height="150" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1606132413311" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1605152713933">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -284,10 +279,10 @@
     </state>
     <state x="145" y="23" width="1149" height="830" key="Maven.ArtifactSearchDialog/0.23.1440.830@0.23.1440.830" timestamp="1597519331363" />
     <state x="145" y="23" key="Maven.ArtifactSearchDialog/0.23.1440.837@0.23.1440.837" timestamp="1603451974967" />
-    <state x="540" y="136" key="extract.method.dialog" timestamp="1605690204994">
+    <state x="540" y="136" key="extract.method.dialog" timestamp="1606132363622">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="540" y="136" key="extract.method.dialog/0.23.1440.837@0.23.1440.837" timestamp="1605690204994" />
+    <state x="540" y="136" key="extract.method.dialog/0.23.1440.837@0.23.1440.837" timestamp="1606132363622" />
     <state x="0" y="28" key="new project wizard" timestamp="1602770719491">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
