@@ -11,7 +11,7 @@ public class WitHashCode {
     }
 
     private static void m1() {
-        collectiontest.hashmap.withHashCodeImpl.Emp abc = new collectiontest.hashmap.withHashCodeImpl.Emp("abc", 123);
+        Emp abc = new Emp("abc", 123);
 
         Map<Emp, String> map = new HashMap<>();
         map.put(abc,"abc");
@@ -22,8 +22,8 @@ public class WitHashCode {
     }
 
     private static void m2() {
-        collectiontest.hashmap.withHashCodeImpl.Emp abc1 = new collectiontest.hashmap.withHashCodeImpl.Emp("abc", 123);
-        collectiontest.hashmap.withHashCodeImpl.Emp abc2 = new collectiontest.hashmap.withHashCodeImpl.Emp("abc", 123);
+        Emp abc1 = new Emp("abc", 123);
+        Emp abc2 = new Emp("abc", 123);
 
         Map<Emp, String> map = new HashMap<>();
         map.put(abc1,"abc");
