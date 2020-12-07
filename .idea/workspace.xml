@@ -14,18 +14,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread_frame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread_frame/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread_frame/ThreadJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread_frame/thread_safty/VolatileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread_frame/thread_safty/WithAtomic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread_frame/thread_safty/WithSynchronized.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/implMap/HashMapCustomApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collectiontest/implMap/HashMapCustomApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zainab/Zainab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zainab/Zainab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/implMap/HashMapCustom$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/implMap/HashMapCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/implMap/HashMapCustomApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/collectiontest/hashmap/withHashCodeImpl/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/collectiontest/hashmap/withHashCodeImpl/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/collectiontest/hashmap/withHashCodeImpl/WitHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/collectiontest/hashmap/withHashCodeImpl/WitHashCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/ObjectAsKeyInMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/RetainAndRemoveAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/StringAsKeyInMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/StringMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/hashmap/withHashCodeImpl/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/hashmap/withHashCodeImpl/WitHashCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/hashmap/withoutHashCodeImpl/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/hashmap/withoutHashCodeImpl/WithoutHashCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/implMap/HashMapCustom$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/implMap/HashMapCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/implMap/HashMapCustomApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/iterrator/FailFastAndFailSafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collectiontest/iterrator/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +102,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zainab">
+  <component name="RunManager" selected="Application.WitHashCode">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread_frame.Test" />
       <module name="demo_java" />
@@ -124,11 +130,11 @@
       </method>
     </configuration>
     <configuration name="WitHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectiontest.hashmap.withHashCodeImpl.WitHashCode" />
+      <option name="MAIN_CLASS_NAME" value="core.collectiontest.hashmap.withHashCodeImpl.WitHashCode" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectiontest.hashmap.withHashCodeImpl.*" />
+          <option name="PATTERN" value="core.collectiontest.hashmap.withHashCodeImpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +143,11 @@
       </method>
     </configuration>
     <configuration name="WithoutHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectiontest.hashmap.withoutHashCodeImpl.WithoutHashCode" />
+      <option name="MAIN_CLASS_NAME" value="core.collectiontest.hashmap.withoutHashCodeImpl.WithoutHashCode" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectiontest.hashmap.withoutHashCodeImpl.*" />
+          <option name="PATTERN" value="core.collectiontest.hashmap.withoutHashCodeImpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,10 +181,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WitHashCode" />
         <item itemvalue="Application.Zainab" />
         <item itemvalue="Application.ThreadJoin" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.WitHashCode" />
         <item itemvalue="Application.WithoutHashCode" />
       </list>
     </recent_temporary>
@@ -225,7 +231,7 @@
       <workItem from="1605689156425" duration="3142000" />
       <workItem from="1606127842288" duration="4832000" />
       <workItem from="1606373039032" duration="7382000" />
-      <workItem from="1606998255399" duration="6473000" />
+      <workItem from="1606998255399" duration="8299000" />
     </task>
     <servers />
   </component>
@@ -248,14 +254,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="523" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1606813590289">
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607321974143">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="523" y="101" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1606813590289" />
-    <state x="315" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606998433678">
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1607321974143" />
+    <state x="315" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607301858126">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="315" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1606998433678" />
+    <state x="315" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1607301858126" />
     <state x="466" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607002792675">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -264,22 +270,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="190" key="GridCell.Tab.0.bottom" timestamp="1607299633332">
+    <state width="1388" height="263" key="GridCell.Tab.0.bottom" timestamp="1607322884989">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="190" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607299633332" />
-    <state width="1388" height="190" key="GridCell.Tab.0.center" timestamp="1607299633331">
+    <state width="1388" height="263" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607322884989" />
+    <state width="1388" height="263" key="GridCell.Tab.0.center" timestamp="1607322884987">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="190" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1607299633331" />
-    <state width="1388" height="190" key="GridCell.Tab.0.left" timestamp="1607299633327">
+    <state width="1388" height="263" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1607322884987" />
+    <state width="1388" height="263" key="GridCell.Tab.0.left" timestamp="1607322884985">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="190" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1607299633327" />
-    <state width="1388" height="190" key="GridCell.Tab.0.right" timestamp="1607299633331">
+    <state width="1388" height="263" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1607322884985" />
+    <state width="1388" height="263" key="GridCell.Tab.0.right" timestamp="1607322884988">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="190" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1607299633331" />
+    <state width="1388" height="263" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1607322884988" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1605152713933">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -304,10 +310,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="511" y="213" key="chooseDestDirectoryDialog/0.23.1440.837@0.23.1440.837" timestamp="1606813918658" />
-    <state x="540" y="136" key="extract.method.dialog" timestamp="1606813799462">
+    <state x="540" y="136" key="extract.method.dialog" timestamp="1607322191612">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="540" y="136" key="extract.method.dialog/0.23.1440.837@0.23.1440.837" timestamp="1606813799462" />
+    <state x="540" y="136" key="extract.method.dialog/0.23.1440.837@0.23.1440.837" timestamp="1607322191612" />
     <state x="0" y="28" key="new project wizard" timestamp="1602770719491">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
