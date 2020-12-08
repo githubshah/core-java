@@ -4,7 +4,9 @@ public class CallByValue {
 
     public static void main(String[] args) {
         //wrapper(); // do not get swap
-        primitive(); // do not swap
+        //primitive(); // do not swap
+        //wrapper2();
+        wrapper3();
     }
 
     private static void primitive() {
@@ -34,5 +36,27 @@ public class CallByValue {
         a = b;
         b = c;
         System.out.println("After swapping(Inside), a = " + a + " b = " + b);
+    }
+
+    private static void wrapper2() {
+        Integer a = 30;
+        System.out.println("Before swapping, a = " + a );
+        // Invoke the swap method
+        modify(a);
+        System.out.println("\n**Now, Before and After swapping values will be different here**:");
+        System.out.println("After swapping, a = " + a);
+    }
+
+    private static void wrapper3() {
+        String a = "abc";
+        System.out.println("Before swapping, a = " + a );
+        // Invoke the swap method
+        modify(a);
+        System.out.println("\n**Now, Before and After swapping values will be different here**:");
+        System.out.println("After swapping, a = " + a);
+    }
+
+    public static void modify(Object a) {
+        a = null;
     }
 }
