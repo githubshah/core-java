@@ -1,10 +1,11 @@
+package core.multiThreading.producerconsumer;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ProducerConsumerPattern {
+public class ProducerConsumerNotifyPattern {
 
     public static void main(String args[]) {
 
@@ -12,8 +13,8 @@ public class ProducerConsumerPattern {
         BlockingQueue sharedQueue = new LinkedBlockingQueue();
 
         //Creating Producer and Consumer Thread
-        Thread prodThread = new Thread(new Producer(sharedQueue));
-        Thread consThread = new Thread(new Consumer(sharedQueue));
+        Thread prodThread = new Thread(new Producer2(sharedQueue));
+        Thread consThread = new Thread(new Consumer2(sharedQueue));
 
         //Starting producer and Consumer thread
         prodThread.start();
@@ -23,11 +24,11 @@ public class ProducerConsumerPattern {
 }
 
 //Producer Class in java
-class Producer implements Runnable {
+class Producer2 implements Runnable {
 
     private final BlockingQueue sharedQueue;
 
-    public Producer(BlockingQueue sharedQueue) {
+    public Producer2(BlockingQueue sharedQueue) {
         this.sharedQueue = sharedQueue;
     }
 
@@ -38,7 +39,7 @@ class Producer implements Runnable {
                 System.out.println("Produced: " + i);
                 sharedQueue.put(i);
             } catch (InterruptedException ex) {
-                Logger.getLogger(Producer.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Producer2.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }
@@ -46,11 +47,11 @@ class Producer implements Runnable {
 }
 
 //Consumer Class in Java
-class Consumer implements Runnable {
+class Consumer2 implements Runnable {
 
     private final BlockingQueue sharedQueue;
 
-    public Consumer(BlockingQueue sharedQueue) {
+    public Consumer2(BlockingQueue sharedQueue) {
         this.sharedQueue = sharedQueue;
     }
 
@@ -60,7 +61,7 @@ class Consumer implements Runnable {
             try {
                 System.out.println("Consumed: " + sharedQueue.take());
             } catch (InterruptedException ex) {
-                Logger.getLogger(Consumer.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Consumer2.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }
