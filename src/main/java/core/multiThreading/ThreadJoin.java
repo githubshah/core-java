@@ -1,4 +1,4 @@
-package thread_frame;// Java program to illustrate
+package core.multiThreading;// Java program to illustrate
 
 // join must be followed by start method.
 // means first call start and then join

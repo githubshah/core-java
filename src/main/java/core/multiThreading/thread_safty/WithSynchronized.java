@@ -1,4 +1,4 @@
-package thread_frame.thread_safty;
+package core.multiThreading.thread_safty;
 
 class WithSynchronized {
 	synchronized void sum(int n) 

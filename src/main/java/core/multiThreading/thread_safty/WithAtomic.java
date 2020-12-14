@@ -1,4 +1,4 @@
-package thread_frame.thread_safty;
+package core.multiThreading.thread_safty;
 
 import java.util.concurrent.atomic.AtomicInteger; 
 
