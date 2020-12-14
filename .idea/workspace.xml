@@ -14,9 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/producerconsumer/ProducerConsumerNotifyPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/producer-consumer/ProducerConsumerPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/producerconsumer/ProducerConsumerPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/producerconsumer/ProducerConsumerNotifyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/producerconsumer/ProducerConsumerNotifyPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProducerConsumerPattern.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,20 +91,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerConsumerPattern">
-    <configuration name="CallByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.callByValueCallByRef.CallByRef" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.callByValueCallByRef.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProducerConsumerNotifyPattern">
     <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.callByValueCallByRef.CallByValue" />
       <module name="demo_java" />
@@ -122,6 +111,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="core.multiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerConsumerNotifyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.producerconsumer.ProducerConsumerNotifyPattern" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.multiThreading.producerconsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerNotifyPattern" />
         <item itemvalue="Application.ProducerConsumerPattern" />
         <item itemvalue="Application.CyclicBarrierTest" />
         <item itemvalue="Application.Zainab" />
         <item itemvalue="Application.CallByValue" />
-        <item itemvalue="Application.CallByRef" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +219,7 @@
       <workItem from="1606998255399" duration="8299000" />
       <workItem from="1607332426728" duration="2926000" />
       <workItem from="1607349114941" duration="3655000" />
-      <workItem from="1607731118061" duration="4132000" />
+      <workItem from="1607731118061" duration="7571000" />
     </task>
     <servers />
   </component>
@@ -240,10 +242,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607321974143">
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607941099817">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1607321974143" />
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1607941099817" />
     <state x="315" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607301858126">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -256,22 +258,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="255" key="GridCell.Tab.0.bottom" timestamp="1607936592357">
+    <state width="1388" height="245" key="GridCell.Tab.0.bottom" timestamp="1607941222007">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607936592357" />
-    <state width="1388" height="255" key="GridCell.Tab.0.center" timestamp="1607936592356">
+    <state width="1388" height="245" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607941222007" />
+    <state width="1388" height="245" key="GridCell.Tab.0.center" timestamp="1607941222005">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1607936592356" />
-    <state width="1388" height="255" key="GridCell.Tab.0.left" timestamp="1607936592355">
+    <state width="1388" height="245" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1607941222005" />
+    <state width="1388" height="245" key="GridCell.Tab.0.left" timestamp="1607941222004">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1607936592355" />
-    <state width="1388" height="255" key="GridCell.Tab.0.right" timestamp="1607936592356">
+    <state width="1388" height="245" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1607941222004" />
+    <state width="1388" height="245" key="GridCell.Tab.0.right" timestamp="1607941222006">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1607936592356" />
+    <state width="1388" height="245" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1607941222006" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607936592359">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
