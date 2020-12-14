@@ -14,9 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/enum8/EmptyEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/minmax/MinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/lock/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/producer-consumer/ProducerConsumerPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/callByValueCallByRef/CallByValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/callByValueCallByRef/CallByValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/callByValueCallByRef/CallByValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/callByValueCallByRef/CallByValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/CyclicBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zainab/Zainab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zainab/Zainab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/CyclicBarrierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/CyclicBarrierTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/CyclicBarrrierEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/CyclicBarrrierEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zainab/Zainab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zainab/Zainab.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +86,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core.minmax" />
       <recent name="collectiontest.hashmap.withoutHashCodeImpl" />
       <recent name="recusion" />
       <recent name="core.enum8" />
@@ -87,7 +96,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CallByValue">
+  <component name="RunManager" selected="Application.CyclicBarrierTest">
     <configuration name="CallByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.callByValueCallByRef.CallByRef" />
       <module name="demo_java" />
@@ -127,19 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Snapdeal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Snapdeal" />
-      <module name="demo_java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WitHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.collectiontest.hashmap.withHashCodeImpl.WitHashCode" />
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.CyclicBarrierTest" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.collectiontest.hashmap.withHashCodeImpl.*" />
+          <option name="PATTERN" value="core.multiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,24 +149,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="Zainab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zainab.Zainab" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zainab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierTest" />
+        <item itemvalue="Application.Zainab" />
         <item itemvalue="Application.CallByValue" />
         <item itemvalue="Application.CallByRef" />
         <item itemvalue="Application.CallByValueCallByRef" />
-        <item itemvalue="Application.WitHashCode" />
-        <item itemvalue="Application.Snapdeal" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +229,8 @@
       <workItem from="1606373039032" duration="7382000" />
       <workItem from="1606998255399" duration="8299000" />
       <workItem from="1607332426728" duration="2926000" />
-      <workItem from="1607349114941" duration="3061000" />
+      <workItem from="1607349114941" duration="3655000" />
+      <workItem from="1607731118061" duration="3810000" />
     </task>
     <servers />
   </component>
@@ -251,22 +269,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="187" key="GridCell.Tab.0.bottom" timestamp="1607423401128">
+    <state width="1388" height="245" key="GridCell.Tab.0.bottom" timestamp="1607935889289">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="187" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607423401128" />
-    <state width="1388" height="187" key="GridCell.Tab.0.center" timestamp="1607423401127">
+    <state width="1388" height="245" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607935889289" />
+    <state width="1388" height="245" key="GridCell.Tab.0.center" timestamp="1607935889288">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="187" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1607423401127" />
-    <state width="1388" height="187" key="GridCell.Tab.0.left" timestamp="1607423401126">
+    <state width="1388" height="245" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1607935889288" />
+    <state width="1388" height="245" key="GridCell.Tab.0.left" timestamp="1607935889287">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="187" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1607423401126" />
-    <state width="1388" height="187" key="GridCell.Tab.0.right" timestamp="1607423401127">
+    <state width="1388" height="245" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1607935889287" />
+    <state width="1388" height="245" key="GridCell.Tab.0.right" timestamp="1607935889288">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="187" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1607423401127" />
+    <state width="1388" height="245" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1607935889288" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1605152713933">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -287,10 +305,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="145" y="23" key="Maven.ArtifactSearchDialog/0.23.1440.837@0.23.1440.837" timestamp="1603451974967" />
-    <state x="511" y="213" key="chooseDestDirectoryDialog" timestamp="1607421463817">
+    <state x="511" y="213" key="chooseDestDirectoryDialog" timestamp="1607731393756">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="511" y="213" key="chooseDestDirectoryDialog/0.23.1440.837@0.23.1440.837" timestamp="1607421463816" />
+    <state x="511" y="213" key="chooseDestDirectoryDialog/0.23.1440.837@0.23.1440.837" timestamp="1607731393756" />
     <state x="540" y="136" key="extract.method.dialog" timestamp="1607421509590">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -303,9 +321,9 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="414" y="202" key="refactoring.ChangeSignatureDialog/0.23.1440.837@0.23.1440.837" timestamp="1604770183609" />
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1604996418486">
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1607740735628">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1604996418486" />
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1607740735628" />
   </component>
 </project>
