@@ -31,12 +31,16 @@ public class ProducerConsumerNotifyPattern {
         SharedResource sharedResource = new SharedResource();
 
         //Creating Producer and Consumer Thread
-        Thread prodThread = new Thread(new Producer2(sharedResource));
-        Thread consThread = new Thread(new Consumer2(sharedResource));
+        Thread prodThread = new Thread(new Producer2(sharedResource), "prod1");
+        Thread consThread = new Thread(new Consumer2(sharedResource), "con");
+        Thread consThread1 = new Thread(new Consumer2(sharedResource), "con1");
+        Thread consThread2 = new Thread(new Consumer2(sharedResource), "con2");
 
         //Starting producer and Consumer thread
         prodThread.start();
         consThread.start();
+        consThread1.start();
+        consThread2.start();
     }
 
 }
@@ -57,7 +61,7 @@ class Producer2 implements Runnable {
                 if (!sharedResource.isHasValue()) {
                     sharedResource.setLong(new Date().getTime());
                     try {
-                        Thread.sleep(5000);
+                        Thread.sleep(1000);
                         System.out.println("Produced element and notifying to all");
                         notifyAll();
                     } catch (Exception e) {
@@ -92,7 +96,8 @@ class Consumer2 implements Runnable {
                     } catch (Exception e) {
                     }
                 } else {
-                    System.out.println("Consumed: " + sharedResource.getLong());
+                    System.out.println(Thread.currentThread().getName() +
+                        " Consumed: " + sharedResource.getLong());
                     try {
                         notifyAll();
                     } catch (Exception e) {
