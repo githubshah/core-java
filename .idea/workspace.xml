@@ -14,10 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/problem/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/solution/VolatileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/increment/solution/byLock/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/increment/solution/byLock/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/AwithThread/IncrementCountBySynchronized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/lock/ThreadSafety.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/lock/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/lock/LockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/problem/solution/bySynchronization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VolatileTest (1)">
+  <component name="RunManager" selected="Application.VolatileExample">
     <configuration name="IncrementCount (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.increment.solution.bySynchronization.IncrementCount" />
       <module name="demo_java" />
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.control.solution.byLock.IncrementCount" />
+    <configuration name="TaskRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.problem.TaskRunner" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.control.solution.byLock.*" />
+          <option name="PATTERN" value="core.multiThreading.visiblity.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.problem.TaskRunner" />
+    <configuration name="VolatileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.thread_safty.VolatileExample" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.visiblity.problem.*" />
+          <option name="PATTERN" value="core.multiThreading.thread_safty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VolatileExample" />
         <item itemvalue="Application.VolatileTest (1)" />
         <item itemvalue="Application.WithoutVolatileTest" />
         <item itemvalue="Application.VolatileTest" />
         <item itemvalue="Application.TaskRunner" />
-        <item itemvalue="Application.IncrementCount (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -290,22 +289,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="317" key="GridCell.Tab.0.bottom" timestamp="1608053956858">
+    <state width="1388" height="317" key="GridCell.Tab.0.bottom" timestamp="1608054427588">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="317" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608053956858" />
-    <state width="1388" height="317" key="GridCell.Tab.0.center" timestamp="1608053956857">
+    <state width="1388" height="317" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608054427588" />
+    <state width="1388" height="317" key="GridCell.Tab.0.center" timestamp="1608054427587">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="317" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608053956857" />
-    <state width="1388" height="317" key="GridCell.Tab.0.left" timestamp="1608053956856">
+    <state width="1388" height="317" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608054427587" />
+    <state width="1388" height="317" key="GridCell.Tab.0.left" timestamp="1608054427586">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="317" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608053956856" />
-    <state width="1388" height="317" key="GridCell.Tab.0.right" timestamp="1608053956858">
+    <state width="1388" height="317" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608054427586" />
+    <state width="1388" height="317" key="GridCell.Tab.0.right" timestamp="1608054427588">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="317" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608053956858" />
+    <state width="1388" height="317" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608054427588" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>

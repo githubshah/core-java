@@ -80,7 +80,7 @@ class worker implements Runnable {
     }
 }
 
-public class test {
+public class LockTest {
     static final int MAX_T = 2;
 
     public static void main(String[] args) {
