@@ -20,21 +20,21 @@ class Resource {
 
 class ThreadTest implements Runnable {
     private final Resource count;
-    private ReentrantLock rel;
+    private ReentrantLock locker;
 
-    public ThreadTest(Resource count, ReentrantLock rel) {
+    public ThreadTest(Resource count, ReentrantLock locker) {
         this.count = count;
-        this.rel = rel;
+        this.locker = locker;
     }
 
     @Override
     public void run() {
-        rel.lock();
+        locker.lock();
         delay(200);
         count.increment();
         delay(300);
         count.decrement();
-        rel.unlock();
+        locker.unlock();
     }
 
     private void delay(int delay) {
