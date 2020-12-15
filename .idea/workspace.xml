@@ -93,7 +93,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/problem/solution/bySynchronization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WithoutVolatileTest">
+  <component name="RunManager" selected="Application.VolatileTest (1)">
     <configuration name="IncrementCount (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.increment.solution.bySynchronization.IncrementCount" />
       <module name="demo_java" />
@@ -146,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncaughtExceptionHandlerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.UncaughtExceptionHandlerTest" />
+    <configuration name="VolatileTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.visiblity.solution.VolatileTest" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.*" />
+          <option name="PATTERN" value="core.multiThreading.visiblity.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,10 +198,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VolatileTest (1)" />
         <item itemvalue="Application.WithoutVolatileTest" />
         <item itemvalue="Application.VolatileTest" />
         <item itemvalue="Application.TaskRunner" />
-        <item itemvalue="Application.IncrementCount (2)" />
         <item itemvalue="Application.IncrementCount (2)" />
       </list>
     </recent_temporary>
