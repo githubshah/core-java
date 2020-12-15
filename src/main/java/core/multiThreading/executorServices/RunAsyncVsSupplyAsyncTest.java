@@ -1,4 +1,4 @@
-package executorServices;
+package core.multiThreading.executorServices;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -3,8 +3,7 @@ package core.multiThreading.thread_safty;
 class WithSynchronized {
 	synchronized void sum(int n) 
 	{ 
-
-		// Creating a thread instance 
+		// Creating a thread instance
 		Thread t = Thread.currentThread(); 
 		for (int i = 1; i <= 5; i++) { 
 			System.out.println( 
@@ -20,8 +19,7 @@ class B extends Thread {
 	WithSynchronized withSynchronized = new WithSynchronized();
 	public void run() 
 	{ 
-
-		// Calling sum() method 
+		// Calling sum() method
 		withSynchronized.sum(10);
 	} 
 } 
