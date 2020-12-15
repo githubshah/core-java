@@ -1,4 +1,4 @@
-package core.multiThreading.demo.problem;
+package core.multiThreading.increment.problem;
 
 class Resource {
     int count = 0;
@@ -25,18 +25,18 @@ class ThreadTest implements Runnable {
 
     @Override
     public void run() {
-        try {
-            Thread.sleep(200);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        delay(200);
         count.increment();
+        delay(500);
+        count.decrement();
+    }
+
+    private void delay(int delay) {
         try {
-            Thread.sleep(500);
+            Thread.sleep(delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        count.decrement();
     }
 }
 
