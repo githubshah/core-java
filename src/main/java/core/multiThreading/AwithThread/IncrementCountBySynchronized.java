@@ -1,4 +1,4 @@
-package core.multiThreading.AwithoutThread;
+package core.multiThreading.AwithThread;
 
 class Resource {
     int count = 0;
@@ -7,11 +7,11 @@ class Resource {
         return count;
     }
 
-    synchronized public void increment() {  // must be sync
+    public void increment() {  // must be sync
         this.count++;
     }
 
-    synchronized public void decrement() {  // must be sync
+    public void decrement() {  // must be sync
         this.count--;
     }
 }
@@ -40,14 +40,14 @@ class ThreadTest implements Runnable {
     }
 }
 
-public class IncrementCount {
+public class IncrementCountBySynchronized {
     public static void main(String[] args) {
         Resource resource = new Resource();
         for (int i = 1; i <= 10000; i++) {
             new Thread(new ThreadTest(resource)).start();
         }
 
-        // need to wait to complete all threads
+        // need to wait till to complete all threads
         try {
             Thread.sleep(60000);
         } catch (InterruptedException e) {
