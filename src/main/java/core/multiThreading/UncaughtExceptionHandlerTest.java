@@ -1,4 +1,4 @@
-package thread_frame;// Java program to Use exceptions with thread 
+package core.multiThreading;// Java program to Use exceptions with thread
 
 /* Note: Dont confuse main method with Main class*/
 
@@ -14,7 +14,7 @@ class CatchChildThreadException extends Thread {
 }
 
 // Main driver method 
-public class Main {
+public class UncaughtExceptionHandlerTest {
 
     //Thread.UncaughtExceptionHandler h = (th, ex) -> System.out.println("Uncaught exception: " + ex);
 
