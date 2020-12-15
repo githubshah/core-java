@@ -1,18 +1,20 @@
-package core.multiThreading.increment.solution.byVolatile;
+package core.multiThreading.increment.solution.byAtomic;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 class Resource {
-    volatile int count = 0;
+    AtomicInteger count = new AtomicInteger(0);
 
     public int getValue() {
-        return count;
+        return count.intValue();
     }
 
     public void increment() {  // must be sync
-        this.count++;
+        this.count.incrementAndGet();
     }
 
     public void decrement() {  // must be sync
-        this.count--;
+        this.count.decrementAndGet();
     }
 }
 
@@ -27,7 +29,7 @@ class ThreadTest implements Runnable {
     public void run() {
         delay(200);
         count.increment();
-        delay(500);
+        delay(300);
         count.decrement();
     }
 
@@ -49,7 +51,7 @@ public class IncrementCount {
 
         // need to wait till to complete all threads
         try {
-            Thread.sleep(60000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

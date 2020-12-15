@@ -14,12 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/solution/byVolatile/IncrementCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/problem/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/problem/IncrementCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/increment/problem/IncrementCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/increment/problem/IncrementCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/increment/problem/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/increment/problem/ThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/increment/solution/bySynchronization/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/increment/solution/bySynchronization/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/solution/byVolatile/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/solution/byVolatile/IncrementCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +90,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/producer-consumer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncrementCount (1)">
+  <component name="RunManager" selected="Application.IncrementCount (2)">
     <configuration name="IncrementCount (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.increment.solution.bySynchronization.IncrementCount" />
       <module name="demo_java" />
@@ -173,9 +169,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncrementCount (2)" />
         <item itemvalue="Application.IncrementCount (1)" />
         <item itemvalue="Application.IncrementCount (3)" />
-        <item itemvalue="Application.IncrementCount (2)" />
         <item itemvalue="Application.IncrementCount" />
         <item itemvalue="Application.UncaughtExceptionHandlerTest" />
       </list>
@@ -265,22 +261,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="334" key="GridCell.Tab.0.bottom" timestamp="1608042435799">
+    <state width="1388" height="334" key="GridCell.Tab.0.bottom" timestamp="1608042550506">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="334" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608042435799" />
-    <state width="1388" height="334" key="GridCell.Tab.0.center" timestamp="1608042435797">
+    <state width="1388" height="334" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608042550506" />
+    <state width="1388" height="334" key="GridCell.Tab.0.center" timestamp="1608042550505">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="334" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608042435797" />
-    <state width="1388" height="334" key="GridCell.Tab.0.left" timestamp="1608042435797">
+    <state width="1388" height="334" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608042550505" />
+    <state width="1388" height="334" key="GridCell.Tab.0.left" timestamp="1608042550505">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="334" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608042435797" />
-    <state width="1388" height="334" key="GridCell.Tab.0.right" timestamp="1608042435798">
+    <state width="1388" height="334" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608042550505" />
+    <state width="1388" height="334" key="GridCell.Tab.0.right" timestamp="1608042550506">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="334" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608042435798" />
+    <state width="1388" height="334" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608042550506" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
