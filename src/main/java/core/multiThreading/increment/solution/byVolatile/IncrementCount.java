@@ -1,17 +1,17 @@
-package core.multiThreading.increment.solution.bySynchronization;
+package core.multiThreading.increment.solution.byVolatile;
 
 class Resource {
-    int count = 0;
+    volatile int count = 0;
 
     public int getValue() {
         return count;
     }
 
-    synchronized public void increment() {  // must be sync
+    public void increment() {  // must be sync
         this.count++;
     }
 
-    synchronized public void decrement() {  // must be sync
+    public void decrement() {  // must be sync
         this.count--;
     }
 }
@@ -27,7 +27,7 @@ class ThreadTest implements Runnable {
     public void run() {
         delay(200);
         count.increment();
-        delay(300);
+        delay(500);
         count.decrement();
     }
 
@@ -49,7 +49,7 @@ public class IncrementCount {
 
         // need to wait till to complete all threads
         try {
-            Thread.sleep(5000);
+            Thread.sleep(60000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

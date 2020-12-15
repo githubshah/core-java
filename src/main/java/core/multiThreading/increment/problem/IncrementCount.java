@@ -27,7 +27,7 @@ class ThreadTest implements Runnable {
     public void run() {
         delay(200);
         count.increment();
-        delay(500);
+        delay(300);
         count.decrement();
     }
 
@@ -43,13 +43,13 @@ class ThreadTest implements Runnable {
 public class IncrementCount {
     public static void main(String[] args) {
         Resource resource = new Resource();
-        for (int i = 1; i <= 10000; i++) {
+        for (int i = 1; i <= 1000; i++) {
             new Thread(new ThreadTest(resource)).start();
         }
 
         // need to wait till to complete all threads
         try {
-            Thread.sleep(60000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
