@@ -15,9 +15,21 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/thread_safty/WithAtomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/thread_safty/WithAtomic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/thread_safty/WithSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/thread_safty/WithSynchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/executorServices/RunAsyncVsSupplyAsyncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/executorServices/RunAsyncVsSupplyAsyncTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread_frame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread_frame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread_frame/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/InterruptedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithSynchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithSynchronized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/executorServices/RunAsyncVsSupplyAsyncTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/thread_frame/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/thread_frame/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +102,13 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VolatileExample">
-    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.CyclicBarrierTest" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread_frame.Main" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.*" />
+          <option name="PATTERN" value="thread_frame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.thread_safty.VolatileExample" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.Test" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.thread_safty.*" />
+          <option name="PATTERN" value="core.multiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zainab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zainab.Zainab" />
+    <configuration name="VolatileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.thread_safty.VolatileExample" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zainab.*" />
+          <option name="PATTERN" value="core.multiThreading.thread_safty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.VolatileExample" />
         <item itemvalue="Application.ProducerConsumerNotifyPattern" />
         <item itemvalue="Application.ProducerConsumerPattern" />
-        <item itemvalue="Application.CyclicBarrierTest" />
-        <item itemvalue="Application.Zainab" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +230,7 @@
       <workItem from="1606998255399" duration="8299000" />
       <workItem from="1607332426728" duration="2926000" />
       <workItem from="1607349114941" duration="3655000" />
-      <workItem from="1607731118061" duration="9647000" />
+      <workItem from="1607731118061" duration="10154000" />
     </task>
     <servers />
   </component>
@@ -257,38 +269,38 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="245" key="GridCell.Tab.0.bottom" timestamp="1607941756092">
+    <state width="1388" height="245" key="GridCell.Tab.0.bottom" timestamp="1607997107613">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607941756092" />
-    <state width="1388" height="245" key="GridCell.Tab.0.center" timestamp="1607941756091">
+    <state width="1388" height="245" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607997107613" />
+    <state width="1388" height="245" key="GridCell.Tab.0.center" timestamp="1607997107612">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1607941756091" />
-    <state width="1388" height="245" key="GridCell.Tab.0.left" timestamp="1607941756090">
+    <state width="1388" height="245" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1607997107612" />
+    <state width="1388" height="245" key="GridCell.Tab.0.left" timestamp="1607997107612">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1607941756090" />
-    <state width="1388" height="245" key="GridCell.Tab.0.right" timestamp="1607941756091">
+    <state width="1388" height="245" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1607997107612" />
+    <state width="1388" height="245" key="GridCell.Tab.0.right" timestamp="1607997107613">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1607941756091" />
-    <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607936592359">
+    <state width="1388" height="245" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1607997107613" />
+    <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607936592359" />
-    <state width="1388" height="255" key="GridCell.Tab.1.center" timestamp="1607936592358">
+    <state width="1388" height="255" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607997020838" />
+    <state width="1388" height="255" key="GridCell.Tab.1.center" timestamp="1607997020836">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1607936592358" />
-    <state width="1388" height="255" key="GridCell.Tab.1.left" timestamp="1607936592357">
+    <state width="1388" height="255" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1607997020836" />
+    <state width="1388" height="255" key="GridCell.Tab.1.left" timestamp="1607997020836">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1607936592357" />
-    <state width="1388" height="255" key="GridCell.Tab.1.right" timestamp="1607936592359">
+    <state width="1388" height="255" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1607997020836" />
+    <state width="1388" height="255" key="GridCell.Tab.1.right" timestamp="1607997020837">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1607936592359" />
+    <state width="1388" height="255" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1607997020837" />
     <state x="145" y="23" width="1149" height="830" key="Maven.ArtifactSearchDialog" timestamp="1603451974968">
       <screen x="0" y="23" width="1440" height="837" />
     </state>

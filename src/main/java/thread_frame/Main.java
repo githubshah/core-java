@@ -7,34 +7,35 @@ package thread_frame;// Java program to Use exceptions with thread
 // Child Class(Thread) is inherited 
 // from parent Class(GFG) 
 class CatchChildThreadException extends Thread {
-	public void run() 
-	{ 
-		System.out.println("Throwing in "
-						+ "MyThread"); 
-		throw new RuntimeException(); 
-	} 
-} 
+    public void run() {
+        System.out.println("Throwing in MyThread");
+        throw new RuntimeException("WTF");
+    }
+}
 
 // Main driver method 
-public class Main { 
-	public static void main(String[] args) 
-	{ 
-		CatchChildThreadException t = new CatchChildThreadException();
-		t.start(); 
+public class Main {
 
-		// try block to deal with exception 
-		try { 
-			Thread.sleep(2000); 
-		} 
+    //Thread.UncaughtExceptionHandler h = (th, ex) -> System.out.println("Uncaught exception: " + ex);
 
-		// catch block to handle the exception 
-		catch (Exception x) { 
-			// Print command when exception encountered 
-			System.out.println("Exception" + x); 
-		} 
+    public static void main(String[] args) {
+        // try block to deal with exception
+        CatchChildThreadException t = new CatchChildThreadException();
+        t.setUncaughtExceptionHandler((th, ex) ->
+            System.out.println("Uncaught exception: " + ex));
+        t.start();
 
-		// Print command just to show program 
-		// run successfully 
-		System.out.println("Completed"); 
-	} 
+        try {
+            Thread.sleep(2000);
+        }
+        // catch block to handle the exception
+        catch (Exception x) {
+            // Print command when exception encountered
+            System.out.println(">>Exception" + x);
+        }
+
+        // Print command just to show program
+        // run successfully
+        System.out.println("Completed");
+    }
 }
