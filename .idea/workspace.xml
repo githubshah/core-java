@@ -14,22 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/AwithoutThread/Increment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread_frame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread_frame/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread_frame/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/InterruptedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithAtomic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithSynchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/WithSynchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/executorServices/RunAsyncVsSupplyAsyncTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread_frame/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread_frame/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/thread_frame/CatchChildThreadException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/thread_frame/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MainTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +91,13 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread_frame.Main" />
+  <component name="RunManager" selected="Application.IncrementCount">
+    <configuration name="IncrementCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.AwithoutThread.IncrementCount" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread_frame.*" />
+          <option name="PATTERN" value="core.multiThreading.AwithoutThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,15 +118,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerConsumerPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumerPattern" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.Test" />
       <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.multiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.Test" />
+    <configuration name="UncaughtExceptionHandlerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.UncaughtExceptionHandlerTest" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.IncrementCount" />
+        <item itemvalue="Application.UncaughtExceptionHandlerTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.VolatileExample" />
         <item itemvalue="Application.ProducerConsumerNotifyPattern" />
-        <item itemvalue="Application.ProducerConsumerPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +225,7 @@
       <workItem from="1606998255399" duration="8299000" />
       <workItem from="1607332426728" duration="2926000" />
       <workItem from="1607349114941" duration="3655000" />
-      <workItem from="1607731118061" duration="10154000" />
+      <workItem from="1607731118061" duration="13412000" />
     </task>
     <servers />
   </component>
@@ -253,38 +248,38 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607941099817">
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607997547254">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1607941099817" />
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1607997547254" />
     <state x="315" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607955534995">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="315" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1607955534995" />
-    <state x="466" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607002792675">
+    <state x="466" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607998624454">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="466" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.837@0.23.1440.837" timestamp="1607002792675" />
+    <state x="466" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.837@0.23.1440.837" timestamp="1607998624454" />
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603629907321">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="245" key="GridCell.Tab.0.bottom" timestamp="1607997107613">
+    <state width="1388" height="207" key="GridCell.Tab.0.bottom" timestamp="1608000305672">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1607997107613" />
-    <state width="1388" height="245" key="GridCell.Tab.0.center" timestamp="1607997107612">
+    <state width="1388" height="207" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608000305672" />
+    <state width="1388" height="207" key="GridCell.Tab.0.center" timestamp="1608000305671">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1607997107612" />
-    <state width="1388" height="245" key="GridCell.Tab.0.left" timestamp="1607997107612">
+    <state width="1388" height="207" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608000305671" />
+    <state width="1388" height="207" key="GridCell.Tab.0.left" timestamp="1608000305670">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1607997107612" />
-    <state width="1388" height="245" key="GridCell.Tab.0.right" timestamp="1607997107613">
+    <state width="1388" height="207" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608000305670" />
+    <state width="1388" height="207" key="GridCell.Tab.0.right" timestamp="1608000305671">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="245" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1607997107613" />
+    <state width="1388" height="207" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608000305671" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
