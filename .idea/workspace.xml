@@ -92,7 +92,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/problem/solution/bySynchronization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VolatileExample">
+  <component name="RunManager" selected="Application.VolatileTest (1)">
     <configuration name="IncrementCount (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.increment.solution.bySynchronization.IncrementCount" />
       <module name="demo_java" />
@@ -197,8 +197,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VolatileExample" />
         <item itemvalue="Application.VolatileTest (1)" />
+        <item itemvalue="Application.VolatileExample" />
         <item itemvalue="Application.WithoutVolatileTest" />
         <item itemvalue="Application.VolatileTest" />
         <item itemvalue="Application.TaskRunner" />
