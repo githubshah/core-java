@@ -14,10 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/problem/ProducerAndConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/problem/ProducerAndConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/problem/VolatileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/problem/Acknowledge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/solution/ProducerAndConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/solution/ProducerAndConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/solution/VolatileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/solution/Acknowledge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/ThreadLocalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/ThreadLocalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/threadlocal/ThreadLocalExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/threadlocal/ThreadLocalExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,52 +93,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/problem/solution/bySynchronization" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ThreadTest">
     <configuration name="Acknowledge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.visiblity.problem.Acknowledge" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="core.multiThreading.visiblity.problem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncrementCount (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.increment.solution.bySynchronization.IncrementCount" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.multiThreading.increment.solution.bySynchronization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncrementCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.increment.solution.byAtomic.IncrementCount" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.multiThreading.increment.solution.byAtomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerAndConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.visiblity.solution.ProducerAndConsumer" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.multiThreading.visiblity.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.problem.TaskRunner" />
+    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.threadlocal.ThreadLocalExample" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.visiblity.problem.*" />
+          <option name="PATTERN" value="core.multiThreading.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.visiblity.problem.VolatileTest" />
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.threadlocal.ThreadTest" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.visiblity.problem.*" />
+          <option name="PATTERN" value="core.multiThreading.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.ThreadLocalExample" />
         <item itemvalue="Application.Acknowledge" />
         <item itemvalue="Application.ProducerAndConsumerTest" />
         <item itemvalue="Application.ProducerAndConsumerTest" />
-        <item itemvalue="Application.WithoutVolatileTest" />
-        <item itemvalue="Application.TaskRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -303,22 +264,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="172" key="GridCell.Tab.0.bottom" timestamp="1608093677272">
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom" timestamp="1608098793285">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="172" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608093677272" />
-    <state width="1388" height="172" key="GridCell.Tab.0.center" timestamp="1608093677271">
+    <state width="1388" height="217" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608098793285" />
+    <state width="1388" height="217" key="GridCell.Tab.0.center" timestamp="1608098793281">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="172" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608093677271" />
-    <state width="1388" height="172" key="GridCell.Tab.0.left" timestamp="1608093677270">
+    <state width="1388" height="217" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608098793281" />
+    <state width="1388" height="217" key="GridCell.Tab.0.left" timestamp="1608098793280">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="172" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608093677270" />
-    <state width="1388" height="172" key="GridCell.Tab.0.right" timestamp="1608093677271">
+    <state width="1388" height="217" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608098793280" />
+    <state width="1388" height="217" key="GridCell.Tab.0.right" timestamp="1608098793283">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="172" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608093677271" />
+    <state width="1388" height="217" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608098793283" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>

@@ -13,7 +13,7 @@ public class ThreadLocalExample implements Runnable {
         ThreadLocalExample obj = new ThreadLocalExample();
         for (int i = 0; i < 10; i++) {
             Thread t = new Thread(obj, "" + i);
-            Thread.sleep(new Random().nextInt(1000));
+            Thread.sleep(new Random().nextInt(500));
             t.start();
         }
         formatter.set(100);
