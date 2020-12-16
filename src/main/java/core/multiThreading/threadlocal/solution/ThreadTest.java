@@ -1,4 +1,4 @@
-package core.multiThreading.threadlocal;
+package core.multiThreading.threadlocal.solution;
 
 class Resource {
     int id;
@@ -32,7 +32,7 @@ class ThreadRun implements Runnable {
 
     @Override
     public void run() {
-        //number = number.getThreadLocal();
+        number = number.getThreadLocal();
         System.out.println(Thread.currentThread().getName() + ": initial value: " + number.getId() + " and value to add : " + value);
         number.setId(number.getId() + value);
         System.out.println(Thread.currentThread().getName() + ": after set: " + number.getId());
