@@ -1,9 +1,9 @@
-package core.multiThreading.visiblity.problem;
+package core.multiThreading.visiblity.solution;
 
-public class VolatileExample {
+public class Acknowledge {
     // Initializing volatile variables
     // a
-    static boolean flag = true;
+    static volatile boolean flag = true;
 
     public static void main(String[] args) {
 

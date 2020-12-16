@@ -1,6 +1,6 @@
 package core.multiThreading.visiblity.problem;
 
-public class ProducerAndConsumerTest {
+public class ProducerAndConsumer {
     private static int MY_INT = 0;
 
     public static void main(String[] args) {
