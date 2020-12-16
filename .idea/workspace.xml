@@ -14,9 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/problem/VolatileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/thread_safty/VolatileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/thread_safty/VolatileExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/solution/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/solution/VolatileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/problem/WithoutVolatileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/problem/WithoutVolatileTest$ChangeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/problem/WithoutVolatileTest$ChangeMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/problem/WithoutVolatileTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core.multiThreading.visiblity.problem" />
       <recent name="core.multiThreading.visiblity.problem.solution" />
       <recent name="core.minmax" />
       <recent name="collectiontest.hashmap.withoutHashCodeImpl" />
       <recent name="recusion" />
-      <recent name="core.enum8" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/problem" />
@@ -92,7 +95,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/problem/solution/bySynchronization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VolatileTest (1)">
+  <component name="RunManager" selected="Application.VolatileTest">
     <configuration name="IncrementCount (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.increment.solution.bySynchronization.IncrementCount" />
       <module name="demo_java" />
@@ -197,10 +200,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VolatileTest" />
         <item itemvalue="Application.VolatileTest (1)" />
         <item itemvalue="Application.VolatileExample" />
         <item itemvalue="Application.WithoutVolatileTest" />
-        <item itemvalue="Application.VolatileTest" />
         <item itemvalue="Application.TaskRunner" />
       </list>
     </recent_temporary>
@@ -289,22 +292,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="189" key="GridCell.Tab.0.bottom" timestamp="1608089649856">
+    <state width="1388" height="189" key="GridCell.Tab.0.bottom" timestamp="1608090182077">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="189" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608089649856" />
-    <state width="1388" height="189" key="GridCell.Tab.0.center" timestamp="1608089649854">
+    <state width="1388" height="189" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608090182077" />
+    <state width="1388" height="189" key="GridCell.Tab.0.center" timestamp="1608090182075">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="189" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608089649854" />
-    <state width="1388" height="189" key="GridCell.Tab.0.left" timestamp="1608089649854">
+    <state width="1388" height="189" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608090182075" />
+    <state width="1388" height="189" key="GridCell.Tab.0.left" timestamp="1608090182074">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="189" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608089649854" />
-    <state width="1388" height="189" key="GridCell.Tab.0.right" timestamp="1608089649855">
+    <state width="1388" height="189" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608090182074" />
+    <state width="1388" height="189" key="GridCell.Tab.0.right" timestamp="1608090182076">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="189" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608089649855" />
+    <state width="1388" height="189" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608090182076" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
