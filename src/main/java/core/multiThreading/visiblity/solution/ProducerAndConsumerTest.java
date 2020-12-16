@@ -1,7 +1,7 @@
-package core.multiThreading.visiblity.problem;
+package core.multiThreading.visiblity.solution;
 
-public class VolatileTest {
-    private static int MY_INT = 0;
+public class ProducerAndConsumerTest {
+    private static volatile int MY_INT = 0;
 
     public static void main(String[] args) {
         new Consumer().start();
