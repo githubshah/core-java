@@ -65,7 +65,8 @@ class ThreadA implements Runnable {
 }
 
 public class AcknowledgeTest {
-    static Resources flag=new Resources();;
+    static Resources flag = new Resources();
+
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(new ThreadA(flag));
         t1.start();
