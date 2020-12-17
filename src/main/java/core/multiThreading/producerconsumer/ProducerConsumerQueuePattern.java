@@ -5,7 +5,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ProducerConsumerPattern {
+public class ProducerConsumerQueuePattern {
 
     public static void main(String args[]) {
 
