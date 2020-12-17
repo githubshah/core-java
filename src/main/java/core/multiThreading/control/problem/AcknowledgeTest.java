@@ -42,7 +42,7 @@ public class AcknowledgeTest {
     // Initializing volatile variables
     static volatile Resources flag = new Resources();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Thread t2 = new Thread() {
             public void run() {
@@ -61,7 +61,7 @@ public class AcknowledgeTest {
 
         t2.start();
 
-        delay(5000);
+        t2.join();
         System.out.println("completed thread..");
     }
 
