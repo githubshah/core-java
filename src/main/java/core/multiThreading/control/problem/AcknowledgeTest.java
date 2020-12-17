@@ -18,8 +18,6 @@ public class AcknowledgeTest {
 
     public static void main(String[] args) {
 
-        // Creating an instance t1 of
-        // Thread class
         Thread t1 = new Thread() {
             public void run() {
                 System.out.println("Start t1 thread with " + flag.isFlag());
@@ -31,8 +29,6 @@ public class AcknowledgeTest {
             }
         };
 
-        // Creating an instance t2 of
-        // Thread class
         Thread t2 = new Thread() {
             public void run() {
                 boolean temp = flag.isFlag();
