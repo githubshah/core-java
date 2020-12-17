@@ -1,7 +1,7 @@
 package core.multiThreading.control.problem;
 
 class Resources {
-    volatile boolean flag = true;
+    boolean flag = true;
 
     public boolean isFlag() {
         return flag;
@@ -64,7 +64,7 @@ class ThreadA implements Runnable {
     }
 }
 
-public class AcknowledgeTest {
+public class AcknowledgeBetweenThreadsWithoutVolatile {
     static Resources flag = new Resources();
 
     public static void main(String[] args) throws InterruptedException {

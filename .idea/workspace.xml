@@ -14,10 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byVolatile/IncrementCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/AcknowledgeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/problem/AcknowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/problem/AcknowledgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/problem/AcknowledgeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/control/problem/AcknowledgeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byVolatile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -86,8 +85,8 @@
       <recent name="core.minmax" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byVolatile" />
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution" />
+      <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byVolatile" />
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/notifyAndnotifyAll/notifyAll" />
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/solution" />
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/problem" />
@@ -268,22 +267,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="147" key="GridCell.Tab.0.bottom" timestamp="1608197127789">
+    <state width="1388" height="147" key="GridCell.Tab.0.bottom" timestamp="1608197136584">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="147" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608197127789" />
-    <state width="1388" height="147" key="GridCell.Tab.0.center" timestamp="1608197127784">
+    <state width="1388" height="147" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608197136584" />
+    <state width="1388" height="147" key="GridCell.Tab.0.center" timestamp="1608197136583">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="147" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608197127784" />
-    <state width="1388" height="147" key="GridCell.Tab.0.left" timestamp="1608197127780">
+    <state width="1388" height="147" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608197136583" />
+    <state width="1388" height="147" key="GridCell.Tab.0.left" timestamp="1608197136582">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="147" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608197127780" />
-    <state width="1388" height="147" key="GridCell.Tab.0.right" timestamp="1608197127786">
+    <state width="1388" height="147" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608197136582" />
+    <state width="1388" height="147" key="GridCell.Tab.0.right" timestamp="1608197136583">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="147" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608197127786" />
+    <state width="1388" height="147" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608197136583" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
