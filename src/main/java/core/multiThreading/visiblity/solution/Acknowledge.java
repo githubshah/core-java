@@ -2,7 +2,6 @@ package core.multiThreading.visiblity.solution;
 
 public class Acknowledge {
     // Initializing volatile variables
-    // a
     static volatile boolean flag = true;
 
     public static void main(String[] args) {

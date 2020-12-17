@@ -2,7 +2,6 @@ package core.multiThreading.visiblity.problem;
 
 public class Acknowledge {
     // Initializing volatile variables
-    // a
     static boolean flag = true;
 
     public static void main(String[] args) {
@@ -28,7 +27,6 @@ public class Acknowledge {
                 System.out.println("Start t2 thread with " + temp);
                 while (temp) {
                     temp = flag;
-                    //yield();
                 }
                 System.out.println("End t2 thread " + temp);
             }
