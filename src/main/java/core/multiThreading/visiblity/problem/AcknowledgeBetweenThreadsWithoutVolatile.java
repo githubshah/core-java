@@ -1,4 +1,4 @@
-package core.multiThreading.control.problem;
+package core.multiThreading.visiblity.problem;
 
 class Resources {
     boolean flag = true;
