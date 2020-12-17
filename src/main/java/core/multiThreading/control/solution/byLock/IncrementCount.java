@@ -5,36 +5,38 @@ import java.util.concurrent.locks.ReentrantLock;
 class Resource {
     int count = 0;
 
+    ReentrantLock reentrantLock = new ReentrantLock();
+
     public int getValue() {
         return count;
     }
 
     public void increment() {  // must be sync
+        reentrantLock.lock();
         this.count++;
+        reentrantLock.unlock();
     }
 
     public void decrement() {  // must be sync
+        reentrantLock.lock();
         this.count--;
+        reentrantLock.unlock();
     }
 }
 
 class ThreadTest implements Runnable {
     private final Resource count;
-    private ReentrantLock locker;
 
-    public ThreadTest(Resource count, ReentrantLock locker) {
+    public ThreadTest(Resource count) {
         this.count = count;
-        this.locker = locker;
     }
 
     @Override
     public void run() {
-        locker.lock();
-        delay(200);
+        delay(100);
         count.increment();
-        delay(300);
+        delay(200);
         count.decrement();
-        locker.unlock();
     }
 
     private void delay(int delay) {
@@ -49,14 +51,13 @@ class ThreadTest implements Runnable {
 public class IncrementCount {
     public static void main(String[] args) {
         Resource resource = new Resource();
-        ReentrantLock rel = new ReentrantLock();
         for (int i = 1; i <= 1000; i++) {
-            new Thread(new ThreadTest(resource, rel)).start();
+            new Thread(new ThreadTest(resource)).start();
         }
 
         // need to wait till to complete all threads
         try {
-            Thread.sleep(5000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

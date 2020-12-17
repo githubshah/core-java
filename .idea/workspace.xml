@@ -14,9 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/AcknowledgeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/problem/AcknowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/problem/AcknowledgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byLock/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byLock/IncrementCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/problem/AcknowledgeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/problem/Resources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/problem/ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/problem/ThreadB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/IncrementCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/IncrementCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/ThreadTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +98,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncrementCount (4)">
+  <component name="RunManager" selected="Application.IncrementCount (3)">
     <configuration name="IncrementCount (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.control.solution.byAtomic.IncrementCount" />
       <module name="demo_java" />
@@ -150,7 +156,7 @@
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.control.problem.*" />
+          <option name="PATTERN" value="core.multiThreading.visiblity.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IncrementCount (4)" />
         <item itemvalue="Application.IncrementCount (3)" />
+        <item itemvalue="Application.IncrementCount (4)" />
         <item itemvalue="Application.IncrementCount (2)" />
         <item itemvalue="Application.IncrementCount (1)" />
         <item itemvalue="Application.IncrementCount" />
@@ -267,22 +273,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="147" key="GridCell.Tab.0.bottom" timestamp="1608197136584">
+    <state width="1388" height="147" key="GridCell.Tab.0.bottom" timestamp="1608197633114">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="147" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608197136584" />
-    <state width="1388" height="147" key="GridCell.Tab.0.center" timestamp="1608197136583">
+    <state width="1388" height="147" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608197633114" />
+    <state width="1388" height="147" key="GridCell.Tab.0.center" timestamp="1608197633113">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="147" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608197136583" />
-    <state width="1388" height="147" key="GridCell.Tab.0.left" timestamp="1608197136582">
+    <state width="1388" height="147" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608197633113" />
+    <state width="1388" height="147" key="GridCell.Tab.0.left" timestamp="1608197633112">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="147" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608197136582" />
-    <state width="1388" height="147" key="GridCell.Tab.0.right" timestamp="1608197136583">
+    <state width="1388" height="147" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608197633112" />
+    <state width="1388" height="147" key="GridCell.Tab.0.right" timestamp="1608197633113">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="147" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608197136583" />
+    <state width="1388" height="147" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608197633113" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
