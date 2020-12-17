@@ -12,22 +12,37 @@ class Resources {
     }
 }
 
+class ThreadA implements Runnable {
+    Resources flag;
+
+    public ThreadA(Resources flag) {
+        this.flag = flag;
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Start t1 thread with " + flag.isFlag());
+        for (int i = 0; i <= 10; i++) {
+            delay(100);
+        }
+        flag.setFlag(false);
+        System.out.println("End t1 thread");
+    }
+
+    private static void delay(int i2) {
+        try {
+            Thread.sleep(i2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
 public class AcknowledgeTest {
     // Initializing volatile variables
     static volatile Resources flag = new Resources();
 
     public static void main(String[] args) {
-
-        Thread t1 = new Thread() {
-            public void run() {
-                System.out.println("Start t1 thread with " + flag.isFlag());
-                for (int i = 0; i <= 10; i++) {
-                    delay(100);
-                }
-                flag.setFlag(false);
-                System.out.println("End t1 thread");
-            }
-        };
 
         Thread t2 = new Thread() {
             public void run() {
@@ -41,7 +56,9 @@ public class AcknowledgeTest {
         };
 
         // Starting instance t1 and t2
-        t1.start();
+        Thread thread = new Thread(new ThreadA(flag));
+        thread.start();
+
         t2.start();
 
         delay(5000);
