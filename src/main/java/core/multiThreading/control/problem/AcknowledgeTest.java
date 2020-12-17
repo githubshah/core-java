@@ -12,10 +12,10 @@ class Resources {
     }
 }
 
-class ThreadA implements Runnable {
+class ThreadB implements Runnable {
     Resources flag;
 
-    public ThreadA(Resources flag) {
+    public ThreadB(Resources flag) {
         this.flag = flag;
     }
 
@@ -38,10 +38,10 @@ class ThreadA implements Runnable {
     }
 }
 
-class ThreadB implements Runnable {
+class ThreadA implements Runnable {
     Resources flag;
 
-    public ThreadB(Resources flag) {
+    public ThreadA(Resources flag) {
         this.flag = flag;
     }
 
@@ -65,16 +65,15 @@ class ThreadB implements Runnable {
 }
 
 public class AcknowledgeTest {
-    static Resources flag;
+    static Resources flag=new Resources();;
     public static void main(String[] args) throws InterruptedException {
-        flag = new Resources();
         Thread t1 = new Thread(new ThreadA(flag));
         t1.start();
-        // Starting instance t1 and t2
+
         Thread t2 = new Thread(new ThreadB(flag));
         t2.start();
 
-        t1.join();
+        t2.join();
         System.out.println("completed thread..");
     }
 
