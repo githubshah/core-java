@@ -14,13 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/notifyAndnotifyAll/notify/Notify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/notifyAndnotifyAll/notifyAll/NotifyAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/threadlocal/Resource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/threadlocal/ThreadLocalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/threadlocal/ThreadRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/threadlocal/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/InterruptedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/InterruptedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/InterruptedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/InterruptedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/notifyAndnotifyAll/MainClass$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/notifyAndnotifyAll/MainClass$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/notifyAndnotifyAll/MainClass$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/notifyAndnotifyAll/MainClass$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/notifyAndnotifyAll/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/notifyAndnotifyAll/Shared.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/increment/solution/byLock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Notify">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Acknowledge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.visiblity.problem.Acknowledge" />
       <module name="demo_java" />
@@ -123,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerAndConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.visiblity.problem.ProducerAndConsumerTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.Test" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.visiblity.problem.*" />
+          <option name="PATTERN" value="core.multiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Notify" />
         <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.ThreadLocalExample" />
         <item itemvalue="Application.Acknowledge" />
-        <item itemvalue="Application.ProducerAndConsumerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,22 +270,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="161" key="GridCell.Tab.0.bottom" timestamp="1608174102369">
+    <state width="1388" height="161" key="GridCell.Tab.0.bottom" timestamp="1608182740043">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="161" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608174102369" />
-    <state width="1388" height="161" key="GridCell.Tab.0.center" timestamp="1608174102368">
+    <state width="1388" height="161" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608182740043" />
+    <state width="1388" height="161" key="GridCell.Tab.0.center" timestamp="1608182740042">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="161" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608174102368" />
-    <state width="1388" height="161" key="GridCell.Tab.0.left" timestamp="1608174102367">
+    <state width="1388" height="161" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608182740042" />
+    <state width="1388" height="161" key="GridCell.Tab.0.left" timestamp="1608182740041">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="161" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608174102367" />
-    <state width="1388" height="161" key="GridCell.Tab.0.right" timestamp="1608174102368">
+    <state width="1388" height="161" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608182740041" />
+    <state width="1388" height="161" key="GridCell.Tab.0.right" timestamp="1608182740043">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="161" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608174102368" />
+    <state width="1388" height="161" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608182740043" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
