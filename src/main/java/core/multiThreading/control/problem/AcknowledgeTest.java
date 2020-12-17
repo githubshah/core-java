@@ -1,8 +1,20 @@
 package core.multiThreading.control.problem;
 
+class Resources {
+    boolean flag = true;
+
+    public boolean isFlag() {
+        return flag;
+    }
+
+    public void setFlag(boolean flag) {
+        this.flag = flag;
+    }
+}
+
 public class AcknowledgeTest {
     // Initializing volatile variables
-    static boolean flag = true;
+    static volatile Resources flag = new Resources();
 
     public static void main(String[] args) {
 
@@ -10,11 +22,11 @@ public class AcknowledgeTest {
         // Thread class
         Thread t1 = new Thread() {
             public void run() {
-                System.out.println("Start t1 thread with " + flag);
+                System.out.println("Start t1 thread with " + flag.isFlag());
                 for (int i = 0; i <= 10; i++) {
-                    delay(1000);
+                    delay(100);
                 }
-                flag = false;
+                flag.setFlag(false);
                 System.out.println("End t1 thread");
             }
         };
@@ -23,10 +35,10 @@ public class AcknowledgeTest {
         // Thread class
         Thread t2 = new Thread() {
             public void run() {
-                boolean temp = flag;
+                boolean temp = flag.isFlag();
                 System.out.println("Start t2 thread with " + temp);
                 while (temp) {
-                    temp = flag;
+                    temp = flag.isFlag();
                 }
                 System.out.println("End t2 thread " + temp);
             }
@@ -36,7 +48,7 @@ public class AcknowledgeTest {
         t1.start();
         t2.start();
 
-        delay(15000);
+        delay(5000);
         System.out.println("completed thread..");
     }
 

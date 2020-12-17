@@ -15,8 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/problem/Acknowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/problem/Acknowledge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/solution/Acknowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity/solution/Acknowledge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/problem/AcknowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/control/problem/AcknowledgeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core.multiThreading.control.problem" />
       <recent name="core.multiThreading.visiblity.solution" />
       <recent name="core.multiThreading.visiblity.problem" />
       <recent name="core.multiThreading.visiblity.problem.solution" />
       <recent name="core.minmax" />
-      <recent name="collectiontest.hashmap.withoutHashCodeImpl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution" />
@@ -92,13 +91,26 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Acknowledge">
+  <component name="RunManager" selected="Application.AcknowledgeTest">
     <configuration name="Acknowledge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.visiblity.problem.Acknowledge" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="core.multiThreading.visiblity.problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcknowledgeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.multiThreading.control.problem.AcknowledgeTest" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.multiThreading.control.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AcknowledgeTest" />
         <item itemvalue="Application.Acknowledge" />
         <item itemvalue="Application.SingleWriteAndMultiRead" />
       </list>
@@ -209,10 +222,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="180" y="96" width="1079" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837@0.23.1440.837" timestamp="1608191222427" />
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1608189440229">
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1608193314913">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1608189440229" />
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1608193314913" />
     <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608054079967">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -225,22 +238,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="136" key="GridCell.Tab.0.bottom" timestamp="1608192712041">
+    <state width="1388" height="136" key="GridCell.Tab.0.bottom" timestamp="1608193017903">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="136" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608192712041" />
-    <state width="1388" height="136" key="GridCell.Tab.0.center" timestamp="1608192712039">
+    <state width="1388" height="136" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608193017903" />
+    <state width="1388" height="136" key="GridCell.Tab.0.center" timestamp="1608193017899">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="136" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608192712039" />
-    <state width="1388" height="136" key="GridCell.Tab.0.left" timestamp="1608192712038">
+    <state width="1388" height="136" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608193017899" />
+    <state width="1388" height="136" key="GridCell.Tab.0.left" timestamp="1608193017898">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="136" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608192712038" />
-    <state width="1388" height="136" key="GridCell.Tab.0.right" timestamp="1608192712040">
+    <state width="1388" height="136" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608193017898" />
+    <state width="1388" height="136" key="GridCell.Tab.0.right" timestamp="1608193017901">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="136" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608192712040" />
+    <state width="1388" height="136" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608193017901" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
