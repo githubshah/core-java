@@ -14,12 +14,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/producerconsumer/conditionJava8/ReentrantLockWithCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/comparatorv/Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/access_modifier/america/America.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/IncrementCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/IncrementCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/Resource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/control/solution/byLock/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/producerconsumer/conditionJava8/ReentrantLockWithCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/producerconsumer/conditionJava8/ReentrantLockWithCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/problem/VolatileTest$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/problem/VolatileTest$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/problem/VolatileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/solution/VolatileTest$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/solution/VolatileTest$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/solution/VolatileTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,20 +101,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentrantLockWithCondition">
-    <configuration name="IncrementCount (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.control.solution.byAtomic.IncrementCount" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.multiThreading.control.solution.byAtomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sorting">
     <configuration name="IncrementCount (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.multiThreading.control.solution.bySynchronization.IncrementCount" />
       <module name="demo_java" />
@@ -161,6 +154,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.comparatorv.Sorting" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.comparatorv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -174,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.ReentrantLockWithCondition" />
         <item itemvalue="Application.IncrementCount (3)" />
         <item itemvalue="Application.IncrementCount (4)" />
         <item itemvalue="Application.IncrementCount (2)" />
-        <item itemvalue="Application.IncrementCount (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +234,8 @@
       <workItem from="1607332426728" duration="2926000" />
       <workItem from="1607349114941" duration="3655000" />
       <workItem from="1607731118061" duration="13412000" />
+      <workItem from="1608543809721" duration="140000" />
+      <workItem from="1608774747735" duration="4500000" />
     </task>
     <servers />
   </component>
@@ -254,10 +262,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="180" y="96" width="1079" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837@0.23.1440.837" timestamp="1608191222427" />
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1608194105230">
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1608778921419">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1608194105230" />
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1608778921419" />
     <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608054079967">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -270,22 +278,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="302" key="GridCell.Tab.0.bottom" timestamp="1608214493330">
+    <state width="1388" height="247" key="GridCell.Tab.0.bottom" timestamp="1608779138426">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="302" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608214493330" />
-    <state width="1388" height="302" key="GridCell.Tab.0.center" timestamp="1608214493326">
+    <state width="1388" height="247" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608779138426" />
+    <state width="1388" height="247" key="GridCell.Tab.0.center" timestamp="1608779138423">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="302" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608214493326" />
-    <state width="1388" height="302" key="GridCell.Tab.0.left" timestamp="1608214493324">
+    <state width="1388" height="247" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608779138423" />
+    <state width="1388" height="247" key="GridCell.Tab.0.left" timestamp="1608779138422">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="302" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608214493324" />
-    <state width="1388" height="302" key="GridCell.Tab.0.right" timestamp="1608214493328">
+    <state width="1388" height="247" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608779138422" />
+    <state width="1388" height="247" key="GridCell.Tab.0.right" timestamp="1608779138425">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="302" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608214493328" />
+    <state width="1388" height="247" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608779138425" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -318,6 +326,14 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="540" y="136" key="extract.method.dialog/0.23.1440.837@0.23.1440.837" timestamp="1608091881473" />
+    <state x="356" y="154" width="728" height="574" key="find.popup" timestamp="1608544654194">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="356" y="154" width="728" height="574" key="find.popup/0.23.1440.837@0.23.1440.837" timestamp="1608544654194" />
+    <state width="750" height="535" key="javadoc.popup" timestamp="1608778652288">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="750" height="535" key="javadoc.popup/0.23.1440.837@0.23.1440.837" timestamp="1608778652285" />
     <state x="0" y="28" key="new project wizard" timestamp="1602770719491">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -326,9 +342,9 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="414" y="202" key="refactoring.ChangeSignatureDialog/0.23.1440.837@0.23.1440.837" timestamp="1604770183609" />
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1607740735628">
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1608775108495">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1607740735628" />
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1608775108495" />
   </component>
 </project>
