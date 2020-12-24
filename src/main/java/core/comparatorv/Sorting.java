@@ -24,14 +24,6 @@ class ValueThenKeyComparator1 implements Comparator<Map.Entry<String, Integer>> 
     }
 }
 
-class MyCom implements Comparator<Map.Entry<String, Integer>> {
-    @Override
-    public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-        int diff = o1.getValue().compareTo(o2.getValue());
-        return diff == 0 ? o1.getKey().compareTo(o2.getKey()) : diff;
-    }
-}
-
 public class Sorting {
     public static void main(String[] args) {
         Map<String, Integer> map = new HashMap<>();
