@@ -14,12 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_method/SimpleDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/default_method/SimpleDefaultExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_method/override/SameNameDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/default_method/override/SameNameDefaultExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_method/override/createSameNameAsDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/default_method/override/createSameNameAsDefaultExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exception_flow/ExceptionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/exception_flow/ExceptionFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/optional8/OptionalVsIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/aaJava8/optional8/OptionalVsIfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/optional8/OrElseVsOrElseGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/aaJava8/optional8/OrElseVsOrElseGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid10827.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid10884.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid10904.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid10912.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid81950.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid82342.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/PossibleCombinationOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/PossibleCombinationOfString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +99,11 @@
   </component>
   <component name="RunManager" selected="Application.PossibleCombinationOfString">
     <configuration name="EnumWithAccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.enum8.EnumWithAccessModifier" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.enum8.EnumWithAccessModifier" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.enum8.*" />
+          <option name="PATTERN" value="learning.core.enum8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="OptionalVsIfElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.aaJava8.optional8.OptionalVsIfElse" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.aaJava8.optional8.OptionalVsIfElse" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.aaJava8.optional8.*" />
+          <option name="PATTERN" value="learning.core.aaJava8.optional8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
       </method>
     </configuration>
     <configuration name="OrElseVsOrElseGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.aaJava8.optional8.OrElseVsOrElseGet" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.aaJava8.optional8.OrElseVsOrElseGet" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.aaJava8.optional8.*" />
+          <option name="PATTERN" value="learning.core.aaJava8.optional8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,7 +145,7 @@
       </method>
     </configuration>
     <configuration name="PossibleCombinationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PossibleCombinationOfString" />
+      <option name="MAIN_CLASS_NAME" value="learning.PossibleCombinationOfString" />
       <module name="demo_java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -251,10 +253,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1609258762905" />
-    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609259874759">
+    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609260377625">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1609259874759" />
+    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1609260377625" />
     <state x="466" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609257644899">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -263,22 +265,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="261" key="GridCell.Tab.0.bottom" timestamp="1609259010889">
+    <state width="1388" height="261" key="GridCell.Tab.0.bottom" timestamp="1609260901128">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="261" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1609259010889" />
-    <state width="1388" height="261" key="GridCell.Tab.0.center" timestamp="1609259010888">
+    <state width="1388" height="261" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1609260901128" />
+    <state width="1388" height="261" key="GridCell.Tab.0.center" timestamp="1609260901126">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="261" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1609259010888" />
-    <state width="1388" height="261" key="GridCell.Tab.0.left" timestamp="1609259010885">
+    <state width="1388" height="261" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1609260901126" />
+    <state width="1388" height="261" key="GridCell.Tab.0.left" timestamp="1609260901125">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="261" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1609259010885" />
-    <state width="1388" height="261" key="GridCell.Tab.0.right" timestamp="1609259010888">
+    <state width="1388" height="261" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1609260901125" />
+    <state width="1388" height="261" key="GridCell.Tab.0.right" timestamp="1609260901127">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="261" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1609259010888" />
+    <state width="1388" height="261" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1609260901127" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
