@@ -23,3 +23,9 @@ enum ColorAbstractMethod {
 
     public abstract void draw();
 }
+
+public class Main_ColorAbstractMethod {
+    public static void main(String[] args) {
+        ColorAbstractMethod.red.draw();
+    }
+}

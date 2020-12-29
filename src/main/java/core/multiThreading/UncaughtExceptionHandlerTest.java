@@ -1,6 +1,6 @@
 package core.multiThreading;// Java program to Use exceptions with thread
 
-/* Note: Dont confuse main method with Main class*/
+/* Note: Dont confuse main method with Main_ColorAbstractMethod class*/
 
 // Importing Classes/Files
 
@@ -13,7 +13,7 @@ class CatchChildThreadException extends Thread {
     }
 }
 
-// Main driver method 
+// Main_ColorAbstractMethod driver method
 public class UncaughtExceptionHandlerTest {
 
     //Thread.UncaughtExceptionHandler h = (th, ex) -> System.out.println("Uncaught exception: " + ex);

@@ -28,6 +28,6 @@ class Test {
         thread.start();
         Thread.sleep(1000);
         thread.interrupt();
-        System.out.println("Main thread execution completes");
+        System.out.println("Main_ColorAbstractMethod thread execution completes");
     }
 } 

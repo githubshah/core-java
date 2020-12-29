@@ -184,7 +184,7 @@ class HashMapCustom<K, V> {
 
 
 /**
- * Main class- to test HashMap functionality.
+ * Main_ColorAbstractMethod class- to test HashMap functionality.
  */
 public class HashMapCustomApp {
 

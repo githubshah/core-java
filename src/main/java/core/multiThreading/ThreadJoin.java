@@ -38,6 +38,6 @@ public class ThreadJoin extends Thread {
 			System.out.println(ie);
 		}
 
-		System.out.println("Main thread over");
+		System.out.println("Main_ColorAbstractMethod thread over");
 	}
 } 
