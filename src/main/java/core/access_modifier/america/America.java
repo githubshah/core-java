@@ -1,4 +1,4 @@
-package access_modifier.america;
+package core.access_modifier.america;
 
 public class America {
 

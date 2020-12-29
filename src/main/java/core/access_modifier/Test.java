@@ -1,6 +1,6 @@
-package access_modifier;
+package core.access_modifier;
 
-import access_modifier.america.America;
+import core.access_modifier.america.America;
 
 public class Test {
 
