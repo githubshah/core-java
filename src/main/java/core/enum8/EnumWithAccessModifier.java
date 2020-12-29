@@ -1,17 +1,27 @@
 package core.enum8;
 
 //compile but will not work
-enum EnumWithAccess {;
-    private int a1;
-    public int a2;
+enum EnumWithAccess {
+    ;
+    private static int a1;
+    public static int a2;
 
-    EnumWithAccess(int a1, int a2) {
-        this.a1 = a1;
-        this.a2 = a2;
+    public static int getA1() {
+        return a1;
+    }
+
+    public static int getA2() {
+        return a2;
+    }
+
+    public static void setA2() {
+        a2 = 1;
     }
 }
 
-class EnumWithAccessModifier{
+class EnumWithAccessModifier {
     public static void main(String[] args) {
+        EnumWithAccess.setA2();
+        System.out.println(EnumWithAccess.getA2());
     }
 }
