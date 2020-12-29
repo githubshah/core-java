@@ -14,12 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/enum8/EnumImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/enum8/EnumWithAccessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/enum8/EnumWithAccessModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/EnumImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/EnumWithAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/EnumWithAccess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/EnumWithAccessModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/EnumWithAccessModifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_method/SimpleDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/default_method/SimpleDefaultExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_method/override/SameNameDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/default_method/override/SameNameDefaultExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_method/override/createSameNameAsDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/default_method/override/createSameNameAsDefaultExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception_flow/ExceptionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/exception_flow/ExceptionFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optional8/OptionalVsIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/aaJava8/optional8/OptionalVsIfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optional8/OrElseVsOrElseGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/aaJava8/optional8/OrElseVsOrElseGet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnumWithAccessModifier">
+  <component name="RunManager" selected="Application.PossibleCombinationOfString">
     <configuration name="EnumWithAccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="core.enum8.EnumWithAccessModifier" />
       <module name="demo_java" />
@@ -109,12 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_ColorAbstractMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.enum8.Main_ColorAbstractMethod" />
+    <configuration name="MetrixWell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MetrixWell" />
+      <module name="demo_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalVsIfElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.aaJava8.optional8.OptionalVsIfElse" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.enum8.*" />
+          <option name="PATTERN" value="core.aaJava8.optional8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_ColorConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.enum8.Main_ColorConstructor" />
+    <configuration name="OrElseVsOrElseGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.aaJava8.optional8.OrElseVsOrElseGet" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.enum8.*" />
+          <option name="PATTERN" value="core.aaJava8.optional8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,28 +142,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetainAndRemoveAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.collectiontest.RetainAndRemoveAll" />
+    <configuration name="PossibleCombinationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PossibleCombinationOfString" />
       <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.collectiontest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.collectiontest.StringAsKeyInMap" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.collectiontest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PossibleCombinationOfString" />
+        <item itemvalue="Application.MetrixWell" />
+        <item itemvalue="Application.OptionalVsIfElse" />
+        <item itemvalue="Application.OrElseVsOrElseGet" />
         <item itemvalue="Application.EnumWithAccessModifier" />
-        <item itemvalue="Application.Main_ColorConstructor" />
-        <item itemvalue="Application.Main_ColorAbstractMethod" />
-        <item itemvalue="Application.StringAsKeyInMap" />
-        <item itemvalue="Application.RetainAndRemoveAll" />
       </list>
     </recent_temporary>
   </component>
@@ -263,10 +251,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1609258762905" />
-    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608054079967">
+    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609259874759">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1608054079967" />
+    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1609259874759" />
     <state x="466" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609257644899">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
