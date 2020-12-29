@@ -15,19 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/collectiontest/implMap/HashMapCustomApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/collectiontest/implMap/HashMapCustomApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/enum8/ColorAbstractMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/enum8/Main_ColorAbstractMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/enum8/ColorConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/enum8/Main_ColorConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/InterruptedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/InterruptedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/ThreadJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/ThreadJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/multiThreading/UncaughtExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/multiThreading/UncaughtExceptionHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/ColorAbstractMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/enum8/ColorConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/enum8/ColorConstructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/ThreadJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/ThreadJoin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/enum8/Main_ColorConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/enum8/Main_ColorConstructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

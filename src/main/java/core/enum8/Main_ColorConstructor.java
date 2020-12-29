@@ -9,7 +9,7 @@ enum ColorConstructor {
 
     ColorConstructor(String value) {
         this.value = value;
-    }
+    } // constructor should be private
 
     public String getValue() {
         return value;
