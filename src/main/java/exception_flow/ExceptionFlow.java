@@ -10,8 +10,8 @@ public class ExceptionFlow {
     private static int call() {
         int i = 100;
         try {
-            return 10;
-            //throw new RuntimeException();
+            //return 10;
+            throw new RuntimeException();
         } catch (Exception e) {
             System.out.println("catch 1");
             return ++i;

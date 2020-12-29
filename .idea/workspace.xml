@@ -14,18 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/comparatorv/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/default_method/override/createSameNameAsDefaultExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/producerconsumer/conditionJava8/ReentrantLockWithCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/multiThreading/producerconsumer/conditionJava8/ReentrantLockWithCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/thread_safty/VolatileExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/problem/VolatileTest$Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/problem/VolatileTest$Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/problem/VolatileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/solution/VolatileTest$Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/solution/VolatileTest$Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/multiThreading/visiblity/solution/VolatileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception_flow/ExceptionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_flow/ExceptionFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/comparatorv/MyCom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/comparatorv/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/comparatorv/Sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/comparatorv/ValueThenKeyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/comparatorv/ValueThenKeyComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/comparatorv/ValueThenKeyComparator1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/comparatorv/ValueThenKeyComparator1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/Main$Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exception_flow/ExceptionFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exception_flow/ExceptionFlow.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/default_method/override" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -101,39 +100,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sorting">
-    <configuration name="IncrementCount (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.control.solution.bySynchronization.IncrementCount" />
+  <component name="RunManager" selected="Application.TestClass1">
+    <configuration name="ExceptionFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception_flow.ExceptionFlow" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="core.multiThreading.control.solution.bySynchronization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncrementCount (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.control.solution.byLock.IncrementCount" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.multiThreading.control.solution.byLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncrementCount (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.multiThreading.control.solution.byVolatile.IncrementCount" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.multiThreading.control.solution.byVolatile.*" />
+          <option name="PATTERN" value="exception_flow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,24 +140,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_method.override.TestClass" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="default_method.override.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="default_method.override.TestClass1" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="default_method.override.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass1" />
+        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.ExceptionFlow" />
         <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.ReentrantLockWithCondition" />
-        <item itemvalue="Application.IncrementCount (3)" />
-        <item itemvalue="Application.IncrementCount (4)" />
-        <item itemvalue="Application.IncrementCount (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +237,7 @@
       <workItem from="1607731118061" duration="13412000" />
       <workItem from="1608543809721" duration="140000" />
       <workItem from="1608774747735" duration="4500000" />
+      <workItem from="1609231633800" duration="290000" />
     </task>
     <servers />
   </component>
@@ -278,22 +280,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="247" key="GridCell.Tab.0.bottom" timestamp="1608779138426">
+    <state width="1388" height="198" key="GridCell.Tab.0.bottom" timestamp="1608794427269">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="247" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608779138426" />
-    <state width="1388" height="247" key="GridCell.Tab.0.center" timestamp="1608779138423">
+    <state width="1388" height="198" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1608794427269" />
+    <state width="1388" height="198" key="GridCell.Tab.0.center" timestamp="1608794427261">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="247" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608779138423" />
-    <state width="1388" height="247" key="GridCell.Tab.0.left" timestamp="1608779138422">
+    <state width="1388" height="198" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1608794427261" />
+    <state width="1388" height="198" key="GridCell.Tab.0.left" timestamp="1608794427260">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="247" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608779138422" />
-    <state width="1388" height="247" key="GridCell.Tab.0.right" timestamp="1608779138425">
+    <state width="1388" height="198" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1608794427260" />
+    <state width="1388" height="198" key="GridCell.Tab.0.right" timestamp="1608794427262">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="247" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608779138425" />
+    <state width="1388" height="198" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1608794427262" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
