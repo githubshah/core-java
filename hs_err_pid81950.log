@@ -8,7 +8,7 @@
 # Problematic frame:
 # C  [libobjc.A.dylib+0x8678]  objc_release+0x18
 #
-# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+# Failed to write learning.core dump. Core dumps have been disabled. To enable learning.core dumping, try "ulimit -c unlimited" before starting Java again
 #
 # If you would like to submit a bug report, please visit:
 #   http://bugreport.java.com/bugreport/crash.jsp
@@ -598,7 +598,7 @@ OS:Bsduname:Darwin 19.6.0 Darwin Kernel Version 19.6.0: Thu Jun 18 20:49:00 PDT 
 rlimit: STACK 8192k, CORE 0k, NPROC 1392, NOFILE 10240, AS infinity
 load average:3.73 2.42 2.35
 
-CPU:total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 61 stepping 4, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+CPU:total 4 (initial active 4) (2 cores per cpu, 2 threads per learning.core) family 6 model 61 stepping 4, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
 
 Memory: 4k page, physical 8388608k(1527424k free)
 
