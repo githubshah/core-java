@@ -46,9 +46,9 @@ class HashMapCustom<K, V> {
      * @param newKey
      * @param data
      */
-    public void put(K newKey, V data) {
+    public V put(K newKey, V data) {
         if (newKey == null)
-            return;    //does not allow to store null.
+            return data;    //does not allow to store null.
 
         //calculate hash of key.
         int index = hash(newKey);
@@ -58,8 +58,9 @@ class HashMapCustom<K, V> {
         //if table location does not contain any entry, store entry there.
         if (table[index] == null) {
             table[index] = newEntry;
+            return newEntry.value;
         } else {
-            Entry<K, V> previousNode = null;
+            Entry<K, V> previousNode = table[index];
             Entry<K, V> currentNode = table[index];
 
             while (currentNode != null) { //we have reached last entry of bucket.
@@ -67,17 +68,18 @@ class HashMapCustom<K, V> {
                     if (previousNode == null) {  //node has to be insert on first of bucket.
                         newEntry.next = currentNode.next;
                         table[index] = newEntry;
-                        return;
+                        return newEntry.value;
                     } else {
-                        newEntry.next = currentNode.next;
+                        newEntry.next = currentNode.next; // remove exact matched node
                         previousNode.next = newEntry;
-                        return;
+                        return currentNode.value;
                     }
                 }
                 previousNode = currentNode;
                 currentNode = currentNode.next;
             }
-            previousNode.next = newEntry;
+            previousNode.next = newEntry; // connect new node after at last node
+            return newEntry.value;
         }
     }
 
@@ -87,6 +89,10 @@ class HashMapCustom<K, V> {
      * @param key
      */
     public V get(K key) {
+        if (key == null) {
+            return table[0] == null ? null : table[0].value;
+        }
+
         int hash = hash(key);
         if (table[hash] == null) {
             return null;
@@ -104,10 +110,17 @@ class HashMapCustom<K, V> {
 
     /**
      * Method removes key-value pair from HashMapCustom.
-     *
-     * @param key
      */
     public boolean remove(K deleteKey) {
+
+        if (deleteKey == null) {
+            if (table[0] == null) {
+                return false;
+            } else {
+                table[0] = null;
+                return true;
+            }
+        }
 
         int hash = hash(deleteKey);
 
@@ -140,8 +153,6 @@ class HashMapCustom<K, V> {
      * Method displays all key-value pairs present in HashMapCustom.,
      * insertion order is not guaranteed, for maintaining insertion order
      * refer LinkedHashMapCustom.
-     *
-     * @param key
      */
     public void display() {
 
@@ -184,6 +195,9 @@ public class HashMapCustomApp {
         hashMapCustom.put(30, 151);
         hashMapCustom.put(33, 15);
         hashMapCustom.put(35, 89);
+
+        //adding same key but diff value
+        System.out.println("adding same key 35:89 but it return old value " +hashMapCustom.put(35, 100));
 
         System.out.println("value corresponding to key 21="
             + hashMapCustom.get(21));
