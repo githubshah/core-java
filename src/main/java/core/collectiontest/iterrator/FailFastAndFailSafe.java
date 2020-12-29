@@ -10,8 +10,8 @@ public class FailFastAndFailSafe {
 
     public static void main(String[] args) {
         //failfast();
-        iteratorRemove();
-        //failSafe();
+        //iteratorRemove();
+        failSafe();
     }
 
     private static void failfast() {

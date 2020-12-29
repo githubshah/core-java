@@ -2,10 +2,10 @@ package core.collectiontest;
 
 import java.util.Objects;
 
-public class StringMap {
+public class Employee {
     String string;
 
-    public StringMap(String string) {
+    public Employee(String string) {
         this.string = string;
     }
 
@@ -28,8 +28,8 @@ public class StringMap {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        StringMap stringMap = (StringMap) o;
-        return Objects.equals(string, stringMap.string);
+        Employee employee = (Employee) o;
+        return Objects.equals(string, employee.string);
     }
 
     @Override
