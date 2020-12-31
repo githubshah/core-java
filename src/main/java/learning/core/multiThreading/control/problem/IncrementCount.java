@@ -54,5 +54,6 @@ public class IncrementCount {
             e.printStackTrace();
         }
         System.out.println("resource count: " + resource.getValue());
+
     }
 }
