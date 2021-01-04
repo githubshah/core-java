@@ -1,6 +1,6 @@
 package learning.core.multiThreading;// Java program to illustrate
 
-// join must be followed by start method.
+// join must be followed/after by start method.
 // means first call start and then join
 public class ThreadJoin extends Thread {
 	public ThreadJoin(String name) {
