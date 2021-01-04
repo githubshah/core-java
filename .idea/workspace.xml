@@ -14,11 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/detectdeadlock/DeadLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser/CyclicBarrierTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/ThreadJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/ThreadJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/semaphore/ProblemStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/semaphore/ProblemStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/semaphore/SlowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/semaphore/SlowService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/default_method/override" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -87,14 +85,53 @@
       <recent name="core.multiThreading.visiblity.solution" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser" />
       <recent name="$PROJECT_DIR$/src/main/java/default_method/override" />
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution" />
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byVolatile" />
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/notifyAndnotifyAll/notifyAll" />
-      <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/threadlocal/solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeadLockTest">
+  <component name="RunManager" selected="Application.CyclicBarrierTest">
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.phaser.CountDownLatchTest" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.multiThreading.executorServices.phaser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.CyclicBarrierTest" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.multiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.phaser.CyclicBarrierTest" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.multiThreading.executorServices.phaser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeadLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.detectdeadlock.DeadLockTest" />
       <module name="demo_java" />
@@ -121,32 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.semaphore.SolutionStatement" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.semaphore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskLimitSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.TaskLimitSemaphore" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -158,29 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreExample.givenLoginQueue_whenReachLimit_thenBlocked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.SemaphoreExample" />
-      <option name="METHOD_NAME" value="givenLoginQueue_whenReachLimit_thenBlocked" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierTest" />
+        <item itemvalue="Application.CyclicBarrierTest (1)" />
+        <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.DeadLockTest" />
         <item itemvalue="Application.DetectDeadLock" />
-        <item itemvalue="Application.SolutionStatement" />
-        <item itemvalue="Application.TaskLimitSemaphore" />
-        <item itemvalue="JUnit.SemaphoreExample.givenLoginQueue_whenReachLimit_thenBlocked" />
       </list>
     </recent_temporary>
   </component>
@@ -259,10 +254,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="180" y="96" width="1079" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837@0.23.1440.837" timestamp="1608191222427" />
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1609378810536">
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1609728867200">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1609378810536" />
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1609728867200" />
     <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609260377625">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -275,22 +270,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="271" key="GridCell.Tab.0.bottom" timestamp="1609725134298">
+    <state width="1388" height="197" key="GridCell.Tab.0.bottom" timestamp="1609729757146">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="271" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1609725134298" />
-    <state width="1388" height="271" key="GridCell.Tab.0.center" timestamp="1609725134297">
+    <state width="1388" height="197" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1609729757146" />
+    <state width="1388" height="197" key="GridCell.Tab.0.center" timestamp="1609729757145">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="271" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1609725134297" />
-    <state width="1388" height="271" key="GridCell.Tab.0.left" timestamp="1609725134296">
+    <state width="1388" height="197" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1609729757145" />
+    <state width="1388" height="197" key="GridCell.Tab.0.left" timestamp="1609729757145">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="271" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1609725134296" />
-    <state width="1388" height="271" key="GridCell.Tab.0.right" timestamp="1609725134298">
+    <state width="1388" height="197" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1609729757145" />
+    <state width="1388" height="197" key="GridCell.Tab.0.right" timestamp="1609729757146">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="271" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1609725134298" />
+    <state width="1388" height="197" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1609729757146" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
