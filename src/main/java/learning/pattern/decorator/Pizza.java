@@ -1,4 +1,4 @@
-package learning.decorator;// Java program to demonstrate Decorator
+package learning.pattern.decorator;// Java program to demonstrate Decorator
 // pattern 
 
 // Abstract Pizza class (All classes extend

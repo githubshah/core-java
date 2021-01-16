@@ -14,10 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/ConstructorRefrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/MethodRefrence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/ComputerPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/ComputerPartDisplayVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/ComputerPartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/VisitorPatternDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/decorator/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/decorator/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/decorator/Barbeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/decorator/FarmHouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/decorator/FreshTomato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/decorator/Paneer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/decorator/Pizza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/decorator/PizzaStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/decorator/ToppingsDecorator.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +103,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byVolatile" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstructorRefrence">
+  <component name="RunManager" selected="Application.VisitorPatternDemo">
+    <configuration name="ConstructorChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.constructorchaining.ConstructorChaining" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.constructorchaining.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConstructorRefrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.core.functionalInterfaceDemo.ConstructorRefrence" />
       <module name="demo_java" />
@@ -107,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomThreadPoolExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.custom.CustomThreadPoolExample" />
+    <configuration name="FunctionalGenericDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.functionalInterfaceDemo.FunctionalGenericDemo" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.executorServices.custom.*" />
+          <option name="PATTERN" value="learning.core.functionalInterfaceDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,38 +143,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.phaser.CyclicBarrierTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.executorServices.phaser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhaserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.phaser.PhaserTest" />
+    <configuration name="VisitorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.pattern.visitor.VisitorPatternDemo" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.executorServices.phaser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.Test" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.*" />
+          <option name="PATTERN" value="learning.pattern.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VisitorPatternDemo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FunctionalGenericDemo" />
+        <item itemvalue="Application.ConstructorChaining" />
         <item itemvalue="Application.ConstructorRefrence" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.CustomThreadPoolExample" />
-        <item itemvalue="Application.CyclicBarrierTest" />
-        <item itemvalue="Application.PhaserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +234,7 @@
       <workItem from="1608774747735" duration="4500000" />
       <workItem from="1609231633800" duration="2831000" />
       <workItem from="1609816853180" duration="296000" />
-      <workItem from="1610609609861" duration="6725000" />
+      <workItem from="1610609609861" duration="13346000" />
     </task>
     <servers />
   </component>
@@ -257,14 +261,14 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="180" y="96" width="1079" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837@0.23.1440.837" timestamp="1608191222427" />
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1610772374942">
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1610774920951">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1610772374942" />
-    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609260377625">
+    <state x="523" y="91" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1610774920951" />
+    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610789200760">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1609260377625" />
+    <state x="270" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1610789200760" />
     <state x="392" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610773839449">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -273,22 +277,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="169" key="GridCell.Tab.0.bottom" timestamp="1610773780604">
+    <state width="1388" height="275" key="GridCell.Tab.0.bottom" timestamp="1610789527182">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="169" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1610773780604" />
-    <state width="1388" height="169" key="GridCell.Tab.0.center" timestamp="1610773780603">
+    <state width="1388" height="275" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1610789527182" />
+    <state width="1388" height="275" key="GridCell.Tab.0.center" timestamp="1610789527181">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="169" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1610773780603" />
-    <state width="1388" height="169" key="GridCell.Tab.0.left" timestamp="1610773780602">
+    <state width="1388" height="275" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1610789527181" />
+    <state width="1388" height="275" key="GridCell.Tab.0.left" timestamp="1610789527180">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="169" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1610773780602" />
-    <state width="1388" height="169" key="GridCell.Tab.0.right" timestamp="1610773780604">
+    <state width="1388" height="275" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1610789527180" />
+    <state width="1388" height="275" key="GridCell.Tab.0.right" timestamp="1610789527181">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="169" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1610773780604" />
+    <state width="1388" height="275" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1610789527181" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -333,10 +337,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="0" y="28" key="new project wizard/0.23.1440.837@0.23.1440.837" timestamp="1602770719491" />
-    <state x="414" y="202" key="refactoring.ChangeSignatureDialog" timestamp="1604770183609">
+    <state x="414" y="202" key="refactoring.ChangeSignatureDialog" timestamp="1610776024724">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="414" y="202" key="refactoring.ChangeSignatureDialog/0.23.1440.837@0.23.1440.837" timestamp="1604770183609" />
+    <state x="414" y="202" key="refactoring.ChangeSignatureDialog/0.23.1440.837@0.23.1440.837" timestamp="1610776024724" />
     <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1608775108495">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
