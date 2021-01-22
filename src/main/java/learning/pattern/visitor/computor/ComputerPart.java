@@ -1,4 +1,4 @@
-package learning.pattern.visitor;
+package learning.pattern.visitor.computor;
 
 interface ComputerPart {
     public void accept(ComputerPartVisitor computerPartVisitor);

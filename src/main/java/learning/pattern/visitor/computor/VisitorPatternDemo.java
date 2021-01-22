@@ -1,4 +1,4 @@
-package learning.pattern.visitor;
+package learning.pattern.visitor.computor;
 
 public class VisitorPatternDemo {
     public static void main(String[] args) {
