@@ -14,23 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/StaticBlockVsStaticVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/visitordemo/ItemElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/visitordemo/ShoppingCartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/exception_flow/ExceptionFlow2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/ComputerPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/ComputerPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/ComputerPartVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/ComputerPartVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/VisitorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/VisitorPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/visitor/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/visitor/ComputerPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/visitor/ComputerPartDisplayVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/visitor/ComputerPartVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/visitor/Keyboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/visitor/Monitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/visitor/Mouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/visitor/VisitorPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/detectdeadlock/DeadLockTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/detectdeadlock/DeadLockTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/detectdeadlock/DeadLockTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/detectdeadlock/DeadLockTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/executorServices/custom/CustomThreadPool$WorkerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/executorServices/custom/CustomThreadPool$WorkerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/executorServices/custom/CustomThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/multiThreading/executorServices/custom/CustomThreadPool.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.core.exception_flow" />
       <recent name="learning.core.multiThreading.semaphore" />
       <recent name="learning.core.multiThreading.executorServices" />
       <recent name="core.constructorchaining" />
       <recent name="core.multiThreading.control.problem" />
-      <recent name="core.multiThreading.visiblity.solution" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo" />
@@ -106,13 +95,39 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byVolatile" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticBlockVsStaticVar">
+  <component name="RunManager" selected="Application.ExceptionFlow2">
     <configuration name="ConstructorChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.core.constructorchaining.ConstructorChaining" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="learning.core.constructorchaining.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.exception_flow.ExceptionFlow" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.exception_flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionFlow2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.exception_flow.ExceptionFlow2" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.exception_flow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,38 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.pattern.visitor.visitordemo.ShoppingCartClient" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.pattern.visitor.visitordemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StaticBlockVsStaticVar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.core.constructorchaining.StaticBlockVsStaticVar" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="learning.core.constructorchaining.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VisitorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.pattern.visitor.computor.VisitorPatternDemo" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.pattern.visitor.computor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionFlow2" />
+        <item itemvalue="Application.ExceptionFlow" />
         <item itemvalue="Application.StaticBlockVsStaticVar" />
         <item itemvalue="Application.ConstructorChaining" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.ShoppingCartClient" />
-        <item itemvalue="Application.VisitorPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +234,7 @@
       <workItem from="1609816853180" duration="296000" />
       <workItem from="1610609609861" duration="16213000" />
       <workItem from="1610971996907" duration="249000" />
-      <workItem from="1610972261463" duration="2797000" />
+      <workItem from="1610972261463" duration="4117000" />
     </task>
     <servers />
   </component>
@@ -288,26 +277,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="392" y="137" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1603629907321" />
-    <state width="1388" height="203" key="GridCell.Tab.0.bottom" timestamp="1611122670168">
+    <state width="1388" height="203" key="GridCell.Tab.0.bottom" timestamp="1611278586354">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="203" key="GridCell.Tab.0.bottom/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1611031715540" />
-    <state width="1388" height="203" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1611122670168" />
-    <state width="1388" height="203" key="GridCell.Tab.0.center" timestamp="1611122670161">
+    <state width="1388" height="203" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1611278586354" />
+    <state width="1388" height="203" key="GridCell.Tab.0.center" timestamp="1611278586353">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="203" key="GridCell.Tab.0.center/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1611031715538" />
-    <state width="1388" height="203" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1611122670161" />
-    <state width="1388" height="203" key="GridCell.Tab.0.left" timestamp="1611122670160">
+    <state width="1388" height="203" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1611278586353" />
+    <state width="1388" height="203" key="GridCell.Tab.0.left" timestamp="1611278586352">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="203" key="GridCell.Tab.0.left/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1611031715538" />
-    <state width="1388" height="203" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1611122670160" />
-    <state width="1388" height="203" key="GridCell.Tab.0.right" timestamp="1611122670162">
+    <state width="1388" height="203" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1611278586352" />
+    <state width="1388" height="203" key="GridCell.Tab.0.right" timestamp="1611278586353">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1388" height="203" key="GridCell.Tab.0.right/0.23.1440.837/1440.23.1920.1057@0.23.1440.837" timestamp="1611031715539" />
-    <state width="1388" height="203" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1611122670162" />
+    <state width="1388" height="203" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1611278586353" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1607997020838">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
