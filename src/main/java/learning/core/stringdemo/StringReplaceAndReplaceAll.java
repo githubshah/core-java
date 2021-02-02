@@ -1,15 +1,7 @@
-public class Main {
-    /*
-    n=3
-      *
-     ***
-    *****
+package learning.core.stringdemo;
 
-    n=2
-     *
-    ***
+public class StringReplaceAndReplaceAll {
 
-     */
     public static void main(String[] args) {
 
         replaceAll(); // can pass regex
