@@ -1,6 +1,8 @@
 package learning.dateTimeD;
 
 import javax.xml.bind.DatatypeConverter;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -9,7 +11,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class DateTimeDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
 
         Object dateString = "2019-10-17T07:57:25.750Z";
 
@@ -26,10 +28,13 @@ public class DateTimeDemo {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE, d MMM yyyy", Locale.ENGLISH);
         LocalDate dateTime1 = LocalDate.parse(dateInString, formatter);
 
-    }
 
-    enum Fruit {
-        Mango,
-        Apple
+        Date date1 = new SimpleDateFormat("yyyy/MM/dd").parse("2015/12/31");
+        String result = new SimpleDateFormat("YYYY/MM/dd").format(date1);   //Noncompliant; yields '2016/12/31'
+        System.out.println("not expected result 2015/12/31 : "+ result);
+        String result2 = new SimpleDateFormat("yyyy/MM/dd").format(date1);   //Noncompliant; yields '2016/12/31'
+        System.out.println("expected result 2015/12/31 : "+ result);
+
+
     }
 }
