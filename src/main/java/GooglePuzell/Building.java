@@ -39,7 +39,6 @@ public class Building {
                         result[0] = i;
                         result[1] = minimumSteps;
                     }
-                    //System.out.println("start: " + i + " step: " + requirementAvailable + " arrays: " + Arrays.toString(checklist));
                     checklist = createEmptyCheckList(requirements.length);
                     totalStep = -1;
                     break;
