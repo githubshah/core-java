@@ -29,7 +29,7 @@ public class Building {
 
     private static int[] getApartment(boolean[][] buildings, boolean[] requirements) {
         int[] result = new int[2];
-        boolean[] checklist = {false, false, false, false};
+        boolean[] checklist = creatEmptyCheckList(requirements.length);
         for (int i = 0; i < buildings.length; i++) {
             for (int j = i; j < buildings.length; j++) {
                 int requirementAvailable = isRequirementAvailable(buildings[j], requirements, checklist);
@@ -40,13 +40,17 @@ public class Building {
                         result[1] = minimumSteps;
                     }
                     System.out.println("start: " + i + " step: " + requirementAvailable + " arrays: " + Arrays.toString(checklist));
-                    checklist = new boolean[]{false, false, false, false};
+                    checklist = creatEmptyCheckList(requirements.length);
                     ctr = -1;
                     break;
                 }
             }
         }
         return result;
+    }
+
+    private static boolean[] creatEmptyCheckList(int length) {
+        return new boolean[length];
     }
 
     private static int isRequirementAvailable(boolean[] apartment, boolean[] requirements, boolean[] checklist) {
