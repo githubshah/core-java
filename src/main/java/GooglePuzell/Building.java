@@ -49,10 +49,6 @@ public class Building {
         return result;
     }
 
-    private static boolean[] createEmptyCheckList(int length) {
-        return new boolean[length];
-    }
-
     private static int isRequirementAvailable(boolean[] apartment, boolean[] requirements, boolean[] checklist) {
         totalStep++;
         for (int i = 0; i < requirements.length; i++) {
@@ -64,5 +60,9 @@ public class Building {
             }
         }
         return -2;
+    }
+
+    private static boolean[] createEmptyCheckList(int length) {
+        return new boolean[length];
     }
 }
