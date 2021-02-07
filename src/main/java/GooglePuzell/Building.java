@@ -11,7 +11,7 @@ public class Building {
                 {false, false, false}, //1
                 {true, false, false}, //2
                 {false, true, false}, //3
-                //{true, true, true},
+                {false, false, false},
                 {false, false, true}
         };
 
