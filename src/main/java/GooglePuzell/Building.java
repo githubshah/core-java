@@ -7,17 +7,21 @@ public class Building {
     public static void main(String[] args) {
 
         boolean[][] buildings = {
-                {false, true, false}, //0
-                {false, false, false}, //1
-                {true, false, false}, //2
-                {false, true, false}, //3
-                {false, false, false},
-                {false, false, true}
+                {true, false, false, false}, //0
+                {false, false, false, false}, //1
+                {false, true, false, true}, //2
+                {false, false, false, false}, //3
+                {false, false, true, false}, //4
+                {false, false, false, false}, //5
+                {false, false, false, true},//6
+                {true, false, false, false} //7
         };
 
-        boolean[] requirements = {true, true, true};
+        boolean[] requirements = {true, true, true, true};
 
-        System.out.println("index: " + Arrays.toString(getApartment(buildings, requirements)));
+        int[] apartment = getApartment(buildings, requirements);
+        System.out.println("index: " + Arrays.toString(apartment));
+        System.out.println("flat index : " + (((apartment[0] + apartment[1]) / 2)));
     }
 
     static int minimumSteps = 10000;
@@ -25,7 +29,7 @@ public class Building {
 
     private static int[] getApartment(boolean[][] buildings, boolean[] requirements) {
         int[] result = new int[2];
-        boolean[] checklist = {false, false, false};
+        boolean[] checklist = {false, false, false, false};
         for (int i = 0; i < buildings.length; i++) {
             for (int j = i; j < buildings.length; j++) {
                 int requirementAvailable = isRequirementAvailable(buildings[j], requirements, checklist);
@@ -36,7 +40,7 @@ public class Building {
                         result[1] = minimumSteps;
                     }
                     System.out.println("start: " + i + " step: " + requirementAvailable + " arrays: " + Arrays.toString(checklist));
-                    checklist = new boolean[]{false, false, false};
+                    checklist = new boolean[]{false, false, false, false};
                     ctr = -1;
                     break;
                 }
