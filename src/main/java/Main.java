@@ -1,52 +1,38 @@
 public class Main {
-    /*
-    n=3
-      *
-     ***
-    *****
 
-    n=2
-     *
-    ***
-
-     */
     public static void main(String[] args) {
 
-        replaceAll(); // can pass regex
+        int i = 0;
+        int j = 0;
 
-        replace(); // can not pass regex
+        i = i++; // Noncompliant; i is still zero
 
-        repalceOnRegex(); // not works
-    }
+        System.out.println(i);
 
-    private static void repalceOnRegex() {
-        String myString = "__1_6____3__6_345____0";
+        //===================================================
+        StringBuffer foo = new StringBuffer('x');
+        System.out.println(foo);
 
-        String regex = "\\d";
-        String replacement = "x";
+        StringBuffer fool = new StringBuffer("x");
+        System.out.println(fool); // FIXME denominator value might be  0
 
-        String newString = myString.replace(regex, replacement);
-        // __x_x____x__x_xxx____x
-        System.out.println(newString);
-    }
+        /*
+        //
+        Abstract classes should not have public constructors.
+        Constructors of abstract classes can only be called in constructors of their subclasses.
+        So there is no point in making them public.
+        The protected modifier should be enough.
 
-    private static void replaceAll() {
-        String myString = "__1_6____3__6_345____0";
+          public abstract class AbstractClass1 {
+            public AbstractClass1 () { // Noncompliant, has public modifier
+                // do something here
+            }
+        }*/
 
-        String regex = "\\d";
-        String replacement = "x";
-
-        String newString = myString.replaceAll(regex, replacement);
-        // __x_x____x__x_xxx____x
-        System.out.println(newString);
-    }
-
-    private static void replace() {
-        String myString = "one fish, two fish, three fish";
-
-        String target = "fish";
-        String replacement = "sheep";
-
-        String newString = myString.replace(target, replacement);
+        abstract class AbstractClass12 {
+            protected AbstractClass12() { // Noncompliant, has public modifier
+                // do something here
+            }
+        }
     }
 }

@@ -14,8 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Parent123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byVolatile" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DateTimeDemo">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -161,8 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DateTimeDemo" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DateTimeDemo" />
         <item itemvalue="Application.Rainbow" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.ExceptionFlow2" />
