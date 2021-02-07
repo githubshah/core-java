@@ -20,12 +20,12 @@ public class Building {
         boolean[] requirements = {true, true, true, true};
 
         int[] apartment = getApartment(buildings, requirements);
-        System.out.println("index: " + Arrays.toString(apartment));
-        System.out.println("flat index : " + (((apartment[0] + apartment[1]) / 2)));
+        System.out.println("building range from : " + Arrays.toString(apartment));
+        System.out.println("apartment number : " + (((apartment[0] + apartment[1]) / 2)));
     }
 
     static int minimumSteps = Integer.MAX_VALUE;
-    static int ctr = -1;
+    static int totalStep = -1;
 
     private static int[] getApartment(boolean[][] buildings, boolean[] requirements) {
         int[] result = new int[2];
@@ -39,9 +39,9 @@ public class Building {
                         result[0] = i;
                         result[1] = minimumSteps;
                     }
-                    System.out.println("start: " + i + " step: " + requirementAvailable + " arrays: " + Arrays.toString(checklist));
+                    //System.out.println("start: " + i + " step: " + requirementAvailable + " arrays: " + Arrays.toString(checklist));
                     checklist = creatEmptyCheckList(requirements.length);
-                    ctr = -1;
+                    totalStep = -1;
                     break;
                 }
             }
@@ -54,7 +54,7 @@ public class Building {
     }
 
     private static int isRequirementAvailable(boolean[] apartment, boolean[] requirements, boolean[] checklist) {
-        ctr++;
+        totalStep++;
         for (int i = 0; i < requirements.length; i++) {
             if (requirements[i]) {
                 if (apartment[i] == requirements[i]) {
@@ -62,7 +62,7 @@ public class Building {
                 }
 
                 if (Arrays.equals(checklist, requirements)) {
-                    return ctr;
+                    return totalStep;
                 }
             }
         }
