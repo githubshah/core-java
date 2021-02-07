@@ -24,7 +24,7 @@ public class Building {
         System.out.println("flat index : " + (((apartment[0] + apartment[1]) / 2)));
     }
 
-    static int minimumSteps = 10000;
+    static int minimumSteps = Integer.MAX_VALUE;
     static int ctr = -1;
 
     private static int[] getApartment(boolean[][] buildings, boolean[] requirements) {
