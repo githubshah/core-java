@@ -7,25 +7,24 @@ public class Building {
     public static void main(String[] args) {
 
         boolean[][] buildings = {
-                {false, true, false},
-                {false, false, false},
-                {true, false, false},
-                {false, true, true},
+                {false, true, false}, //0
+                {false, false, false}, //1
+                {true, false, false}, //2
+                {false, true, false}, //3
                 //{true, true, true},
-                //{true, false, true}
+                {false, false, true}
         };
 
-        boolean[] requirements = {true, false, true};
+        boolean[] requirements = {true, true, true};
 
-        int index = getApartment(buildings, requirements);
-        System.out.println("index: " + Arrays.toString(aa));
+        System.out.println("index: " + Arrays.toString(getApartment(buildings, requirements)));
     }
 
     static int comm = 1000;
-    static int[] aa = new int[2];
 
-    private static int getApartment(boolean[][] buildings, boolean[] requirements) {
-        String a = "";
+
+    private static int[] getApartment(boolean[][] buildings, boolean[] requirements) {
+        int[] result = new int[2];
         boolean[] checklist = {false, false, false};
         for (int i = 0; i < buildings.length; i++) {
             for (int j = i; j < buildings.length; j++) {
@@ -33,18 +32,17 @@ public class Building {
                 if (requirementAvailable != -2) {
                     if (comm > requirementAvailable) {
                         comm = requirementAvailable;
-                        aa[0] = i;
-                        aa[1] = comm;
+                        result[0] = i;
+                        result[1] = comm;
                     }
-                    System.out.println("start: " + i + " step: " + requirementAvailable);
-                    System.out.println("silver " + Arrays.toString(checklist));
+                    System.out.println("start: " + i + " step: " + requirementAvailable + " arrays: " + Arrays.toString(checklist));
                     checklist = new boolean[]{false, false, false};
                     ctr = -1;
                     break;
                 }
             }
         }
-        return comm;
+        return result;
     }
 
     static int ctr = -1;
