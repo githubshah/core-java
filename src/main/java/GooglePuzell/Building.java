@@ -32,7 +32,7 @@ public class Building {
         boolean[] checklist = createEmptyCheckList(requirements.length);
         for (int i = 0; i < buildings.length; i++) {
             for (int j = i; j < buildings.length; j++) {
-                int requirementAvailable = isRequirementAvailable(buildings[j], requirements, checklist);
+                int requirementAvailable = isRequirementsFullFill(buildings[j], requirements, checklist);
                 if (requirementAvailable != -2) {
                     if (minimumSteps > requirementAvailable) {
                         minimumSteps = requirementAvailable;
@@ -48,7 +48,7 @@ public class Building {
         return result;
     }
 
-    private static int isRequirementAvailable(boolean[] apartment, boolean[] requirements, boolean[] checklist) {
+    private static int isRequirementsFullFill(boolean[] apartment, boolean[] requirements, boolean[] checklist) {
         totalStep++;
         for (int i = 0; i < requirements.length; i++) {
             if (requirements[i] && apartment[i] == requirements[i]) {
