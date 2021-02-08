@@ -33,7 +33,7 @@ public class Building {
         for (int i = 0; i < buildings.length; i++) {
             for (int j = i; j < buildings.length; j++) {
                 int requirementAvailable = isRequirementsFullFill(buildings[j], requirements, checklist);
-                if (requirementAvailable != -2) {
+                if (requirementAvailable != -1) {
                     if (minimumSteps > requirementAvailable) {
                         minimumSteps = requirementAvailable;
                         result[0] = i;
@@ -58,7 +58,7 @@ public class Building {
                 }
             }
         }
-        return -2;
+        return -1;
     }
 
     private static boolean[] createEmptyCheckList(int length) {
