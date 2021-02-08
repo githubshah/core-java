@@ -7,14 +7,14 @@ public class Building {
     public static void main(String[] args) {
 
         boolean[][] buildings = {
-                {true, false, false, false}, //0
+                {true, false, false, false},  //0
                 {false, false, false, false}, //1
-                {false, true, false, true}, //2
+                {false, true, false, true},   //2
                 {false, false, false, false}, //3
-                {false, false, true, false}, //4
+                {false, false, true, false},  //4
                 {false, false, false, false}, //5
-                {false, false, false, true},//6
-                {true, false, false, false} //7
+                {false, false, false, true},  //6
+                {true, false, false, false}   //7
         };
 
         boolean[] requirements = {true, true, true, true};
