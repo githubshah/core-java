@@ -14,14 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Resource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/ConstructorRefrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/ConstructorRefrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main$1AbstractClass12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/SingletonExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/SingletonExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

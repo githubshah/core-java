@@ -3,7 +3,7 @@ package learning.pattern.singleton;
 public class Singleton {
     static Singleton singleton;
 
-    private Singleton() throws InterruptedException {
+    private Singleton(){
         System.out.println("Private constructor");
     }
 
