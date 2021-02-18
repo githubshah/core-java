@@ -14,12 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employee.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Writer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/Resource$BillPughSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/Resource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/SingletonExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/pattern/singleton/SingletonExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +80,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -84,6 +88,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution" />
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo" />
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser" />
+      <recent name="$PROJECT_DIR$/src/main/java/default_method/override" />
+      <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="learning.core.exception_flow" />
       <recent name="learning.core.multiThreading.semaphore" />
@@ -91,15 +102,8 @@
       <recent name="core.constructorchaining" />
       <recent name="core.multiThreading.control.problem" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo" />
-      <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser" />
-      <recent name="$PROJECT_DIR$/src/main/java/default_method/override" />
-      <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution" />
-      <recent name="$PROJECT_DIR$/src/main/java/core/multiThreading/control/solution/byVolatile" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonExample">
+  <component name="RunManager" selected="Application.Reader (1)">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -113,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Building" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GooglePuzell.Building" />
+    <configuration name="Reader (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.solution.Reader" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GooglePuzell.*" />
+          <option name="PATTERN" value="learning.core.serialization_demo.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,35 +130,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorRefrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.functionalInterfaceDemo.ConstructorRefrence" />
+    <configuration name="Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.problem.Reader" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.functionalInterfaceDemo.*" />
+          <option name="PATTERN" value="learning.core.serialization_demo.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.dateTimeD.DateTimeDemo" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.dateTimeD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="demo_java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,13 +156,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Writer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.solution.Writer" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.serialization_demo.solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.problem.Writer" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.serialization_demo.problem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reader (1)" />
+        <item itemvalue="Application.Writer (1)" />
+        <item itemvalue="Application.Reader" />
+        <item itemvalue="Application.Writer" />
         <item itemvalue="Application.SingletonExample" />
-        <item itemvalue="Application.ConstructorRefrence" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Building" />
-        <item itemvalue="Application.DateTimeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +253,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.obj" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
