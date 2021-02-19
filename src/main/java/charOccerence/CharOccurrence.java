@@ -11,7 +11,7 @@ public class CharOccurrence {
         int[] output = new int[input.length];
         for (char value : input) {
             int index = value - 'a';
-            output[index] = output[index] == 0 ? 1 : ++output[index];
+            output[index] = ++output[index];
         }
         return output[searchChar - 'a'];
     }
