@@ -3,8 +3,9 @@ package charOccerence;
 public class CharOccurrence {
 
     public static void main(String[] args) {
-        char[] input = {'a', 'b', 'c', 'a', 'b', 'd', 'a'};
-        System.out.println(findOccurrence(input, 'a'));
+        char[] input = {'a', 'b', 'c', 'a', 'b', 'd', 'a', 'a', 'b', 'c', 'a', 'b', 'd', 'a'};
+        char searchingChar = 'a';
+        System.out.printf("character \'%s\' comes %d times", searchingChar, findOccurrence(input, searchingChar));
     }
 
     private static int findOccurrence(char[] input, char searchChar) {
