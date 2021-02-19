@@ -24,9 +24,9 @@ public class Main {
         //join operation
         String collect = bookArrayList.stream()
             .flatMap(
-                _item1 -> authorArrayList.stream()
-                    .map(_item2 -> (_item1.authorId == _item2.authorId) ?
-                        "{" + _item1.getBookName() + ":" + _item2.authorName + "}" : null
+                book -> authorArrayList.stream()
+                    .map(author -> (book.authorId.equals(author.authorId)) ?
+                        "{" + book.getBookName() + ":" + author.authorName + "}" : null
                     )
             ).filter(Objects::nonNull)
             .collect(Collectors.joining(","));
