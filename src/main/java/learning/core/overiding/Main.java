@@ -2,7 +2,7 @@ package learning.core.overiding;
 
 class Parent {
 
-    public Number overRiding() {
+    public long overRiding() {
         System.out.println("parent overriding");
         return 0;
     }
@@ -15,7 +15,7 @@ class Parent {
 class Child extends Parent {
 
     @Override
-    public Integer overRiding() {
+    public long overRiding() {
         System.out.println("child overriding...");
         return 0;
     }
