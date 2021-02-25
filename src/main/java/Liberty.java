@@ -33,38 +33,14 @@ public class Liberty {
     public static void main(String[] args) {
 
         ColorCode colorCode = new ColorCode.Builder(5).build();
-        colorCode.of("key");
+        System.out.println("Apple " + colorCode.of("Apple@gmail.com"));
+        System.out.println("Apple_1 " + colorCode.of("Apple_1@gmail.com"));
+        System.out.println("Apple_1 " + colorCode.of("Apple_1@gmail.com"));
+        System.out.println("Apple " + colorCode.of("Apple@gmail.com"));
+        System.out.println("Banana " + colorCode.of("Banana@gmail.com"));
+        System.out.println("Carrot " + colorCode.of("Carrot@gmail.com"));
+        System.out.println("Orange " + colorCode.of("Orange@gmail.com"));
 
-
-        Set<String> hashSet = new HashSet();
-
-
-        final int[] ctr = {1};
-        IntStream.range(1, 1000).boxed().forEach(x -> {
-            int index = colorCode.of(ctr[0] + "_Apple");
-            //System.out.println("Apple_" + i[0] + " : " + index);
-            hashSet.add("index: " + index + " Apple_" + ctr[0]);
-            if (ctr[0] == 5) {
-                ctr[0] = 1;
-            } else {
-                ctr[0] += 1;
-            }
-        });
-
-        ctr[0] = 1;
-        IntStream.range(1, 1000).boxed().forEach(x -> {
-            int index = colorCode.of(ctr[0] + "_Banana");
-            //System.out.println("Apple_" + i[0] + " : " + index);
-            hashSet.add("index: " + index + " Banana_" + ctr[0]);
-            if (ctr[0] == 5) {
-                ctr[0] = 1;
-            } else {
-                ctr[0] += 1;
-            }
-        });
-
-        System.out.println(hashSet.size());
-        hashSet.stream().sorted().forEach(System.out::println);
 
     }
 
