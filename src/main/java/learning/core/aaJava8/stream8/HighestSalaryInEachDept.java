@@ -60,7 +60,20 @@ public class HighestSalaryInEachDept {
         //convertObjectListToMap();
 
         //mapVsMapping();
+
+        getOccerenc();
     }
+
+    private static void getOccerenc() {
+        List<Integer> integers = Arrays.asList(1, 2, 3, 1, 2, 3, 4, 2, 3, 4, 3, 4, 4, 5, 6, 7, 8, 9, 10);
+        Map<Integer, Long> collect = integers.stream()
+            .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+
+        collect.forEach((key, value) -> {
+            System.out.println(key + " : " + value);
+        });
+    }
+
 
     private static void mapVsMapping() {
         List<String> collect = Employee.persons().stream().collect(Collectors.mapping(Employee::getName, Collectors.toList()));
