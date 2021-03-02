@@ -59,7 +59,7 @@ public class HighestSalaryInEachDept {
 
         //convertObjectListToMap();
 
-        mapVsMapping();
+        //mapVsMapping();
     }
 
     private static void mapVsMapping() {
