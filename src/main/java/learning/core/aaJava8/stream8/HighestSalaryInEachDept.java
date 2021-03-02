@@ -57,7 +57,14 @@ public class HighestSalaryInEachDept {
 
         //sum();
 
-        convertObjectListToMap();
+        //convertObjectListToMap();
+
+        mapVsMapping();
+    }
+
+    private static void mapVsMapping() {
+        List<String> collect = Employee.persons().stream().collect(Collectors.mapping(Employee::getName, Collectors.toList()));
+        collect.forEach(System.out::println);
     }
 
     private static void convertObjectListToMap() {
