@@ -21,8 +21,8 @@ public class ParallelStreamDemo {
         IntStream rangeStream1 = IntStream.range(1, range); // create a 1 to N list
         sequential(delayValue, rangeStream1);
 
-        IntStream rangeStream2 = IntStream.range(1, range); // create a 1 to N list
-        parallelStream(delayValue, rangeStream2);
+        //IntStream rangeStream2 = IntStream.range(1, range); // create a 1 to N list
+        //parallelStream(delayValue, rangeStream2);
     }
 
     private static void sequential(int delayValue, IntStream rangeStream1) {
