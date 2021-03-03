@@ -14,7 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more/ParallelStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more/ParallelStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/aaJava8/stream8/more/ParallelStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/aaJava8/stream8/more/ParallelStreamDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,11 @@
     <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="vmOptionsForImporter" value="-Xmx768m" />
@@ -94,19 +101,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ParallelStreamDemo">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CharOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="charOccerence.CharOccurrence" />
       <module name="demo_java" />
@@ -169,7 +163,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ParallelStreamDemo" />
-        <item itemvalue="Application.HighestSalaryInEachDept (1)" />
         <item itemvalue="Application.HighestSalaryInEachDept" />
         <item itemvalue="Application.Liberty" />
         <item itemvalue="Application.CharOccurrence" />
@@ -232,6 +225,7 @@
       <workItem from="1611724592465" duration="1164000" />
       <workItem from="1611838884745" duration="7614000" />
       <workItem from="1612246383901" duration="1293000" />
+      <workItem from="1614746051336" duration="491000" />
     </task>
     <servers />
   </component>
