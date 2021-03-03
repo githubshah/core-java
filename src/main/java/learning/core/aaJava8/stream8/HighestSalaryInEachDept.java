@@ -5,9 +5,11 @@ import java.time.Month;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -61,7 +63,9 @@ public class HighestSalaryInEachDept {
 
         //mapVsMapping();
 
-        getOccerenc();
+        //getOccerenc();
+
+        computeIfAbsent();
     }
 
     private static void getOccerenc() {
@@ -154,6 +158,17 @@ public class HighestSalaryInEachDept {
             .collect(Collectors.toMap(Employee::getDepartment, Function.identity(),
                 (oldPerson, newPerson) -> newPerson.getIncome() > oldPerson.getIncome() ? newPerson : oldPerson));
         System.out.println(highestEarnerByGender);
+    }
+
+    private static void computeIfAbsent() {
+        List<Integer> integers = Arrays.asList(1, 2, 3, 1, 2, 3, 4, 2, 3, 4, 3, 4, 4, 5, 6, 7, 8, 9, 10);
+        Map<Integer, AtomicInteger> dev = new HashMap<>();
+        integers.forEach(
+            actor1 -> dev.computeIfAbsent(actor1, key -> new AtomicInteger()).incrementAndGet());
+
+        dev.forEach((x1, x2) -> {
+            System.out.println(x1 + " : " + x2);
+        });
     }
 }
 
