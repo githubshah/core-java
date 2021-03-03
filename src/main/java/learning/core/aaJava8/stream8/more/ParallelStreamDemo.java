@@ -12,21 +12,28 @@ public class ParallelStreamDemo {
     }
 
     private static void forkJoinPool() {
-        System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "10");
-        System.out.println("getParallelism=" + ForkJoinPool.commonPool().getParallelism());
+//        System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "10");
+//        System.out.println("getParallelism=" + ForkJoinPool.commonPool().getParallelism());
 
-        int range = 1000;
+        int range = 5000;
         int delayValue = 2;
 
         IntStream rangeStream1 = IntStream.range(1, range); // create a 1 to N list
-        IntStream rangeStream2 = IntStream.range(1, range); // create a 1 to N list
+        sequential(delayValue, rangeStream1);
 
+        IntStream rangeStream2 = IntStream.range(1, range); // create a 1 to N list
+        parallelStream(delayValue, rangeStream2);
+    }
+
+    private static void sequential(int delayValue, IntStream rangeStream1) {
         long time1 = new Date().getTime();
         rangeStream1.asLongStream().forEach(x -> {
             delay(delayValue);
         });
         System.out.println("sequential: " + (new Date().getTime() - time1));
+    }
 
+    private static void parallelStream(int delayValue, IntStream rangeStream2) {
         long time2 = new Date().getTime();
         rangeStream2.parallel().forEach(x -> {
             delay(delayValue);
