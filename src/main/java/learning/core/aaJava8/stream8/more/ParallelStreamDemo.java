@@ -1,5 +1,6 @@
 package learning.core.aaJava8.stream8.more;
 
+import java.util.Collection;
 import java.util.Date;
 import java.util.concurrent.ForkJoinPool;
 import java.util.stream.BaseStream;
@@ -32,7 +33,7 @@ public class ParallelStreamDemo {
             ((LongStream)sequenceStream).forEach(x -> {
                 delay();
             });
-            System.out.println("sequence: " + (new Date().getTime() - time1));
+            System.out.println("sequential: " + (new Date().getTime() - time1));
         }else{
             ((IntStream)sequenceStream)
                 .forEach(x -> {
