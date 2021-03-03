@@ -2,8 +2,10 @@ package learning.core.aaJava8.stream8.more;
 
 import java.util.Date;
 import java.util.concurrent.ForkJoinPool;
+import java.util.stream.BaseStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
+import java.util.stream.Stream;
 
 public class ParallelStreamDemo {
     public static void main(String[] args) {
@@ -16,28 +18,28 @@ public class ParallelStreamDemo {
 
         int range = 1000;
 
-        IntStream rangeStream = IntStream.range(1, range); // create a 1 to N list
+        IntStream rangeStream1 = IntStream.range(1, range); // create a 1 to N list
+        IntStream rangeStream2 = IntStream.range(1, range); // create a 1 to N list
 
-        sequence(rangeStream.asLongStream()); // sequence stream
+        compute(rangeStream1.asLongStream()); // sequence stream
 
-        parallel(rangeStream.parallel());  // parallel stream
+        compute(rangeStream2.parallel());  // parallel stream
     }
 
-    private static void sequence(LongStream sequenceStream) {
+    private static void compute(BaseStream sequenceStream) {
         long time1 = new Date().getTime();
-        sequenceStream.forEach(x -> {
-            delay();
-        });
-        System.out.println("sequence: " + (new Date().getTime() - time1));
-    }
-
-    private static void parallel(IntStream parallelStream) {
-        long time = new Date().getTime();
-        parallelStream
-            .forEach(x -> {
+        if(sequenceStream instanceof LongStream){
+            ((LongStream)sequenceStream).forEach(x -> {
                 delay();
             });
-        System.out.println("parallel : " + (new Date().getTime() - time));
+            System.out.println("sequence: " + (new Date().getTime() - time1));
+        }else{
+            ((IntStream)sequenceStream)
+                .forEach(x -> {
+                    delay();
+                });
+            System.out.println("parallel: " + (new Date().getTime() - time1));
+        }
     }
 
     private static void delay() {
