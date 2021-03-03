@@ -13,7 +13,7 @@ public class ParallelStreamDemo {
 
     private static void forkJoinPool() {
 //        System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "10");
-//        System.out.println("getParallelism=" + ForkJoinPool.commonPool().getParallelism());
+        System.out.println("getParallelism=" + ForkJoinPool.commonPool().getParallelism());
 
         int range = 5000;
         int delayValue = 2;
