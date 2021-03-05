@@ -86,7 +86,7 @@ public class MultiColumnComparatorDemo {
         pl.add(new Product(Type.user, "firstName2", "name3", "email5@gmail.com", "org4"));
         pl.add(new Product(Type.user, "firstName2", "", "email4@gmail.com", "org3"));
         pl.add(new Product(Type.user, "firstName1", "name8", "email3@gmail.com", "org2"));
-        pl.add(new Product(Type.user, "", "name0", "email2@gmail.com", "org1"));
+        pl.add(new Product(Type.user, "", "name9", "email2@gmail.com", "org1"));
         pl.add(new Product(Type.user, "firstName1", "name9", "email1@gmail.com", "org3"));
         pl.add(new Product(Type.user, "firstName3", "name3", "email6@gmail.com", "org5"));
         pl.add(new Product(Type.contact, "apple_fruit", "fruit", "apple.fruit@gmail.com", "org1"));
