@@ -55,31 +55,53 @@ class Product {
     }
 }
 
+
+class MultiColumnComparator implements Comparator<Product> {
+    @Override
+    public int compare(Product o1, Product o2) {
+        int i = o1.getType().ordinal() - o2.getType().ordinal();
+        if (i == 0) {
+            int firstName = findFirst(o1).compareTo(findFirst(o2));
+            if (firstName == 0) {
+                int name = findFirst(o1).compareTo(findFirst(o2));
+                if (name == 0) {
+                    int email = findFirst(o1).compareTo(findFirst(o2));
+                    if (email == 0) {
+                        return findFirst(o1).compareTo(findFirst(o2));
+                    }
+                    return email;
+                }
+                return name;
+            }
+            return firstName;
+        }
+        return i;
+    }
+
+    private String findFirst(Product product) {
+        if (!product.getFirstName().isEmpty()) {
+            return product.getFirstName();
+        } else if (!product.getName().isEmpty()) {
+            return product.getName();
+        } else if (!product.getEmail().isEmpty()) {
+            return product.getEmail();
+        } else {
+            return product.getOrganization();
+        }
+    }
+}
+
 public class MultiColumnComparatorDemo {
     public static void main(String[] args) {
         List<Product> pl = new ArrayList<>();
-        pl.add(new Product(Type.user, "firstName2", "name3", "email5@gmail.com", "org4"));
-        pl.add(new Product(Type.user, "firstName2", "", "email4@gmail.com", "org3"));
-        pl.add(new Product(Type.user, "firstName1", "name6", "email3@gmail.com", "org2"));
-        pl.add(new Product(Type.user, "", "firstName1", "email2@gmail.com", "org1"));
-        pl.add(new Product(Type.user, "", "firstName8", "email1@gmail.com", "org3"));
-        pl.add(new Product(Type.user, "firstName1", "name5", "email3@gmail.com", "org2"));
-        pl.add(new Product(Type.user, "firstName3", "name3", "email6@gmail.com", "org5"));
-        pl.add(new Product(Type.contact, "apple_fruit", "fruit", "apple.fruit@gmail.com", "org1"));
-        pl.add(new Product(Type.contact, "apple_fruit", "fruit", "apple.fruit@gmail.com", "org1"));
-        pl.add(new Product(Type.group, "apple2_fruit", "fruit", "apple2.fruit@gmail.com", "org1"));
-        pl.add(new Product(Type.contact, "apple33_fruit", "fruit", "apple33.fruit@gmail.com", "org1"));
-        pl.add(new Product(Type.group, "apple5_fruit", "fruit", "apple5.fruit@gmail.com", "org1"));
-        pl.add(new Product(Type.contact, "apple6_fruit", "fruit", "apple6.fruit@gmail.com", "org1"));
 
-        Comparator<Product> compareByName = Comparator
-            .comparing(Product::getType)
-            .thenComparing(Product::getOrganization)
-            .thenComparing(Product::getEmail)
-            .thenComparing(Product::getName)
-            .thenComparing(Product::getFirstName);
+        pl.add(new Product(Type.user, "email_name@gmail4.com", "name2", "email_name@gmail4.com", "org_name4"));
+        pl.add(new Product(Type.user, "", "i_name2", "email_name2@gmail.com", "org_name4"));
+        pl.add(new Product(Type.user, "zmail_name@gmail3.com", "first", "zmail_name@gmail3.com", "org_name4"));
+        pl.add(new Product(Type.user, "shaid", "", "email_name4@gmail.com", "org_name4"));
 
-        pl.sort(compareByName);
+
+        pl.sort(new MultiColumnComparator());
         pl.forEach(System.out::println);
     }
 }
