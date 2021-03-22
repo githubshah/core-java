@@ -43,16 +43,16 @@ public class Sorting {
     }
 
     private static void sorts(List<Map.Entry<String, Integer>> list) {
-        list.sort(new ValueThenKeyComparator1());
+        //list.sort(new ValueThenKeyComparator1());
 
         list.sort((o1, o2) -> {
             int diff = o1.getValue().compareTo(o2.getValue());
             return diff == 0 ? o1.getKey().compareTo(o2.getKey()) : diff;
         });
 
-        list.sort(
-            Comparator.comparingInt((ToIntFunction<Map.Entry<String, Integer>>) Map.Entry::getValue)
-                .thenComparing(Map.Entry::getKey));
+//        list.sort(
+//            Comparator.comparingInt((ToIntFunction<Map.Entry<String, Integer>>) Map.Entry::getValue)
+//                .thenComparing(Map.Entry::getKey));
     }
 
     private static void sop(Map<? extends Number, ?> map) {
