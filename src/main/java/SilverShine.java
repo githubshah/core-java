@@ -1,10 +1,9 @@
 public class SilverShine {
 
     public static void main(String[] args) {
-        //int a[] = {1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1};
-        int a[] = {1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1};
-        System.out.println(call(a));
-
+        int a[] = {1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1};
+        int b[] = {1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1};
+        System.out.println(Math.min(call(a), call(b)));
     }
 
     private static int call(int a[]) {
@@ -32,7 +31,7 @@ public class SilverShine {
                         i++;
                     } else {
                         ++result;
-                        System.out.println("i: " + i + ", j: " + j);
+                        //System.out.println("i: " + i + ", j: " + j);
                         swap(i, j, a);
                         i++;
                         j--;

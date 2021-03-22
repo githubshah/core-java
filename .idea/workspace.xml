@@ -14,19 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SilverShine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/GFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo/HelloDefault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mangoByte/ParkingDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/FindSubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/FindSubSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/Sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/aDataStucture/recusion/FindSubSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/aDataStucture/recusion/FindSubSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/Sorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/complex/MultiColumnComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/complex/MultiColumnComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/complex/MultiColumnComparatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/complex/MultiColumnComparatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SilverShine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SilverShine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,22 +282,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="486" y="89" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1615228454263" />
-    <state width="1388" height="173" key="GridCell.Tab.0.bottom" timestamp="1616383262532">
+    <state width="1388" height="167" key="GridCell.Tab.0.bottom" timestamp="1616388918254">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="173" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1616383262532" />
-    <state width="1388" height="173" key="GridCell.Tab.0.center" timestamp="1616383262517">
+    <state width="1388" height="167" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1616388918254" />
+    <state width="1388" height="167" key="GridCell.Tab.0.center" timestamp="1616388918253">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="173" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1616383262517" />
-    <state width="1388" height="173" key="GridCell.Tab.0.left" timestamp="1616383262508">
+    <state width="1388" height="167" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1616388918253" />
+    <state width="1388" height="167" key="GridCell.Tab.0.left" timestamp="1616388918252">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="173" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1616383262508" />
-    <state width="1388" height="173" key="GridCell.Tab.0.right" timestamp="1616383262522">
+    <state width="1388" height="167" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1616388918252" />
+    <state width="1388" height="167" key="GridCell.Tab.0.right" timestamp="1616388918253">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="173" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1616383262522" />
+    <state width="1388" height="167" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1616388918253" />
     <state x="392" y="144" key="extract.method.dialog" timestamp="1616251399076">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
