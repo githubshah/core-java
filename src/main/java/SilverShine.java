@@ -1,9 +1,16 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.stream.Collectors;
+
+import static java.util.Collections.*;
+
 public class SilverShine {
 
     public static void main(String[] args) {
         int a[] = {1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1};
-        int b[] = {1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1};
-        System.out.println(Math.min(call(a), call(b)));
+        //int b[] = {1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1};
+        //reverse(Arrays.asList(b));
+        System.out.println(Math.min(call(a), reverse(Arrays.asList(a))));
     }
 
     private static int call(int a[]) {
