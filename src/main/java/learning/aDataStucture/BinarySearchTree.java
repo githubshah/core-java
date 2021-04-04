@@ -2,11 +2,11 @@ package learning.aDataStucture;// Binary Search Tree operations in Java
 
 class BinarySearchTree {
     class Node {
-        int key;
+        int data;
         Node left, right;
 
         public Node(int item) {
-            key = item;
+            data = item;
             left = right = null;
         }
     }
@@ -30,9 +30,9 @@ class BinarySearchTree {
         }
 
         // Traverse to the right place and insert the node
-        if (key < root.key)
+        if (key < root.data)
             root.left = insertKey(root.left, key);
-        else if (key > root.key)
+        else if (key > root.data)
             root.right = insertKey(root.right, key);
 
         return root;
@@ -46,7 +46,7 @@ class BinarySearchTree {
     void inorderRec(Node root) {
         if (root != null) {
             inorderRec(root.left);
-            System.out.print(root.key + " -> ");
+            System.out.print(root.data + " -> ");
             inorderRec(root.right);
         }
     }
@@ -61,9 +61,9 @@ class BinarySearchTree {
             return root;
 
         // Find the node to be deleted
-        if (key < root.key)
+        if (key < root.data)
             root.left = deleteRec(root.left, key);
-        else if (key > root.key)
+        else if (key > root.data)
             root.right = deleteRec(root.right, key);
         else {
             // If the node is with only one child or no child
@@ -74,10 +74,10 @@ class BinarySearchTree {
 
             // If the node has two children
             // Place the inorder successor in position of the node to be deleted
-            root.key = minValue(root.right);
+            root.data = minValue(root.right);
 
             // Delete the inorder successor
-            root.right = deleteRec(root.right, root.key);
+            root.right = deleteRec(root.right, root.data);
         }
 
         return root;
@@ -85,18 +85,18 @@ class BinarySearchTree {
 
     // Find the inorder successor
     int minValue(Node root) {
-        int minv = root.key;
+        int minv = root.data;
         while (root.left != null) {
-            minv = root.left.key;
+            minv = root.left.data;
             root = root.left;
         }
         return minv;
     }
 
     int maxValue(Node root) {
-        int minv = root.key;
+        int minv = root.data;
         while (root.right != null) {
-            minv = root.right.key;
+            minv = root.right.data;
             root = root.right;
         }
         return minv;
@@ -143,13 +143,13 @@ class BinarySearchTree {
             return true;
 
         /* false if this node violates the min/max constraints */
-        if (node.key < min || node.key > max)
+        if (node.data < min || node.data > max)
             return false;
 
         /* otherwise check the subtrees recursively
         tightening the min/max constraints */
         // Allow only distinct values
-        return (isBSTUtil(node.left, min, node.key - 1) &&
-            isBSTUtil(node.right, node.key + 1, max));
+        return (isBSTUtil(node.left, min, node.data - 1) &&
+            isBSTUtil(node.right, node.data + 1, max));
     }
 }
