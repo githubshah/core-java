@@ -10,7 +10,7 @@ public class SilverShine {
         int a[] = {1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1};
         //int b[] = {1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1};
         //reverse(Arrays.asList(b));
-        System.out.println(Math.min(call(a), reverse(Arrays.asList(a))));
+        //System.out.println(Math.min(call(a), reverse(Arrays.asList(a))));
     }
 
     private static int call(int a[]) {
