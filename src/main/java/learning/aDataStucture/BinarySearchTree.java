@@ -131,6 +131,8 @@ class BinarySearchTree {
 
         System.out.print("\nisBSTUtil: " + tree.isBSTUsingMinAndMax(tree.root, Integer.MIN_VALUE,
             Integer.MAX_VALUE));
+
+        System.out.print("\nisBSTUtil: " + tree.isBSTUsingInorder(tree.root));
     }
 
     private void insertWrongKey(int key) {
@@ -151,5 +153,22 @@ class BinarySearchTree {
         // Allow only distinct values
         return (isBSTUsingMinAndMax(node.left, min, node.data - 1) &&
             isBSTUsingMinAndMax(node.right, node.data + 1, max));
+    }
+
+    int lastValue = 0;
+    int index1 = 0;
+
+    boolean isBSTUsingInorder(Node root) {
+        if (root != null) {
+            isBSTUsingInorder(root.left);
+            if (lastValue < root.data) {
+                lastValue  = root.data;
+            } else {
+                return false;
+            }
+            index1++;
+            isBSTUsingInorder(root.right);
+        }
+        return true;
     }
 }
