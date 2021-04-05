@@ -129,7 +129,7 @@ class BinarySearchTree {
 
         tree.insertWrongKey(21);
 
-        System.out.print("\nisBSTUtil: " + tree.isBSTUtil(tree.root, Integer.MIN_VALUE,
+        System.out.print("\nisBSTUtil: " + tree.isBSTUsingMinAndMax(tree.root, Integer.MIN_VALUE,
             Integer.MAX_VALUE));
     }
 
@@ -137,7 +137,7 @@ class BinarySearchTree {
         insertKey(root.left, key);
     }
 
-    boolean isBSTUtil(Node node, int min, int max) {
+    boolean isBSTUsingMinAndMax(Node node, int min, int max) {
         /* an empty tree is BST */
         if (node == null)
             return true;
@@ -149,7 +149,7 @@ class BinarySearchTree {
         /* otherwise check the subtrees recursively
         tightening the min/max constraints */
         // Allow only distinct values
-        return (isBSTUtil(node.left, min, node.data - 1) &&
-            isBSTUtil(node.right, node.data + 1, max));
+        return (isBSTUsingMinAndMax(node.left, min, node.data - 1) &&
+            isBSTUsingMinAndMax(node.right, node.data + 1, max));
     }
 }
