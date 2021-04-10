@@ -27,7 +27,7 @@ public class Queue_reverse {
         q.remove();
 
         // Reverse remaining queue
-        q = reverseQueue(q);
+        reverseQueue(q);
 
         // Enqueue current item (to rear)
         q.add(data);

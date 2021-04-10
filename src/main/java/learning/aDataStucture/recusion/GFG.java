@@ -1,12 +1,12 @@
-package learning.aDataStucture.recusion;// Java program to find longest subarray with
+package learning.aDataStucture.recusion;
+// Java program to find longest subarray with
 // sum of elements at-least k. 
 
 class GFG {
 
     // function to find the length of largest
     // subarray having sum atmost k.
-    public static int atMostSum(int arr[], int n,
-                                int k) {
+    public static int atMostSum(int arr[], int n, int k) {
         int sum = 0;
         int cnt = 0, maxcnt = 0;
 

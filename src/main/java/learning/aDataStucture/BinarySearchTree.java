@@ -22,20 +22,19 @@ class BinarySearchTree {
     }
 
     // Insert key in the tree
-    Node insertKey(Node root, int key) {
+    Node insertKey(Node node, int key) {
         // Return a new node if the tree is empty
-        if (root == null) {
-            root = new Node(key);
-            return root;
+        if (node == null) {
+            return new Node(key);
         }
 
         // Traverse to the right place and insert the node
-        if (key < root.data)
-            root.left = insertKey(root.left, key);
-        else if (key > root.data)
-            root.right = insertKey(root.right, key);
+        if (key < node.data)
+            node.left = insertKey(node.left, key);
+        else if (key > node.data)
+            node.right = insertKey(node.right, key);
 
-        return root;
+        return node;
     }
 
     void inorder() {
@@ -158,16 +157,16 @@ class BinarySearchTree {
     int lastValue = 0;
     int index1 = 0;
 
-    boolean isBSTUsingInorder(Node root) {
-        if (root != null) {
-            isBSTUsingInorder(root.left);
-            if (lastValue < root.data) {
-                lastValue  = root.data;
+    boolean isBSTUsingInorder(Node node) {
+        if (node != null) {
+            isBSTUsingInorder(node.left);
+            if (lastValue < node.data) {
+                lastValue  = node.data;
             } else {
                 return false;
             }
             index1++;
-            isBSTUsingInorder(root.right);
+            isBSTUsingInorder(node.right);
         }
         return true;
     }

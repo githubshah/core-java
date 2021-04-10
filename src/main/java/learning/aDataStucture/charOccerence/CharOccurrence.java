@@ -1,4 +1,4 @@
-package charOccerence;
+package learning.aDataStucture.charOccerence;
 
 public class CharOccurrence {
 
