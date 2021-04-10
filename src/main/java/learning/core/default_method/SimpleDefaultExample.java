@@ -6,14 +6,14 @@ interface DefaultMethodInterface {
     }
 }
 
-interface DefaultMethodInterface2 {
+interface DefaultMethodInterface2 extends  DefaultMethodInterface{
     default public String defaultMethod() {
         return "---DefaultMethodInterface2";
     }
 }
 
 // you can not implement interfaces have same name default methods
-public class SimpleDefaultExample implements DefaultMethodInterface {
+public class SimpleDefaultExample implements DefaultMethodInterface2 {
     //public class DefaultExample implements DefaultMethodInterface {
     public static void main(String[] args) {
         System.out.println(new SimpleDefaultExample().defaultMethod());

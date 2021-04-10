@@ -171,4 +171,12 @@ class BinarySearchTree {
         }
         return true;
     }
+
+    void test(Node root) {
+        if (root != null) {
+            test(root.left);
+            System.out.println(root.data);
+            test(root.right);
+        }
+    }
 }
