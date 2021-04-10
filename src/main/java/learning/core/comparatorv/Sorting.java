@@ -5,6 +5,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.function.ToIntFunction;
 
 class ValueThenKeyComparator<K extends Comparable<? super K>, V extends Comparable<? super V>>
@@ -34,7 +35,8 @@ public class Sorting {
         map.put("a5", 2);
         map.put("a2", 8);
 
-        List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
+        Set<Map.Entry<String, Integer>> entries = map.entrySet();
+        List<Map.Entry<String, Integer>> list = new ArrayList<>(entries);
         sorts(list);
         list.forEach(System.out::println);
 

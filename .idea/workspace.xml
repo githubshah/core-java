@@ -15,21 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/charOccerence/CharOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/charOccerence/CharOccurrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/Queue_reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/Queue_reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/DevideTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/GFG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Emp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyTestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/charOccerence/CharOccurrence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/aDataStucture/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/aDataStucture/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/aDataStucture/recusion/DevideTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/aDataStucture/recusion/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/aDataStucture/recusion/GFG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/enum8/EnumWithInterfaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/enum8/EnumWithInterfaces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/Sorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +251,7 @@
       <workItem from="1617083557811" duration="2291000" />
       <workItem from="1617506325521" duration="1950000" />
       <workItem from="1617610910834" duration="679000" />
-      <workItem from="1617631298558" duration="15925000" />
+      <workItem from="1617631298558" duration="16560000" />
     </task>
     <servers />
   </component>
@@ -299,22 +285,22 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="294" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1618033876858" />
-    <state width="1388" height="139" key="GridCell.Tab.0.bottom" timestamp="1618036880363">
+    <state width="1388" height="139" key="GridCell.Tab.0.bottom" timestamp="1618037211536">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1618036880363" />
-    <state width="1388" height="139" key="GridCell.Tab.0.center" timestamp="1618036880362">
+    <state width="1388" height="139" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1618037211536" />
+    <state width="1388" height="139" key="GridCell.Tab.0.center" timestamp="1618037211534">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1618036880362" />
-    <state width="1388" height="139" key="GridCell.Tab.0.left" timestamp="1618036880361">
+    <state width="1388" height="139" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1618037211534" />
+    <state width="1388" height="139" key="GridCell.Tab.0.left" timestamp="1618037211534">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1618036880361" />
-    <state width="1388" height="139" key="GridCell.Tab.0.right" timestamp="1618036880363">
+    <state width="1388" height="139" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1618037211534" />
+    <state width="1388" height="139" key="GridCell.Tab.0.right" timestamp="1618037211535">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1618036880363" />
+    <state width="1388" height="139" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1618037211535" />
     <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1618033170490">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
