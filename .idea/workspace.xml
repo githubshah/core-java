@@ -14,8 +14,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReverseLinkedListRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/PeopleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoveZeroAtOneSide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/HighestSalaryInEachDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/HighestSalaryInEachDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/SimpleDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/OneInterfaceOverride2nsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/ConstructorRefrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/ConstructorRefrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/aaJava8/stream8/HighestSalaryInEachDept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/aaJava8/stream8/HighestSalaryInEachDept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/Sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/ValueThenKeyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/ValueThenKeyComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/ValueThenKeyComparator1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/ValueThenKeyComparator1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/default_method/DefaultMethodInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/default_method/DefaultMethodInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/default_method/DefaultMethodInterface2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/default_method/DefaultMethodInterface2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/default_method/SimpleDefaultExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/CalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/MyJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/MyJob.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +121,13 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Queue_reverse">
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.BinarySearchTree" />
+  <component name="RunManager" selected="Application.HashEqualsAndHashCodeWorstMethod">
+    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.callByValueCallByRef.CallByValue" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.*" />
+          <option name="PATTERN" value="learning.core.callByValueCallByRef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,25 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DevideTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.DevideTree" />
+    <configuration name="ExceptionFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.exception_flow.ExceptionFlow" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.GFG" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
+          <option name="PATTERN" value="learning.core.exception_flow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue_reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.Queue_reverse" />
+    <configuration name="ReverseLinkedListRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseLinkedListRecursive" />
+      <module name="demo_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.threadlocal.problem.ThreadTest" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.threadlocal.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,26 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Queue_reverse" />
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.GFG" />
-        <item itemvalue="Application.DevideTree" />
         <item itemvalue="Application.HashEqualsAndHashCodeWorstMethod" />
+        <item itemvalue="Application.CallByValue" />
+        <item itemvalue="Application.ReverseLinkedListRecursive" />
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.ExceptionFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +248,9 @@
       <workItem from="1617083557811" duration="2291000" />
       <workItem from="1617506325521" duration="1950000" />
       <workItem from="1617610910834" duration="679000" />
-      <workItem from="1617631298558" duration="16560000" />
+      <workItem from="1617631298558" duration="22792000" />
+      <workItem from="1618371197293" duration="2030000" />
+      <workItem from="1618404815027" duration="1187000" />
     </task>
     <servers />
   </component>
@@ -277,46 +276,50 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="486" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1618031284388">
+    <state x="486" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1618078458236">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="486" y="89" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1618031284388" />
+    <state x="486" y="89" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1618078458236" />
     <state x="294" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1618033876858">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="294" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1618033876858" />
-    <state width="1388" height="139" key="GridCell.Tab.0.bottom" timestamp="1618037211536">
+    <state width="1388" height="139" key="GridCell.Tab.0.bottom" timestamp="1618379814157">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1618037211536" />
-    <state width="1388" height="139" key="GridCell.Tab.0.center" timestamp="1618037211534">
+    <state width="1388" height="139" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1618379814157" />
+    <state width="1388" height="139" key="GridCell.Tab.0.center" timestamp="1618379814156">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1618037211534" />
-    <state width="1388" height="139" key="GridCell.Tab.0.left" timestamp="1618037211534">
+    <state width="1388" height="139" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1618379814156" />
+    <state width="1388" height="139" key="GridCell.Tab.0.left" timestamp="1618379814155">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1618037211534" />
-    <state width="1388" height="139" key="GridCell.Tab.0.right" timestamp="1618037211535">
+    <state width="1388" height="139" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1618379814155" />
+    <state width="1388" height="139" key="GridCell.Tab.0.right" timestamp="1618379814157">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1618037211535" />
-    <state width="1388" height="255" key="GridCell.Tab.1.bottom" timestamp="1618033170490">
+    <state width="1388" height="139" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1618379814157" />
+    <state width="1388" height="249" key="GridCell.Tab.1.bottom" timestamp="1618193482981">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1618033170490" />
-    <state width="1388" height="255" key="GridCell.Tab.1.center" timestamp="1618033170489">
+    <state width="1388" height="249" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1618193482981" />
+    <state width="1388" height="249" key="GridCell.Tab.1.center" timestamp="1618193482980">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1618033170489" />
-    <state width="1388" height="255" key="GridCell.Tab.1.left" timestamp="1618033170489">
+    <state width="1388" height="249" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1618193482980" />
+    <state width="1388" height="249" key="GridCell.Tab.1.left" timestamp="1618193482979">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1618033170489" />
-    <state width="1388" height="255" key="GridCell.Tab.1.right" timestamp="1618033170490">
+    <state width="1388" height="249" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1618193482979" />
+    <state width="1388" height="249" key="GridCell.Tab.1.right" timestamp="1618193482980">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1388" height="255" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1618033170490" />
+    <state width="1388" height="249" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1618193482980" />
+    <state x="485" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618078141935">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="485" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.837@0.23.1440.837" timestamp="1618078141935" />
     <state x="392" y="144" key="extract.method.dialog" timestamp="1617695772346">
       <screen x="0" y="23" width="1440" height="837" />
     </state>

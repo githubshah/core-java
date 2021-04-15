@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class MoveZeroAtOneSide {
 
     public static void main(String[] args) {
         int arr[] = {0, 1, 0, 1, 0, 1, 0, 0, 9, 0, 8, 9, 7, 8, 9, 0, 78, 9, 0, 7};

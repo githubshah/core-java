@@ -3,6 +3,14 @@ package learning.core.functionalInterfaceDemo;
 @FunctionalInterface
 interface CalculatorTest {
     void calculate(int num1);
+
+    default void show(){
+        System.out.println("default");
+    }
+
+    static void meaoo(){
+        System.out.println("static");
+    }
 }
 
 class MyJob {

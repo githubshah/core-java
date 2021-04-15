@@ -164,7 +164,7 @@ public class HighestSalaryInEachDept {
         List<Integer> integers = Arrays.asList(1, 2, 3, 1, 2, 3, 4, 2, 3, 4, 3, 4, 4, 5, 6, 7, 8, 9, 10);
         Map<Integer, AtomicInteger> dev = new HashMap<>();
         integers.forEach(
-            actor1 -> dev.computeIfAbsent(actor1, key -> new AtomicInteger()).incrementAndGet());
+            key -> dev.computeIfAbsent(key, AtomicInteger::new).incrementAndGet());
 
         dev.forEach((x1, x2) -> {
             System.out.println(x1 + " : " + x2);
