@@ -14,24 +14,169 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReverseLinkedListRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/PeopleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/DropWhileTakeWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoveZeroAtOneSide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee.obj" beforeDir="false" afterPath="$PROJECT_DIR$/employee.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfile" beforeDir="false" afterPath="$PROJECT_DIR$/myfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfile.zip" beforeDir="false" afterPath="$PROJECT_DIR$/myfile.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConstructorRefrence123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConstructorRefrence123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GooglePuzell/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GooglePuzell/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HashEqualsAndHashCodeWorstMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashEqualsAndHashCodeWorstMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Libas/DynamicObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Libas/DynamicObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Liberty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Liberty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MoveZeroAtOneSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoveZeroAtOneSide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseLinkedListRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReverseLinkedListRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SilverShine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SilverShine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/PeopleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/PossibleCombinationOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/PossibleCombinationOfString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/QueueFromStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/QueueFromStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/Queue_reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/Queue_reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/StackFromQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/StackFromQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/charOccerence/CharOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/charOccerence/CharOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/FindSubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/FindSubSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/GFG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/HousePzl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/HousePzl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/TreeOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/TreeOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/optional8/OptionalVsIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/optional8/OptionalVsIfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/optional8/OrElseVsOrElseGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/optional8/OrElseVsOrElseGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/OrdersAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/OrdersAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/OrderLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/OrderLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/HighestSalaryInEachDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/HighestSalaryInEachDept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/SimpleDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/OneInterfaceOverride2nsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/innerJoin/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/innerJoin/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/innerJoin/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/innerJoin/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/innerJoin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/innerJoin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/lambdas/FunctionalPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/lambdas/FunctionalPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/lambdas/OrdinaryPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/lambdas/OrdinaryPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more/ParallelStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more/ParallelStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/america/America.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/america/America.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/india/Delhi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/india/Delhi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/india/haryana/Gurugram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/india/haryana/Gurugram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/ObjectAsKeyInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/ObjectAsKeyInMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/RetainAndRemoveAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/RetainAndRemoveAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/StringAsKeyInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/StringAsKeyInMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withHashCodeImpl/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withHashCodeImpl/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withHashCodeImpl/WitHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withHashCodeImpl/WitHashCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withoutHashCodeImpl/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withoutHashCodeImpl/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withoutHashCodeImpl/WithoutHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withoutHashCodeImpl/WithoutHashCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/implMap/HashMapCustomApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/implMap/HashMapCustomApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/iterrator/FailFastAndFailSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/iterrator/FailFastAndFailSafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/iterrator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/iterrator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/complex/MultiColumnComparatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/complex/MultiColumnComparatorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/ConstructorChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/ConstructorChaining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/StaticBlockVsStaticVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/StaticBlockVsStaticVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/customAnnotation/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/customAnnotation/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/customAnnotation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/customAnnotation/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/customAnnotation/TestExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/customAnnotation/TestExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/customAnnotation/TesterInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/customAnnotation/TesterInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/OneInterfaceOverride2nsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/OneInterfaceOverride2nsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo/HelloDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo/HelloDefault.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/override/SameNameDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/override/SameNameDefaultExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/override/createSameNameAsDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/override/createSameNameAsDefaultExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/enum8/EmptyEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/enum8/EmptyEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/enum8/EnumWithAccessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/enum8/EnumWithAccessModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/enum8/EnumWithInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/enum8/EnumWithInterfaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/enum8/Main_ColorAbstractMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/enum8/Main_ColorAbstractMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/enum8/Main_ColorConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/enum8/Main_ColorConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/exception_flow/ExceptionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/exception_flow/ExceptionFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/exception_flow/ExceptionFlow2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/exception_flow/ExceptionFlow2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/ConstructorRefrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/ConstructorRefrence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/aaJava8/stream8/HighestSalaryInEachDept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/aaJava8/stream8/HighestSalaryInEachDept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/Sorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/ValueThenKeyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/ValueThenKeyComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/ValueThenKeyComparator1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/comparatorv/ValueThenKeyComparator1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/default_method/DefaultMethodInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/default_method/DefaultMethodInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/default_method/DefaultMethodInterface2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/default_method/DefaultMethodInterface2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/default_method/SimpleDefaultExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/CalculatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/ConstructorRefrence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/MyJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/learning/core/functionalInterfaceDemo/MyJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/MethodRefrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/MethodRefrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/minmax/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/minmax/MinMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/CyclicBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/InterruptedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/InterruptedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/ThreadJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/ThreadJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/UncaughtExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/UncaughtExceptionHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/problem/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/problem/IncrementCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/byAtomic/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/byAtomic/IncrementCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/byLock/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/byLock/IncrementCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/bySynchronization/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/bySynchronization/IncrementCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/byVolatile/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/byVolatile/IncrementCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/detectdeadlock/DeadLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/detectdeadlock/DeadLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/RunAsyncVsSupplyAsyncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/RunAsyncVsSupplyAsyncTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/custom/CustomThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/custom/CustomThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/custom/CustomThreadPoolExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/custom/CustomThreadPoolExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/custom/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/custom/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser/CyclicBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser/PhaserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser/PhaserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/lock/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/lock/LockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/notifyAndnotifyAll/notify/Notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/notifyAndnotifyAll/notify/Notify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/notifyAndnotifyAll/notifyAll/NotifyAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/notifyAndnotifyAll/notifyAll/NotifyAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/producerconsumer/ProducerConsumerNotifyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/producerconsumer/ProducerConsumerNotifyPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/producerconsumer/ProducerConsumerQueuePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/producerconsumer/ProducerConsumerQueuePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/producerconsumer/conditionJava8/ReentrantLockWithCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/producerconsumer/conditionJava8/ReentrantLockWithCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/ProblemStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/ProblemStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/SlowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/SlowService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/SolutionStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/SolutionStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/threadlocal/problem/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/threadlocal/problem/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/threadlocal/solution/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/threadlocal/solution/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/problem/Acknowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/problem/Acknowledge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/problem/AcknowledgeBetweenThreadsWithoutVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/problem/AcknowledgeBetweenThreadsWithoutVolatile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/problem/ProducerAndConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/problem/ProducerAndConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/solution/Acknowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/solution/Acknowledge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/solution/AcknowledgeBetweenThreadsWithVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/solution/AcknowledgeBetweenThreadsWithVolatile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/solution/ProducerAndConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/solution/ProducerAndConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Overriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Overriding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Parent123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Parent123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/overloading/Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/overloading/Overloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringReplaceAndReplaceAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringReplaceAndReplaceAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/csv/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/csv/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/csv/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/csv/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/csv/ReadCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/csv/ReadCsv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/dateTimeD/DateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/dateTimeD/DateTimeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/javafx/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/javafx/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/javafx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/javafx/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/javafx/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/javafx/MediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/javafx/update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/javafx/update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/decorator/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/decorator/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/state/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/state/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/state/Rainbow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/state/Rainbow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/ComputerPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/ComputerPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/ComputerPartVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/ComputerPartVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/VisitorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/VisitorPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/visitordemo/ItemElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/visitordemo/ItemElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/visitordemo/ShoppingCartVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/visitordemo/ShoppingCartVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mangoByte/ParkingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mangoByte/ParkingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UncaughtExceptionHandlerTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UncaughtExceptionHandlerTestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +209,6 @@
     <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="vmOptionsForImporter" value="-Xmx768m" />
@@ -92,7 +232,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/core/multiThreading/visiblity" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,8 +242,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -121,16 +260,14 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashEqualsAndHashCodeWorstMethod">
-    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.callByValueCallByRef.CallByValue" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.callByValueCallByRef.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.OptionalIfElse">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,26 +285,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashEqualsAndHashCodeWorstMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashEqualsAndHashCodeWorstMethod" />
-      <module name="demo_java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseLinkedListRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseLinkedListRecursive" />
-      <module name="demo_java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.threadlocal.problem.ThreadTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Main" />
       <module name="demo_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.threadlocal.problem.*" />
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalIfElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.aaJava8.optional8.OptionalIfElse" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.aaJava8.optional8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrElseVsOrElseGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.aaJava8.optional8.OrElseVsOrElseGet" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.aaJava8.optional8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PossibleCombinationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.PossibleCombinationOfString" />
+      <module name="demo_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashEqualsAndHashCodeWorstMethod" />
-        <item itemvalue="Application.CallByValue" />
-        <item itemvalue="Application.ReverseLinkedListRecursive" />
-        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.OptionalIfElse" />
+        <item itemvalue="Application.OrElseVsOrElseGet" />
         <item itemvalue="Application.ExceptionFlow" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PossibleCombinationOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +413,10 @@
       <workItem from="1617631298558" duration="22792000" />
       <workItem from="1618371197293" duration="2030000" />
       <workItem from="1618404815027" duration="1187000" />
+      <workItem from="1618948264549" duration="1072000" />
+      <workItem from="1638247789609" duration="3551000" />
+      <workItem from="1644168315203" duration="239000" />
+      <workItem from="1644169172353" duration="2930000" />
     </task>
     <servers />
   </component>
@@ -275,64 +441,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="486" y="89" key="#com.intellij.ide.util.MemberChooser" timestamp="1618078458236">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state x="486" y="89" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1618078458236" />
-    <state x="294" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1618033876858">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state x="294" y="361" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.837@0.23.1440.837" timestamp="1618033876858" />
-    <state width="1388" height="139" key="GridCell.Tab.0.bottom" timestamp="1618379814157">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1618379814157" />
-    <state width="1388" height="139" key="GridCell.Tab.0.center" timestamp="1618379814156">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1618379814156" />
-    <state width="1388" height="139" key="GridCell.Tab.0.left" timestamp="1618379814155">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1618379814155" />
-    <state width="1388" height="139" key="GridCell.Tab.0.right" timestamp="1618379814157">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state width="1388" height="139" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1618379814157" />
-    <state width="1388" height="249" key="GridCell.Tab.1.bottom" timestamp="1618193482981">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state width="1388" height="249" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1618193482981" />
-    <state width="1388" height="249" key="GridCell.Tab.1.center" timestamp="1618193482980">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state width="1388" height="249" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1618193482980" />
-    <state width="1388" height="249" key="GridCell.Tab.1.left" timestamp="1618193482979">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state width="1388" height="249" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1618193482979" />
-    <state width="1388" height="249" key="GridCell.Tab.1.right" timestamp="1618193482980">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state width="1388" height="249" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1618193482980" />
-    <state x="485" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618078141935">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state x="485" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.837@0.23.1440.837" timestamp="1618078141935" />
-    <state x="392" y="144" key="extract.method.dialog" timestamp="1617695772346">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state x="392" y="144" key="extract.method.dialog/0.23.1440.837@0.23.1440.837" timestamp="1617695772344" />
-    <state x="356" y="154" width="728" height="574" key="find.popup" timestamp="1615621255542">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state x="356" y="154" width="728" height="574" key="find.popup/0.23.1440.837@0.23.1440.837" timestamp="1615621255542" />
-    <state x="0" y="29" key="new project wizard" timestamp="1615614952486">
-      <screen x="0" y="23" width="1440" height="837" />
-    </state>
-    <state x="0" y="29" key="new project wizard/0.23.1440.837@0.23.1440.837" timestamp="1615614952486" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -343,5 +451,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo_java$GCD.ic" NAME="GCD Coverage Results" MODIFIED="1644169255560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>learning.*</FILTER>
+    </SUITE>
   </component>
 </project>
