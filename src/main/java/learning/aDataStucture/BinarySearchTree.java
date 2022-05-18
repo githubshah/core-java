@@ -1,20 +1,45 @@
 package learning.aDataStucture;// Binary Search Tree operations in Java
 
 class BinarySearchTree {
-    class Node {
-        int data;
-        Node left, right;
-
-        public Node(int item) {
-            data = item;
-            left = right = null;
-        }
-    }
-
     Node root;
+    int lastValue = 0;
+    int index1 = 0;
 
     BinarySearchTree() {
         root = null;
+    }
+
+    // Driver Program to test above functions
+    public static void main(String[] args) {
+        BinarySearchTree tree = new BinarySearchTree();
+
+        tree.insert(8);
+        tree.insert(3);
+        tree.insert(1);
+        tree.insert(6);
+        tree.insert(7);
+        tree.insert(10);
+        tree.insert(14);
+        tree.insert(4);
+
+        System.out.print("Inorder traversal: ");
+        tree.inorder();
+
+        System.out.println("\n\nAfter deleting 10");
+        tree.deleteKey(10);
+        System.out.print("Inorder traversal: ");
+        tree.inorder();
+
+        System.out.print("\nMin Value: " + tree.minValue(tree.root));
+        System.out.print("\nMax Value: " + tree.maxValue(tree.root));
+
+
+        tree.insertWrongKey(21);
+
+        System.out.print("\nisBSTUtil: " + tree.isBSTUsingMinAndMax(tree.root, Integer.MIN_VALUE,
+                Integer.MAX_VALUE));
+
+        System.out.print("\nisBSTUtil: " + tree.isBSTUsingInorder(tree.root));
     }
 
     void insert(int key) {
@@ -101,39 +126,6 @@ class BinarySearchTree {
         return minv;
     }
 
-    // Driver Program to test above functions
-    public static void main(String[] args) {
-        BinarySearchTree tree = new BinarySearchTree();
-
-        tree.insert(8);
-        tree.insert(3);
-        tree.insert(1);
-        tree.insert(6);
-        tree.insert(7);
-        tree.insert(10);
-        tree.insert(14);
-        tree.insert(4);
-
-        System.out.print("Inorder traversal: ");
-        tree.inorder();
-
-        System.out.println("\n\nAfter deleting 10");
-        tree.deleteKey(10);
-        System.out.print("Inorder traversal: ");
-        tree.inorder();
-
-        System.out.print("\nMin Value: " + tree.minValue(tree.root));
-        System.out.print("\nMax Value: " + tree.maxValue(tree.root));
-
-
-        tree.insertWrongKey(21);
-
-        System.out.print("\nisBSTUtil: " + tree.isBSTUsingMinAndMax(tree.root, Integer.MIN_VALUE,
-            Integer.MAX_VALUE));
-
-        System.out.print("\nisBSTUtil: " + tree.isBSTUsingInorder(tree.root));
-    }
-
     private void insertWrongKey(int key) {
         insertKey(root.left, key);
     }
@@ -151,17 +143,14 @@ class BinarySearchTree {
         tightening the min/max constraints */
         // Allow only distinct values
         return (isBSTUsingMinAndMax(node.left, min, node.data - 1) &&
-            isBSTUsingMinAndMax(node.right, node.data + 1, max));
+                isBSTUsingMinAndMax(node.right, node.data + 1, max));
     }
-
-    int lastValue = 0;
-    int index1 = 0;
 
     boolean isBSTUsingInorder(Node node) {
         if (node != null) {
             isBSTUsingInorder(node.left);
             if (lastValue < node.data) {
-                lastValue  = node.data;
+                lastValue = node.data;
             } else {
                 return false;
             }
@@ -176,6 +165,16 @@ class BinarySearchTree {
             test(root.left);
             System.out.println(root.data);
             test(root.right);
+        }
+    }
+
+    class Node {
+        int data;
+        Node left, right;
+
+        public Node(int item) {
+            data = item;
+            left = right = null;
         }
     }
 }

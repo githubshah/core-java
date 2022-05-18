@@ -24,6 +24,11 @@ interface TestInterface2 {
 
 // Implementation class code
 class TestClass implements TestInterface1, TestInterface2 {
+    public static void main(String args[]) {
+        TestClass d = new TestClass();
+        d.show();
+    }
+
     // Overriding default show method
     public void show() {
         // use super keyword to call the show
@@ -33,10 +38,5 @@ class TestClass implements TestInterface1, TestInterface2 {
         // use super keyword to call the show
         // method of TestInterface2 interface
         TestInterface2.super.show();
-    }
-
-    public static void main(String args[]) {
-        TestClass d = new TestClass();
-        d.show();
     }
 }

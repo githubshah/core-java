@@ -7,6 +7,8 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class FindSubSet {
+    static List<Integer> maxLength = new ArrayList<>();
+
     public static void main(String[] as) {
         Integer arr[] = new Integer[]{1, 2, 4, 2, 5, 1, 9};
         findSubSet(arr);
@@ -18,15 +20,13 @@ public class FindSubSet {
         helper(arr, subSet, 0, 'r');
     }
 
-    static List<Integer> maxLength = new ArrayList<>();
-
     private static void helper(Integer[] arr, Integer[] subSet, int i, char x) {
         if (i == arr.length) {
             if (Arrays.stream(subSet)
-                .filter(Objects::nonNull)
-                .reduce(0, Integer::sum) == 10) {
+                    .filter(Objects::nonNull)
+                    .reduce(0, Integer::sum) == 10) {
                 List<Integer> collect = Arrays.stream(subSet)
-                    .filter(Objects::nonNull).collect(Collectors.toList());
+                        .filter(Objects::nonNull).collect(Collectors.toList());
                 int size = collect.size();
                 if (size > maxLength.size()) {
                     maxLength = collect;

@@ -12,6 +12,6 @@ public class OptionalIfElse {
         Optional<Integer> valueOpt1 = Optional.ofNullable(a);
 
         return valueOpt1.map(Optional::of) // 1  {if = map}
-            .orElse(Optional.of(12)).get(); //6  {orElse = else}
+                .orElse(Optional.of(12)).get(); //6  {orElse = else}
     }
 }

@@ -25,7 +25,7 @@ class MyQueue {
     }
 
     // Dequeue an item from the queue
-	int deQueue() {
+    int deQueue() {
         // if first stack is empty
         if (s1.isEmpty()) {
             System.out.println("Q is Empty");

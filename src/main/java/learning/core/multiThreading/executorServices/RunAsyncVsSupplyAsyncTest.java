@@ -16,7 +16,7 @@ public class RunAsyncVsSupplyAsyncTest {
     @Test
     public void runAsync() throws ExecutionException, InterruptedException {
         CompletableFuture c = CompletableFuture
-            .runAsync(() -> System.out.println("runAsync has no return values"));
+                .runAsync(() -> System.out.println("runAsync has no return values"));
 
         Assert.assertNull(c.get());
     }
@@ -24,8 +24,8 @@ public class RunAsyncVsSupplyAsyncTest {
     @Test
     public void runAsyncWithCallbacks() throws ExecutionException, InterruptedException {
         CompletableFuture c = CompletableFuture
-            .runAsync(() -> System.out.println("runAsync has no return values"))
-            .thenRunAsync(() -> System.out.println("callback"));
+                .runAsync(() -> System.out.println("runAsync has no return values"))
+                .thenRunAsync(() -> System.out.println("callback"));
 
         Assert.assertNull(c.get());
     }
@@ -33,7 +33,7 @@ public class RunAsyncVsSupplyAsyncTest {
     @Test
     public void runAsyncWithExecutor() throws ExecutionException, InterruptedException {
         CompletableFuture c = CompletableFuture
-            .runAsync(() -> System.out.println("Run runAsync with an Executor"), executorService);
+                .runAsync(() -> System.out.println("Run runAsync with an Executor"), executorService);
 
         Assert.assertNull(c.get());
     }
@@ -41,7 +41,7 @@ public class RunAsyncVsSupplyAsyncTest {
     @Test
     public void supplyAsync() throws ExecutionException, InterruptedException {
         CompletableFuture c = CompletableFuture
-            .supplyAsync(() -> "supplyAsync has return value");
+                .supplyAsync(() -> "supplyAsync has return value");
 
         Assert.assertEquals("supplyAsync has return value", ((String) c.get()));
     }
@@ -49,8 +49,8 @@ public class RunAsyncVsSupplyAsyncTest {
     @Test
     public void supplyAsyncWithCallbacks() throws ExecutionException, InterruptedException {
         CompletableFuture c = CompletableFuture
-            .supplyAsync(() -> "supplyAsync")
-            .thenApplyAsync((s) -> s + " callback");
+                .supplyAsync(() -> "supplyAsync")
+                .thenApplyAsync((s) -> s + " callback");
 
         Assert.assertEquals("supplyAsync callback", ((String) c.get()));
     }
@@ -58,7 +58,7 @@ public class RunAsyncVsSupplyAsyncTest {
     @Test
     public void supplyAsyncWithExecutor() throws ExecutionException, InterruptedException {
         CompletableFuture c = CompletableFuture
-            .supplyAsync(() -> "run supplyAsync with an Executor", executorService);
+                .supplyAsync(() -> "run supplyAsync with an Executor", executorService);
 
         Assert.assertEquals("run supplyAsync with an Executor", ((String) c.get()));
     }
@@ -66,14 +66,14 @@ public class RunAsyncVsSupplyAsyncTest {
     @Test
     public void competitionStage() throws ExecutionException, InterruptedException {
         CompletableFuture<String> c = CompletableFuture
-            .supplyAsync(() -> "run supplyAsync ")
-            .thenApplyAsync(o -> o.concat("and then apply async"));
+                .supplyAsync(() -> "run supplyAsync ")
+                .thenApplyAsync(o -> o.concat("and then apply async"));
 
         Assert.assertEquals("run supplyAsync and then apply async", c.get());
 
         CompletableFuture<String> c1 = CompletableFuture
-            .supplyAsync(() -> "run supplyAsync ")
-            .thenApply(s -> s.concat("and then apply"));
+                .supplyAsync(() -> "run supplyAsync ")
+                .thenApply(s -> s.concat("and then apply"));
 
         Assert.assertEquals("run supplyAsync and then apply", c1.get());
     }
@@ -81,14 +81,14 @@ public class RunAsyncVsSupplyAsyncTest {
     @Test
     public void competitionAllOf() throws ExecutionException, InterruptedException {
         CompletableFuture<String> c = CompletableFuture
-            .supplyAsync(() -> "completable future 1");
+                .supplyAsync(() -> "completable future 1");
 
 
         CompletableFuture<String> c2 = CompletableFuture
-            .supplyAsync(() -> "completable future 2");
+                .supplyAsync(() -> "completable future 2");
 
         CompletableFuture<String> c3 = CompletableFuture
-            .supplyAsync(() -> "completable future 3");
+                .supplyAsync(() -> "completable future 3");
 
 
         String collect = Stream.of(c, c2, c3).map(CompletableFuture::join).collect(Collectors.joining(","));

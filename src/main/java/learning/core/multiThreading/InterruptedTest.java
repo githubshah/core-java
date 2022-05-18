@@ -11,8 +11,8 @@ class InterruptedTest extends Thread {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
                 System.out.println(
-                    "InterruptedException occur" +
-                        Thread.currentThread().isInterrupted()); // set interrupted  = false
+                        "InterruptedException occur" +
+                                Thread.currentThread().isInterrupted()); // set interrupted  = false
 
                 // need to interrupt thread again else loop will continue
                 //Thread.currentThread().interrupt(); // with this comment while going infinity

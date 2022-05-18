@@ -3,9 +3,31 @@ package learning.aDataStucture;// Priority Queue implementation in Java
 import java.util.ArrayList;
 
 class Heap {
+    // Driver code
+    public static void main(String args[]) {
+
+        ArrayList<Integer> array = new ArrayList<Integer>();
+        int size = array.size();
+
+        Heap h = new Heap();
+        h.insert(array, 3);
+        h.insert(array, 14);
+        h.insert(array, 9);
+        h.insert(array, 5);
+        h.insert(array, 6);
+        h.insert(array, 22);
+
+        System.out.println("Max-Heap array: ");
+        h.printArray(array, size);
+
+        h.deleteNode(array, 6);
+        System.out.println("After deleting an element: ");
+        h.printArray(array, size);
+    }
+
     // Function to heapify the tree
     void heapify(ArrayList<Integer> hT, int i) {
-        System.out.println("\t{}"+i);
+        System.out.println("\t{}" + i);
         int size = hT.size();
         // Find the largest among root, left child and right child
         int largest = i;
@@ -33,7 +55,7 @@ class Heap {
             hT.add(newNum);
         } else {
             hT.add(newNum);
-            System.out.println(">>>>>>>desi: "+size);
+            System.out.println(">>>>>>>desi: " + size);
             for (int i = size / 2 - 1; i >= 0; i--) {
                 heapify(hT, i);
             }
@@ -66,27 +88,5 @@ class Heap {
             System.out.print(i + " ");
         }
         System.out.println();
-    }
-
-    // Driver code
-    public static void main(String args[]) {
-
-        ArrayList<Integer> array = new ArrayList<Integer>();
-        int size = array.size();
-
-        Heap h = new Heap();
-        h.insert(array, 3);
-        h.insert(array, 14);
-        h.insert(array, 9);
-        h.insert(array, 5);
-        h.insert(array, 6);
-        h.insert(array, 22);
-
-        System.out.println("Max-Heap array: ");
-        h.printArray(array, size);
-
-        h.deleteNode(array, 6);
-        System.out.println("After deleting an element: ");
-        h.printArray(array, size);
     }
 }

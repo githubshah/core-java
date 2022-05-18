@@ -1,9 +1,9 @@
 package learning.core.customAnnotation;
 
 @TesterInfo(
-    priority = TesterInfo.Priority.HIGH,
-    createdBy = "mkyong.com",
-    tags = {"sales", "test"}
+        priority = TesterInfo.Priority.HIGH,
+        createdBy = "mkyong.com",
+        tags = {"sales", "test"}
 )
 public class TestExample {
 

@@ -19,6 +19,14 @@ class ThreadB implements Runnable {
         this.flag = flag;
     }
 
+    private static void delay(int i2) {
+        try {
+            Thread.sleep(i2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
     public void run() {
         boolean temp = flag.isFlag();
@@ -27,14 +35,6 @@ class ThreadB implements Runnable {
             temp = flag.isFlag();
         }
         System.out.println("End t2 thread " + temp);
-    }
-
-    private static void delay(int i2) {
-        try {
-            Thread.sleep(i2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }
 
@@ -45,6 +45,14 @@ class ThreadA implements Runnable {
         this.flag = flag;
     }
 
+    private static void delay(int i2) {
+        try {
+            Thread.sleep(i2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
     public void run() {
         System.out.println("Start t1 thread with " + flag.isFlag());
@@ -53,14 +61,6 @@ class ThreadA implements Runnable {
         }
         flag.setFlag(false);
         System.out.println("End t1 thread " + flag.isFlag());
-    }
-
-    private static void delay(int i2) {
-        try {
-            Thread.sleep(i2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }
 

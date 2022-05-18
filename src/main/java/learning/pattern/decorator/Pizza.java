@@ -76,7 +76,7 @@ class Paneer extends ToppingsDecorator {
     }
 
     public String getDescription() {
-        return  " ,Paneer(70) " + pizza.getDescription();
+        return " ,Paneer(70) " + pizza.getDescription();
     }
 
     public int getCost() {

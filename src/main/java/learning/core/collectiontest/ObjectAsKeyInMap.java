@@ -12,16 +12,16 @@ class Student {
     int id;
     String name;
 
+    public Student(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
 
     public void setName(String name) {
-        this.name = name;
-    }
-
-    public Student(int id, String name) {
-        this.id = id;
         this.name = name;
     }
 
@@ -36,7 +36,7 @@ class Student {
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
         return id == student.id &&
-            Objects.equals(name, student.name);
+                Objects.equals(name, student.name);
     }
 
     @Override
@@ -58,9 +58,9 @@ public class ObjectAsKeyInMap {
         System.out.println("--------------update key after object put in map-----------------");
 
         map.forEach(
-            (x, y) -> {
-                System.out.println("x:" + x + " , y:" + y + " >> hashCode: " + "x:" + x.hashCode());
-            });
+                (x, y) -> {
+                    System.out.println("x:" + x + " , y:" + y + " >> hashCode: " + "x:" + x.hashCode());
+                });
 
         System.out.println("\n--------------common after object put in map-----------------");
 
@@ -68,9 +68,9 @@ public class ObjectAsKeyInMap {
         student2.setName("Apple");
 
         map.forEach(
-            (x, y) -> {
-                System.out.println("x:" + x + " , y:" + y + " >> hashCode: " + "x:" + x.hashCode());
-            });
+                (x, y) -> {
+                    System.out.println("x:" + x + " , y:" + y + " >> hashCode: " + "x:" + x.hashCode());
+                });
 
         System.out.println("-------------------------------");
 
@@ -79,8 +79,8 @@ public class ObjectAsKeyInMap {
         map1.put(a1, "A1");
         a1 = null;  // does not change value in existing key
         map1.forEach(
-            (x, y) -> {
-                System.out.println("x:" + x + " , y:" + y);
-            });
+                (x, y) -> {
+                    System.out.println("x:" + x + " , y:" + y);
+                });
     }
 }

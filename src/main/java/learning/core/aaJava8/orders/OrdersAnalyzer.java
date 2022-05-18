@@ -25,14 +25,14 @@ public class OrdersAnalyzer {
      */
     public List<Product> findThreeMostPopularProducts(Stream<Order> orders) {
         return orders
-            .flatMap(order -> order.getOrderLines().parallelStream().map(OrderLine::getProduct))
-            .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
-            .entrySet().stream()
-            .sorted(Map.Entry.<Product, Long>comparingByValue().reversed())
-            .limit(3)
-            .sorted(Comparator.comparing(x -> x.getKey().getName()))
-            .map(Map.Entry::getKey)
-            .collect(Collectors.toList());
+                .flatMap(order -> order.getOrderLines().parallelStream().map(OrderLine::getProduct))
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
+                .entrySet().stream()
+                .sorted(Map.Entry.<Product, Long>comparingByValue().reversed())
+                .limit(3)
+                .sorted(Comparator.comparing(x -> x.getKey().getName()))
+                .map(Map.Entry::getKey)
+                .collect(Collectors.toList());
     }
 
     /**
@@ -44,15 +44,15 @@ public class OrdersAnalyzer {
      */
     public Optional<Customer> findMostValuableCustomer(Stream<Order> orders) {
         return
-            orders.collect(Collectors.groupingBy(Order::getCustomer,
-                Collectors.collectingAndThen(
-                    Collectors.toList(),
-                    orderList -> orderList.stream()
-                        .flatMap(order -> order.getOrderLines().stream())
-                        .mapToLong(orderLine -> (orderLine.getProduct().getPrice()).longValue() * orderLine.getQuantity())
-                        .sum())))
-                .entrySet().stream()
-                .max(Map.Entry.comparingByValue())
-                .map(Map.Entry::getKey);
+                orders.collect(Collectors.groupingBy(Order::getCustomer,
+                                Collectors.collectingAndThen(
+                                        Collectors.toList(),
+                                        orderList -> orderList.stream()
+                                                .flatMap(order -> order.getOrderLines().stream())
+                                                .mapToLong(orderLine -> (orderLine.getProduct().getPrice()).longValue() * orderLine.getQuantity())
+                                                .sum())))
+                        .entrySet().stream()
+                        .max(Map.Entry.comparingByValue())
+                        .map(Map.Entry::getKey);
     }
 }

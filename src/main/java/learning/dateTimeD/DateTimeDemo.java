@@ -31,9 +31,9 @@ public class DateTimeDemo {
 
         Date date1 = new SimpleDateFormat("yyyy/MM/dd").parse("2015/12/31");
         String result = new SimpleDateFormat("YYYY/MM/dd").format(date1);   //Noncompliant; yields '2016/12/31'
-        System.out.println("not expected result 2015/12/31 : "+ result);
+        System.out.println("not expected result 2015/12/31 : " + result);
         String result2 = new SimpleDateFormat("yyyy/MM/dd").format(date1);   //Noncompliant; yields '2016/12/31'
-        System.out.println("expected result 2015/12/31 : "+ result);
+        System.out.println("expected result 2015/12/31 : " + result);
 
 
     }

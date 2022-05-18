@@ -13,6 +13,31 @@ public class ReentrantLockWithCondition {
     Condition stackEmptyCondition = lock.newCondition();
     Condition stackFullCondition = lock.newCondition();
 
+    public static void main(String[] args) {
+        ReentrantLockWithCondition stack = new ReentrantLockWithCondition();
+        for (int i = 0; i <= 100; i++) {
+            final String v = i + "";
+            new Thread(() -> {
+                try {
+                    stack.pushToStack(v);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }).start();
+        }
+
+        for (int i = 0; i <= 100; i++) {
+            new Thread(() -> {
+                try {
+                    String s = stack.popFromStack();
+                    System.out.println("pop " + s);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }).start();
+        }
+    }
+
     public void pushToStack(String item) throws InterruptedException {
         try {
             lock.lock();
@@ -36,31 +61,6 @@ public class ReentrantLockWithCondition {
         } finally {
             stackFullCondition.signalAll(); // notifyAll
             lock.unlock();
-        }
-    }
-
-    public static void main(String[] args) {
-        ReentrantLockWithCondition stack = new ReentrantLockWithCondition();
-        for (int i = 0; i <= 100; i++) {
-            final String v = i + "";
-            new Thread(() -> {
-                try {
-                    stack.pushToStack(v);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }).start();
-        }
-
-        for (int i = 0; i <= 100; i++) {
-            new Thread(() -> {
-                try {
-                    String s = stack.popFromStack();
-                    System.out.println("pop " + s);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }).start();
         }
     }
 }

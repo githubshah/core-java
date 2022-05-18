@@ -33,7 +33,7 @@ public class Emp {
         if (o == null || getClass() != o.getClass()) return false;
         Emp emp = (Emp) o;
         return rollNumber == emp.rollNumber &&
-            name.equals(emp.name);
+                name.equals(emp.name);
     }
 
     @Override

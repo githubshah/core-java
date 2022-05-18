@@ -1,15 +1,9 @@
 package learning.core.comparatorv;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.function.ToIntFunction;
+import java.util.*;
 
 class ValueThenKeyComparator<K extends Comparable<? super K>, V extends Comparable<? super V>>
-    implements Comparator<Map.Entry<K, V>> {
+        implements Comparator<Map.Entry<K, V>> {
     @Override
     public int compare(Map.Entry<K, V> a, Map.Entry<K, V> b) {
         int diff = b.getValue().compareTo(a.getValue());

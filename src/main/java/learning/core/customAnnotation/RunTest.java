@@ -50,7 +50,7 @@ public class RunTest {
                 if (test.enabled()) {
 
                     try {
-                        method.invoke(obj.newInstance(),test.name());
+                        method.invoke(obj.newInstance(), test.name());
                         System.out.printf("%s - Test '%s' - passed %n", ++count, method.getName());
                         passed++;
                     } catch (Throwable ex) {

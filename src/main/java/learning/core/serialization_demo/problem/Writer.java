@@ -10,7 +10,7 @@ public class Writer {
         employee.setName("shaid hussain");
 
         FileOutputStream fout = new
-            FileOutputStream("employee.obj");
+                FileOutputStream("employee.obj");
         ObjectOutputStream oos = new ObjectOutputStream(fout);
         oos.writeObject(employee);
         oos.close();

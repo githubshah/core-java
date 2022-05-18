@@ -6,7 +6,7 @@ interface DefaultMethodInterface {
     }
 }
 
-interface DefaultMethodInterface2 extends  DefaultMethodInterface{
+interface DefaultMethodInterface2 extends DefaultMethodInterface {
     default public String defaultMethod() {
         return "---DefaultMethodInterface2";
     }

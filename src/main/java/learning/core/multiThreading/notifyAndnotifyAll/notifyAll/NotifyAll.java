@@ -20,7 +20,7 @@ class Shared {
 
         notifyAll();
 
-        System.out.println(t.getName()+" has notified all threads waiting for this object lock");
+        System.out.println(t.getName() + " has notified all threads waiting for this object lock");
     }
 }
 

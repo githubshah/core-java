@@ -1,4 +1,5 @@
 package learning.aDataStucture.recusion;
+
 public class HousePzl {
     public static void main(String[] args) {
         int arr[][] = {{1, 3}, {4, 5}, {2, 3}};

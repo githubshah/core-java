@@ -12,8 +12,8 @@ public class CyclicBarrierTest {
          */
         CyclicBarrier cyclicBarrier = new CyclicBarrier(3, new CyclicBarrrierEvent());
         System.out.println("CountDownLatch has been created with parties=3,"
-            + " when all 3 parties will reach common barrier point "
-            + "CyclicBarrrierEvent will be triggered");
+                + " when all 3 parties will reach common barrier point "
+                + "CyclicBarrrierEvent will be triggered");
 
         MyRunnable myRunnable1 = new MyRunnable(cyclicBarrier);
 
@@ -42,7 +42,7 @@ class MyRunnable implements Runnable {
     public void run() {
 
         System.out.println(Thread.currentThread().getName() +
-            " is waiting for all other threads to reach common barrier point");
+                " is waiting for all other threads to reach common barrier point");
 
         try {
             Thread.sleep(1000);
@@ -58,8 +58,8 @@ class MyRunnable implements Runnable {
         }
 
         System.out.println("As all threads have reached common barrier point "
-            + Thread.currentThread().getName() +
-            " has been released");
+                + Thread.currentThread().getName() +
+                " has been released");
     }
 
 }
@@ -67,7 +67,7 @@ class MyRunnable implements Runnable {
 class CyclicBarrrierEvent implements Runnable {
     public void run() {
         System.out.println("As all threads have reached common barrier point "
-            + ", CyclicBarrrierEvent has been triggered");
+                + ", CyclicBarrrierEvent has been triggered");
     }
 
 }

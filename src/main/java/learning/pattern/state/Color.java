@@ -34,9 +34,8 @@ enum Alphabet {
 
 public class Color {
 
-    private volatile int state = 0;
-
     final private Alphabet alphabet;
+    private volatile int state = 0;
 
     public Color(Alphabet alphabet) {
         this.alphabet = alphabet;

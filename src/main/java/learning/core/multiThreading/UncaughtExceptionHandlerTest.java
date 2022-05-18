@@ -22,7 +22,7 @@ public class UncaughtExceptionHandlerTest {
         // try block to deal with exception
         CatchChildThreadException t = new CatchChildThreadException();
         t.setUncaughtExceptionHandler((th, ex) ->
-            System.out.println("Uncaught exception: " + ex));
+                System.out.println("Uncaught exception: " + ex));
         t.start();
 
         try {

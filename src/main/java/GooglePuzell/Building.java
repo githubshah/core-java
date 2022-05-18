@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class Building {
 
+    static int minimumSteps = Integer.MAX_VALUE;
+    static int totalStep = -1;
+
     public static void main(String[] args) {
 
         boolean[][] buildings = {
@@ -23,9 +26,6 @@ public class Building {
         System.out.println("building range from : " + Arrays.toString(apartment));
         System.out.println("apartment number : " + (((apartment[0] + apartment[1]) / 2)));
     }
-
-    static int minimumSteps = Integer.MAX_VALUE;
-    static int totalStep = -1;
 
     private static int[] getApartment(boolean[][] buildings, boolean[] requirements) {
         int[] result = new int[2];

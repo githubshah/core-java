@@ -1,9 +1,3 @@
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.stream.Collectors;
-
-import static java.util.Collections.*;
-
 public class SilverShine {
 
     public static void main(String[] args) {

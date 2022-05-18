@@ -37,7 +37,7 @@ class Person {
 
 class Emp extends Person {
     @Override
-    void fun(Integer a) throws IOException{
+    void fun(Integer a) throws IOException {
     }
 }
 

@@ -4,26 +4,6 @@ public class Tree {
     Node root;
     int depth;
 
-    static class Node {
-        int data;
-        Node left;
-        Node right;
-        int level;
-
-        public Node(int data, int level) {
-            this.data = data;
-            this.level = level;
-        }
-
-        @Override
-        public String toString() {
-            return "Node{" +
-                "data=" + data +
-                ", level=" + level +
-                '}';
-        }
-    }
-
     Node addNode(int[] arr, Node node, int i, int level) {
         if (i < arr.length) {
             this.depth = level;
@@ -70,5 +50,25 @@ public class Tree {
 
     public int getDepth() {
         return depth + 1;
+    }
+
+    static class Node {
+        int data;
+        Node left;
+        Node right;
+        int level;
+
+        public Node(int data, int level) {
+            this.data = data;
+            this.level = level;
+        }
+
+        @Override
+        public String toString() {
+            return "Node{" +
+                    "data=" + data +
+                    ", level=" + level +
+                    '}';
+        }
     }
 }

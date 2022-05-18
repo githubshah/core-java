@@ -2,8 +2,6 @@ package learning.aDataStucture.recusion;
 
 import java.util.Arrays;
 
-import static java.util.Arrays.sort;
-
 public class Merge {
     public static void main(String[] args) {
         int arr[] = {1, 3, 5, 2};

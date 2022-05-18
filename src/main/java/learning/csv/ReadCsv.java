@@ -54,16 +54,16 @@ public class ReadCsv {
         List<Emp> empList = new ArrayList();
         for (CSVRecord record : csvParser) {
             empList.add(new Emp(
-                record.get(Student.Name),
-                record.get(Student.Email),
-                Integer.parseInt(record.get(Student.Salary)),
-                record.get(Student.Dept)));
+                    record.get(Student.Name),
+                    record.get(Student.Email),
+                    Integer.parseInt(record.get(Student.Salary)),
+                    record.get(Student.Dept)));
         }
         System.out.println(empList);
 
         Optional<Integer> reduce = empList.stream()
-            .map(Emp::getSalary)
-            .reduce((x1, x2) -> x1 > x2 ? x1 : x2);
+                .map(Emp::getSalary)
+                .reduce((x1, x2) -> x1 > x2 ? x1 : x2);
 
         System.out.println("highest salary in emp list: " + reduce.get());
 
@@ -74,7 +74,7 @@ public class ReadCsv {
         System.out.println("distinct salary: " + collect);
 
         Map<String, Integer> collect1 = empList.stream()
-            .collect(Collectors.toMap(Emp::getDept, Emp::getSalary, (x1, x2) -> x1 > x2 ? x1 : x2));
+                .collect(Collectors.toMap(Emp::getDept, Emp::getSalary, (x1, x2) -> x1 > x2 ? x1 : x2));
 
         System.out.println(collect1);
 

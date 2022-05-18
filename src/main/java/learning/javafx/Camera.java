@@ -1,12 +1,5 @@
 package learning.javafx;
 
-import java.io.ByteArrayInputStream;
-import java.lang.reflect.Field;
-import java.net.URISyntaxException;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.event.EventHandler;
@@ -19,16 +12,17 @@ import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-
-import org.opencv.core.Core;
-import org.opencv.core.CvType;
-import org.opencv.core.Mat;
-import org.opencv.core.MatOfByte;
-import org.opencv.core.MatOfRect;
-import org.opencv.core.Rect;
+import org.opencv.core.*;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.objdetect.CascadeClassifier;
 import org.opencv.videoio.VideoCapture;
+
+import java.io.ByteArrayInputStream;
+import java.lang.reflect.Field;
+import java.net.URISyntaxException;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Camera extends Application {
 
@@ -42,6 +36,41 @@ public class Camera extends Application {
     GraphicsContext g2d;
     Stage stage;
     AnimationTimer timer;
+
+    public static Image mat2Image(Mat mat) {
+        MatOfByte buffer = new MatOfByte();
+        Imgcodecs.imencode(".png", mat, buffer);
+        return new Image(new ByteArrayInputStream(buffer.toArray()));
+    }
+
+    private static void setLibraryPath() {
+
+        try {
+
+            System.setProperty("java.library.path", "lib/x64");
+
+            Field fieldSysPath = ClassLoader.class.getDeclaredField("sys_paths");
+            fieldSysPath.setAccessible(true);
+            fieldSysPath.set(null, null);
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            throw new RuntimeException(ex);
+        }
+
+    }
+
+    public static String getOpenCvResource(Class<?> clazz, String path) {
+        try {
+            return Paths.get(clazz.getResource(path).toURI()).toString();
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
 
     @Override
     public void start(Stage stage) {
@@ -112,7 +141,7 @@ public class Camera extends Application {
         //setLibraryPath();
 
         //System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-        System.out.printf("java.library.path: %s%n",System.getProperty("java.library.path"));
+        System.out.printf("java.library.path: %s%n", System.getProperty("java.library.path"));
         nu.pattern.OpenCV.loadShared(); //add this
         Mat mat = Mat.eye(3, 3, CvType.CV_8UC1);
         System.out.println("mat = " + mat.dump());
@@ -137,40 +166,5 @@ public class Camera extends Application {
 
         //faceDetector = new CascadeClassifier(getOpenCvResource(getClass(), "/opencv/data/lbpcascades/lbpcascade_frontalface.xml"));
 
-    }
-
-    public static Image mat2Image(Mat mat) {
-        MatOfByte buffer = new MatOfByte();
-        Imgcodecs.imencode(".png", mat, buffer);
-        return new Image(new ByteArrayInputStream(buffer.toArray()));
-    }
-
-    private static void setLibraryPath() {
-
-        try {
-
-            System.setProperty("java.library.path", "lib/x64");
-
-            Field fieldSysPath = ClassLoader.class.getDeclaredField("sys_paths");
-            fieldSysPath.setAccessible(true);
-            fieldSysPath.set(null, null);
-
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            throw new RuntimeException(ex);
-        }
-
-    }
-
-    public static String getOpenCvResource(Class<?> clazz, String path) {
-        try {
-            return Paths.get( clazz.getResource(path).toURI()).toString();
-        } catch (URISyntaxException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static void main(String[] args) {
-        launch(args);
     }
 }

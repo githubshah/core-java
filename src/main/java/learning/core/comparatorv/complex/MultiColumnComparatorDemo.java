@@ -46,12 +46,12 @@ class Product {
     @Override
     public String toString() {
         return "Product{" +
-            "type=" + type +
-            ", firstName='" + firstName + '\'' +
-            ", name='" + name + '\'' +
-            ", email='" + email + '\'' +
-            ", organization='" + organization + '\'' +
-            '}';
+                "type=" + type +
+                ", firstName='" + firstName + '\'' +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", organization='" + organization + '\'' +
+                '}';
     }
 }
 

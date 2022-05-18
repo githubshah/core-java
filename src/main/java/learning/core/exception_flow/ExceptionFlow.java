@@ -4,8 +4,8 @@ package learning.core.exception_flow;
 public class ExceptionFlow {
 
     public static void main(String[] args) {
-        System.out.println("main "+call());
-        System.out.println("main "+caldefault());
+        System.out.println("main " + call());
+        System.out.println("main " + caldefault());
     }
 
     private static int call() {
@@ -17,7 +17,7 @@ public class ExceptionFlow {
             System.out.println("catch 1");
             return ++i;
         } finally {
-            System.out.println("final 2 "+ i);
+            System.out.println("final 2 " + i);
             return 7000;
         }
     }
@@ -30,10 +30,10 @@ public class ExceptionFlow {
             throw new RuntimeException();
         } catch (Exception e) {
             System.out.println("catch 1");
-            return i+" catch";
+            return i + " catch";
         } finally {
             System.out.println("final 2");
-            return i+ " finally";
+            return i + " finally";
         }
     }
 }

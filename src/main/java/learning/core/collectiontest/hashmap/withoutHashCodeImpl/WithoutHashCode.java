@@ -16,8 +16,8 @@ public class WithoutHashCode {
         learning.core.collectiontest.hashmap.withHashCodeImpl.Emp abc = new learning.core.collectiontest.hashmap.withHashCodeImpl.Emp("abc", 123);
 
         Map<learning.core.collectiontest.hashmap.withHashCodeImpl.Emp, String> map = new HashMap<>();
-        map.put(abc,"abc");
-        map.put(abc,"xyz");
+        map.put(abc, "abc");
+        map.put(abc, "xyz");
 
         System.out.println(map.size());
         System.out.println(map.get(abc));
@@ -28,8 +28,8 @@ public class WithoutHashCode {
         learning.core.collectiontest.hashmap.withHashCodeImpl.Emp abc2 = new learning.core.collectiontest.hashmap.withHashCodeImpl.Emp("abc", 123);
 
         Map<Emp, String> map = new HashMap<>();
-        map.put(abc1,"abc");
-        map.put(abc2,"xyz");
+        map.put(abc1, "abc");
+        map.put(abc2, "xyz");
 
         System.out.println(map.size());
     }

@@ -6,12 +6,12 @@ public class Resource {
         // private constructor
     }
 
+    public static Resource getInstance() {
+        return Holder.INSTANCE;
+    }
+
     // Inner class to provide instance of class
     private static class Holder {
         private static final Resource INSTANCE = new Resource();
-    }
-
-    public static Resource getInstance() {
-        return Holder.INSTANCE;
     }
 } 

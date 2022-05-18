@@ -20,8 +20,8 @@ public class Employee {
     @Override
     public String toString() {
         return "StringMap{" +
-            "string='" + string + '\'' +
-            '}';
+                "string='" + string + '\'' +
+                '}';
     }
 
     @Override

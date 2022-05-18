@@ -6,7 +6,7 @@ import java.util.Map;
 public class WitHashCode {
     public static void main(String[] args) {
 
-  //      m1();
+        //      m1();
 //        m2();
         m3();
     }
@@ -48,18 +48,18 @@ public class WitHashCode {
         abc2.setName("abc");
         iterateMap(map);
 
-        System.out.println("Get value on same hash key abc1:>>> "+map.get(abc1));
-        System.out.println("Get value on same hash key abc2:>>> "+map.get(abc2));
-        System.out.println("Finally size of the map is : "+map.size());
+        System.out.println("Get value on same hash key abc1:>>> " + map.get(abc1));
+        System.out.println("Get value on same hash key abc2:>>> " + map.get(abc2));
+        System.out.println("Finally size of the map is : " + map.size());
         HashMap<Emp, String> empStringHashMap = new HashMap<>(map);
-        System.out.println("Finally size of the map is : "+empStringHashMap.size());
+        System.out.println("Finally size of the map is : " + empStringHashMap.size());
 
         System.exit(0);
     }
 
     private static void iterateMap(Map<Emp, String> map) {
         map.forEach((key, value) -> {
-            System.out.println("hascode: " + key.hashCode() + " ,key: {" + key.getName()+":"+key.rollNumber + "} ,value: " + value);
+            System.out.println("hascode: " + key.hashCode() + " ,key: {" + key.getName() + ":" + key.rollNumber + "} ,value: " + value);
         });
     }
 }

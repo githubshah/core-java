@@ -32,10 +32,10 @@ public class Emp {
     @Override
     public String toString() {
         return "Emp{" +
-            "name='" + name + '\'' +
-            ", email='" + email + '\'' +
-            ", salary='" + salary + '\'' +
-            ", dept='" + dept + '\'' +
-            '}';
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", salary='" + salary + '\'' +
+                ", dept='" + dept + '\'' +
+                '}';
     }
 }

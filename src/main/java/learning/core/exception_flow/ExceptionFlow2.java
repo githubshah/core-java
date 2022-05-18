@@ -1,6 +1,5 @@
 package learning.core.exception_flow;
 
-import javax.security.sasl.SaslServer;
 import java.io.IOException;
 
 // if throw keyword throw :
@@ -20,9 +19,9 @@ class Parent {
 
     void fun2() {
         System.out.println("fun2 call");
-        try{
+        try {
             fun3();
-        }catch (IOException e){
+        } catch (IOException e) {
             System.out.println("error catch by fun2 " + e);
             throw new RuntimeException(e);
         }
@@ -30,9 +29,9 @@ class Parent {
 
     void fun3() throws IOException {  // should be throws by method signature.
         System.out.println("fun3 call");
-        try{
+        try {
             fun4();
-        }catch (RuntimeException e){
+        } catch (RuntimeException e) {
             System.out.println("error catch by fun3 " + e);
             throw new IOException(e);
         }

@@ -12,6 +12,7 @@ public class CustomThreadPool {
 
     // FIFO ordering
     private final LinkedBlockingQueue<Runnable> queue;
+    volatile boolean shutdown = false;
 
     public CustomThreadPool(int poolSize) {
         this.poolSize = poolSize;
@@ -31,7 +32,12 @@ public class CustomThreadPool {
         }
     }
 
-    volatile boolean shutdown = false;
+    public void shutdown() {
+        System.out.println("Shutting down thread pool");
+        for (int i = 0; i < poolSize; i++) {
+            workers[i] = null;
+        }
+    }
 
     private class WorkerThread extends Thread {
         public void run() {
@@ -55,13 +61,6 @@ public class CustomThreadPool {
                     System.out.println("Thread pool is interrupted due to an issue: " + e.getMessage());
                 }
             }
-        }
-    }
-
-    public void shutdown() {
-        System.out.println("Shutting down thread pool");
-        for (int i = 0; i < poolSize; i++) {
-            workers[i] = null;
         }
     }
 }

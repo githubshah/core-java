@@ -11,10 +11,10 @@ public class StringAsKeyInMap {
         //str1 = null;  // does not change value in existing key
         employee.setString("xyz");
         hashMap.forEach(
-            (x, y) ->
-            {
-                System.out.println("x:" + x + " , y:" + y);
-            });
+                (x, y) ->
+                {
+                    System.out.println("x:" + x + " , y:" + y);
+                });
 
         System.out.println("----------String Buffer/builder  does not override equals method-----------------");
 
@@ -24,10 +24,10 @@ public class StringAsKeyInMap {
             map2.put(new StringBuffer("firstSecond"), 2);
 
             map2.forEach(
-                (x, y) ->
-                {
-                    System.out.println("x:" + x + " , y:" + y);
-                });
+                    (x, y) ->
+                    {
+                        System.out.println("x:" + x + " , y:" + y);
+                    });
         }
 
         System.out.println("-------------String-------------------");
@@ -38,10 +38,10 @@ public class StringAsKeyInMap {
             map2.put(new String("firstSecond"), 2);
 
             map2.forEach(
-                (x, y) ->
-                {
-                    System.out.println("x:" + x + " , y:" + y);
-                });
+                    (x, y) ->
+                    {
+                        System.out.println("x:" + x + " , y:" + y);
+                    });
         }
     }
 }

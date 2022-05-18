@@ -97,7 +97,7 @@ class Consumer2 implements Runnable {
                     }
                 } else {
                     System.out.println(Thread.currentThread().getName() +
-                        " Consumed: " + sharedResource.getLong());
+                            " Consumed: " + sharedResource.getLong());
                     try {
                         notifyAll();
                     } catch (Exception e) {

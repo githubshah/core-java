@@ -3,8 +3,8 @@ package learning.core.enum8;
 //compile but will not work
 enum EnumWithAccess {
     ;
-    private static int a1;
     public static int a2;
+    private static int a1;
 
     public static int getA1() {
         return a1;

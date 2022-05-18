@@ -9,10 +9,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE) //on class level
 public @interface TesterInfo {
 
-    public enum Priority {
-        LOW, MEDIUM, HIGH
-    }
-
     Priority priority() default Priority.MEDIUM;
 
     String[] tags() default "";
@@ -20,5 +16,9 @@ public @interface TesterInfo {
     String createdBy() default "Mkyong";
 
     String lastModified() default "03/01/2014";
+
+    public enum Priority {
+        LOW, MEDIUM, HIGH
+    }
 
 }

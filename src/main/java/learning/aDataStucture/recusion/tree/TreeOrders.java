@@ -17,6 +17,6 @@ public class TreeOrders {
         System.out.println("\n\nprint-level");
         tree.printLevel(tree.root, 3);
 
-        System.out.println("\n\ndepth-level "+ tree.getDepth());
+        System.out.println("\n\ndepth-level " + tree.getDepth());
     }
 }

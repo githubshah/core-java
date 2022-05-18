@@ -16,14 +16,14 @@ interface TestInterface {
 }
 
 // Implementation class code
-class TestClass1 implements TestInterface{
-
-    public void show(){
-        System.out.println("jijij");
-    }
+class TestClass1 implements TestInterface {
 
     public static void main(String args[]) {
         TestClass1 d = new TestClass1();
         d.show();
+    }
+
+    public void show() {
+        System.out.println("jijij");
     }
 }

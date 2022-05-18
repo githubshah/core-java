@@ -5,7 +5,7 @@ public class MoveZeroAtOneSide {
     public static void main(String[] args) {
         int arr[] = {0, 1, 0, 1, 0, 1, 0, 0, 9, 0, 8, 9, 7, 8, 9, 0, 78, 9, 0, 7};
         System.out.println(Arrays.toString(arr));
-        System.out.println("length if array: "+ arr.length);
+        System.out.println("length if array: " + arr.length);
 
         int counter = 0;
         int counter1 = 0;

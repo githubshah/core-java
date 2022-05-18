@@ -1,4 +1,4 @@
-package mangoByte;
+package demo;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -8,6 +8,14 @@ import java.util.stream.Collectors;
 
 enum Color {
     BLACK, GREEN, RED, YELLOW;
+}
+
+enum Spot {
+    Elevator_A, Elevator_B, Elevator_C, Elevator_D;
+}
+
+enum Status {
+    parked, un_parked;
 }
 
 class Car {
@@ -30,18 +38,10 @@ class Car {
     @Override
     public String toString() {
         return "Car{" +
-            "registrationNumber='" + registrationNumber + '\'' +
-            ", color=" + color +
-            '}';
+                "registrationNumber='" + registrationNumber + '\'' +
+                ", color=" + color +
+                '}';
     }
-}
-
-enum Spot {
-    Elevator_A, Elevator_B, Elevator_C, Elevator_D;
-}
-
-enum Status {
-    parked, un_parked;
 }
 
 class Ticket {
@@ -77,13 +77,13 @@ class Ticket {
     @Override
     public String toString() {
         return "Ticket{" +
-            "ticketNumber='" + ticketNumber + '\'' +
-            ", car=" + car +
-            ", spot=" + spot +
-            ", checkIn=" + checkIn +
-            ", checkOut=" + checkOut +
-            ", status=" + status +
-            '}';
+                "ticketNumber='" + ticketNumber + '\'' +
+                ", car=" + car +
+                ", spot=" + spot +
+                ", checkIn=" + checkIn +
+                ", checkOut=" + checkOut +
+                ", status=" + status +
+                '}';
     }
 }
 
@@ -113,28 +113,28 @@ public class ParkingDemo {
 
     private static Optional<Ticket> getParkingInfoByRegistrationNumber(List<Ticket> parkingPlace, String registrationNumber) {
         return parkingPlace
-            .stream()
-            .filter(ticket -> ticket.getCar().getRegistrationNumber().equals(registrationNumber))
-            .findFirst();
+                .stream()
+                .filter(ticket -> ticket.getCar().getRegistrationNumber().equals(registrationNumber))
+                .findFirst();
     }
 
     private static List<String> getRegistrationNumbers(List<Ticket> parkingPlace, Color color) {
         return getParkingInfoByColor(parkingPlace, color)
-            .stream().map(ticket -> ticket.getCar().getRegistrationNumber())
-            .collect(Collectors.toList());
+                .stream().map(ticket -> ticket.getCar().getRegistrationNumber())
+                .collect(Collectors.toList());
     }
 
     private static List<String> getTickets(List<Ticket> parkingPlace, Color color) {
         return getParkingInfoByColor(parkingPlace, color)
-            .stream().map(Ticket::getTicketNumber)
-            .collect(Collectors.toList());
+                .stream().map(Ticket::getTicketNumber)
+                .collect(Collectors.toList());
     }
 
     private static List<Ticket> getParkingInfoByColor(List<Ticket> parkingPlace, Color color) {
         return parkingPlace
-            .stream()
-            .filter(ticket -> ticket.getCar().getColor() == color)
-            .collect(Collectors.toList());
+                .stream()
+                .filter(ticket -> ticket.getCar().getColor() == color)
+                .collect(Collectors.toList());
     }
 
     private static void printData(List<?> collect) {

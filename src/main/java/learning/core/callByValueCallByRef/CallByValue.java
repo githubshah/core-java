@@ -40,7 +40,7 @@ public class CallByValue {
 
     private static void wrapper2() {
         Integer a = 30;
-        System.out.println("Before swapping, a = " + a );
+        System.out.println("Before swapping, a = " + a);
         // Invoke the swap method
         modify(a);
         System.out.println("\n**Now, Before and After swapping values will be different here**:");
@@ -49,7 +49,7 @@ public class CallByValue {
 
     private static void wrapper3() {
         String a = "abc";
-        System.out.println("Before swapping, a = " + a );
+        System.out.println("Before swapping, a = " + a);
         // Invoke the swap method
         modify(a);
         System.out.println("\n**Now, Before and After swapping values will be different here**:");

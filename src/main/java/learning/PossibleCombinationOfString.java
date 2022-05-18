@@ -11,7 +11,7 @@ public class PossibleCombinationOfString {
         int counter, j;
 
         for (counter = 1; counter < pow_set_size; counter++) {
-            System.out.print(counter +" = ");
+            System.out.print(counter + " = ");
             for (j = 0; j < setSize; j++) {
                 if ((counter & (1 << j)) > 0)
                     System.out.print(set[j]);

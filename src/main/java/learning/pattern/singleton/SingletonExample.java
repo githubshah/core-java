@@ -16,7 +16,7 @@ public class SingletonExample {
 
                 assert instance != null;
                 assert instance1 != null;
-                System.out.println(instance.hashCode()+" : "+instance1.hashCode());
+                System.out.println(instance.hashCode() + " : " + instance1.hashCode());
             }).start();
         }
     }

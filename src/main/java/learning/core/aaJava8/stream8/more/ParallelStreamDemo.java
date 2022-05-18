@@ -2,9 +2,7 @@ package learning.core.aaJava8.stream8.more;
 
 import java.util.Date;
 import java.util.concurrent.ForkJoinPool;
-import java.util.stream.BaseStream;
 import java.util.stream.IntStream;
-import java.util.stream.LongStream;
 
 public class ParallelStreamDemo {
     public static void main(String[] args) {

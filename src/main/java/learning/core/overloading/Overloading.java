@@ -1,6 +1,18 @@
 package learning.core.overloading;
 
 public class Overloading {
+    public static void main(String[] args) {
+        Overloading overloading = new Overloading();
+        overloading.fun(1, 2);
+
+        String a = null;
+        overloading.m(a);
+        Object obj = null;
+        overloading.m(obj);
+        //overloading.m(null); // embeguity
+
+    }
+
     public void fun(boolean boolean1) {
         System.out.println("boolean " + boolean1);
     }
@@ -119,17 +131,5 @@ public class Overloading {
 
     void m(Double a) {
         System.out.println("Double");
-    }
-
-    public static void main(String[] args) {
-        Overloading overloading = new Overloading();
-        overloading.fun(1, 2);
-
-        String a = null;
-        overloading.m(a);
-        Object obj = null;
-        overloading.m(obj);
-        //overloading.m(null); // embeguity
-
     }
 }

@@ -15,24 +15,10 @@ class HashMapCustom<K, V> {
     private Entry<K, V>[] table;   //Array of Entry.
     private int capacity = 4;  //Initial capacity of HashMap
 
-    static class Entry<K, V> {
-        K key;
-        V value;
-        Entry<K, V> next;
-
-        public Entry(K key, V value, Entry<K, V> next) {
-            this.key = key;
-            this.value = value;
-            this.next = next;
-        }
-    }
-
-
     @SuppressWarnings("unchecked")
     public HashMapCustom() {
         table = new Entry[capacity];
     }
-
 
     /**
      * Method allows you put key-value pair in HashMapCustom.
@@ -107,7 +93,6 @@ class HashMapCustom<K, V> {
         }
     }
 
-
     /**
      * Method removes key-value pair from HashMapCustom.
      */
@@ -148,7 +133,6 @@ class HashMapCustom<K, V> {
 
     }
 
-
     /**
      * Method displays all key-value pairs present in HashMapCustom.,
      * insertion order is not guaranteed, for maintaining insertion order
@@ -180,6 +164,18 @@ class HashMapCustom<K, V> {
         return Math.abs(key.hashCode()) % capacity;
     }
 
+    static class Entry<K, V> {
+        K key;
+        V value;
+        Entry<K, V> next;
+
+        public Entry(K key, V value, Entry<K, V> next) {
+            this.key = key;
+            this.value = value;
+            this.next = next;
+        }
+    }
+
 }
 
 
@@ -197,20 +193,20 @@ public class HashMapCustomApp {
         hashMapCustom.put(35, 89);
 
         //adding same key but diff value
-        System.out.println("adding same key 35:89 but it return old value " +hashMapCustom.put(35, 100));
+        System.out.println("adding same key 35:89 but it return old value " + hashMapCustom.put(35, 100));
 
         System.out.println("value corresponding to key 21="
-            + hashMapCustom.get(21));
+                + hashMapCustom.get(21));
         System.out.println("value corresponding to key 51="
-            + hashMapCustom.get(51));
+                + hashMapCustom.get(51));
 
         System.out.print("Displaying : ");
         hashMapCustom.display();
 
         System.out.println("\n\nvalue corresponding to key 21 removed: "
-            + hashMapCustom.remove(21));
+                + hashMapCustom.remove(21));
         System.out.println("value corresponding to key 51 removed: "
-            + hashMapCustom.remove(51));
+                + hashMapCustom.remove(51));
 
         System.out.print("Displaying : ");
         hashMapCustom.display();

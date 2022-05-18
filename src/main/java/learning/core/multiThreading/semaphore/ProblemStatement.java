@@ -18,13 +18,13 @@ public class ProblemStatement {
         ExecutorService executorService = Executors.newFixedThreadPool(50);
 
         IntStream.range(0, 100).boxed()
-            .forEach(x -> {
-                executorService.submit(() -> {
-                    System.out.println("start slow service");
-                    // Might be 50 thread get a chance to execute slow service simultaneously.
-                    new SlowService().run();
-                    System.out.println("    end slow service");
+                .forEach(x -> {
+                    executorService.submit(() -> {
+                        System.out.println("start slow service");
+                        // Might be 50 thread get a chance to execute slow service simultaneously.
+                        new SlowService().run();
+                        System.out.println("    end slow service");
+                    });
                 });
-            });
     }
 }
