@@ -14,11 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/WeekHashMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HashEqualsAndHashCodeWorstMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashEqualsAndHashCodeWorstMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoveZeroAtOneSide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SilverShine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/Resource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +81,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="learning.core.exception_flow" />
       <recent name="learning.core.multiThreading.semaphore" />
@@ -91,7 +92,7 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashEqualsAndHashCodeWorstMethod">
+  <component name="RunManager" selected="Application.SingletonExample">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,19 +107,6 @@
     <configuration name="HashEqualsAndHashCodeWorstMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashEqualsAndHashCodeWorstMethod" />
       <module name="core-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalIfElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.aaJava8.optional8.OptionalIfElse" />
-      <module name="demo_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.aaJava8.optional8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,12 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.WeekHashMapDemo" />
+    <configuration name="SingletonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.pattern.singleton.SingletonExample" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.*" />
+          <option name="PATTERN" value="learning.pattern.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeekHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeekHashMapDemo" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonExample" />
         <item itemvalue="Application.HashEqualsAndHashCodeWorstMethod" />
         <item itemvalue="Application.WeekHashMapDemo" />
         <item itemvalue="Application.SilverShine" />
         <item itemvalue="Application.demo.ParkingDemo" />
-        <item itemvalue="Application.OptionalIfElse" />
       </list>
     </recent_temporary>
   </component>

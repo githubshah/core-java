@@ -6,17 +6,14 @@ public class SingletonExample {
         for (int i = 1; i < 500; i++) {
             new Thread(() -> {
                 Singleton instance = null;
-                Resource instance1 = null;
                 try {
                     instance = Singleton.getInstance();
-                    instance1 = Resource.getInstance();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
 
                 assert instance != null;
-                assert instance1 != null;
-                System.out.println(instance.hashCode() + " : " + instance1.hashCode());
+                System.out.println(instance.hashCode());
             }).start();
         }
     }
