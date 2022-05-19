@@ -15,7 +15,23 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/HighestSalaryInEachDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/HighestSalaryInEachDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/optional8/OptionalIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OptionalIfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/optional8/OptionalVsIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OptionalVsIfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/optional8/OrElseVsOrElseGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OrElseVsOrElseGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/DropWhileTakeWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/DropWhileTakeWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/HighestSalaryInEachDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/HighestSalaryInEachDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/innerJoin/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/innerJoin/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/innerJoin/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/innerJoin/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/innerJoin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/innerJoin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/lambdas/FunctionalPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/lambdas/FunctionalPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/lambdas/OrdinaryPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/lambdas/OrdinaryPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more/ParallelStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/more/ParallelStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/OrdersAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/OrdersAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/model/OrderLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/model/OrderLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByValue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +110,7 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HighestSalaryInEachDept">
+  <component name="RunManager" selected="Application.CallByValue">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,12 +122,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.pattern.visitor.Demo" />
+    <configuration name="CallByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.callByValueCallByRef.CallByRef" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.pattern.visitor.*" />
+          <option name="PATTERN" value="learning.core.callByValueCallByRef.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.callByValueCallByRef.CallByValue" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.callByValueCallByRef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,24 +149,11 @@
       </method>
     </configuration>
     <configuration name="HighestSalaryInEachDept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.aaJava8.stream8.HighestSalaryInEachDept" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.java8.stream8.HighestSalaryInEachDept" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.aaJava8.stream8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Liberty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.pattern.builder.Liberty" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.pattern.builder.*" />
+          <option name="PATTERN" value="learning.core.java8.stream8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +162,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.aaJava8.stream8.innerJoin.Main" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.java8.stream8.innerJoin.Main" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.aaJava8.stream8.innerJoin.*" />
+          <option name="PATTERN" value="learning.core.java8.stream8.innerJoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +175,11 @@
       </method>
     </configuration>
     <configuration name="OrElseVsOrElseGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.aaJava8.optional8.OrElseVsOrElseGet" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.java8.optional8.OrElseVsOrElseGet" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.aaJava8.optional8.*" />
+          <option name="PATTERN" value="learning.core.java8.optional8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HighestSalaryInEachDept" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.OrElseVsOrElseGet" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Liberty" />
+        <item itemvalue="Application.CallByValue" />
+        <item itemvalue="Application.CallByRef" />
+        <item itemvalue="Application.learning.core.java8.stream8.HighestSalaryInEachDept" />
+        <item itemvalue="Application.learning.core.java8.stream8.innerJoin.Main" />
+        <item itemvalue="Application.learning.core.java8.optional8.OrElseVsOrElseGet" />
       </list>
     </recent_temporary>
   </component>

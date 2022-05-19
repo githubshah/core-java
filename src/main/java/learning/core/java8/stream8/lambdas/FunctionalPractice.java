@@ -1,4 +1,4 @@
-package learning.core.aaJava8.stream8.lambdas;
+package learning.core.java8.stream8.lambdas;
 
 import java.util.function.BiFunction;
 

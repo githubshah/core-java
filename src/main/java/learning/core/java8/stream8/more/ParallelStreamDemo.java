@@ -1,4 +1,4 @@
-package learning.core.aaJava8.stream8.more;
+package learning.core.java8.stream8.more;
 
 import java.util.Date;
 import java.util.concurrent.ForkJoinPool;

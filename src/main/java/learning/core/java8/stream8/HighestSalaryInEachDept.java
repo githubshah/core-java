@@ -1,4 +1,4 @@
-package learning.core.aaJava8.stream8;
+package learning.core.java8.stream8;
 
 import java.time.LocalDate;
 import java.time.Month;

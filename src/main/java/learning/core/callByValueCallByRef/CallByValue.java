@@ -3,10 +3,10 @@ package learning.core.callByValueCallByRef;
 public class CallByValue {
 
     public static void main(String[] args) {
-        //wrapper(); // do not get swap
-        //primitive(); // do not swap
-        //wrapper2();
-        wrapper3();
+        //wrapper();   // wrapper, method do not impact actual value
+        //primitive(); // primitive, method do not impact actual value
+        //wrapper2();  // Integer, method do not impact actual value
+        //wrapper3();  // String, method do not impact actual value
     }
 
     private static void primitive() {

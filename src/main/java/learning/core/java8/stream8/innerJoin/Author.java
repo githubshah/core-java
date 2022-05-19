@@ -1,4 +1,4 @@
-package learning.core.aaJava8.stream8.innerJoin;
+package learning.core.java8.stream8.innerJoin;
 
 public class Author {
     String authorId;

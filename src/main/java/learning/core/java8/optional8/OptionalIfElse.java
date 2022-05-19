@@ -1,4 +1,4 @@
-package learning.core.aaJava8.optional8;
+package learning.core.java8.optional8;
 
 import java.util.Optional;
 

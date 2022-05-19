@@ -1,9 +1,9 @@
-package learning.core.aaJava8.stream8.orders;
+package learning.core.java8.stream8.orders;
 
-import learning.core.aaJava8.stream8.orders.model.Customer;
-import learning.core.aaJava8.stream8.orders.model.Order;
-import learning.core.aaJava8.stream8.orders.model.OrderLine;
-import learning.core.aaJava8.stream8.orders.model.Product;
+import learning.core.java8.stream8.orders.model.Customer;
+import learning.core.java8.stream8.orders.model.Order;
+import learning.core.java8.stream8.orders.model.OrderLine;
+import learning.core.java8.stream8.orders.model.Product;
 
 import java.util.Comparator;
 import java.util.List;
@@ -36,8 +36,8 @@ public class OrdersAnalyzer {
     }
 
     /**
-     * Should return the most valuable customer, that is the customer that has the highest value of all placed learning.core.aaJava8.orders.
-     * If two customers have the same learning.core.aaJava8.orders value, then any of them should be returned.
+     * Should return the most valuable customer, that is the customer that has the highest value of all placed orders.
+     * If two customers have the same value, then any of them should be returned.
      *
      * @param orders learning.core.aaJava8.orders stream
      * @return Optional of most valuable customer
