@@ -13,7 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="" />
+    <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/ObjectAsKeyInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/ObjectAsKeyInMap.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +95,7 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FailFastAndFailSafe">
+  <component name="RunManager" selected="Application.StringAsKeyInMap">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -99,32 +103,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CallByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.callByValueCallByRef.CallByRef" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.callByValueCallByRef.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.callByValueCallByRef.CallByValue" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.callByValueCallByRef.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,12 +120,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighestSalaryInEachDept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.java8.stream8.HighestSalaryInEachDept" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.Main" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.java8.stream8.*" />
+          <option name="PATTERN" value="learning.core.collectiontest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.ObjectAsKeyInMap" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.collectiontest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.StringAsKeyInMap" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.collectiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringAsKeyInMap" />
+        <item itemvalue="Application.ObjectAsKeyInMap" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.FailFastAndFailSafe" />
         <item itemvalue="Application.learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.WitHashCode" />
-        <item itemvalue="Application.CallByValue" />
-        <item itemvalue="Application.CallByRef" />
-        <item itemvalue="Application.learning.core.java8.stream8.HighestSalaryInEachDept" />
       </list>
     </recent_temporary>
   </component>

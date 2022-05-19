@@ -3,7 +3,7 @@ package learning.core.collectiontest;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StringAsKeyInMap {
+public class StringAndStringBufferAsKeyInMap {
     public static void main(String as[]) {
         Employee employee = new Employee("abc");
         Map<Employee, String> hashMap = new HashMap<>();

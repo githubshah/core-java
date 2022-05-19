@@ -12,7 +12,7 @@ public class Main {
         boolean disjoint = Collections.disjoint(integersA, integersB);
 
         System.out.println(integersA);
-        System.out.println(disjoint);
+        System.out.println(disjoint);// true i.e. when not common element found
 
         Date date1 = new SimpleDateFormat("yyyy-MM-dd").parse("2018-07-15");
 

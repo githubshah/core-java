@@ -53,6 +53,11 @@ public class ObjectAsKeyInMap {
         Student student2 = new Student(2, "Mango");
         map.put(student2, "student2");
 
+        map.forEach(
+                (x, y) -> {
+                    System.out.println("x:" + x + " , y:" + y + " >> hashCode: " + "x:" + x.hashCode());
+                });
+
         student2.setName("Banana");
 
         System.out.println("--------------update key after object put in map-----------------");
@@ -75,9 +80,10 @@ public class ObjectAsKeyInMap {
         System.out.println("-------------------------------");
 
         String a1 = new String("abc");
-        Map<String, String> map1 = new HashMap<>();
+        Map<String, String> map1 = new HashMap<>(); // week hashmap will work
         map1.put(a1, "A1");
         a1 = null;  // does not change value in existing key
+        System.gc();
         map1.forEach(
                 (x, y) -> {
                     System.out.println("x:" + x + " , y:" + y);
