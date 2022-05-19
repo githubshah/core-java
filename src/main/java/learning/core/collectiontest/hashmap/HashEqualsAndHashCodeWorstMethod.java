@@ -1,7 +1,7 @@
+package learning.core.collectiontest.hashmap;
+
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
-import java.util.WeakHashMap;
 
 class Emp {
     private String id;

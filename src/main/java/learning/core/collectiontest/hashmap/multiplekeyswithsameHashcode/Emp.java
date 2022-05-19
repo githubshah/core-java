@@ -1,4 +1,4 @@
-package learning.core.collectiontest.hashmap.withHashCodeImpl;
+package learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode;
 
 import java.util.Objects;
 

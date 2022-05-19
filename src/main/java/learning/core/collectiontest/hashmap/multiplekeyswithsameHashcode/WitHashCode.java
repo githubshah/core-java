@@ -1,4 +1,4 @@
-package learning.core.collectiontest.hashmap.withHashCodeImpl;
+package learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,8 +6,8 @@ import java.util.Map;
 public class WitHashCode {
     public static void main(String[] args) {
 
-        //      m1();
-//        m2();
+        //m1();
+        //m2();
         m3();
     }
 
@@ -19,7 +19,7 @@ public class WitHashCode {
         map.put(abc, "xyz");
 
         System.out.println(map.size());
-        System.out.println(map.get(abc));
+        System.out.println(map.get(abc)); // xyz
     }
 
     private static void m2() {
@@ -30,7 +30,7 @@ public class WitHashCode {
         map.put(abc1, "abc");
         map.put(abc2, "xyz");
 
-        System.out.println(map.size());
+        System.out.println(map.size()); // return 1 due to hashcode override
     }
 
     private static void m3() {
@@ -44,13 +44,16 @@ public class WitHashCode {
         System.out.println("size of map: " + map.size());
         iterateMap(map);
 
-        System.out.println("make same hash code");
+        System.out.println("try to push same key by def -> abc");
         abc2.setName("abc");
+        System.out.println("after pushing same key then size of map: " + map.size());
         iterateMap(map);
 
         System.out.println("Get value on same hash key abc1:>>> " + map.get(abc1));
         System.out.println("Get value on same hash key abc2:>>> " + map.get(abc2));
         System.out.println("Finally size of the map is : " + map.size());
+
+        System.out.println("Now see magic by creating new map from existing map having same key:hashcode");
         HashMap<Emp, String> empStringHashMap = new HashMap<>(map);
         System.out.println("Finally size of the map is : " + empStringHashMap.size());
 

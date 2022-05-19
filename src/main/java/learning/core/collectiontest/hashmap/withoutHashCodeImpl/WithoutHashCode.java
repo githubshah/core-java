@@ -1,6 +1,6 @@
 package learning.core.collectiontest.hashmap.withoutHashCodeImpl;
 
-import learning.core.collectiontest.hashmap.withHashCodeImpl.Emp;
+import learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.Emp;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,9 +13,9 @@ public class WithoutHashCode {
     }
 
     private static void m1() {
-        learning.core.collectiontest.hashmap.withHashCodeImpl.Emp abc = new learning.core.collectiontest.hashmap.withHashCodeImpl.Emp("abc", 123);
+        learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.Emp abc = new learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.Emp("abc", 123);
 
-        Map<learning.core.collectiontest.hashmap.withHashCodeImpl.Emp, String> map = new HashMap<>();
+        Map<learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.Emp, String> map = new HashMap<>();
         map.put(abc, "abc");
         map.put(abc, "xyz");
 
@@ -24,8 +24,8 @@ public class WithoutHashCode {
     }
 
     private static void m2() {
-        learning.core.collectiontest.hashmap.withHashCodeImpl.Emp abc1 = new learning.core.collectiontest.hashmap.withHashCodeImpl.Emp("abc", 123);
-        learning.core.collectiontest.hashmap.withHashCodeImpl.Emp abc2 = new learning.core.collectiontest.hashmap.withHashCodeImpl.Emp("abc", 123);
+        learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.Emp abc1 = new learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.Emp("abc", 123);
+        learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.Emp abc2 = new learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.Emp("abc", 123);
 
         Map<Emp, String> map = new HashMap<>();
         map.put(abc1, "abc");
