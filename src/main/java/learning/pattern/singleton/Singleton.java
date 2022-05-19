@@ -8,9 +8,9 @@ public class Singleton {
     }
 
     public static Singleton getInstance() throws InterruptedException {
-        if (singleton == null) { // if instance has been created then why blocked piece of code.
+        if (singleton == null) { // if instance has been created at line 14 then why other thread going to block here.
             synchronized (Singleton.class) {
-                // without synchronized many thread can picked singleton = null
+                // without synchronized many thread can pick singleton = null
                 if (singleton == null) singleton = new Singleton(); // constructor empty resource
             }
         }
