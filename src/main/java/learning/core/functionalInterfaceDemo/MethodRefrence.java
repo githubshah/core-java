@@ -17,7 +17,10 @@ class Utility {
 
 public class MethodRefrence {
     public static void main(String args[]) {
-        Calculator calculate = Utility::add;
-        System.out.println(calculate.calculate(1, 2));
+        Calculator calculator1 = Utility::add;
+        System.out.println(calculator1.calculate(1, 2));
+
+        Calculator calculator2 = Utility::multiply;
+        System.out.println(calculator2.calculate(1, 2));
     }
 }

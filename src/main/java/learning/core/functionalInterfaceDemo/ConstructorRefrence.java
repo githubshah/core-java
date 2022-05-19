@@ -2,15 +2,9 @@ package learning.core.functionalInterfaceDemo;
 
 @FunctionalInterface
 interface CalculatorTest {
-    static void meaoo() {
-        System.out.println("static");
-    }
 
     void calculate(int num1);
 
-    default void show() {
-        System.out.println("default");
-    }
 }
 
 class MyJob {
