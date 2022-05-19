@@ -14,9 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/CompoundShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/Dot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/XMLExportVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/builder/Liberty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/builder/Liberty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/state/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/state/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/ComputerPart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/ComputerPartVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/computor/VisitorPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/visitordemo/ItemElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/visitor/visitordemo/ShoppingCartVisitor.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +103,7 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Liberty">
+  <component name="RunManager" selected="Application.Demo">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,6 +111,19 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.pattern.visitor.Demo" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.pattern.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,26 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeekHashMapDemo" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Liberty" />
         <item itemvalue="Application.Rainbow" />
         <item itemvalue="Application.SingletonExample" />
         <item itemvalue="Application.HashEqualsAndHashCodeWorstMethod" />
-        <item itemvalue="Application.WeekHashMapDemo" />
       </list>
     </recent_temporary>
   </component>
