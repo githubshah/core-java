@@ -99,6 +99,8 @@ public class HighestSalaryInEachDept {
                 .stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Collectors.toList(),
                         x -> x.stream().map(Employee::getIncome).sorted(Comparator.reverseOrder()).distinct().limit(1).findFirst())));
+
+        //.collect(Collectors.groupingBy(Employee::getDepartment, Collectors.maxBy(Comparator.comparing(Employee::getIncome))));
         System.out.println(collect);
     }
 
