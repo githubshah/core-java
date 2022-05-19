@@ -1,4 +1,4 @@
-package learning.core.aaJava8.orders.model;
+package learning.core.aaJava8.stream8.orders.model;
 
 import java.util.HashSet;
 import java.util.Objects;

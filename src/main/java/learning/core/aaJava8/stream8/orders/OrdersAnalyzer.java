@@ -1,9 +1,9 @@
-package learning.core.aaJava8.orders;
+package learning.core.aaJava8.stream8.orders;
 
-import learning.core.aaJava8.orders.model.Customer;
-import learning.core.aaJava8.orders.model.Order;
-import learning.core.aaJava8.orders.model.OrderLine;
-import learning.core.aaJava8.orders.model.Product;
+import learning.core.aaJava8.stream8.orders.model.Customer;
+import learning.core.aaJava8.stream8.orders.model.Order;
+import learning.core.aaJava8.stream8.orders.model.OrderLine;
+import learning.core.aaJava8.stream8.orders.model.Product;
 
 import java.util.Comparator;
 import java.util.List;
