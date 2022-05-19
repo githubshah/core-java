@@ -13,11 +13,14 @@ public class HighestSalaryInEachDept {
 
         /**
          * {SALES=2, HR=2, IT=4}
+         * .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.counting()));
          */
         //totalEmpCountInEachDepartment(); // groupBy -> counting
 
         /**
          * {IT=Munish, Shaid, Liza, viktor, SALES=Quentin, Jully, HR=Stef, Barbie}
+         * .collect(Collectors.groupingBy(Employee::getDepartment,
+         *                         Collectors.mapping(Employee::getName, Collectors.joining(", "))));
          */
         //totalEmpNameInEachDepartment();  // groupBy -> maping -> and joining
 
@@ -34,7 +37,7 @@ public class HighestSalaryInEachDept {
         /**
          * {IT=Optional[9988.0], SALES=Optional[9753.0], HR=Optional[9999.0]}
          */
-        //highestSalaryInEachDepartment1(); // groupBy -> collectionAndThen ->
+        highestSalaryInEachDepartment1(); // groupBy -> collectionAndThen ->
 
         /**
          * {SALES=9753.0, HR=9999.0, IT=9988.0}
@@ -59,7 +62,7 @@ public class HighestSalaryInEachDept {
 
         //getOccerenc();
 
-        computeIfAbsent();
+        //computeIfAbsent();
     }
 
     private static void getOccerenc() {
@@ -74,12 +77,12 @@ public class HighestSalaryInEachDept {
 
 
     private static void mapVsMapping() {
-        List<String> collect = Employee.persons().stream().collect(Collectors.mapping(Employee::getName, Collectors.toList()));
+        List<String> collect = Employee.getAllPersons().stream().collect(Collectors.mapping(Employee::getName, Collectors.toList()));
         collect.forEach(System.out::println);
     }
 
     private static void convertObjectListToMap() {
-        Map<String, Employee> collect = Employee.persons().stream().collect(Collectors.toMap(Employee::getName, Function.identity()));
+        Map<String, Employee> collect = Employee.getAllPersons().stream().collect(Collectors.toMap(Employee::getName, Function.identity()));
         collect.forEach((key, value) -> {
             System.out.println(key + " : " + value);
         });
@@ -92,7 +95,7 @@ public class HighestSalaryInEachDept {
     }
 
     private static void highestSalaryInEachDepartment1() {
-        Map<Employee.Department, Optional<Double>> collect = Employee.persons()
+        Map<Employee.Department, Optional<Double>> collect = Employee.getAllPersons()
                 .stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Collectors.toList(),
                         x -> x.stream().map(Employee::getIncome).sorted(Comparator.reverseOrder()).distinct().limit(1).findFirst())));
@@ -100,7 +103,7 @@ public class HighestSalaryInEachDept {
     }
 
     private static void secondHighestSalaryInEachDepartment() {
-        Map<Employee.Department, Optional<Double>> collect = Employee.persons()
+        Map<Employee.Department, Optional<Double>> collect = Employee.getAllPersons()
                 .stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Collectors.toList(),
                         x -> x.stream().map(Employee::getIncome).sorted(Comparator.reverseOrder()).distinct().limit(2).skip(1).findFirst())));
@@ -109,7 +112,7 @@ public class HighestSalaryInEachDept {
 
     private static void groupByDeptThenDOB() {
         Map personsByDepartmentAndDobMonth
-                = Employee.persons()
+                = Employee.getAllPersons()
                 .stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment,
                         Collectors.groupingBy(getEven -> getEven.getDob().getMonth(),
@@ -118,7 +121,7 @@ public class HighestSalaryInEachDept {
     }
 
     private static void totalEmpNameInEachDepartment() {
-        Map<Employee.Department, String> namesByGender = Employee.persons()
+        Map<Employee.Department, String> namesByGender = Employee.getAllPersons()
                 .stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment,
                         Collectors.mapping(Employee::getName, Collectors.joining(", "))));
@@ -126,28 +129,28 @@ public class HighestSalaryInEachDept {
     }
 
     private static void eachEmpNameInEachDepartment1() {
-        Map<Employee.Department, List<Employee>> collect = Employee.persons()
+        Map<Employee.Department, List<Employee>> collect = Employee.getAllPersons()
                 .stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Collectors.toList(), Collections::unmodifiableList)));
         System.out.println(collect);
     }
 
     private static void totalEmpCountInEachDepartment() {
-        Map<Employee.Department, Long> collect56 = Employee.persons()
+        Map<Employee.Department, Long> collect56 = Employee.getAllPersons()
                 .stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.counting()));
         System.out.println(collect56);
     }
 
     private static void highestSalaryInEachDepartment() {
-        Map<Employee.Department, Double> collect = Employee.persons()
+        Map<Employee.Department, Double> collect = Employee.getAllPersons()
                 .stream()
                 .collect(Collectors.toMap(Employee::getDepartment, Employee::getIncome, (old1, new1) -> new1 > old1 ? new1 : old1));
         System.out.println(collect);
     }
 
     private static void highestSalaryObjectInEachDepartment() {
-        Map<Employee.Department, Employee> highestEarnerByGender = Employee.persons()
+        Map<Employee.Department, Employee> highestEarnerByGender = Employee.getAllPersons()
                 .stream()
                 .collect(Collectors.toMap(Employee::getDepartment, Function.identity(),
                         (oldPerson, newPerson) -> newPerson.getIncome() > oldPerson.getIncome() ? newPerson : oldPerson));
@@ -182,7 +185,7 @@ class Employee {
         this.income = income;
     }
 
-    public static List<Employee> persons() {
+    public static List<Employee> getAllPersons() {
         Employee p1 = new Employee(1, "Munish", Department.IT, LocalDate.of(1988, Month.JANUARY, 1), 9876.0);
         Employee p2 = new Employee(2, "Shaid", Department.IT, LocalDate.of(1993, Month.JULY, 21), 8765.0);
         Employee p3 = new Employee(3, "Quentin", Department.SALES, LocalDate.of(1989, Month.MAY, 29), 9753.0);
