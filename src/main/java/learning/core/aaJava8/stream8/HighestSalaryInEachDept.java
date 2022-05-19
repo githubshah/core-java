@@ -178,6 +178,7 @@ class Employee {
     private Department department;
     private LocalDate dob;
     private double income;
+
     public Employee(long id, String name, Department department, LocalDate dob,
                     double income) {
         this.id = id;

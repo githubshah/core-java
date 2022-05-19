@@ -15,11 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/OrdersAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/OrdersAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/OrderLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/model/OrderLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/orders/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/orders/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/HighestSalaryInEachDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/HighestSalaryInEachDept.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
