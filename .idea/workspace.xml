@@ -15,7 +15,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/MethodRefrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/MethodRefrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee.obj" beforeDir="false" afterPath="$PROJECT_DIR$/employee.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/minmax/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/minmax/MinMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringReplaceAndReplaceAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringReplaceAndReplaceAll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstructorRefrence">
+  <component name="RunManager" selected="Application.StringReplaceAndReplaceAll">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -119,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.exception_flow.ExceptionFlow" />
+    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.minmax.MinMax" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.exception_flow.*" />
+          <option name="PATTERN" value="learning.core.minmax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodRefrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.functionalInterfaceDemo.MethodRefrence" />
+    <configuration name="Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.problem.Reader" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.functionalInterfaceDemo.*" />
+          <option name="PATTERN" value="learning.core.serialization_demo.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.core.default_method.MultilevelInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.default_method.MultilevelInheritance" />
+    <configuration name="StringReplaceAndReplaceAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.stringdemo.StringReplaceAndReplaceAll" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.default_method.*" />
+          <option name="PATTERN" value="learning.core.stringdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.core.default_method.newDemo.HelloDefault" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.default_method.newDemo.HelloDefault" />
+    <configuration name="Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.problem.Writer" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.default_method.*" />
+          <option name="PATTERN" value="learning.core.serialization_demo.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringReplaceAndReplaceAll" />
+        <item itemvalue="Application.Reader" />
+        <item itemvalue="Application.Writer" />
+        <item itemvalue="Application.MinMax" />
         <item itemvalue="Application.ConstructorRefrence" />
-        <item itemvalue="Application.MethodRefrence" />
-        <item itemvalue="Application.ExceptionFlow" />
-        <item itemvalue="Application.learning.core.default_method.MultilevelInheritance" />
-        <item itemvalue="Application.learning.core.default_method.newDemo.HelloDefault" />
       </list>
     </recent_temporary>
   </component>
