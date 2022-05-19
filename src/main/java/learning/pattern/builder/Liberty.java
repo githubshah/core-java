@@ -1,3 +1,5 @@
+package learning.pattern.builder;
+
 class ColorCode {
 
     int loadFactor;
