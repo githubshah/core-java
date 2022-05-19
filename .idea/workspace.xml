@@ -13,10 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withHashCodeImpl/WitHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withHashCodeImpl/WitHashCode.java" afterDir="false" />
-    </list>
+    <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,23 +62,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/collectiontest/hashmap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="learning.pattern.visitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap" />
       <recent name="$PROJECT_DIR$/src/main/java/learning" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo" />
-      <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/phaser" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -94,7 +91,7 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WitHashCode">
+  <component name="RunManager" selected="Application.FailFastAndFailSafe">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -132,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FailFastAndFailSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.iterrator.FailFastAndFailSafe" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.collectiontest.iterrator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HighestSalaryInEachDept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.core.java8.stream8.HighestSalaryInEachDept" />
       <module name="core-java" />
@@ -145,25 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.java8.stream8.innerJoin.Main" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.java8.stream8.innerJoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WitHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.hashmap.withHashCodeImpl.WitHashCode" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.WitHashCode" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.collectiontest.hashmap.withHashCodeImpl.*" />
+          <option name="PATTERN" value="learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WitHashCode" />
+        <item itemvalue="Application.FailFastAndFailSafe" />
+        <item itemvalue="Application.learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.WitHashCode" />
         <item itemvalue="Application.CallByValue" />
         <item itemvalue="Application.CallByRef" />
         <item itemvalue="Application.learning.core.java8.stream8.HighestSalaryInEachDept" />
-        <item itemvalue="Application.learning.core.java8.stream8.innerJoin.Main" />
       </list>
     </recent_temporary>
   </component>

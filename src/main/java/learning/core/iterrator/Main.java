@@ -1,4 +1,4 @@
-package learning.core.collectiontest.iterrator;
+package learning.core.iterrator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

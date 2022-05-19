@@ -1,4 +1,4 @@
-package learning.core.collectiontest.iterrator;
+package learning.core.iterrator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,9 +9,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class FailFastAndFailSafe {
 
     public static void main(String[] args) {
-        //failfast();
+        failfast();
         //iteratorRemove();
-        failSafe();
+        //failSafe();
     }
 
     private static void failfast() {
@@ -19,7 +19,7 @@ public class FailFastAndFailSafe {
         Iterator<Integer> iterator = l.iterator();
         while (iterator.hasNext()) {
             System.out.println(">> " + iterator.next());
-            //l.add(6); // fail fast exception
+            l.add(6); // fail fast exception
         }
     }
 
