@@ -1,4 +1,4 @@
-package learning.core.default_method.override;
+package learning.core.default_method;
 
 /*
 
@@ -15,7 +15,7 @@ interface TestInterface1 {
     }
 }
 
-interface TestInterface2 {
+interface TestInterface2 extends TestInterface1{
     // Default method
     default void show() {
         System.out.println("Default TestInterface2");
@@ -23,20 +23,10 @@ interface TestInterface2 {
 }
 
 // Implementation class code
-class TestClass implements TestInterface1, TestInterface2 {
+class MultilevelInheritance implements TestInterface2 {
     public static void main(String args[]) {
-        TestClass d = new TestClass();
+        MultilevelInheritance d = new MultilevelInheritance();
         d.show();
     }
 
-    // Overriding default show method
-    public void show() {
-        // use super keyword to call the show
-        // method of TestInterface1 interface
-        TestInterface1.super.show();
-
-        // use super keyword to call the show
-        // method of TestInterface2 interface
-        TestInterface2.super.show();
-    }
 }

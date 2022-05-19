@@ -14,9 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo/ExtendDiamondPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo/ImplementDiamondPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/ObjectAsKeyInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/ObjectAsKeyInMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo/HelloDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/override/SameNameDefaultExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/default_method/override/SameNameDefaultExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/collectiontest/hashmap"
+    "last_opened_file_path": "/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/default_method/newDemo"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,11 +80,11 @@
       <recent name="learning.pattern.visitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap" />
       <recent name="$PROJECT_DIR$/src/main/java/learning" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution" />
-      <recent name="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -95,7 +97,7 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringAsKeyInMap">
+  <component name="RunManager" selected="Application.TestClass">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -107,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailFastAndFailSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.iterrator.FailFastAndFailSafe" />
+    <configuration name="ConstructorChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.constructorchaining.ConstructorChaining" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.collectiontest.iterrator.*" />
+          <option name="PATTERN" value="learning.core.constructorchaining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,8 +122,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.Main" />
+    <configuration name="HelloDefault" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.default_method.newDemo.HelloDefault" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.default_method.newDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.comparatorv.Sorting" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.comparatorv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringAndStringBufferAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.StringAndStringBufferAsKeyInMap" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
@@ -133,38 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.ObjectAsKeyInMap" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.default_method.override.TestClass" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.collectiontest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.StringAsKeyInMap" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.collectiontest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WitHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.WitHashCode" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.*" />
+          <option name="PATTERN" value="learning.core.default_method.override.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringAsKeyInMap" />
-        <item itemvalue="Application.ObjectAsKeyInMap" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FailFastAndFailSafe" />
-        <item itemvalue="Application.learning.core.collectiontest.hashmap.multiplekeyswithsameHashcode.WitHashCode" />
+        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.learning.core.default_method.newDemo.HelloDefault" />
+        <item itemvalue="Application.ConstructorChaining" />
+        <item itemvalue="Application.Sorting" />
+        <item itemvalue="Application.StringAndStringBufferAsKeyInMap" />
       </list>
     </recent_temporary>
   </component>
