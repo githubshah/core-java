@@ -16,7 +16,7 @@ class MyPhaser extends Phaser {
 
     @Override
     protected boolean onAdvance(int phase, int registeredParties) {
-        System.out.println("Phase phase completed.\n");
+        System.out.println("Phase " + phase + " completed.\n");
 
         // If all phases have completed, return true.
         if (phase == numPhases || registeredParties == 0) {
