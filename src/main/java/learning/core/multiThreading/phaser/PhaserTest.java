@@ -1,4 +1,4 @@
-package learning.core.multiThreading.executorServices.phaser;// Java program to demonstrate
+package learning.core.multiThreading.phaser;// Java program to demonstrate
 // the methods of Phaser class 
 
 import java.util.concurrent.Phaser;
