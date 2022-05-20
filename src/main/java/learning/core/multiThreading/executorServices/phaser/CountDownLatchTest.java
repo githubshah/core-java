@@ -11,9 +11,8 @@ public class CountDownLatchTest {
         ExecutorService executorService = Executors.newFixedThreadPool(9);
         CountDownLatch countDownLatch = new CountDownLatch(9);
 
-        MyRunnable myRunnable = new MyRunnable(countDownLatch);
         IntStream.range(0, 9).boxed().forEach(integer -> {
-            executorService.submit(myRunnable);
+            executorService.submit(new MyRunnable(countDownLatch));
         });
 
         System.out.println("waiting to complete all 9 tasks");

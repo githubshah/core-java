@@ -14,9 +14,8 @@ public class CyclicBarrierTest {
             System.out.println("Phase completed...");
         });
 
-        MyRunnable1 myRunnable = new MyRunnable1(cyclicBarrier);
         IntStream.range(0, 9).boxed().forEach(integer -> {
-            executorService.submit(myRunnable);
+            executorService.submit(new MyRunnable1(cyclicBarrier));
         });
 
         System.out.println("waiting to complete all 9 tasks");
@@ -40,6 +39,7 @@ class MyRunnable1 implements Runnable {
             e.printStackTrace();
         }
         try {
+            System.out.println("consumed and wait");
             cyclicBarrier.await();
         } catch (InterruptedException e) {
             e.printStackTrace();
