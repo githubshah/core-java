@@ -1,4 +1,4 @@
-package learning.core.multiThreading.executorServices.custom;
+package learning.core.multiThreading.executorServices.customThreadpool;
 
 import java.util.concurrent.LinkedBlockingQueue;
 
