@@ -1,4 +1,4 @@
-// Recursive Java program to reverse
+package learning.aDataStucture;// Recursive Java program to reverse
 // a linked list
 
 import java.io.IOException;
@@ -18,23 +18,23 @@ public class ReverseLinkedListRecursive {
     }
 
     // Complete the reverse function below.
-    static Node reverse(Node head) {
-        if (head == null) {
-            return head;
+    static Node reverse(Node node) {
+        if (node == null) {
+            return node;
         }
 
         // last node or only one node
-        if (head.next == null) {
-            return head;
+        if (node.next == null) {
+            return node;
         }
 
-        Node newHeadNode = reverse(head.next);
+        Node newHeadNode = reverse(node.next);
 
         // change references for middle chain
-        head.next.next = head;
-        head.next = null;
+        node.next.next = node;
+        node.next = null;
 
-        // send back new head node in every recursion
+        // send back new node node in every recursion
         return newHeadNode;
     }
 

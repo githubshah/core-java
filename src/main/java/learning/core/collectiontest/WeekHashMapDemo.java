@@ -1,3 +1,5 @@
+package learning.core.collectiontest;
+
 import java.util.HashMap;
 import java.util.Map;
 
