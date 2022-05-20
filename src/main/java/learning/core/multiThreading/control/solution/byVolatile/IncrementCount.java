@@ -1,12 +1,14 @@
 package learning.core.multiThreading.control.solution.byVolatile;
 
 class Resource {
+    // volatile for visibility
     volatile int count = 0;
 
     public int getValue() {
         return count;
     }
 
+    // synchronized for control
     synchronized public void increment() {  // must be sync
         this.count++;
     }

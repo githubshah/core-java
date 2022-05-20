@@ -1,51 +1,59 @@
 package learning.core.multiThreading.visiblity.solution;
 
-public class Acknowledge {
-    // Initializing volatile variables
-    static volatile boolean flag = true;
+class Resource {
+    // volatile for visibility
+    volatile int count = 0;
 
-    public static void main(String[] args) {
-
-        // Creating an instance t1 of
-        // Thread class
-        Thread t1 = new Thread() {
-            public void run() {
-                System.out.println("Start t1 thread with " + flag);
-                for (int i = 0; i <= 10; i++) {
-                    delay(1000);
-                }
-                flag = false;
-                System.out.println("End t1 thread");
-            }
-        };
-
-        // Creating an instance t2 of
-        // Thread class
-        Thread t2 = new Thread() {
-            public void run() {
-                boolean temp = flag;
-                System.out.println("Start t2 thread with " + temp);
-                while (temp) {
-                    temp = flag;
-                    //yield();
-                }
-                System.out.println("End t2 thread " + temp);
-            }
-        };
-
-        // Starting instance t1 and t2
-        t1.start();
-        t2.start();
-
-        delay(15000);
-        System.out.println("completed thread..");
+    public int getValue() {
+        return count;
     }
 
-    private static void delay(int i2) {
+    // synchronized for control
+    synchronized public void increment() {  // must be sync
+        this.count++;
+    }
+    synchronized public void decrement() {  // must be sync
+        this.count--;
+    }
+}
+
+class ThreadTest implements Runnable {
+    private final Resource count;
+
+    public ThreadTest(Resource count) {
+        this.count = count;
+    }
+
+    @Override
+    public void run() {
+        delay(200);
+        count.increment();
+        delay(300);
+        count.decrement();
+    }
+
+    private void delay(int delay) {
         try {
-            Thread.sleep(i2);
+            Thread.sleep(delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+}
+
+public class Acknowledge {
+    public static void main(String[] args) {
+        Resource resource = new Resource();
+        for (int i = 1; i <= 1000; i++) {
+            new Thread(new ThreadTest(resource)).start();
+        }
+
+        // need to wait till to complete all threads
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("resource count: " + resource.getValue());
     }
 }

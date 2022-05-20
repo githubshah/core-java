@@ -15,9 +15,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee.obj" beforeDir="false" afterPath="$PROJECT_DIR$/employee.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/minmax/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/minmax/MinMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringReplaceAndReplaceAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringReplaceAndReplaceAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/byVolatile/IncrementCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/control/solution/byVolatile/IncrementCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/problem/Acknowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/problem/Acknowledge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/solution/Acknowledge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/visiblity/solution/Acknowledge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringReplaceAndReplaceAll">
+  <component name="RunManager" selected="Application.learning.core.multiThreading.visiblity.solution.Acknowledge">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorRefrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.functionalInterfaceDemo.ConstructorRefrence" />
+    <configuration name="Acknowledge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.visiblity.problem.Acknowledge" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.functionalInterfaceDemo.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.visiblity.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.minmax.MinMax" />
+    <configuration name="learning.core.multiThreading.control.solution.byAtomic.IncrementCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.control.solution.byAtomic.IncrementCount" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.minmax.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.control.solution.byAtomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.problem.Reader" />
+    <configuration name="learning.core.multiThreading.control.solution.bySynchronization.IncrementCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.control.solution.bySynchronization.IncrementCount" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.serialization_demo.problem.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.control.solution.bySynchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReplaceAndReplaceAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.stringdemo.StringReplaceAndReplaceAll" />
+    <configuration name="learning.core.multiThreading.control.solution.byVolatile.IncrementCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.control.solution.byVolatile.IncrementCount" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.stringdemo.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.control.solution.byVolatile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.problem.Writer" />
+    <configuration name="learning.core.multiThreading.visiblity.solution.Acknowledge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.visiblity.solution.Acknowledge" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.serialization_demo.problem.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.visiblity.solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringReplaceAndReplaceAll" />
-        <item itemvalue="Application.Reader" />
-        <item itemvalue="Application.Writer" />
-        <item itemvalue="Application.MinMax" />
-        <item itemvalue="Application.ConstructorRefrence" />
+        <item itemvalue="Application.learning.core.multiThreading.visiblity.solution.Acknowledge" />
+        <item itemvalue="Application.Acknowledge" />
+        <item itemvalue="Application.learning.core.multiThreading.control.solution.byVolatile.IncrementCount" />
+        <item itemvalue="Application.learning.core.multiThreading.control.solution.byAtomic.IncrementCount" />
+        <item itemvalue="Application.learning.core.multiThreading.control.solution.bySynchronization.IncrementCount" />
       </list>
     </recent_temporary>
   </component>
