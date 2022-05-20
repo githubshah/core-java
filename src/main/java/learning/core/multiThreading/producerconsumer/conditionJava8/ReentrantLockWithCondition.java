@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ReentrantLockWithCondition {
 
     Stack<String> stack = new Stack<>();
-    int CAPACITY = 5;
+    int CAPACITY = 2;
 
     ReentrantLock lock = new ReentrantLock();
     Condition stackEmptyCondition = lock.newCondition();
@@ -15,7 +15,7 @@ public class ReentrantLockWithCondition {
 
     public static void main(String[] args) {
         ReentrantLockWithCondition stack = new ReentrantLockWithCondition();
-        for (int i = 0; i <= 100; i++) {
+        for (int i = 0; i <= 3; i++) {
             final String v = i + "";
             new Thread(() -> {
                 try {
@@ -26,7 +26,7 @@ public class ReentrantLockWithCondition {
             }).start();
         }
 
-        for (int i = 0; i <= 100; i++) {
+        for (int i = 0; i <= 3; i++) {
             new Thread(() -> {
                 try {
                     String s = stack.popFromStack();
@@ -40,7 +40,9 @@ public class ReentrantLockWithCondition {
 
     public void pushToStack(String item) throws InterruptedException {
         try {
+            System.out.println(">>try to lock for push");
             lock.lock();
+            System.out.println("  >>locked for push");
             while (stack.size() == CAPACITY) {
                 stackFullCondition.await(); // wait
             }
@@ -48,12 +50,15 @@ public class ReentrantLockWithCondition {
             stackEmptyCondition.signalAll(); // notifyAll
         } finally {
             lock.unlock();
+            System.out.println("  >>released for push");
         }
     }
 
     public String popFromStack() throws InterruptedException {
         try {
+            System.out.println(">>try to lock for pop");
             lock.lock();
+            System.out.println("  >>locked for pop");
             while (stack.size() == 0) {
                 stackEmptyCondition.await(); // wait
             }
@@ -61,6 +66,7 @@ public class ReentrantLockWithCondition {
         } finally {
             stackFullCondition.signalAll(); // notifyAll
             lock.unlock();
+            System.out.println("  >>released for pop");
         }
     }
 }
