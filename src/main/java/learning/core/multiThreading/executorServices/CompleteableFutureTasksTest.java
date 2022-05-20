@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class RunAsyncVsSupplyAsyncTest {
+public class CompleteableFutureTasksTest {
     private ExecutorService executorService = Executors.newFixedThreadPool(2);
 
     @Test

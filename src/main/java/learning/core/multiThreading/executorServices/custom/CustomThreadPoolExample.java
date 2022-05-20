@@ -6,8 +6,7 @@ public class CustomThreadPoolExample {
 
         for (int i = 1; i <= 5; i++) {
             Task task = new Task("Task " + i);
-            System.out.println("Created : " + task.getName());
-
+            System.out.println("submitted task : " + task.getName());
             customThreadPool.execute(task);
         }
 

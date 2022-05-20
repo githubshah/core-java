@@ -20,7 +20,9 @@ public class CustomThreadPool {
         workers = new WorkerThread[poolSize];
 
         for (int i = 0; i < poolSize; i++) {
-            workers[i] = new WorkerThread();
+            WorkerThread workerThread = new WorkerThread();
+            workerThread.setName("worked_thread_"+i);
+            workers[i] = workerThread;
             workers[i].start();
         }
     }
@@ -47,12 +49,14 @@ public class CustomThreadPool {
                 synchronized (queue) {
                     while (queue.isEmpty()) {
                         try {
+                            System.out.println("Thread: "+ currentThread().getName() +" try to pick task");
                             queue.wait();
                         } catch (InterruptedException e) {
                             System.out.println("An error occurred while queue is waiting: " + e.getMessage());
                         }
                     }
                     task = (Runnable) queue.poll();
+                    System.out.println("Thread: "+ currentThread().getName() +" picked task: "+((Task)task).getName());
                 }
 
                 try {
