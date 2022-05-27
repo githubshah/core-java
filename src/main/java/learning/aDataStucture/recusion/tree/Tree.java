@@ -4,10 +4,10 @@ public class Tree {
     Node root;
     int depth;
 
-    Node addNode(int[] arr, Node root, int i, int level) {
+    Node addNode(int[] arr, Node root, int i, int level) { // passing null as a root
         if (i < arr.length) {
             this.depth = level;
-            root = new Tree.Node(arr[i], level++);
+            root = new Tree.Node(arr[i], level++); // initialize root node;
             root.left = addNode(arr, root.left, 2 * i + 1, level);
             root.right = addNode(arr, root.right, 2 * i + 2, level);
         }
