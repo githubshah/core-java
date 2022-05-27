@@ -14,19 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/ATMDispenseChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/DispenseChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/Dollar10Dispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/Dollar20Dispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/Dollar50Dispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/iterator/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/iterator/NameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/FindSubSetEqualsToSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/SimpleDateFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/SimpleDateFormatDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/decorator/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/decorator/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/FindSubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/FindSubSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,14 +88,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.aDataStucture.recusion" />
       <recent name="learning.core.exception_flow" />
       <recent name="learning.core.multiThreading.semaphore" />
       <recent name="learning.core.multiThreading.executorServices" />
       <recent name="core.constructorchaining" />
-      <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaStore">
+  <component name="RunManager" selected="Application.FindSubSet">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -117,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Fibonacci" />
+    <configuration name="FindSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.FindSubSet" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncrementCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.control.problem.IncrementCount" />
+    <configuration name="OrElseVsOrElseGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.java8.optional8.OrElseVsOrElseGet" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.control.problem.*" />
+          <option name="PATTERN" value="learning.core.java8.optional8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.SimpleDateFormatDemo" />
+    <configuration name="PossibleCombinationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.PossibleCombinationOfString" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindSubSet" />
+        <item itemvalue="Application.PossibleCombinationOfString" />
+        <item itemvalue="Application.OrElseVsOrElseGet" />
         <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.learning.core.multiThreading.control.solution.byAtomic.IncrementCount" />
-        <item itemvalue="Application.IncrementCount" />
-        <item itemvalue="Application.SimpleDateFormatDemo" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
