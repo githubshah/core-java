@@ -14,8 +14,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/ATMDispenseChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/DispenseChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/Dollar10Dispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/Dollar20Dispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/chainOfresponsiblity/Dollar50Dispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/iterator/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/iterator/NameRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/SimpleDateFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/SimpleDateFormatDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/decorator/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/decorator/Pizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +105,7 @@
       <recent name="core.multiThreading.control.problem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
+  <component name="RunManager" selected="Application.PizzaStore">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -102,32 +113,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.charOccerence.CharOccurrence" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.charOccerence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTimeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.dateTimeD.DateTimeDemo" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.dateTimeD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.FindSubSet" />
+    <configuration name="IncrementCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.control.problem.IncrementCount" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.control.problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,20 +143,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.aDataStucture.ReverseLinkedListRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.ReverseLinkedListRecursive" />
+    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.pattern.decorator.PizzaStore" />
       <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.pattern.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleDateFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.SimpleDateFormatDemo" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="learning.core.multiThreading.control.solution.byAtomic.IncrementCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.control.solution.byAtomic.IncrementCount" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.multiThreading.control.solution.byAtomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaStore" />
+        <item itemvalue="Application.learning.core.multiThreading.control.solution.byAtomic.IncrementCount" />
+        <item itemvalue="Application.IncrementCount" />
+        <item itemvalue="Application.SimpleDateFormatDemo" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.FindSubSet" />
-        <item itemvalue="Application.CharOccurrence" />
-        <item itemvalue="Application.learning.aDataStucture.ReverseLinkedListRecursive" />
-        <item itemvalue="Application.DateTimeDemo" />
       </list>
     </recent_temporary>
   </component>

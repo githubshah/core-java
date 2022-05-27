@@ -4,14 +4,14 @@ public class Tree {
     Node root;
     int depth;
 
-    Node addNode(int[] arr, Node node, int i, int level) {
+    Node addNode(int[] arr, Node root, int i, int level) {
         if (i < arr.length) {
             this.depth = level;
-            node = new Tree.Node(arr[i], level++);
-            node.left = addNode(arr, node.left, 2 * i + 1, level);
-            node.right = addNode(arr, node.right, 2 * i + 2, level);
+            root = new Tree.Node(arr[i], level++);
+            root.left = addNode(arr, root.left, 2 * i + 1, level);
+            root.right = addNode(arr, root.right, 2 * i + 2, level);
         }
-        return node;
+        return root;
     }
 
     public void inOrder(Node root) {

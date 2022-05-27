@@ -36,6 +36,7 @@ class FarmHouse extends Pizza {
 class FreshTomato extends ToppingsDecorator {
     // we need a reference to obj we are decorating
     Pizza pizza;
+    int tammotoCost = 40;
 
     public FreshTomato(Pizza pizza) {
         this.pizza = pizza;
@@ -46,7 +47,7 @@ class FreshTomato extends ToppingsDecorator {
     }
 
     public int getCost() {
-        int i = 40 + pizza.getCost();
+        int i = tammotoCost + pizza.getCost();
         System.out.println("calculate fresh tomato topping " + i);
         return i;
     }
@@ -70,6 +71,7 @@ class Barbeque extends ToppingsDecorator {
 
 class Paneer extends ToppingsDecorator {
     Pizza pizza;
+    int paneerCost = 80;
 
     public Paneer(Pizza pizza) {
         this.pizza = pizza;
@@ -80,7 +82,7 @@ class Paneer extends ToppingsDecorator {
     }
 
     public int getCost() {
-        int i = 70 + pizza.getCost();
+        int i = paneerCost + pizza.getCost();
         System.out.println("calculate panner topping " + i);
         return i;
     }
