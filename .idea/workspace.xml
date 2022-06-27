@@ -14,8 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorSolutionByReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorSolutionBySynchronisedBlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorSolutionBySynchronisedMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorUsingSemaphoreDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/tree/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,36 +70,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/default_method/newDemo&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/multiThreading/mutex"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="learning.pattern.visitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap" />
       <recent name="$PROJECT_DIR$/src/main/java/learning" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more" />
-      <recent name="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.core.multiThreading.mutex" />
       <recent name="learning.aDataStucture.recusion" />
       <recent name="learning.core.exception_flow" />
       <recent name="learning.core.multiThreading.semaphore" />
       <recent name="learning.core.multiThreading.executorServices" />
-      <recent name="core.constructorchaining" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeOrders">
+  <component name="RunManager" selected="Application.learning.core.multiThreading.mutex.SequenceGeneratorSolutionByReentrantLock">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrElseVsOrElseGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.java8.optional8.OrElseVsOrElseGet" />
+    <configuration name="SequenceGeneratorProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorProblem" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.java8.optional8.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.pattern.decorator.PizzaStore" />
+    <configuration name="SequenceGeneratorSolutionBySynchronisedBlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorSolutionBySynchronisedBlockDemo" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.pattern.decorator.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PossibleCombinationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.PossibleCombinationOfString" />
+    <configuration name="SequenceGeneratorSolutionBySynchronisedMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorSolutionBySynchronisedMethod" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.tree.TreeOrders" />
+    <configuration name="SequenceGeneratorUsingSynchronizedBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorUsingSynchronizedBlock" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.tree.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.aDataStucture.recusion.FindPossibleSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.FindPossibleSubSet" />
+    <configuration name="learning.core.multiThreading.mutex.SequenceGeneratorSolutionByReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorSolutionByReentrantLock" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeOrders" />
-        <item itemvalue="Application.learning.aDataStucture.recusion.FindPossibleSubSet" />
-        <item itemvalue="Application.PossibleCombinationOfString" />
-        <item itemvalue="Application.OrElseVsOrElseGet" />
-        <item itemvalue="Application.PizzaStore" />
+        <item itemvalue="Application.learning.core.multiThreading.mutex.SequenceGeneratorSolutionByReentrantLock" />
+        <item itemvalue="Application.SequenceGeneratorSolutionBySynchronisedBlockDemo" />
+        <item itemvalue="Application.learning.core.multiThreading.mutex.SequenceGeneratorUsingSynchronizedBlock" />
+        <item itemvalue="Application.learning.core.multiThreading.mutex.SequenceGeneratorSolutionBySynchronisedMethod" />
+        <item itemvalue="Application.learning.core.multiThreading.mutex.SequenceGeneratorProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +286,21 @@
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
           <line>567</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Main.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
