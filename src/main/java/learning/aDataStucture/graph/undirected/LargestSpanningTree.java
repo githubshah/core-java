@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class NoOfTree {
+public class LargestSpanningTree {
 
     static int fun(JSONObject jsonObject) {
 
