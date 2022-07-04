@@ -2,7 +2,7 @@ package learning.aDataStucture.graph;
 
 import java.util.HashSet;
 
-public class IslandMin {
+public class IslandMinMax {
 
 
     private static int countIsLand(char[][] arr, int r, int c, HashSet<String> visited, int ctr) {
