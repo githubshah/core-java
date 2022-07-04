@@ -14,15 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/CandidateCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Scann.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/directed/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/directed/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/directed/SourceToDestination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/undirected/SourceToDestination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/undirected/SourceToDestination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/undirected/SourceToDestination.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +94,7 @@
       <recent name="learning.aDataStucture.recusion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.learning.aDataStucture.graph.directed.SourceToDestination">
+  <component name="RunManager" selected="Application.SourceToDestination">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -126,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Main" />
+    <configuration name="SourceToDestination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.undirected.SourceToDestination" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="learning.aDataStucture.graph.undirected.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SourceToDestination" />
         <item itemvalue="Application.learning.aDataStucture.graph.directed.SourceToDestination" />
         <item itemvalue="Application.learning.aDataStucture.graph.directed.simple.DFS" />
         <item itemvalue="Application.learning.aDataStucture.graph.directed.simple.BFS" />
         <item itemvalue="Application.DFS" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
