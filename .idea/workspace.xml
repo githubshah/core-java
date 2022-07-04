@@ -14,8 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/undirected/NoOfTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/undirected/SourceToDestination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/undirected/SourceToDestination.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +87,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.aDataStucture.graph.undirected" />
       <recent name="learning.aDataStucture.graph.directed.undirected" />
       <recent name="learning.aDataStucture.graph.simple" />
       <recent name="learning.aDataStucture.graph" />
       <recent name="learning.core.multiThreading.mutex" />
-      <recent name="learning.aDataStucture.recusion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SourceToDestination">
+  <component name="RunManager" selected="Application.NoOfTree">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.graph.DFS" />
+    <configuration name="NoOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.undirected.NoOfTree" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.graph.*" />
+          <option name="PATTERN" value="learning.aDataStucture.graph.undirected.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NoOfTree" />
         <item itemvalue="Application.SourceToDestination" />
         <item itemvalue="Application.learning.aDataStucture.graph.directed.SourceToDestination" />
         <item itemvalue="Application.learning.aDataStucture.graph.directed.simple.DFS" />
         <item itemvalue="Application.learning.aDataStucture.graph.directed.simple.BFS" />
-        <item itemvalue="Application.DFS" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +281,11 @@
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
           <line>567</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/undirected/NoOfTree.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
