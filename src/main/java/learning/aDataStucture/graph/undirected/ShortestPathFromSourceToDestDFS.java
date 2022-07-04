@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 //https://www.youtube.com/watch?v=tWVWeAqZ0WU
-public class ShortestPathFromSourceToDest {
+public class ShortestPathFromSourceToDestDFS {
 
     static int shortestPath(JSONObject jsonObject, String source, String destination, Set<String> set, int ctr) {
 
