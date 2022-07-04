@@ -1,4 +1,4 @@
-package learning.aDataStucture.graph.undirected;
+package learning.aDataStucture.graph.directed;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
