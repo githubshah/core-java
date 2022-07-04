@@ -14,13 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorSolutionByReentrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorSolutionBySynchronisedBlockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorSolutionBySynchronisedMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex/SequenceGeneratorUsingSemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/CandidateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Scann.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/directed/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/directed/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/directed/SourceToDestination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/undirected/SourceToDestination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +94,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.aDataStucture.graph.directed.undirected" />
+      <recent name="learning.aDataStucture.graph.simple" />
+      <recent name="learning.aDataStucture.graph" />
       <recent name="learning.core.multiThreading.mutex" />
       <recent name="learning.aDataStucture.recusion" />
-      <recent name="learning.core.exception_flow" />
-      <recent name="learning.core.multiThreading.semaphore" />
-      <recent name="learning.core.multiThreading.executorServices" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.learning.core.multiThreading.mutex.SequenceGeneratorSolutionByReentrantLock">
+  <component name="RunManager" selected="Application.learning.aDataStucture.graph.directed.SourceToDestination">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -111,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceGeneratorProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorProblem" />
+    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.graph.DFS" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
+          <option name="PATTERN" value="demo.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceGeneratorSolutionBySynchronisedBlockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorSolutionBySynchronisedBlockDemo" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Main" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceGeneratorSolutionBySynchronisedMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorSolutionBySynchronisedMethod" />
+    <configuration name="learning.aDataStucture.graph.directed.SourceToDestination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.directed.SourceToDestination" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
+          <option name="PATTERN" value="learning.aDataStucture.graph.directed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceGeneratorUsingSynchronizedBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorUsingSynchronizedBlock" />
+    <configuration name="learning.aDataStucture.graph.directed.simple.BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.directed.simple.BFS" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
+          <option name="PATTERN" value="learning.aDataStucture.graph.directed.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.core.multiThreading.mutex.SequenceGeneratorSolutionByReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.mutex.SequenceGeneratorSolutionByReentrantLock" />
+    <configuration name="learning.aDataStucture.graph.directed.simple.DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.directed.simple.DFS" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.mutex.*" />
+          <option name="PATTERN" value="learning.aDataStucture.graph.directed.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.learning.core.multiThreading.mutex.SequenceGeneratorSolutionByReentrantLock" />
-        <item itemvalue="Application.SequenceGeneratorSolutionBySynchronisedBlockDemo" />
-        <item itemvalue="Application.learning.core.multiThreading.mutex.SequenceGeneratorUsingSynchronizedBlock" />
-        <item itemvalue="Application.learning.core.multiThreading.mutex.SequenceGeneratorSolutionBySynchronisedMethod" />
-        <item itemvalue="Application.learning.core.multiThreading.mutex.SequenceGeneratorProblem" />
+        <item itemvalue="Application.learning.aDataStucture.graph.directed.SourceToDestination" />
+        <item itemvalue="Application.learning.aDataStucture.graph.directed.simple.DFS" />
+        <item itemvalue="Application.learning.aDataStucture.graph.directed.simple.BFS" />
+        <item itemvalue="Application.DFS" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -286,21 +288,6 @@
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
           <line>567</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Main.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Main.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
