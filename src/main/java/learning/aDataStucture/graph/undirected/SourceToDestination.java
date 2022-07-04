@@ -11,7 +11,7 @@ public class SourceToDestination {
 
     static boolean fun(JSONObject jsonObject, String source, String destination, Set<String> set) {
 
-        if(set.contains(source))  return false;
+        if (set.contains(source)) return false;
 
         set.add(source);
 
@@ -31,15 +31,16 @@ public class SourceToDestination {
     }
 
     public static void main(String[] args) {
-        String as = "[['w', 'x'], ['x','y'], ['y1', 'z']]";
+        String as = "[['i', 'j'], ['k','i'], ['m', 'k'], ['k','l'], ['o','n']]";
+
         JSONArray jsonObject = new JSONArray(as);
 
         JSONObject object = build(jsonObject);
 
-        //System.out.println(object);
+        System.out.println(object.toString(10));
 
-        System.out.println(fun(object, "w", "y", new HashSet()));
-        System.out.println(fun(object, "w", "z", new HashSet()));
+        System.out.println(fun(object, "i", "m", new HashSet()));
+        System.out.println(fun(object, "i", "n", new HashSet()));
     }
 
     private static JSONObject build(JSONArray jsonArray) {
