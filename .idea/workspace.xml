@@ -14,8 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/Island.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/IslandMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/IslandCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +88,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.aDataStucture.graph" />
       <recent name="learning.aDataStucture.graph.undirected" />
       <recent name="learning.aDataStucture.graph.directed.undirected" />
       <recent name="learning.aDataStucture.graph.simple" />
-      <recent name="learning.aDataStucture.graph" />
       <recent name="learning.core.multiThreading.mutex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Island">
+  <component name="RunManager" selected="Application.IslandMin">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,8 +107,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Island" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.Island" />
+    <configuration name="IslandCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.IslandCount" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.aDataStucture.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IslandMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.IslandMin" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
@@ -158,26 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.aDataStucture.graph.undirected.SourceToDestination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.undirected.SourceToDestination" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.graph.directed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Island" />
+        <item itemvalue="Application.IslandMin" />
+        <item itemvalue="Application.IslandCount" />
         <item itemvalue="Application.TotalSpanningTree" />
         <item itemvalue="Application.learning.aDataStucture.graph.undirected.ShortestPathFromSourceToDestDFS" />
         <item itemvalue="Application.learning.aDataStucture.graph.undirected.NoOfTree" />
-        <item itemvalue="Application.learning.aDataStucture.graph.undirected.SourceToDestination" />
       </list>
     </recent_temporary>
   </component>
@@ -281,21 +282,6 @@
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
           <line>567</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/Island.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/Island.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/Island.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

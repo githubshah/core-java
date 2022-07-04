@@ -2,7 +2,7 @@ package learning.aDataStucture.graph;
 
 import java.util.HashSet;
 
-public class Island {
+public class IslandCount {
 
 
     private static boolean countIsLand(char[][] arr, int r, int c, HashSet<String> visited) {
