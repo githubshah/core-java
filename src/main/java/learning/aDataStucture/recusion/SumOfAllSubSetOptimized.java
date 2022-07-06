@@ -1,13 +1,15 @@
-package demo;
+package learning.aDataStucture.recusion;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Nain {
+public class SumOfAllSubSetOptimized {
+
     public static void main(String[] args) {
         int[] arr = {2, 3, 5};
         List<Integer> subset = new ArrayList<>();
-        new Nain().fun(arr, subset, 0, 0);
+        new SumOfAllSubSetOptimized().fun(arr, subset, 0, 0);
         System.out.println(subset);
     }
 
