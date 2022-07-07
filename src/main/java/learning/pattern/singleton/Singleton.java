@@ -1,7 +1,7 @@
 package learning.pattern.singleton;
 
 public class Singleton {
-    static Singleton singleton;
+    private static volatile Singleton singleton;
 
     private Singleton() {
         System.out.println("Private constructor");
