@@ -14,9 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/print/ArrayToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/print/ListToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/print/SetToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringIntern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringPoolVsHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,14 +88,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.print_collection" />
       <recent name="learning.print" />
       <recent name="learning.aDataStucture.recusion" />
       <recent name="learning.aDataStucture.graph" />
       <recent name="learning.aDataStucture.graph.undirected" />
-      <recent name="learning.aDataStucture.graph.directed.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapToString">
+  <component name="RunManager" selected="Application.StringIntern">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -108,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.print_collection.ArrayToString" />
+    <configuration name="ExceptionFlow2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.exception_flow.ExceptionFlow2" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.print_collection.*" />
+          <option name="PATTERN" value="learning.core.exception_flow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +146,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.print_collection.SetToString" />
+    <configuration name="StringIntern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.stringdemo.StringIntern" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.print_collection.*" />
+          <option name="PATTERN" value="learning.core.stringdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringPoolVsHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.stringdemo.StringPoolVsHeap" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.stringdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,10 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringIntern" />
+        <item itemvalue="Application.StringPoolVsHeap" />
+        <item itemvalue="Application.ExceptionFlow2" />
         <item itemvalue="Application.MapToString" />
         <item itemvalue="Application.learning.print_collection.ListToString" />
-        <item itemvalue="Application.learning.print_collection.SetToString" />
-        <item itemvalue="Application.learning.print_collection.ArrayToString" />
       </list>
     </recent_temporary>
   </component>
