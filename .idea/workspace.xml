@@ -13,10 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/builder/Liberty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/builder/Liberty.java" afterDir="false" />
-    </list>
+    <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,7 @@
       <recent name="learning.aDataStucture.graph.simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Liberty">
+  <component name="RunManager" selected="Application.ATMDispenseChain">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSubSetSumEqualsToOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.CountSubSetSumEqualsToOptimized" />
+    <configuration name="ATMDispenseChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.pattern.chainOfresponsiblity.ATMDispenseChain" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
+          <option name="PATTERN" value="learning.pattern.chainOfresponsiblity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATMDispenseChain" />
         <item itemvalue="Application.Liberty" />
         <item itemvalue="Application.learning.aDataStucture.NQueenProblem" />
         <item itemvalue="Application.demo.N_Queen" />
         <item itemvalue="Application.demo.Nain" />
-        <item itemvalue="Application.CountSubSetSumEqualsToOptimized" />
       </list>
     </recent_temporary>
   </component>
