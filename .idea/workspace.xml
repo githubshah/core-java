@@ -14,7 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/NQueenProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/builder/Liberty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/builder/Liberty.java" afterDir="false" />
     </list>
@@ -133,25 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.NQueenProblem" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N_Queen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="demo.N_Queen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.N_Queen" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="learning.aDataStucture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +145,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="demo.Nain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.Nain" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="learning.aDataStucture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="learning.aDataStucture.NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.NQueenProblem" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.aDataStucture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,9 +174,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Liberty" />
-        <item itemvalue="Application.NQueenProblem" />
-        <item itemvalue="Application.N_Queen" />
-        <item itemvalue="Application.Nain" />
+        <item itemvalue="Application.learning.aDataStucture.NQueenProblem" />
+        <item itemvalue="Application.demo.N_Queen" />
+        <item itemvalue="Application.demo.Nain" />
         <item itemvalue="Application.CountSubSetSumEqualsToOptimized" />
       </list>
     </recent_temporary>

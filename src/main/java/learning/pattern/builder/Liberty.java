@@ -1,9 +1,9 @@
 package learning.pattern.builder;
 
-class ColorCode {
-    private int codeNumber;
+final class ColorCode {
+    final private int codeNumber;
 
-    private int codeName;
+    final private int codeName;
 
     public ColorCode(Builder builder) {
         this.codeNumber = builder.getCodeNumber();
