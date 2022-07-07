@@ -1,26 +1,48 @@
 package learning.pattern.builder;
 
 class ColorCode {
+    private int codeNumber;
 
-    int loadFactor;
+    private int codeName;
 
-    public ColorCode(int loadFactor) {
-        this.loadFactor = loadFactor;
+    public ColorCode(Builder builder) {
+        this.codeNumber = builder.getCodeNumber();
+        this.codeName = builder.getCodeName();
     }
 
-    public int getLoadFactor(){
-        return loadFactor;
+    public int getCodeName() {
+        return codeName;
     }
 
-    static class Builder {
-        private final int loadFactor;
+    public int getCodeNumber() {
+        return codeNumber;
+    }
 
-        public Builder(int loadFactor) {
-            this.loadFactor = loadFactor;
+    public static class Builder {
+        private int codeNumber;
+
+        public int getCodeNumber() {
+            return codeNumber;
+        }
+
+        public Builder setCodeNumber(int codeNumber) {
+            this.codeNumber = codeNumber;
+            return this;
+        }
+
+        private int codeName;
+
+        public int getCodeName() {
+            return codeName;
+        }
+
+        public Builder setCodeName(int codeName) {
+            this.codeName = codeName;
+            return this;
         }
 
         public ColorCode build() {
-            return new ColorCode(loadFactor);
+            return new ColorCode(this);
         }
     }
 }
@@ -29,8 +51,11 @@ class ColorCode {
 public class Liberty {
 
     public static void main(String[] args) {
-        ColorCode colorCode = new ColorCode.Builder(5).build();
-        System.out.println("Apple " + colorCode.getLoadFactor());
+        ColorCode colorCode = new ColorCode.Builder().
+                setCodeName(1).
+                setCodeNumber(2).
+                build();
+        System.out.println("Apple " + colorCode.getCodeNumber());
     }
 
 }
