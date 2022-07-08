@@ -1,17 +1,15 @@
 package learning.core.comparatorv.iterrator;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class FailFastAndFailSafe {
 
     public static void main(String[] args) {
-        failfast();
+        //failfast();
         //iteratorRemove();
         //failSafe();
+        failSafeVector();
     }
 
     private static void failfast() {
@@ -21,6 +19,31 @@ public class FailFastAndFailSafe {
             System.out.println(">> " + iterator.next());
             l.add(6); // fail fast exception
         }
+    }
+
+    private static void failSafeVector() {
+        Vector<String> v = new Vector<String>();
+
+        // Adding elements to the end
+        v.add("Welcome");
+        v.add("To");
+        v.add("Geeks for");
+        v.add("Geeks");
+
+        // Creating an object of enum
+        Enumeration<String> en = v.elements();
+
+        while (en.hasMoreElements()) {
+
+            // Print the elements using enum object
+            // of the elements added in the vector
+            String s = en.nextElement();
+            if ("Geeks".equals(s)) {
+                v.add("add-new-element-inside-enumeration");
+            }
+        }
+
+        System.out.println(v);
     }
 
     private static void iteratorRemove() {
