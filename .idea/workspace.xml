@@ -14,8 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/SoftReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/WeakReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/MyPhantomReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/QueueReadingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/iterrator/FailFastAndFailSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/iterrator/FailFastAndFailSafe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +32,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -65,23 +71,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/multiThreading/mutex&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/reference"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="learning.pattern.visitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/reference" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap" />
       <recent name="$PROJECT_DIR$/src/main/java/learning" />
-      <recent name="$PROJECT_DIR$/src/main/java/learning/core/aaJava8/stream8/more" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -94,7 +100,7 @@
       <recent name="learning.aDataStucture.graph.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FailFastAndFailSafe">
+  <component name="RunManager" selected="Application.learning.core.reference.phantom.Main">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.constructorchaining.ConstructorChaining" />
+    <configuration name="SoftReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.reference.SoftReferenceDemo" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.constructorchaining.*" />
+          <option name="PATTERN" value="learning.core.reference.phantom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailFastAndFailSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.comparatorv.iterrator.FailFastAndFailSafe" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.reference.phantom.TestClass" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.comparatorv.iterrator.*" />
+          <option name="PATTERN" value="learning.core.reference.phantom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPoolVsHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.stringdemo.StringPoolVsHeap" />
+    <configuration name="learning.core.reference.GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.reference.GFG" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.stringdemo.*" />
+          <option name="PATTERN" value="learning.core.reference.phantom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.overiding.access_specifier.Test" />
+    <configuration name="learning.core.reference.PhantomReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.reference.PhantomReferenceDemo" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.overiding.access_specifier.*" />
+          <option name="PATTERN" value="learning.core.reference.phantom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEnumInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.enum8.impInterface.TestEnumInterface" />
+    <configuration name="learning.core.reference.phantom.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.reference.phantom.Main" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.enum8.impInterface.*" />
+          <option name="PATTERN" value="learning.core.reference.phantom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FailFastAndFailSafe" />
-        <item itemvalue="Application.TestEnumInterface" />
-        <item itemvalue="Application.ConstructorChaining" />
-        <item itemvalue="Application.StringPoolVsHeap" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.learning.core.reference.phantom.Main" />
+        <item itemvalue="Application.learning.core.reference.TestClass" />
+        <item itemvalue="Application.learning.core.reference.GFG" />
+        <item itemvalue="Application.learning.core.reference.PhantomReferenceDemo" />
+        <item itemvalue="Application.learning.core.reference.SoftReferenceDemo" />
       </list>
     </recent_temporary>
   </component>
