@@ -37,7 +37,7 @@ public class HighestSalaryInEachDept {
         /**
          * {IT=Optional[9988.0], SALES=Optional[9753.0], HR=Optional[9999.0]}
          */
-        highestSalaryInEachDepartment1(); // groupBy -> collectionAndThen ->
+        //highestSalaryInEachDepartment1(); // groupBy -> collectionAndThen ->
 
         /**
          * {SALES=9753.0, HR=9999.0, IT=9988.0}
@@ -54,7 +54,7 @@ public class HighestSalaryInEachDept {
 
         //eachEmpNameInEachDepartment1();
 
-        //sum();
+        sum();
 
         //convertObjectListToMap();
 
@@ -90,8 +90,14 @@ public class HighestSalaryInEachDept {
 
     private static void sum() {
         List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-        Integer reduce = integers.stream().reduce(0, Integer::sum);
-        System.out.println(reduce);
+        Optional<Integer> max = integers.stream().reduce(Integer::max);
+        Optional<Integer> min = integers.stream().reduce(Integer::min);
+        Optional<Integer> sum = integers.stream().reduce(Integer::sum);
+        OptionalDouble average = integers.stream().mapToInt(x -> x).average();
+        IntSummaryStatistics intSummaryStatistics = integers.stream().mapToInt(x -> x).summaryStatistics();
+        System.out.println(max.get());
+        System.out.println(min.get());
+        System.out.println(intSummaryStatistics.getAverage());
     }
 
     private static void highestSalaryInEachDepartment1() {

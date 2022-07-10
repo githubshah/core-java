@@ -14,13 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/SoftReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/WeakReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/MyPhantomReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/QueueReadingThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/HighestSalaryInEachDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/HighestSalaryInEachDept.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +66,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/reference"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/reference&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="learning.pattern.visitor" />
@@ -100,7 +95,7 @@
       <recent name="learning.aDataStucture.graph.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.learning.core.reference.phantom.Main">
+  <component name="RunManager" selected="Application.HighestSalaryInEachDept">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -112,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.reference.SoftReferenceDemo" />
+    <configuration name="HighestSalaryInEachDept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.java8.stream8.HighestSalaryInEachDept" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.reference.phantom.*" />
+          <option name="PATTERN" value="learning.core.java8.stream8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +174,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HighestSalaryInEachDept" />
         <item itemvalue="Application.learning.core.reference.phantom.Main" />
-        <item itemvalue="Application.learning.core.reference.TestClass" />
         <item itemvalue="Application.learning.core.reference.GFG" />
         <item itemvalue="Application.learning.core.reference.PhantomReferenceDemo" />
-        <item itemvalue="Application.learning.core.reference.SoftReferenceDemo" />
       </list>
     </recent_temporary>
   </component>
