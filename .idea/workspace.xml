@@ -14,8 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/cloneMethod/DeepCloneSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/cloneMethod/ShallowCloneSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringIntern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringIntern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Applications/JProfiler.app",
+    "last_opened_file_path": "/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/cloneMethod",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -82,11 +83,11 @@
       <recent name="learning.pattern.visitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/cloneMethod" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/reference" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap" />
-      <recent name="$PROJECT_DIR$/src/main/java/learning" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -99,7 +100,7 @@
       <recent name="learning.aDataStucture.graph.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxContribution">
+  <component name="RunManager" selected="Application.DeepCloneSample">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -111,25 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AvoidChildToSerialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.AvoidChildToSerialize" />
+    <configuration name="DeepCloneSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.cloneMethod.DeepCloneSample" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.serialization_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseImplSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.BaseImplSerialization" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.serialization_demo.*" />
+          <option name="PATTERN" value="learning.core.cloneMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,6 +138,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="My_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.cloneMethod.My_class" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.cloneMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShallowCloneSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.cloneMethod.ShallowCloneSample" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.cloneMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringIntern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.core.stringdemo.StringIntern" />
       <module name="core-java" />
@@ -163,26 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.core.serialization_demo.ChildImplSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.ChildImplSerialization" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.serialization_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeepCloneSample" />
+        <item itemvalue="Application.ShallowCloneSample" />
+        <item itemvalue="Application.learning.core.cloneMethod.My_class" />
         <item itemvalue="Application.MaxContribution" />
         <item itemvalue="Application.StringIntern" />
-        <item itemvalue="Application.AvoidChildToSerialize" />
-        <item itemvalue="Application.learning.core.serialization_demo.ChildImplSerialization" />
-        <item itemvalue="Application.learning.core.serialization_demo.BaseImplSerialization" />
       </list>
     </recent_temporary>
   </component>
