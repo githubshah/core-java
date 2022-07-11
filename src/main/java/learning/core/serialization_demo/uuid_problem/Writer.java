@@ -1,4 +1,4 @@
-package learning.core.serialization_demo.solution;
+package learning.core.serialization_demo.uuid_problem;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

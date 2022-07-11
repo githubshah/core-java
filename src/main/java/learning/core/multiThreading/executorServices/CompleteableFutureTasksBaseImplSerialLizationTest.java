@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class CompleteableFutureTasksTest {
+public class CompleteableFutureTasksBaseImplSerialLizationTest {
     private ExecutorService executorService = Executors.newFixedThreadPool(2);
 
     @Test

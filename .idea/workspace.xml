@@ -14,8 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/abc.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/BaseImplSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/ChildImplSerialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/HighestSalaryInEachDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/HighestSalaryInEachDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee.obj" beforeDir="false" afterPath="$PROJECT_DIR$/employee.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/CompleteableFutureTasksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/CompleteableFutureTasksBaseImplSerialLizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_problem/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_problem/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_problem/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_solution/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_solution/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_solution/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UncaughtExceptionHandlerTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UncaughtExceptionHandlerTestBaseImplSerialLizationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +107,7 @@
       <recent name="learning.aDataStucture.graph.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HighestSalaryInEachDept">
+  <component name="RunManager" selected="Application.test3">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -103,6 +115,19 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChildImplSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.ChildImplSerialization" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.serialization_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.reference.phantom.TestClass" />
+    <configuration name="Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.uuid_solution.Writer" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.reference.phantom.*" />
+          <option name="PATTERN" value="learning.core.serialization_demo.uuid_solution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.core.reference.GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.reference.GFG" />
+    <configuration name="learning.core.serialization_demo.BaseImplSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.BaseImplSerialization" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.reference.phantom.*" />
+          <option name="PATTERN" value="learning.core.serialization_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,25 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.core.reference.PhantomReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.reference.PhantomReferenceDemo" />
+    <configuration name="test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.test3" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.reference.phantom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="learning.core.reference.phantom.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.reference.phantom.Main" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.reference.phantom.*" />
+          <option name="PATTERN" value="learning.core.serialization_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,10 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test3" />
+        <item itemvalue="Application.ChildImplSerialization" />
+        <item itemvalue="Application.learning.core.serialization_demo.BaseImplSerialization" />
+        <item itemvalue="Application.learning.core.serialization_demo.uuid_solution.Writer" />
         <item itemvalue="Application.HighestSalaryInEachDept" />
-        <item itemvalue="Application.learning.core.reference.phantom.Main" />
-        <item itemvalue="Application.learning.core.reference.GFG" />
-        <item itemvalue="Application.learning.core.reference.PhantomReferenceDemo" />
       </list>
     </recent_temporary>
   </component>

@@ -1,23 +1,25 @@
-package learning.core.serialization_demo.solution;
+package learning.core.serialization_demo.uuid_problem;
 
 import java.io.Serializable;
 
 public class Employee implements Serializable {
-
-    private static final long serialVersionUID = 1L;
-
     private String name;
-    private String email = "shaid@gmail.com";
 
     public String getName() {
         return name;
     }
 
-    // uncomment below piece of code and re-read the already saved object from file.
-
     public void setName(String name) {
         this.name = name;
     }
+
+    // you can not manipulate the class once serialize its object into DB/FILE.
+    // else you will get INVALID class exception
+
+
+    // uncomment below piece of code and re-read the already saved object from file.
+
+    /*private String email = "shaid@gmail.com";
 
     public String getEmail() {
         return email;
@@ -25,5 +27,5 @@ public class Employee implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
-    }
+    }*/
 }

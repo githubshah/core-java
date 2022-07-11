@@ -2,7 +2,7 @@ import org.junit.Test;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 
-public class UncaughtExceptionHandlerTestTest {
+public class UncaughtExceptionHandlerTestBaseImplSerialLizationTest {
 
     public static void main(String[] s) {
         //Long a = new Integer(2);
