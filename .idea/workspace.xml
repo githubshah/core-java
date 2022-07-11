@@ -14,20 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/abc.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/BaseImplSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/ChildImplSerialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee.obj" beforeDir="false" afterPath="$PROJECT_DIR$/employee.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/CompleteableFutureTasksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/executorServices/CompleteableFutureTasksBaseImplSerialLizationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_problem/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_problem/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/problem/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_problem/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_solution/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_solution/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/solution/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_solution/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UncaughtExceptionHandlerTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UncaughtExceptionHandlerTestBaseImplSerialLizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringIntern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringIntern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +66,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/reference&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Applications/JProfiler.app",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="learning.pattern.visitor" />
@@ -107,7 +99,7 @@
       <recent name="learning.aDataStucture.graph.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test3">
+  <component name="RunManager" selected="Application.MaxContribution">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -119,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChildImplSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.ChildImplSerialization" />
+    <configuration name="AvoidChildToSerialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.AvoidChildToSerialize" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
@@ -132,33 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighestSalaryInEachDept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.java8.stream8.HighestSalaryInEachDept" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.java8.stream8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Writer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.uuid_solution.Writer" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.serialization_demo.uuid_solution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="learning.core.serialization_demo.BaseImplSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseImplSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.BaseImplSerialization" />
       <module name="core-java" />
       <extension name="coverage">
@@ -171,8 +137,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.test3" />
+    <configuration name="MaxContribution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.MaxContribution" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.aDataStucture.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringIntern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.stringdemo.StringIntern" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.stringdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="learning.core.serialization_demo.ChildImplSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.serialization_demo.ChildImplSerialization" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
@@ -186,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test3" />
-        <item itemvalue="Application.ChildImplSerialization" />
+        <item itemvalue="Application.MaxContribution" />
+        <item itemvalue="Application.StringIntern" />
+        <item itemvalue="Application.AvoidChildToSerialize" />
+        <item itemvalue="Application.learning.core.serialization_demo.ChildImplSerialization" />
         <item itemvalue="Application.learning.core.serialization_demo.BaseImplSerialization" />
-        <item itemvalue="Application.learning.core.serialization_demo.uuid_solution.Writer" />
-        <item itemvalue="Application.HighestSalaryInEachDept" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +313,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/demo_java$GCD.ic" NAME="GCD Coverage Results" MODIFIED="1644169255560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>learning.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/core_java$StringIntern.ic" NAME="StringIntern Coverage Results" MODIFIED="1657521479115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>learning.core.stringdemo.*</FILTER>
     </SUITE>
   </component>
 </project>

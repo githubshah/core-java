@@ -7,7 +7,7 @@ public class StringIntern {
         String b = "howtodoinjava";
 
         String c = new String("howtodoinjava");
-        String d = c.intern();
+        String d = c.intern();  // make a  copy in constant pool and return its reference.
 
         System.out.println(a==d);
 
