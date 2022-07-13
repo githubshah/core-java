@@ -9,7 +9,7 @@ public class OrElseVsOrElseGet {
         OrElseVsOrElseGet orElseVsOrElseGet = new OrElseVsOrElseGet();
 
         System.out.println("OrElse statement");
-        System.out.println(Optional.of(10).orElse(orElseVsOrElseGet.called()));
+        System.out.println(Optional.of(10).orElse(orElseVsOrElseGet.called())); // call orElse part will execute before cheking conditions.
 
         System.out.println("\nOrElseGet statement");
         System.out.println(Optional.of(10).orElseGet(orElseVsOrElseGet::called));
