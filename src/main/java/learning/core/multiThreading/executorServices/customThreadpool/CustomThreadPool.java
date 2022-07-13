@@ -37,15 +37,22 @@ public class CustomThreadPool {
     public void shutdown() {
         System.out.println("Shutting down thread pool");
         for (int i = 0; i < poolSize; i++) {
-            workers[i] = null;
+            WorkerThread worker = workers[i];
+            worker.stopped();
+            //workers[i] = null;
         }
     }
 
     private class WorkerThread extends Thread {
+
+        boolean isRunning = true;
+        public void stopped(){
+            this.isRunning = false;
+        }
         public void run() {
             Runnable task;
 
-            while (true) {
+            while (isRunning) {
                 synchronized (queue) {
                     while (queue.isEmpty()) {
                         try {
