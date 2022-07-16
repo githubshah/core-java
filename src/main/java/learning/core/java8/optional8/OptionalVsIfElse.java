@@ -11,24 +11,23 @@ public class OptionalVsIfElse {
 
 //        System.out.println("optional= " + checkOptional(a, b, c) + " ,if-else= " + checkIf(a, b, c));
 //        System.out.println("optional= " + checkOptional(null, b, c) + " ,if-else= " + checkIf(null, b, c));
-       System.out.println("optional= " + checkOptional(a, null, c) + " ,if-else= " + checkIf(a, null, c));
-//        System.out.println("optional= " + checkOptional(null, null, null) + " ,if-else= " + checkIf(null, null, null));
+        //      System.out.println("optional= " + checkOptional(a, null, c) + " ,if-else= " + checkIf(a, null, c));
+        System.out.println("optional= " + checkOptional(null, b, null) + " ,if-else= " + checkIf(null, b, null));
 
     }
 
     private static Integer checkOptional(Integer a, Integer b, Integer c) {
         return Optional.ofNullable(a)
                 .map(value -> {
-                    System.out.println(value + " non null");
+                    System.out.println(value + " non null 1st");
                     return Optional.of(value);
-                }) // 1  {if = map}
+                })
                 .orElse(Optional.ofNullable(b))
                 .map(value1 -> {
-                    System.out.println(value1 + " non null");
+                    System.out.println(value1 + " non null 2nd");
                     return Optional.of(value1);
-                }) //2  {else-if = orElseGet+map}
-                .orElse(Optional.ofNullable(c)) //4   {last else-if = orElse}
-                .orElse(100); //6  {orElse = else}
+                }).orElse(Optional.ofNullable(c))
+                .orElse(100);
     }
 
     private static Integer checkIf(Integer a, Integer b, Integer c) {
