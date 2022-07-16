@@ -10,23 +10,10 @@ public class OptionalVsIfElse {
         Integer c = 30;
 
         System.out.println("optional= " + checkOptional(a, b, c) + " ,if-else= " + checkIf(a, b, c));
-        a = null;
-        System.out.println("optional= " + checkOptional(a, b, c) + " ,if-else= " + checkIf(a, b, c));
-        a = null;
-        b = null;
-        System.out.println("optional= " + checkOptional(a, b, c) + " ,if-else= " + checkIf(a, b, c));
-        a = null;
-        b = null;
-        c = null;
-        System.out.println("optional= " + checkOptional(a, b, c) + " ,if-else= " + checkIf(a, b, c));
-        a = null;
-        b = null;
-        c = null;
-        System.out.println("optional= " + checkOptional(a, b, c) + " ,if-else= " + checkIf(a, b, c));
-        a = null;
-        b = null;
-        c = null;
-        System.out.println("optional= " + checkOptional(a, b, c) + " ,if-else= " + checkIf(a, b, c));
+        System.out.println("optional= " + checkOptional(null, b, c) + " ,if-else= " + checkIf(null, b, c));
+        System.out.println("optional= " + checkOptional(null, null, c) + " ,if-else= " + checkIf(null, null, c));
+        System.out.println("optional= " + checkOptional(null, null, null) + " ,if-else= " + checkIf(null, null, null));
+
     }
 
     private static Integer checkOptional(Integer a, Integer b, Integer c) {
