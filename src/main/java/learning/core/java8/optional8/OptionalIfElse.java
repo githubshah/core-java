@@ -2,16 +2,69 @@ package learning.core.java8.optional8;
 
 import java.util.Optional;
 
+class Address {
+    String street;
+
+    public Address(String street) {
+        this.street = street;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+}
+
+class User {
+    String name;
+    Address address;
+
+    public User(String name, String street) {
+        this.name = name;
+        this.address = new Address(street);
+    }
+
+    public User(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+}
+
 public class OptionalIfElse {
 
     public static void main(String[] args) {
-        System.out.println(checkOptional(13));
+        System.out.println(check(new User("shaid", "shah market")));
+        System.out.println(check(new User("shaid")));
+
+        System.out.println();
+
+        System.out.println(checkOptional(new User("shaid", "shah market")));
+        System.out.println(checkOptional(new User("shaid")));
     }
 
-    private static Integer checkOptional(Integer a) {
-        Optional<Integer> valueOpt1 = Optional.ofNullable(a);
+    private static String check(User user) {
+        if (user != null) {
+            Address address = user.getAddress();
+            if (address != null) {
+                String street = address.getStreet();
+                if (street != null) {
+                    return street;
+                }
+            }
+        }
+        return "not specified";
+    }
 
-        return valueOpt1.map(Optional::of) // 1  {if = map}
-                .orElse(Optional.of(12)).get(); //6  {orElse = else}
+    private static String checkOptional(User user) {
+        return Optional.ofNullable(user)
+                .map(User::getAddress)
+                .map(Address::getStreet)
+                .orElse("not specified");
     }
 }
