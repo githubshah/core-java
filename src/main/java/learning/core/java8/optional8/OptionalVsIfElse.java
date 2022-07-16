@@ -9,21 +9,25 @@ public class OptionalVsIfElse {
         Integer b = 20;
         Integer c = 30;
 
-        System.out.println("optional= " + checkOptional(a, b, c) + " ,if-else= " + checkIf(a, b, c));
-        System.out.println("optional= " + checkOptional(null, b, c) + " ,if-else= " + checkIf(null, b, c));
-        System.out.println("optional= " + checkOptional(null, null, c) + " ,if-else= " + checkIf(null, null, c));
-        System.out.println("optional= " + checkOptional(null, null, null) + " ,if-else= " + checkIf(null, null, null));
+//        System.out.println("optional= " + checkOptional(a, b, c) + " ,if-else= " + checkIf(a, b, c));
+//        System.out.println("optional= " + checkOptional(null, b, c) + " ,if-else= " + checkIf(null, b, c));
+       System.out.println("optional= " + checkOptional(a, null, c) + " ,if-else= " + checkIf(a, null, c));
+//        System.out.println("optional= " + checkOptional(null, null, null) + " ,if-else= " + checkIf(null, null, null));
 
     }
 
     private static Integer checkOptional(Integer a, Integer b, Integer c) {
-        Optional<Integer> valueOpt1 = Optional.ofNullable(a);
-        Optional<Integer> valueOpt2 = Optional.ofNullable(b);
-        Optional<Integer> valueOpt3 = Optional.ofNullable(c);
-
-        return valueOpt1.map(value -> Optional.of(value)) // 1  {if = map}
-                .orElse(valueOpt2).map(value1 -> Optional.of(value1)) //2  {else-if = orElseGet+map}
-                .orElse(valueOpt3) //4   {last else-if = orElse}
+        return Optional.ofNullable(a)
+                .map(value -> {
+                    System.out.println(value + " non null");
+                    return Optional.of(value);
+                }) // 1  {if = map}
+                .orElse(Optional.ofNullable(b))
+                .map(value1 -> {
+                    System.out.println(value1 + " non null");
+                    return Optional.of(value1);
+                }) //2  {else-if = orElseGet+map}
+                .orElse(Optional.ofNullable(c)) //4   {last else-if = orElse}
                 .orElse(100); //6  {orElse = else}
     }
 
