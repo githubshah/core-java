@@ -21,8 +21,8 @@ public class OptionalVsIfElse {
         Optional<Integer> valueOpt2 = Optional.ofNullable(b);
         Optional<Integer> valueOpt3 = Optional.ofNullable(c);
 
-        return valueOpt1.map(Optional::of) // 1  {if = map}
-                .orElseGet(() -> valueOpt2).map(Optional::of) //2  {else-if = orElseGet+map}
+        return valueOpt1.map(value -> Optional.of(value)) // 1  {if = map}
+                .orElse(valueOpt2).map(value1 -> Optional.of(value1)) //2  {else-if = orElseGet+map}
                 .orElse(valueOpt3) //4   {last else-if = orElse}
                 .orElse(100); //6  {orElse = else}
     }
