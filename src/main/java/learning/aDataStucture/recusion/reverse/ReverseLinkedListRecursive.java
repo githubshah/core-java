@@ -1,4 +1,4 @@
-package learning.aDataStucture;// Recursive Java program to reverse
+package learning.aDataStucture.recusion.reverse;// Recursive Java program to reverse
 // a linked list
 
 import java.io.IOException;

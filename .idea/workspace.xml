@@ -99,7 +99,7 @@
       <recent name="learning.aDataStucture.graph.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseArray">
+  <component name="RunManager" selected="Application.learning.aDataStucture.recusion.reverse.ReverseArray">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -119,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.ReverseArray" />
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.reverse.ReverseArray" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
+          <option name="PATTERN" value="learning.aDataStucture.recusion.reverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,7 +181,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.learning.aDataStucture.recusion.reverse.ReverseArray" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionAllOf" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionStage" />
