@@ -14,9 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/Java8Examples4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OptionalVsIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OptionalVsIfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OrElseVsOrElseGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OrElseVsOrElseGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,7 @@
       <recent name="learning.aDataStucture.graph.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrElseVsOrElseGet">
+  <component name="RunManager" selected="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionAllOf">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -112,78 +112,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomThreadPoolExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.customThreadpool.CustomThreadPoolExample" />
+    <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.competitionAllOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.executorServices.customThreadpool.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
+      <option name="METHOD_NAME" value="competitionAllOf" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalIfElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.java8.optional8.OptionalIfElse" />
+    <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.competitionStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.java8.optional8.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
+      <option name="METHOD_NAME" value="competitionStage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.java8.optional8.OptionalMethods" />
+    <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.runAsyncWithCallbacks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.java8.optional8.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
+      <option name="METHOD_NAME" value="runAsyncWithCallbacks" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalVsIfElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.java8.optional8.OptionalVsIfElse" />
+    <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.runAsyncWithExecutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.java8.optional8.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
+      <option name="METHOD_NAME" value="runAsyncWithExecutor" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrElseVsOrElseGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.java8.optional8.OrElseVsOrElseGet" />
+    <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsync" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.java8.optional8.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
+      <option name="METHOD_NAME" value="supplyAsync" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrElseVsOrElseGet" />
-        <item itemvalue="Application.OptionalVsIfElse" />
-        <item itemvalue="Application.OptionalIfElse" />
-        <item itemvalue="Application.OptionalMethods" />
-        <item itemvalue="Application.CustomThreadPoolExample" />
+        <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionAllOf" />
+        <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionStage" />
+        <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsync" />
+        <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.runAsyncWithExecutor" />
+        <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.runAsyncWithCallbacks" />
       </list>
     </recent_temporary>
   </component>
@@ -324,19 +339,24 @@
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OptionalVsIfElse.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/src.zip!/java/util/Optional.java</url>
           <line>212</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OptionalVsIfElse.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="99" />
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -73,9 +73,9 @@ public class CompleteableFutureTasksBaseImplSerialLizationTest {
 
         CompletableFuture<String> c1 = CompletableFuture
                 .supplyAsync(() -> "run supplyAsync ")
-                .thenApply(s -> s.concat("and then apply"));
+                .thenApply(o -> o.concat("and then apply async"));
 
-        Assert.assertEquals("run supplyAsync and then apply", c1.get());
+        Assert.assertEquals("run supplyAsync and then apply async", c1.get());
     }
 
     @Test
