@@ -14,7 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/Java8Examples4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -100,7 +100,7 @@
       <recent name="learning.aDataStucture.graph.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionAllOf">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -108,6 +108,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="core-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,22 +146,6 @@
       <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
       <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
       <option name="METHOD_NAME" value="competitionStage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.runAsyncWithCallbacks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
-      <option name="METHOD_NAME" value="runAsyncWithCallbacks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionAllOf" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionStage" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsync" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.runAsyncWithExecutor" />
-        <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.runAsyncWithCallbacks" />
       </list>
     </recent_temporary>
   </component>
@@ -342,21 +333,6 @@
           <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/src.zip!/java/util/Optional.java</url>
           <line>212</line>
           <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="111" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

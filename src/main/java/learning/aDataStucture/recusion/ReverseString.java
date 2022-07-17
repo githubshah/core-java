@@ -1,10 +1,12 @@
-public class Main {
+package learning.aDataStucture.recusion;
+
+public class ReverseString {
 
     public static void main(String[] args) {
 
         String s = "welcome";
         char[] chars = s.toCharArray();
-        String fun = new Main().fun(chars, -1);
+        String fun = new ReverseString().fun(chars, -1);
 
         System.out.println(fun);
     }
