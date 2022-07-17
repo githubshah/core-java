@@ -14,9 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/ReverseArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +92,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.aDataStucture.recusion" />
       <recent name="learning.print_collection" />
       <recent name="learning.print" />
-      <recent name="learning.aDataStucture.recusion" />
       <recent name="learning.aDataStucture.graph" />
       <recent name="learning.aDataStucture.graph.undirected" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ReverseArray">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -115,6 +114,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="core-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.ReverseArray" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,22 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.runAsyncWithExecutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
-      <option name="METHOD_NAME" value="runAsyncWithExecutor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsync" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java" />
       <extension name="coverage">
@@ -185,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionAllOf" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.competitionStage" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsync" />
-        <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.runAsyncWithExecutor" />
       </list>
     </recent_temporary>
   </component>
