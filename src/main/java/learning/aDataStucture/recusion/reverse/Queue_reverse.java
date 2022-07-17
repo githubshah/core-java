@@ -1,4 +1,4 @@
-package learning.aDataStucture;// Java program to reverse a Queue by recursion
+package learning.aDataStucture.recusion.reverse;// Java program to reverse a Queue by recursion
 
 import java.util.LinkedList;
 import java.util.Queue;

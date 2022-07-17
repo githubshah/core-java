@@ -1,4 +1,4 @@
-package learning.aDataStucture;// Java program to implement stack using a
+package learning.aDataStucture.recusion.queueAndStack;// Java program to implement stack using a
 // single queue 
 
 import java.util.LinkedList;

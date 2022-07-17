@@ -1,4 +1,4 @@
-package learning.aDataStucture;// Java program to implement Queue using
+package learning.aDataStucture.recusion.queueAndStack;// Java program to implement Queue using
 // two stacks with costly enQueue() 
 
 import java.util.Stack;
