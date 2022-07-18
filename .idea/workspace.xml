@@ -14,8 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/reverse/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/SumOfArithmetic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/reverse/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/Power.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +93,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="learning.aDataStucture.recusion.reverse" />
       <recent name="learning.aDataStucture.recusion" />
+      <recent name="learning.aDataStucture.recusion.reverse" />
       <recent name="learning.print_collection" />
       <recent name="learning.print" />
       <recent name="learning.aDataStucture.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Power">
+  <component name="RunManager" selected="Application.SumOfArithmetic">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -137,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.reverse.Power" />
+    <configuration name="SumOfArithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.SumOfArithmetic" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.reverse.*" />
+          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,21 +151,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="learning.aDataStucture.recusion.Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.Power" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="learning.aDataStucture.recusion.reverse.ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.reverse.ReverseNumber" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.reverse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="learning.aDataStucture.recusion.HouseProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.HouseProblem" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
@@ -178,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Power" />
-        <item itemvalue="Application.ReverseNumber" />
+        <item itemvalue="Application.SumOfArithmetic" />
+        <item itemvalue="Application.learning.aDataStucture.recusion.Power" />
+        <item itemvalue="Application.learning.aDataStucture.recusion.reverse.ReverseNumber" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.learning.aDataStucture.recusion.HouseProblem" />
       </list>
     </recent_temporary>
   </component>

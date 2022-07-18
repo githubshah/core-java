@@ -1,4 +1,4 @@
-package learning.aDataStucture.recusion.reverse;
+package learning.aDataStucture.recusion;
 
 public class Power {
 
