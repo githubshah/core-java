@@ -21,34 +21,24 @@ class Main {
             return Integer.max(dist, max_dist);
         }
 
-        // set (i, j) cell as visited
         visited.add(i + "," + j);
 
-        // go to the bottom cell
         if (isSafe(mat, visited, i + 1, j)) {
-            max_dist = findLongestPath(mat, visited, i + 1, j, x, y,
-                    max_dist, dist + 1);
+            max_dist = findLongestPath(mat, visited, i + 1, j, x, y, max_dist, dist + 1);
         }
 
-        // go to the right cell
         if (isSafe(mat, visited, i, j + 1)) {
-            max_dist = findLongestPath(mat, visited, i, j + 1, x, y,
-                    max_dist, dist + 1);
+            max_dist = findLongestPath(mat, visited, i, j + 1, x, y, max_dist, dist + 1);
         }
 
-        // go to the top cell
         if (isSafe(mat, visited, i - 1, j)) {
-            max_dist = findLongestPath(mat, visited, i - 1, j, x, y,
-                    max_dist, dist + 1);
+            max_dist = findLongestPath(mat, visited, i - 1, j, x, y, max_dist, dist + 1);
         }
 
-        // go to the left cell
         if (isSafe(mat, visited, i, j - 1)) {
-            max_dist = findLongestPath(mat, visited, i, j - 1, x, y,
-                    max_dist, dist + 1);
+            max_dist = findLongestPath(mat, visited, i, j - 1, x, y, max_dist, dist + 1);
         }
 
-        // backtrack: remove (i, j) from the visited matrix
         visited.remove(i + "," + j);
 
         return max_dist;
@@ -70,7 +60,7 @@ class Main {
                 };
 
         Set<String> visitor = new HashSet<>();
-        int max_dist = findLongestPath(mat, visitor, 0, 0, 5, 7, 0 , 0);
+        int max_dist = findLongestPath(mat, visitor, 0, 0, 5, 7, 0, 0);
         System.out.println("The maximum length path is " + max_dist);
     }
 }
