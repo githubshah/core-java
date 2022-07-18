@@ -16,7 +16,13 @@ public class Main {
         }
 
         i++;
-        return fun(chars, i) + chars[i];
+        char aChar = chars[i];
+        String fun = fun(chars, i);
+        if(Character.isDigit(aChar)){
+            return aChar + fun;
+        }else{
+            return fun + aChar;
+        }
     }
 
 }

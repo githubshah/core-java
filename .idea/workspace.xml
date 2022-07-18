@@ -14,7 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/longestPathFromSourceToDestiMetrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/graph/longestPathFromSourceToDestiMetrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/TotalPathInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +93,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.aDataStucture.recusion.matrix" />
       <recent name="learning.aDataStucture.graph" />
       <recent name="learning.aDataStucture.recusion" />
       <recent name="learning.aDataStucture.recusion.reverse" />
       <recent name="learning.print_collection" />
-      <recent name="learning.print" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestPathInMatrix">
+  <component name="RunManager" selected="Application.TotalPathInMatrix">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -123,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IslandMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.IslandMinMax" />
+    <configuration name="LongestPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.LongestPathInMatrix" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
@@ -136,15 +138,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.LongestPathInMatrix" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="longestPathFromSourceToDestiMetrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.graph.longestPathFromSourceToDestiMetrix" />
+    <configuration name="TotalPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.matrix.TotalPathInMatrix" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.graph.*" />
+          <option name="PATTERN" value="learning.aDataStucture.recusion.matrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,10 +173,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TotalPathInMatrix" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LongestPathInMatrix" />
-        <item itemvalue="Application.learning.aDataStucture.graph.longestPathFromSourceToDestiMetrix" />
-        <item itemvalue="Application.learning.aDataStucture.graph.IslandMinMax" />
-        <item itemvalue="Application.learning.aDataStucture.graph.MaxContribution" />
         <item itemvalue="Application.HouseProblem" />
       </list>
     </recent_temporary>
