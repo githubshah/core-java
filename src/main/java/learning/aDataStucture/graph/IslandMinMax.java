@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class IslandMinMax {
 
 
-    private static int countIsLand(char[][] arr, int r, int c, HashSet<String> visited, int ctr) {
+    private static int countIsLand(char[][] arr, int r, int c, HashSet<String> visited) {
 
         if (r < 0 || r >= arr.length) {
             return 0;
@@ -29,14 +29,14 @@ public class IslandMinMax {
 
         int size = 1;
 
-        size += countIsLand(arr, r - 1, c, visited, ctr);
-        size += countIsLand(arr, r + 1, c, visited, ctr);
-        size += countIsLand(arr, r, c - 1, visited, ctr);
-        size += countIsLand(arr, r, c + 1, visited, ctr);
-        size += countIsLand(arr, r + 1, c + 1, visited, ctr);
-        size += countIsLand(arr, r - 1, c - 1, visited, ctr);
-        size += countIsLand(arr, r + 1, c - 1, visited, ctr);
-        size += countIsLand(arr, r - 1, c + 1, visited, ctr);
+        size += countIsLand(arr, r - 1, c, visited);
+        size += countIsLand(arr, r + 1, c, visited);
+        size += countIsLand(arr, r, c - 1, visited);
+        size += countIsLand(arr, r, c + 1, visited);
+        size += countIsLand(arr, r + 1, c + 1, visited);
+        size += countIsLand(arr, r - 1, c - 1, visited);
+        size += countIsLand(arr, r + 1, c - 1, visited);
+        size += countIsLand(arr, r - 1, c + 1, visited);
 
         return size;
     }
@@ -60,8 +60,7 @@ public class IslandMinMax {
         HashSet<String> visited = new HashSet<>();
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[0].length; j++) {
-                int ctr = 0;
-                int size = countIsLand(arr, i, j, visited, ctr);
+                int size = countIsLand(arr, i, j, visited);
                 if (size > largest) {
                     largest = size;
                 }
