@@ -4,11 +4,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 class LongestPathInMatrix {
-    private static boolean isSafe(int[][] mat, Set<String> visitor, int i, int j) {
-        return (i >= 0 && i < mat.length && j >= 0 && j < mat[0].length) &&
-                mat[i][j] == 1 && !visitor.contains(i + "," + j);
-    }
-
     public static int findLongestPath(int[][] mat, Set<String> visited, int i, int j,
                                       int x, int y, int max_dist, int dist) {
 
