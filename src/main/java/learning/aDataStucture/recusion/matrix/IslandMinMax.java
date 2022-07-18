@@ -1,4 +1,4 @@
-package learning.aDataStucture.graph;
+package learning.aDataStucture.recusion.matrix;
 
 import java.util.HashSet;
 

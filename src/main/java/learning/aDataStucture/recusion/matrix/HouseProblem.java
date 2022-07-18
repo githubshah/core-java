@@ -1,4 +1,4 @@
-package learning.aDataStucture.recusion;
+package learning.aDataStucture.recusion.matrix;
 
 public class HouseProblem {
 

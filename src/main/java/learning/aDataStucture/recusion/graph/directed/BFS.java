@@ -1,4 +1,4 @@
-package learning.aDataStucture.graph.directed;
+package learning.aDataStucture.recusion.graph.directed;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
