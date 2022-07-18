@@ -1,24 +1,30 @@
 package learning.aDataStucture.recusion.reverse;
 
-public class ReverseString {
+public class ReverseNumber {
 
     public static void main(String[] args) {
 
-        String s = "welcome";
-        char[] chars = s.toCharArray();
-        String fun = new ReverseString().fun(chars, -1);
+        int s = 123;
+        int fun = new ReverseNumber().fun(s, 100);
 
         System.out.println(fun);
     }
 
-    private String fun(char[] chars, int i) {
+    private int fun(int num, int t) {
 
-        if (i == chars.length - 1) {
-            return "";
-        }
+        /*
+         *  int pre = num / t ;
+         *  int newNum = num - (t * pre)
+         *
+         *  if ( newNum == 0) return pre ;
+         *
+         * */
 
-        i++;
-        return fun(chars, i) + chars[i];
+        if (num == 0) return 0;
+
+        int pre = num / t;
+
+        return fun(num - (t * pre), t / 10) * 10 + pre;
     }
 
 }
