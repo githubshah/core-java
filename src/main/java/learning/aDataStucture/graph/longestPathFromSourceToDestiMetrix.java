@@ -3,7 +3,7 @@ package learning.aDataStucture.graph;
 import java.util.HashSet;
 import java.util.Set;
 
-class Main {
+class LongestPathInMatrix {
     private static boolean isSafe(int[][] mat, Set<String> visitor, int i, int j) {
         return (i >= 0 && i < mat.length && j >= 0 && j < mat[0].length) &&
                 mat[i][j] == 1 && !visitor.contains(i + "," + j);
