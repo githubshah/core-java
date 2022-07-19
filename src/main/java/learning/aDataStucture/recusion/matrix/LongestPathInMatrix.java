@@ -48,15 +48,16 @@ class LongestPathInMatrix {
     public static void main(String[] args) {
         int mat[][] =
                 {
-                        {1, 1, 1, 1, 0},
-                        {1, 0, 1, 1, 0},
-                        {1, 0, 1, 0, 0},
-                        {1, 0, 1, 1, 0},
-                        {1, 1, 0, 0, 0}
+                        {1, 0, 0, 0, 0},
+                        {1, 0, 1, 1, 1},
+                        {1, 0, 1, 1, 1},
+                        {1, 0, 1, 1, 1},
+                        {1, 0, 1, 1, 1},
+                        {1, 1, 1, 1, 1}
                 };
 
         Set<String> visitor = new HashSet<>();
-        int max_dist = findLongestPath(mat, visitor, 0, 0, 3, 3, 0, 1);
+        int max_dist = findLongestPath(mat, visitor, 0, 0, 5, 4, 0, 1);
         System.out.println("The maximum length path is " + max_dist);
     }
 }
