@@ -11,7 +11,7 @@ public class IslandCount {
             return false;
         }
 
-        if (c < 0 || c > arr[0].length - 1) {
+        if (c < 0 || c > arr.length - 1) {
             return false;
         }
 

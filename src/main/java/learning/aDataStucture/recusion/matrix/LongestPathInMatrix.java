@@ -11,11 +11,11 @@ class LongestPathInMatrix {
             return Integer.max(dist, max_dist);
         }
 
-        if (i < 0 || i >= mat.length) {
+        if (i < 0 || i > mat.length - 1) {
             return max_dist;
         }
 
-        if (j < 0 || j >= mat[0].length) {
+        if (j < 0 || j >= mat[0].length - 1) {
             return max_dist;
         }
 
@@ -23,18 +23,19 @@ class LongestPathInMatrix {
             return max_dist;
         }
 
-        if (visited.contains(i + "," + j)) {
+        String pos = i + "," + j;
+        if (visited.contains(pos)) {
             return max_dist;
         }
 
-        visited.add(i + "," + j);
+        visited.add(pos);
 
         max_dist = findLongestPath(mat, visited, i + 1, j, x, y, max_dist, dist + 1);
         max_dist = findLongestPath(mat, visited, i, j + 1, x, y, max_dist, dist + 1);
         max_dist = findLongestPath(mat, visited, i - 1, j, x, y, max_dist, dist + 1);
         max_dist = findLongestPath(mat, visited, i, j - 1, x, y, max_dist, dist + 1);
 
-        visited.remove(i + "," + j);
+        visited.remove(pos);
 
         return max_dist;
     }
@@ -47,7 +48,7 @@ class LongestPathInMatrix {
                         {1, 1, 1, 0, 1, 1, 0, 1, 0, 1},
                         {0, 0, 0, 0, 1, 0, 0, 1, 0, 0},
                         {1, 0, 0, 0, 1, 1, 1, 1, 1, 1},
-                        {1, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+                        {1, 1, 1, 1, 1, 1, 1, 1,           1, 0},
                         {1, 0, 0, 0, 1, 0, 0, 1, 0, 1},
                         {1, 0, 1, 1, 1, 1, 0, 0, 1, 1},
                         {1, 1, 0, 0, 1, 0, 0, 0, 0, 1},
