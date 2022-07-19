@@ -72,6 +72,4 @@ public class IslandMinMax {
         }
         System.out.println(largest + ":" + smallest);
     }
-
-
 }

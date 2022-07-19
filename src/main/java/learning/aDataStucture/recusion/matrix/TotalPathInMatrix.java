@@ -10,11 +10,11 @@ class TotalPathInMatrix {
             return 1; // when it reached
         }
 
-        if (i < 0 || i >= mat.length) {
+        if (i < 0 || i > mat.length - 1) {
             return 0;
         }
 
-        if (j < 0 || j >= mat[0].length) {
+        if (j < 0 || j > mat[0].length - 1) {
             return 0;
         }
 

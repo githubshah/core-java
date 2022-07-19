@@ -7,11 +7,11 @@ public class IslandCount {
 
     private static boolean countIsLand(char[][] arr, int r, int c, HashSet<String> visited) {
 
-        if (r < 0 || r >= arr.length) {
+        if (r < 0 || r > arr.length - 1) {
             return false;
         }
 
-        if (c < 0 || c >= arr[0].length) {
+        if (c < 0 || c > arr[0].length - 1) {
             return false;
         }
 
