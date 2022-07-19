@@ -5,20 +5,19 @@ import java.util.HashSet;
 public class IslandMinMax {
 
 
-    private static int countIsLand(char[][] arr, int r, int c, HashSet<String> visited) {
+    private static int countIsLand(int[][] arr, int r, int c, HashSet<String> visited) {
 
-        if (r < 0 || r >= arr.length) {
+        if (r < 0 || r > arr.length - 1) {
             return 0;
         }
 
-        if (c < 0 || c >= arr[0].length) {
+        if (c < 0 || c > arr[0].length - 1) {
             return 0;
         }
 
-        if (arr[r][c] == 'W') {
+        if (arr[r][c] == 0) {
             return 0;
         }
-
 
         String pos = r + "," + c;
         if (visited.contains(pos)) {
@@ -27,36 +26,34 @@ public class IslandMinMax {
 
         visited.add(pos);
 
-        int size = 1;
+        int count = 1;
 
-        size += countIsLand(arr, r - 1, c, visited);
-        size += countIsLand(arr, r + 1, c, visited);
-        size += countIsLand(arr, r, c - 1, visited);
-        size += countIsLand(arr, r, c + 1, visited);
-        size += countIsLand(arr, r + 1, c + 1, visited);
-        size += countIsLand(arr, r - 1, c - 1, visited);
-        size += countIsLand(arr, r + 1, c - 1, visited);
-        size += countIsLand(arr, r - 1, c + 1, visited);
+        count += countIsLand(arr, r - 1, c, visited);
+        count += countIsLand(arr, r + 1, c, visited);
+        count += countIsLand(arr, r, c - 1, visited);
+        count += countIsLand(arr, r, c + 1, visited);
+        count += countIsLand(arr, r + 1, c + 1, visited);
+        count += countIsLand(arr, r - 1, c - 1, visited);
+        count += countIsLand(arr, r + 1, c - 1, visited);
+        count += countIsLand(arr, r - 1, c + 1, visited);
 
-        return size;
+        return count;
     }
 
     public static void main(String[] args) {
-        char arr[][] =
+        int[][] arr =
                 {
-                        {'W', 'L', 'W', 'W', 'L'},
-                        {'W', 'L', 'W', 'L', 'W'},
-                        {'W', 'L', 'W', 'L', 'W'},
-                        {'W', 'W', 'L', 'L', 'W'},
-                        {'L', 'W', 'W', 'L', 'L'},
-                        {'L', 'L', 'W', 'W', 'W'},
-                        {'W', 'W', 'W', 'L', 'W'},
-                        {'W', 'L', 'L', 'W', 'W'},
+                        {0, 1, 0, 0, 1},
+                        {0, 1, 0, 1, 0},
+                        {0, 0, 0, 1, 0},
+                        {0, 0, 1, 1, 0},
+                        {1, 0, 0, 1, 1},
+                        {1, 1, 0, 0, 0},
                 };
 
 
         int largest = 0;
-        int smallest = 10;
+        int smallest = 100;
         HashSet<String> visited = new HashSet<>();
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[0].length; j++) {

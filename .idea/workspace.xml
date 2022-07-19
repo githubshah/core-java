@@ -14,7 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/IslandCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/IslandCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/IslandMinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/IslandMinMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <recent name="learning.print_collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IslandCount">
+  <component name="RunManager" selected="Application.IslandMinMax">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -177,10 +177,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IslandMinMax" />
         <item itemvalue="Application.IslandCount" />
         <item itemvalue="Application.LongestPathInMatrix" />
         <item itemvalue="Application.learning.aDataStucture.recusion.matrix.HouseProblem" />
-        <item itemvalue="Application.IslandMinMax" />
         <item itemvalue="Application.TotalPathInMatrix" />
       </list>
     </recent_temporary>
