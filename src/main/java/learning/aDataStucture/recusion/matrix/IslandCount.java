@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class IslandCount {
 
 
-    private static boolean countIsLand(char[][] arr, int r, int c, HashSet<String> visited) {
+    private static boolean countIsLand(int[][] arr, int r, int c, HashSet<String> visited) {
 
         if (r < 0 || r >= arr.length - 1) {
             return false;
@@ -15,7 +15,7 @@ public class IslandCount {
             return false;
         }
 
-        if (arr[r][c] == 'W') {
+        if (arr[r][c] == 0) {
             return false;
         }
 
@@ -39,14 +39,14 @@ public class IslandCount {
     }
 
     public static void main(String[] args) {
-        char arr[][] =
+        int[][] arr =
                 {
-                        {'W', 'L', 'W', 'W', 'L'},
-                        {'W', 'L', 'W', 'L', 'W'},
-                        {'W', 'W', 'W', 'L', 'W'},
-                        {'W', 'W', 'L', 'L', 'W'},
-                        {'L', 'W', 'W', 'L', 'L'},
-                        {'L', 'L', 'W', 'W', 'W'},
+                        {0, 1, 0, 0, 1},
+                        {0, 1, 0, 1, 0},
+                        {0, 0, 0, 1, 0},
+                        {0, 0, 1, 1, 0},
+                        {1, 0, 0, 1, 1},
+                        {1, 1, 0, 0, 0},
                 };
 
 
