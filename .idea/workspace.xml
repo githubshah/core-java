@@ -100,7 +100,7 @@
       <recent name="learning.print_collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestPathInMatrix">
+  <component name="RunManager" selected="Application.IslandCount">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -179,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IslandCount" />
         <item itemvalue="Application.LongestPathInMatrix" />
         <item itemvalue="Application.learning.aDataStucture.recusion.matrix.HouseProblem" />
         <item itemvalue="Application.IslandMinMax" />
         <item itemvalue="Application.TotalPathInMatrix" />
-        <item itemvalue="Application.IslandCount" />
       </list>
     </recent_temporary>
   </component>
