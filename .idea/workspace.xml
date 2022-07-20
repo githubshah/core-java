@@ -15,7 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/LongestPathInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/LongestPathInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/TotalPathInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/TotalPathInMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <recent name="learning.print_collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestPathInMatrix">
+  <component name="RunManager" selected="Application.TotalPathInMatrix">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -163,20 +163,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="TotalPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.matrix.TotalPathInMatrix" />
       <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.aDataStucture.recusion.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TotalPathInMatrix" />
         <item itemvalue="Application.LongestPathInMatrix" />
         <item itemvalue="Application.IslandMinMax" />
         <item itemvalue="Application.IslandMinMaxTest" />
         <item itemvalue="Application.IslandCount" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
