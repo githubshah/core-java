@@ -16,14 +16,14 @@ public class HouseProblem {
 
     private int fun(int[][] arr, int i, int j) {
 
+        if (i > arr.length - 1 || j > arr.length - 1) {
+            return 0;
+        }
 
         if (i == arr.length - 1 && j == arr.length - 1) {
             return arr[arr.length - 1][arr.length - 1];
         }
 
-        if (i > arr.length - 1 || j > arr.length - 1) {
-            return 0;
-        }
 
         return arr[i][j] + Math.max(fun(arr, i + 1, j), fun(arr, i, j + 1));
     }
