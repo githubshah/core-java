@@ -14,8 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/sudoku/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/sudoku/SudokuMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/sudoku/SudukoDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/HouseProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/HouseProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +101,7 @@
       <recent name="learning.print_collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HouseProblem">
+  <component name="RunManager" selected="Application.demo.sudoku.SudukoDemo">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -137,19 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IslandMinMaxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.matrix.IslandMinMaxTest" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LongestPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.matrix.LongestPathInMatrix" />
       <module name="core-java" />
@@ -176,13 +165,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo.sudoku.SudukoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.sudoku.SudukoDemo" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.demo.sudoku.SudukoDemo" />
         <item itemvalue="Application.HouseProblem" />
         <item itemvalue="Application.TotalPathInMatrix" />
         <item itemvalue="Application.LongestPathInMatrix" />
         <item itemvalue="Application.IslandMinMax" />
-        <item itemvalue="Application.IslandMinMaxTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +308,11 @@
           <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/src.zip!/java/util/Optional.java</url>
           <line>212</line>
           <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/sudoku/SudukoDemo.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="170" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
