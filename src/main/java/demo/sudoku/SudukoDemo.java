@@ -1,9 +1,6 @@
 package demo.sudoku;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
+import java.util.*;
 
 class Sudoku {
     private final SudokuMatrix sudokuMatrix;
@@ -147,19 +144,6 @@ class Sudoku {
 
 public class SudukoDemo {
     public static void main(String[] args) {
-//        int[][] mat = {
-//                {1, 4, 0, 0, 0, 8, 0, 9, 0},
-//                {0, 0, 0, 6, 5, 0, 7, 0, 3},
-//                {0, 0, 5, 9, 0, 0, 2, 0, 8},
-//                {0, 0, 2, 3, 0, 7, 4, 0, 1},
-//                {6, 0, 7, 0, 8, 0, 0, 5, 0},
-//                {0, 3, 0, 0, 1, 2, 6, 0, 9},
-//                {8, 2, 0, 0, 3, 5, 0, 6, 0},
-//                {0, 0, 6, 0, 0, 4, 1, 2, 0},
-//                {5, 9, 1, 0, 7, 0, 0, 0, 4},
-//
-//        };
-
         int[][] mat = {
                 {1, 0, 0, 0, 0, 0, 0, 0, 0}, //3, 8
                 {0, 0, 0, 6, 0, 0, 0, 0, 3},
@@ -169,13 +153,16 @@ public class SudukoDemo {
                 {0, 3, 0, 0, 1, 2, 0, 0, 9},
                 {8, 2, 0, 0, 3, 5, 0, 6, 0},
                 {0, 0, 0, 0, 0, 4, 1, 2, 0},
-                {0, 9, 1, 0, 7, 0, 0, 0, 0},
+                {0, 0, 1, 0, 7, 0, 0, 0, 0},
 
         };
 
         Sudoku sudoku = new Sudoku(new SudokuMatrix(mat));
 
+        long time = new Date().getTime();
         sudoku.start();
+        System.out.println(new Date().getTime() - time);
+
 
         sudoku.print();
 
