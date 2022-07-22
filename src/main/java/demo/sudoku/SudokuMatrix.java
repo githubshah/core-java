@@ -12,7 +12,7 @@ class SudokuMatrix {
         this.mat = mat;
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
-                cellHashMap.put(i + ":" + j, new Cell(i, j, mat[0].length));
+                cellHashMap.put(i + ":" + j, new Cell(i, j));
             }
         }
     }

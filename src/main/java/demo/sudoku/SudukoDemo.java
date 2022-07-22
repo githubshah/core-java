@@ -1,5 +1,6 @@
 package demo.sudoku;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
@@ -13,7 +14,8 @@ class Sudoku {
 
     public void fill(int x, int y, int number) {
         sudokuMatrix.mat[x][y] = number;
-        reminder(x, y, sudokuMatrix, number, new LinkedList());
+        Queue<Map<String, Integer>> q = new LinkedList();
+        reminder(x + ":" + y, sudokuMatrix, number, q);
     }
 
     public void print() {
@@ -25,23 +27,59 @@ class Sudoku {
         }
     }
 
-    private void reminder(int x, int y, SudokuMatrix sudokuMatrix, int number, Queue<Integer> queue) {
+    private void reminder(String cell, SudokuMatrix sudokuMatrix, int number, Queue<Map<String, Integer>> queue) {
+        String[] split = cell.split(":");
+        int x = Integer.parseInt(split[0]);
+        int y = Integer.parseInt(split[1]);
         Map<String, Cell> cellHashMap = sudokuMatrix.getCellHashMap();
-        for (int i = 0; i < sudokuMatrix.mat[0].length; i++) {
-            for (int j = 0; j < sudokuMatrix.mat[0].length; j++) {
-                Cell cell = cellHashMap.get(i + ":" + j).removeNumberFromCellHistory(number);
-                if (cell.getArr().size() == 1) {
-                    Map.Entry<Integer, Integer> integerIntegerEntry = cell.getArr().entrySet().stream().findFirst().get();
-                    if (x != i || y != j) {
-                        sudokuMatrix.mat[cell.getRow()][cell.getColumn()] = integerIntegerEntry.getValue();
-                    }
-                    queue.add(integerIntegerEntry.getValue());
+
+        for (int r = 0; r < sudokuMatrix.mat[0].length; r++) {
+
+            Cell cell1 = cellHashMap.get(x + ":" + r).removeNumberFromCellHistory(number);
+            Cell cell2 = cellHashMap.get(r + ":" + y).removeNumberFromCellHistory(number);
+
+            if (cell1.getSize() != 0) {
+                if (cell1.getArr().containsKey(number - 1)) {
+                    System.out.println(cell1.getArr().get(number));
+                    cell1.getArr().remove(number - 1);
+                }
+            }
+
+            if (cell2.getSize() != 0) {
+                if (cell2.getArr().containsKey(number - 1)) {
+                    System.out.println(cell2.getArr().get(number));
+                    cell2.getArr().remove(number - 1);
                 }
             }
         }
+
+        int x1 = getIndexBoss(x);
+        int y1 = getIndexBoss(y);
+        int x2 = x1 + 2;
+        int y2 = y1 + 2;
+
+        for (int k = x1; k <= x2; k++) {
+            for (int l = y1; l <= y2; l++) {
+                Cell cell3 = cellHashMap.get(k + ":" + l).removeNumberFromCellHistory(number);
+                if (cell3.getArr().size() == 1) {
+                    Map.Entry<Integer, Integer> integerIntegerEntry = cell3.getArr().entrySet().stream().findFirst().get();
+                    Integer integer = cell3.getArr().get(integerIntegerEntry.getKey()); // single element present in the cell
+                    HashMap<String, Integer> obj = new HashMap<>();
+                    obj.put(k + ":" + l, integer);
+                    queue.add(obj);
+                }
+            }
+        }
+
         if (!queue.isEmpty()) {
-            Integer number1 = queue.poll();
-            reminder(0, 0, sudokuMatrix, number1, queue);
+            Map<String, Integer> poll = queue.poll();
+            Map.Entry<String, Integer> stringIntegerEntry = poll.entrySet().stream().findFirst().get();
+            String key = stringIntegerEntry.getKey();
+            String[] split1 = key.split(":");
+            int x21 = Integer.parseInt(split1[0]);
+            int y21 = Integer.parseInt(split1[1]);
+            sudokuMatrix.mat[x21][y21] = stringIntegerEntry.getValue();
+            reminder(stringIntegerEntry.getKey(), sudokuMatrix, stringIntegerEntry.getValue(), queue);
         }
     }
 
@@ -90,7 +128,7 @@ class Sudoku {
         }
 
         Cell cell = sudokuMatrix.getCellHashMap().get(i + ":" + j);
-        cell.getArr().put(number - 1, number);
+        cell.put(number - 1, number);
         return true;
     }
 
@@ -117,14 +155,14 @@ public class SudukoDemo {
 //        };
 
         int[][] mat = {
-                {1, 4, 0, 7, 2, 0, 5, 9, 0}, //3, 8
+                {1, 4, 0, 0, 0, 0, 0, 0, 0}, //3, 8
                 {0, 0, 0, 6, 5, 0, 7, 0, 3},
                 {0, 0, 5, 9, 0, 0, 2, 0, 8},
                 {0, 0, 2, 3, 0, 7, 4, 0, 1},
                 {6, 0, 7, 0, 8, 0, 0, 5, 0},
                 {0, 3, 0, 0, 1, 2, 6, 0, 9},
                 {8, 2, 0, 0, 3, 5, 0, 6, 0},
-                {0, 0, 6, 0, 0, 4, 1, 2, 0},
+                {0, 0, 0, 0, 0, 4, 1, 2, 0},
                 {5, 9, 1, 0, 7, 0, 0, 0, 4},
 
         };
