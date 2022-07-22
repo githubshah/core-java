@@ -14,9 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/sudoku/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/sudoku/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/sudoku/SudokuMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/sudoku/SudokuMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/sudoku/SudukoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/sudoku/SudukoDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,7 +308,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/sudoku/SudukoDemo.java</url>
-          <line>173</line>
+          <line>179</line>
           <option name="timeStamp" value="170" />
         </line-breakpoint>
       </breakpoints>

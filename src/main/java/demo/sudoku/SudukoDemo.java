@@ -39,16 +39,22 @@ class Sudoku {
             Cell cell2 = cellHashMap.get(r + ":" + y).removeNumberFromCellHistory(number);
 
             if (cell1.getSize() != 0) {
-                if (cell1.getArr().containsKey(number - 1)) {
-                    System.out.println(cell1.getArr().get(number));
-                    cell1.getArr().remove(number - 1);
+                if (cell1.getArr().size() == 1) {
+                    Map.Entry<Integer, Integer> integerIntegerEntry = cell1.getArr().entrySet().stream().findFirst().get();
+                    Integer integer = cell1.getArr().get(integerIntegerEntry.getKey()); // single element present in the cell
+                    HashMap<String, Integer> obj = new HashMap<>();
+                    obj.put(x + ":" + r, integer);
+                    queue.add(obj);
                 }
             }
 
             if (cell2.getSize() != 0) {
-                if (cell2.getArr().containsKey(number - 1)) {
-                    System.out.println(cell2.getArr().get(number));
-                    cell2.getArr().remove(number - 1);
+                if (cell2.getArr().size() == 1) {
+                    Map.Entry<Integer, Integer> integerIntegerEntry = cell2.getArr().entrySet().stream().findFirst().get();
+                    Integer integer = cell2.getArr().get(integerIntegerEntry.getKey()); // single element present in the cell
+                    HashMap<String, Integer> obj = new HashMap<>();
+                    obj.put(r + ":" + y, integer);
+                    queue.add(obj);
                 }
             }
         }
@@ -163,7 +169,7 @@ public class SudukoDemo {
                 {0, 3, 0, 0, 1, 2, 6, 0, 9},
                 {8, 2, 0, 0, 3, 5, 0, 6, 0},
                 {0, 0, 0, 0, 0, 4, 1, 2, 0},
-                {5, 9, 1, 0, 7, 0, 0, 0, 4},
+                {0, 9, 1, 0, 7, 0, 0, 0, 4},
 
         };
 
