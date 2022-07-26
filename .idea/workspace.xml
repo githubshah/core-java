@@ -312,16 +312,6 @@
           <line>166</line>
           <option name="timeStamp" value="231" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/TotalPathInMatrix.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="233" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/TotalPathInMatrix.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="235" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -33,13 +33,9 @@ class TotalPathInMatrix {
         int count = 0;
 
         mat[i][j] = counter;
-        int x1 = i + 1;
-        int y1 = j;
-        int x2 = i;
-        int y2 = j + 1;
 
-        count += findLongestPath(mat, visited, x1, y1, counter + 1);
-        count += findLongestPath(mat, visited, x2, y2, counter + 1);
+        count += findLongestPath(mat, visited, i + 1, j, counter + 1);
+        count += findLongestPath(mat, visited, i, j + 1, counter + 1);
 
         visited.remove(i + "," + j);
 
