@@ -22,7 +22,6 @@ class LongestPathInMatrix {
 
         if (i == x && j == y) {
             int max = Integer.max(dist, max_dist);
-            System.out.println("    " + i + ":" + j + ">>                   > " + max);
             return max;
         }
 
@@ -37,8 +36,6 @@ class LongestPathInMatrix {
         max_dist = findLongestPath(mat, visited, i, j + 1, x, y, max_dist, dist + 1);
         max_dist = findLongestPath(mat, visited, i - 1, j, x, y, max_dist, dist + 1);
         max_dist = findLongestPath(mat, visited, i, j - 1, x, y, max_dist, dist + 1);
-
-        System.out.println("    " + i + ":" + j + ">>           > " + max_dist);
 
         visited.remove(pos);
 
