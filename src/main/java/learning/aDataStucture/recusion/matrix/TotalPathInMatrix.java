@@ -45,8 +45,9 @@ class TotalPathInMatrix {
     public static void main(String[] args) {
         int mat[][] =
                 {
-                        {1, 1},
-                        {1, 1},
+                        {1, 1, 1},
+                        {1, 1, 1},
+                        {1, 1, 1},
                 };
 
         Set<String> visitor = new HashSet<>();
