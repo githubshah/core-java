@@ -15,6 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/TotalPathInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/TotalPathInMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,7 @@
       <recent name="learning.print_collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.demo.sudoku.SudukoDemo">
+  <component name="RunManager" selected="Application.TotalPathInMatrix">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -177,9 +178,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TotalPathInMatrix" />
         <item itemvalue="Application.demo.sudoku.SudukoDemo" />
         <item itemvalue="Application.HouseProblem" />
-        <item itemvalue="Application.TotalPathInMatrix" />
         <item itemvalue="Application.LongestPathInMatrix" />
         <item itemvalue="Application.IslandMinMax" />
       </list>
@@ -310,6 +311,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/demo/sudoku/SudukoDemo.java</url>
           <line>166</line>
           <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/TotalPathInMatrix.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/matrix/TotalPathInMatrix.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="235" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
