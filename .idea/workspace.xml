@@ -15,8 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior/CyclicBarrierDemoMainNoWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior/CyclicBarrierDemoMainNoWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior/CyclicBarrierDemoMainWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior/CyclicBarrierDemoMainWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/SolutionStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/SolutionStatement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <recent name="learning.aDataStucture.recusion.reverse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.learning.core.multiThreading.countdownLatch.CountDownLatchTest">
+  <component name="RunManager" selected="Application.SolutionStatement">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -164,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloHP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.phaser.cyclicbarrior.HelloHP" />
+    <configuration name="SolutionStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.semaphore.SolutionStatement" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.phaser.cyclicbarrior.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolutionStatement" />
         <item itemvalue="Application.learning.core.multiThreading.countdownLatch.CountDownLatchTest" />
         <item itemvalue="Application.CyclicBarrierDemoMainNoWaitMoreParties" />
         <item itemvalue="Application.CyclicBarrierDemoMainWait" />
         <item itemvalue="Application.CyclicBarrierDemoMainNoWait" />
-        <item itemvalue="Application.HelloHP" />
       </list>
     </recent_temporary>
   </component>

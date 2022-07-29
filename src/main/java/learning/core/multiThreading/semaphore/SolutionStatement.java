@@ -5,6 +5,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 import java.util.stream.IntStream;
 
+
+/*
+        semaphore is a gateway/capacity which enable to run only permit threads.
+        once lock release the other thread will pass from this gateway.
+        note: Not working as cyclic barrier where cyclic barrier completed first batch and then go on.
+        but here once any thread will complete then other waited therad will getting lock/execution
+ */
 public class SolutionStatement {
 
     public static void main(String[] args) {
