@@ -14,8 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior/CyclicBarrierDemoMainNoWaitMoreParties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/countdownLatch/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/countdownLatch/CountDownLatchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <recent name="learning.aDataStucture.recusion.reverse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierDemoMainNoWaitMoreParties">
+  <component name="RunManager" selected="Application.learning.core.multiThreading.countdownLatch.CountDownLatchTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -178,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.learning.core.multiThreading.countdownLatch.CountDownLatchTest" />
         <item itemvalue="Application.CyclicBarrierDemoMainNoWaitMoreParties" />
         <item itemvalue="Application.CyclicBarrierDemoMainWait" />
         <item itemvalue="Application.CyclicBarrierDemoMainNoWait" />
         <item itemvalue="Application.HelloHP" />
-        <item itemvalue="Application.learning.core.multiThreading.countdownLatch.CountDownLatchTest" />
       </list>
     </recent_temporary>
   </component>

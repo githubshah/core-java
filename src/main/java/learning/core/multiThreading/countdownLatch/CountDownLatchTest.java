@@ -16,7 +16,7 @@ public class CountDownLatchTest {
         });
 
         System.out.println("waiting to complete all 9 tasks");
-        countDownLatch.await();
+        countDownLatch.await(); // main thread always to wait to count down == 0
         System.out.println("completed all 9 tasks");
     }
 }
@@ -38,5 +38,6 @@ class MyRunnable implements Runnable {
         }
         System.out.println("consumed");
         countDownLatch.countDown();
+        System.out.println("consumed + do rest work");
     }
 }
