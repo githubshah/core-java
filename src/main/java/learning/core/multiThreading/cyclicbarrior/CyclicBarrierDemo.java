@@ -5,7 +5,7 @@ import java.util.concurrent.CyclicBarrier;
 
 import static java.lang.Thread.sleep;
 
-public class RealExample {
+public class CyclicBarrierDemo {
     private static final int PARTIES = 3;
     private static final int ITERATIONS = 3;
 
