@@ -14,9 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/NQueenProblemRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/TestSortByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior/CyclicBarrierDemoMainNoWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior/CyclicBarrierDemoMainWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior/TxtReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/phaser/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/countdownLatch/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/phaser/cyclicbarrior/HelloHP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/SolutionStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/semaphore/SolutionStatement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,27 +71,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/cloneMethod&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/shaid/Documents/SHAID_JAVA/core-java/src/main/java/learning/core/multiThreading/cyclicbarrior",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="learning.pattern.visitor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/cloneMethod" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/reference" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/mutex" />
       <recent name="$PROJECT_DIR$/src/main/java/learning/core/default_method/newDemo" />
-      <recent name="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -100,7 +104,7 @@
       <recent name="learning.print_collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.learning.core.comparatorv.TestSortByValue">
+  <component name="RunManager" selected="Application.CyclicBarrierDemoMainNoWait">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -112,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IslandCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.matrix.IslandCount" />
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.countdownLatch.CountDownLatchTest" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.matrix.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.countdownLatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +129,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.matrix.LongestPathInMatrix" />
+    <configuration name="CyclicBarrierDemoMainNoWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.cyclicbarrior.CyclicBarrierDemoMainNoWait" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.matrix.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.cyclicbarrior.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloHP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.phaser.cyclicbarrior.HelloHP" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.multiThreading.phaser.cyclicbarrior.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,19 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.matrix.TotalPathInMatrix" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="learning.core.comparatorv.TestSortByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.core.comparatorv.TestSortByValue" />
       <module name="core-java" />
@@ -173,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierDemoMainNoWait" />
+        <item itemvalue="Application.HelloHP" />
+        <item itemvalue="Application.learning.core.multiThreading.countdownLatch.CountDownLatchTest" />
         <item itemvalue="Application.learning.core.comparatorv.TestSortByValue" />
         <item itemvalue="Application.NQueenProblemRecursion" />
-        <item itemvalue="Application.TotalPathInMatrix" />
-        <item itemvalue="Application.LongestPathInMatrix" />
-        <item itemvalue="Application.IslandCount" />
       </list>
     </recent_temporary>
   </component>

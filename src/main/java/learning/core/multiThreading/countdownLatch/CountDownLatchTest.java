@@ -1,4 +1,4 @@
-package learning.core.multiThreading.phaser;
+package learning.core.multiThreading.countdownLatch;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
