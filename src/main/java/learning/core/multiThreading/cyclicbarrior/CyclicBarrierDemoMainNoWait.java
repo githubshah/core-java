@@ -14,6 +14,6 @@ public class CyclicBarrierDemoMainNoWait {
         t2.start();
         t3.start();
 
-        System.out.println("Done ");
+        System.out.println("Done "); // main thread will end without waiting of other thread execution
     }
 }
