@@ -16,9 +16,7 @@ public class CyclicBarrierDemoMainWait {
 
         try {
             cb.await(); // set parties from 3 to 4 and main thread is 4th thread to wait on cyclic
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        } catch (BrokenBarrierException e) {
+        } catch (InterruptedException | BrokenBarrierException e) {
             throw new RuntimeException(e);
         }
 
