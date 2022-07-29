@@ -104,7 +104,7 @@
       <recent name="learning.print_collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierDemoMainNoWait">
+  <component name="RunManager" selected="Application.CyclicBarrierDemoMainWait">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -142,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloHP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.phaser.cyclicbarrior.HelloHP" />
+    <configuration name="CyclicBarrierDemoMainWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.cyclicbarrior.CyclicBarrierDemoMainWait" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.phaser.cyclicbarrior.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.cyclicbarrior.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueenProblemRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.aDataStucture.recusion.NQueenProblemRecursion" />
+    <configuration name="HelloHP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.phaser.cyclicbarrior.HelloHP" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.aDataStucture.recusion.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.phaser.cyclicbarrior.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierDemoMainWait" />
         <item itemvalue="Application.CyclicBarrierDemoMainNoWait" />
         <item itemvalue="Application.HelloHP" />
         <item itemvalue="Application.learning.core.multiThreading.countdownLatch.CountDownLatchTest" />
         <item itemvalue="Application.learning.core.comparatorv.TestSortByValue" />
-        <item itemvalue="Application.NQueenProblemRecursion" />
       </list>
     </recent_temporary>
   </component>
