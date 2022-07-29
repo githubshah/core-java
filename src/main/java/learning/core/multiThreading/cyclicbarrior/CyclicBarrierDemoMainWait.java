@@ -21,7 +21,7 @@ public class CyclicBarrierDemoMainWait {
         }
 
         System.out.println("Done "); // main thread will wait of other threads execution due to await in above line.
-        // if we have multiple phase then await will fail on Main method.
+        // if we are reusing cyclic barrier then await will fail on the Main method.
     }
 }
 
