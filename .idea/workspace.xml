@@ -14,7 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/pattern/singleton/SingletonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/phaser/PhaserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/phaser/PhaserDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,7 @@
       <recent name="learning.aDataStucture.recusion.reverse" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonExample">
+  <component name="RunManager" selected="Application.PhaserDemo">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -177,10 +178,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhaserDemo" />
         <item itemvalue="Application.SingletonExample" />
         <item itemvalue="Application.SingletonDemo" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.PhaserDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
       </list>
     </recent_temporary>
