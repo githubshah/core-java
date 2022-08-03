@@ -98,7 +98,7 @@
       <recent name="learning.aDataStucture.recusion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LockStepPhaser">
+  <component name="RunManager" selected="Application.learning.core.multiThreading.block.zdiff.LockStepPhaser">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -111,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="LockStepCountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.block.diff.LockStepCountDownLatch" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.block.zdiff.LockStepCountDownLatch" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.block.diff.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.block.zdiff.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
       </method>
     </configuration>
     <configuration name="LockStepCyclicBarrior" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.block.diff.LockStepCyclicBarrior" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.block.zdiff.LockStepCyclicBarrior" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.block.diff.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.block.zdiff.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +137,11 @@
       </method>
     </configuration>
     <configuration name="LockStepPhaser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.block.diff.LockStepPhaser" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.block.zdiff.LockStepPhaser" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.block.diff.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.block.zdiff.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,9 +177,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LockStepPhaser" />
-        <item itemvalue="Application.LockStepCyclicBarrior" />
-        <item itemvalue="Application.LockStepCountDownLatch" />
+        <item itemvalue="Application.learning.core.multiThreading.block.zdiff.LockStepPhaser" />
+        <item itemvalue="Application.learning.core.multiThreading.block.zdiff.LockStepCyclicBarrior" />
+        <item itemvalue="Application.learning.core.multiThreading.block.zdiff.LockStepCountDownLatch" />
         <item itemvalue="Application.PhaserDemo" />
         <item itemvalue="Application.SingletonExample" />
       </list>

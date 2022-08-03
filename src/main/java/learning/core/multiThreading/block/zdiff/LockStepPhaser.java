@@ -6,6 +6,9 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import static java.util.concurrent.Executors.newFixedThreadPool;
 
+// same as cyclic barrier manage phase but also manage the phase.
+// if any await method got exception then cyclic barrier messing everything
+// but phaser can prevent this via arrive or arrive De-Registered
 public class LockStepPhaser {
 
     protected static final int TASKS_PER_BATCH = 3;
