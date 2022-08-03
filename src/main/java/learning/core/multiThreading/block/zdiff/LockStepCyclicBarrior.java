@@ -1,4 +1,4 @@
-package learning.core.multiThreading.block.diff;
+package learning.core.multiThreading.block.zdiff;
 
 import java.util.concurrent.*;
 

@@ -1,6 +1,5 @@
-package learning.core.multiThreading.block.diff;
+package learning.core.multiThreading.block.zdiff;
 
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Phaser;
 import java.util.concurrent.ThreadLocalRandom;
