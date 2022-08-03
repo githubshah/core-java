@@ -1,4 +1,4 @@
-package learning.core.multiThreading.cyclicbarrior;
+package learning.core.multiThreading.block.cyclicbarrior;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

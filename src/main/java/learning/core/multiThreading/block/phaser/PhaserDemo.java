@@ -1,4 +1,4 @@
-package learning.core.multiThreading.phaser;
+package learning.core.multiThreading.block.phaser;
 
 import java.util.concurrent.Phaser;
 

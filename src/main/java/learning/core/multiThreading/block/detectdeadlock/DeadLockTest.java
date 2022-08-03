@@ -1,4 +1,4 @@
-package learning.core.multiThreading.detectdeadlock;
+package learning.core.multiThreading.block.detectdeadlock;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
