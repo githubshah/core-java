@@ -13,7 +13,7 @@ public class LockStepCyclicBarrior {
         LockStepCyclicBarrior lse = new LockStepCyclicBarrior();
         ExecutorService pool = newFixedThreadPool(TASKS_PER_BATCH);
 
-        CyclicBarrier latch = new CyclicBarrier(TASKS_PER_BATCH);
+        CyclicBarrier latch = new CyclicBarrier(TASKS_PER_BATCH); // auto reset once cyclic barrier set to 0
 
         for (int batch = 0; batch < BATCHES; batch++) {
             for (int i = 0; i < TASKS_PER_BATCH; i++) {

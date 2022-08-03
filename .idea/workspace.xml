@@ -14,12 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/diff/LockStepCountDownLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/diff/LockStepCyclicBarrior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/cyclicbarrior/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/cyclicbarrior/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/detectdeadlock/DeadLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/detectdeadlock/DeadLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/phaser/PhaserDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/phaser/PhaserDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/diff/LockStepCyclicBarrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/diff/LockStepCyclicBarrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/diff/LockStepPhaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/diff/LockStepPhaser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +93,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.core.multiThreading.block" />
       <recent name="learning.core.multiThreading.cyclicbarrior" />
       <recent name="learning.aDataStucture.recusion.matrix" />
       <recent name="learning.aDataStucture.graph" />
       <recent name="learning.aDataStucture.recusion" />
-      <recent name="learning.aDataStucture.recusion.reverse" />
     </key>
   </component>
   <component name="RunManager" selected="Application.LockStepPhaser">

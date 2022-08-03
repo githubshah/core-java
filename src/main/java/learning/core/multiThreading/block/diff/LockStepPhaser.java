@@ -15,10 +15,8 @@ public class LockStepPhaser {
     public static void main(String... args) {
         LockStepPhaser lse = new LockStepPhaser();
         ExecutorService pool = newFixedThreadPool(TASKS_PER_BATCH);
-        Phaser latch = new Phaser(TASKS_PER_BATCH);
+        Phaser latch = new Phaser(TASKS_PER_BATCH); // no need to manage batch
         for (int batch = 0; batch < BATCHES; batch++) {
-            // We need a new CountDownLatch per batch, since they
-            // cannot be reset to their initial value
             for (int i = 0; i < TASKS_PER_BATCH; i++) {
                 pool.submit(() -> lse.task(latch));
             }
