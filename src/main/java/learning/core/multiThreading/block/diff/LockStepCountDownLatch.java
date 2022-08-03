@@ -6,6 +6,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import static java.util.concurrent.Executors.newFixedThreadPool;
 
+//https://www.javaspecialists.eu/archive/Issue257-CountDownLatch-vs-CyclicBarrier-vs-Phaser.html
 public class LockStepCountDownLatch {
 
     protected static final int TASKS_PER_BATCH = 3;
