@@ -16,7 +16,10 @@ public class PhaserDemo {
 
         System.out.printf("%s thread going to wait for other threads...%s\n", Thread.currentThread().getName(), phaser);
         phaser.arriveAndAwaitAdvance();
-        System.out.printf("....................phaser arrived...... %s \n", phaser);
+        phaser.arriveAndDeregister();
+
+        while(!phaser.isTerminated());
+
         System.out.printf("all threads finished %s \n", phaser);
     }
 
@@ -35,9 +38,8 @@ public class PhaserDemo {
             work();
             System.out.printf("..and %s going to wait for other threads...%s\n", Thread.currentThread().getName(), phaser);
             phaser.arriveAndAwaitAdvance();
-            System.out.printf("%s release lock...%s\n", Thread.currentThread().getName(), phaser);
-
-
+            phaser.arriveAndDeregister();
+            System.out.printf("%s release lock..\n", Thread.currentThread().getName());
         }
 
         void work() {
