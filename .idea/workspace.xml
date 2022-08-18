@@ -14,7 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/diff/LockStepCountDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/multiThreading/block/diff/LockStepCountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StampedLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/StaticBlockVsStaticVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/StaticBlockVsStaticVar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +103,7 @@
       <recent name="learning.aDataStucture.recusion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.learning.core.multiThreading.block.zdiff.LockStepPhaser">
+  <component name="RunManager" selected="Application.ConstructorChaining">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -110,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockStepCountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.block.zdiff.LockStepCountDownLatch" />
+    <configuration name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.callByValueCallByRef.CallByValue" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.block.zdiff.*" />
+          <option name="PATTERN" value="learning.core.callByValueCallByRef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockStepCyclicBarrior" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.block.zdiff.LockStepCyclicBarrior" />
+    <configuration name="ConstructorChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.constructorchaining.ConstructorChaining" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.block.zdiff.*" />
+          <option name="PATTERN" value="learning.core.constructorchaining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +141,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockStepPhaser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.block.zdiff.LockStepPhaser" />
+    <configuration name="StampedLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StampedLockDemo" />
+      <module name="core-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticBlockVsStaticVar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.constructorchaining.StaticBlockVsStaticVar" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.block.zdiff.*" />
+          <option name="PATTERN" value="learning.core.constructorchaining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,39 +161,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhaserDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.phaser.PhaserDemo" />
+    <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsyncWithExecutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.phaser.*" />
+          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.pattern.singleton.SingletonExample" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.pattern.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
+      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
+      <option name="METHOD_NAME" value="supplyAsyncWithExecutor" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.learning.core.multiThreading.block.zdiff.LockStepPhaser" />
-        <item itemvalue="Application.learning.core.multiThreading.block.zdiff.LockStepCyclicBarrior" />
-        <item itemvalue="Application.learning.core.multiThreading.block.zdiff.LockStepCountDownLatch" />
-        <item itemvalue="Application.PhaserDemo" />
-        <item itemvalue="Application.SingletonExample" />
+        <item itemvalue="Application.ConstructorChaining" />
+        <item itemvalue="Application.StaticBlockVsStaticVar" />
+        <item itemvalue="Application.CallByValue" />
+        <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsyncWithExecutor" />
+        <item itemvalue="Application.StampedLockDemo" />
       </list>
     </recent_temporary>
   </component>
