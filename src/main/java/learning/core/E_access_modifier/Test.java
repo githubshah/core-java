@@ -1,6 +1,6 @@
-package learning.core.access_modifier;
+package learning.core.E_access_modifier;
 
-import learning.core.access_modifier.america.America;
+import learning.core.E_access_modifier.america.America;
 
 public class Test {
 

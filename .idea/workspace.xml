@@ -14,16 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Override_Variable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/A_callByValueCallByRef/CallByRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/A_callByValueCallByRef/CallByValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/ConstructorChaining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/B_constructorchaining/ConstructorChaining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/StaticBlockVsStaticVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/B_constructorchaining/StaticBlockVsStaticVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Overriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Overriding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/overiding/Parent123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Parent123.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/overiding/access_specifier/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/access_specifier/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/overloading/Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/C_overloading/Overloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Overriding_Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Overriding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Parent123.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/access_specifier/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/E_access_modifier/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/america/America.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/E_access_modifier/america/America.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/india/Delhi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/E_access_modifier/india/Delhi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/india/haryana/Gurugram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/E_access_modifier/india/haryana/Gurugram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <recent name="learning.aDataStucture.recusion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.learning.core.D_overiding.Override_Variable">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -145,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.D_overiding.Main" />
+    <configuration name="Overriding_Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.D_overiding.Overriding_Method" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
@@ -171,29 +171,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsyncWithExecutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="learning.core.D_overiding.Override_Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.D_overiding.Override_Variable" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.multiThreading.executorServices.*" />
+          <option name="PATTERN" value="learning.core.D_overiding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="learning.core.multiThreading.executorServices" />
-      <option name="MAIN_CLASS_NAME" value="learning.core.multiThreading.executorServices.CompleteableFutureTasksBaseImplSerialLizationTest" />
-      <option name="METHOD_NAME" value="supplyAsyncWithExecutor" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.learning.core.D_overiding.Override_Variable" />
+        <item itemvalue="Application.Overriding_Method" />
         <item itemvalue="Application.learning.core.A_callByValueCallByRef.CallByValue" />
         <item itemvalue="Application.learning.core.B_constructorchaining.ConstructorChaining" />
         <item itemvalue="Application.learning.core.B_constructorchaining.StaticBlockVsStaticVar" />
-        <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsyncWithExecutor" />
       </list>
     </recent_temporary>
   </component>

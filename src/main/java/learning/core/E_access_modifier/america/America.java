@@ -1,4 +1,4 @@
-package learning.core.access_modifier.america;
+package learning.core.E_access_modifier.america;
 
 public class America {
 

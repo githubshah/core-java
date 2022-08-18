@@ -1,6 +1,6 @@
-package learning.core.access_modifier.india;
+package learning.core.E_access_modifier.india;
 
-import learning.core.access_modifier.america.America;
+import learning.core.E_access_modifier.america.America;
 
 class Delhi extends America {
 

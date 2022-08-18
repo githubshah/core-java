@@ -26,7 +26,7 @@ class Child extends Parent {
 
 }
 
-public class Main {
+public class Overriding_Method {
     public static void main(String[] args) {
 
         Parent parent = new Child();
