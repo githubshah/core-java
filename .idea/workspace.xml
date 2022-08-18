@@ -14,12 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/StampedLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/StaticBlockVsStaticVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/constructorchaining/StaticBlockVsStaticVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/callByValueCallByRef/CallByValue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,7 @@
       <recent name="learning.aDataStucture.recusion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstructorChaining">
+  <component name="RunManager" selected="Application.CallByValue">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -179,9 +175,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallByValue" />
         <item itemvalue="Application.ConstructorChaining" />
         <item itemvalue="Application.StaticBlockVsStaticVar" />
-        <item itemvalue="Application.CallByValue" />
         <item itemvalue="JUnit.CompleteableFutureTasksBaseImplSerialLizationTest.supplyAsyncWithExecutor" />
         <item itemvalue="Application.StampedLockDemo" />
       </list>

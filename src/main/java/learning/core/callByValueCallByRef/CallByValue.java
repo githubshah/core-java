@@ -1,13 +1,20 @@
 package learning.core.callByValueCallByRef;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CallByValue {
 
     public static void main(String[] args) {
-        //wrapper();   // wrapper, method do not impact actual value
         //primitive(); // primitive, method do not impact actual value
+        //wrapper();   // wrapper, method do not impact actual value
         //wrapper2();  // Integer, method do not impact actual value
         //wrapper3();  // String, method do not impact actual value
+        List<String> list = new ArrayList<>();
+        wrapper4(list);
+        System.out.println(list.size()); // size will be changed
     }
+
 
     private static void primitive() {
         int a = 30;
@@ -58,5 +65,9 @@ public class CallByValue {
 
     public static void modify(Object a) {
         a = null;
+    }
+
+    private static void wrapper4(List<String> list) {
+        list.add("shaid");
     }
 }
