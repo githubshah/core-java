@@ -14,16 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Override_Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Overriding_AccessSpecifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Overriding_Method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Overriding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/Parent123.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/D_overiding/access_specifier/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/E_access_modifier/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/america/America.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/E_access_modifier/america/America.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/india/Delhi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/E_access_modifier/india/Delhi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/access_modifier/india/haryana/Gurugram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/E_access_modifier/india/haryana/Gurugram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
