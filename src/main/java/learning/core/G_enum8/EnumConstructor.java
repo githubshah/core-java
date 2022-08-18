@@ -20,7 +20,7 @@ enum Size {
     }
 }
 
-public class Main {
+public class EnumConstructor {
 
     public static void main(String[] args) {
 
