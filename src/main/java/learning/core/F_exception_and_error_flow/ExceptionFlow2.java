@@ -1,4 +1,4 @@
-package learning.core.exception_flow;
+package learning.core.F_exception_and_error_flow;
 
 import java.io.IOException;
 

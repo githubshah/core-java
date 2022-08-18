@@ -1,4 +1,4 @@
-package learning.core.exception_flow;
+package learning.core.F_exception_and_error_flow;
 
 //return always from the top of the stack
 public class ExceptionFlow {
