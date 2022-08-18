@@ -18,8 +18,6 @@ enum FemaleSize {
 
     // enum constants calling the enum constructors
     SMALL("The size is small."),
-    MEDIUM("The size is medium."),
-    LARGE("The size is large."),
     EXTRALARGE("The size is extra large.");
 
     private final String size;
@@ -34,7 +32,7 @@ enum FemaleSize {
     }
 }
 
-public class EnumConstructor {
+public class EnumConstructorAndComparing {
 
     public static void main(String[] args) {
 
