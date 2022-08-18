@@ -1,4 +1,4 @@
-package learning.core.constructorchaining;
+package learning.core.B_constructorchaining;
 
 public class StaticBlockVsStaticVar {
     static int field = 10;

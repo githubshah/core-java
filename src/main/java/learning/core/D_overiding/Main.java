@@ -1,4 +1,4 @@
-package learning.core.overiding;
+package learning.core.D_overiding;
 
 class Parent {
 
@@ -41,13 +41,11 @@ public class Main {
 
 
         Child child1 = new Child();
-        // if using parent ref to call over riding method then it
-        // check declaration from parent but called child method
-
         // if parent and child have co variant type then overriding not happened.
 
 
-        child1.overRiding(1);
+        child1.overRiding(1); // overloaded 1 is a int type can be promoted into float
+        child1.overRiding(new Integer(1));  // overloaded
 
     }
 }
