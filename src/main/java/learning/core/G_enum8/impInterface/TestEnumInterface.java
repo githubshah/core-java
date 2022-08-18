@@ -1,4 +1,4 @@
-package learning.core.enum8.impInterface;
+package learning.core.G_enum8.impInterface;
 
 public class TestEnumInterface {
 

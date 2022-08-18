@@ -1,4 +1,4 @@
-package learning.core.enum8;
+package learning.core.G_enum8;
 
 //compile but will not work
 enum EnumWithAccess {

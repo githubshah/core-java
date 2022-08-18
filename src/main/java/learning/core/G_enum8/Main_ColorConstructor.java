@@ -1,4 +1,4 @@
-package learning.core.enum8;
+package learning.core.G_enum8;
 
 enum ColorConstructor {
     red("RED"),
