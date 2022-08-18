@@ -46,7 +46,7 @@ public class WitHashCode {
 
         System.out.println("try to push same key by def -> abc");
         abc2.setName("abc");
-        System.out.println("after pushing same key then size of map: " + map.size());
+        System.out.println("after pushing same key then still size of map: " + map.size());
         iterateMap(map);
 
         System.out.println("Get value on same hash key abc1:>>> " + map.get(abc1));

@@ -29,7 +29,6 @@ public class ExceptionFlow {
             //return 10;
             throw new RuntimeException();
         } catch (Exception e) {
-            e.printStackTrace();
             System.out.println("catch 1");
             return i + " catch";
         } finally {

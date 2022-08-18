@@ -14,65 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/F_exception_and_error_flow/CustomCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/F_exception_and_error_flow/CustomUncheckedException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abc.ser" beforeDir="false" afterPath="$PROJECT_DIR$/abc.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.ser" beforeDir="false" afterPath="$PROJECT_DIR$/output.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/ObjectAsKeyInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/ObjectAsKeyInMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/RetainAndRemoveAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/RetainAndRemoveAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/StringAndStringBufferAsKeyInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/StringAndStringBufferAsKeyInMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/WeekHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/WeekHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/HashEqualsAndHashCodeWorstMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/HashEqualsAndHashCodeWorstMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/multiplekeyswithsameHashcode/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/multiplekeyswithsameHashcode/Emp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/multiplekeyswithsameHashcode/WitHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/multiplekeyswithsameHashcode/WitHashCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withoutHashCodeImpl/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/withoutHashCodeImpl/Emp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/hashmap/withoutHashCodeImpl/WithoutHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/withoutHashCodeImpl/WithoutHashCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/collectiontest/implMap/HashMapCustomApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/implMap/HashMapCustomApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/I_comparatorv/Sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/TestSortByValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/I_comparatorv/TestSortByValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/complex/MultiColumnComparatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/I_comparatorv/complex/MultiColumnComparatorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/iterrator/FailFastAndFailSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/I_comparatorv/iterrator/FailFastAndFailSafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/comparatorv/iterrator/MultiComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/I_comparatorv/iterrator/MultiComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OptionalIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/optional8/OptionalIfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OptionalMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/optional8/OptionalMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OptionalVsIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/optional8/OptionalVsIfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/optional8/OrElseVsOrElseGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/optional8/OrElseVsOrElseGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/DropWhileTakeWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/DropWhileTakeWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/HighestSalaryInEachDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/HighestSalaryInEachDept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/Java8Examples4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/Java8Examples4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/innerJoin/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/innerJoin/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/innerJoin/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/innerJoin/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/innerJoin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/innerJoin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/lambdas/FunctionalPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/lambdas/FunctionalPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/lambdas/OrdinaryPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/lambdas/OrdinaryPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/more/ParallelStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/more/ParallelStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/OrdersAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/orders/OrdersAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/orders/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/orders/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/model/OrderLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/orders/model/OrderLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/java8/stream8/orders/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/stream8/orders/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/reference/SoftReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/K_reference/SoftReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/reference/WeakReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/K_reference/WeakReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/K_reference/phantom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/MyPhantomReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/K_reference/phantom/MyPhantomReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/QueueReadingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/K_reference/phantom/QueueReadingThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/reference/phantom/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/K_reference/phantom/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/AvoidChildToSerialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/J_serialization_demo/AvoidChildToSerialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/BaseImplSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/J_serialization_demo/BaseImplSerialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/ChildImplSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/J_serialization_demo/ChildImplSerialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_problem/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/J_serialization_demo/uuid_problem/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_problem/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/J_serialization_demo/uuid_problem/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_problem/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/J_serialization_demo/uuid_problem/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_solution/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/J_serialization_demo/uuid_solution/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_solution/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/J_serialization_demo/uuid_solution/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/serialization_demo/uuid_solution/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/J_serialization_demo/uuid_solution/Writer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringIntern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/M_stringdemo/StringIntern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringPoolVsHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/M_stringdemo/StringPoolVsHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/stringdemo/StringReplaceAndReplaceAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/M_stringdemo/StringReplaceAndReplaceAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/F_exception_and_error_flow/ExceptionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/F_exception_and_error_flow/ExceptionFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/ObjectAsKeyInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/ObjectAsKeyInMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/WeekHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/WeekHashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/HashEqualsAndHashCodeWorstMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/HashEqualsAndHashCodeWorstMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/multiplekeyswithsameHashcode/WitHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/multiplekeyswithsameHashcode/WitHashCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +104,7 @@
       <recent name="learning.aDataStucture.recusion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomUnCheckedException">
+  <component name="RunManager" selected="Application.StringAndStringBufferAsKeyInMap">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -168,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomUnCheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.F_exception_and_error_flow.CustomUnCheckedException" />
+    <configuration name="HashEqualsAndHashCodeWorstMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.H_collectiontest.hashmap.HashEqualsAndHashCodeWorstMethod" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.F_exception_and_error_flow.*" />
+          <option name="PATTERN" value="learning.core.H_collectiontest.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumConstructorAndComparing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.G_enum8.EnumConstructorAndComparing" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cc.Main" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.G_enum8.*" />
+          <option name="PATTERN" value="cc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumWithAccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.G_enum8.EnumWithAccessModifier" />
+    <configuration name="ObjectAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.H_collectiontest.ObjectAsKeyInMap" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.G_enum8.*" />
+          <option name="PATTERN" value="learning.core.H_collectiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.core.F_exception_and_error_flow.CustomCheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.F_exception_and_error_flow.CustomCheckedException" />
+    <configuration name="StringAndStringBufferAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.H_collectiontest.StringAndStringBufferAsKeyInMap" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.F_exception_and_error_flow.*" />
+          <option name="PATTERN" value="learning.core.H_collectiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learning.core.F_exception_and_error_flow.HandelError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.F_exception_and_error_flow.HandelError" />
+    <configuration name="WeekHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.H_collectiontest.WeekHashMapDemo" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.F_exception_and_error_flow.*" />
+          <option name="PATTERN" value="learning.core.H_collectiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomUnCheckedException" />
-        <item itemvalue="Application.learning.core.F_exception_and_error_flow.CustomCheckedException" />
-        <item itemvalue="Application.EnumConstructorAndComparing" />
-        <item itemvalue="Application.learning.core.G_enum8.EnumWithAccessModifier" />
-        <item itemvalue="Application.learning.core.F_exception_and_error_flow.HandelError" />
+        <item itemvalue="Application.StringAndStringBufferAsKeyInMap" />
+        <item itemvalue="Application.WeekHashMapDemo" />
+        <item itemvalue="Application.ObjectAsKeyInMap" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HashEqualsAndHashCodeWorstMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -418,6 +366,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/learning/aDataStucture/recusion/NQueenProblemRecursion.java</url>
           <line>57</line>
           <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/ObjectAsKeyInMap.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="252" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

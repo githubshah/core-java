@@ -54,7 +54,9 @@ public class HashEqualsAndHashCodeWorstMethod {
 
         // because emp1, emp2, emp3 pointed to single object in heap memory because of same hash code in Emp class.
         // but when you do map.get(emp2) then it picks it hashcode which is 1 and go to hash bucket and find 1 hashcode and return value
-        System.out.println("map size: " + map.get(emp2));
+        System.out.println("map emp1: " + map.get(emp1));
+        System.out.println("map emp2: " + map.get(emp2));
+        System.out.println("map emp3: " + map.get(emp3));
 
     }
 

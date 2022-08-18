@@ -57,7 +57,7 @@ public class Main {
         Main main = new Main();
 
         List<String> listOfFiles = new ArrayList<>();
-        for (int i = 1; i < 1000; i++) {
+        for (int i = 1; i < 1; i++) {
             listOfFiles.add("fileName_" + i);
         }
 
@@ -66,5 +66,25 @@ public class Main {
 
         System.out.println("syncPerformance: " + syncPerformance / 60);
         System.out.println("asyncPerformance: " + asyncPerformance / 60);
+
+        List<String> p = new ArrayList<>();
+        ABC abc = new ABC(p);
+        p.add("sahdi");
+        p = new ArrayList<>();
+        abc.print();
+
+    }
+
+    static class ABC {
+
+        List<String> a;
+
+        public ABC(List<String> a) {
+            this.a = a;
+        }
+
+        public void print(){
+            System.out.println(a);
+        }
     }
 }

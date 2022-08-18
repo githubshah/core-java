@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-// referesnced change never make impact alrady puted object
-// setter change make impact already puted object
+// referenced change never make impact already put object
+// setter change make impact already put object
 
 
 class Student {
@@ -80,9 +80,12 @@ public class ObjectAsKeyInMap {
         System.out.println("-------------------------------");
 
         String a1 = new String("abc");
+        String a2 = new String("def");
         Map<String, String> map1 = new HashMap<>(); // week hashmap will work
         map1.put(a1, "A1");
+        map1.put(a2, "A2");
         a1 = null;  // does not change value in existing key
+        a2 = null;  // does not change value in existing key
         System.gc();
         map1.forEach(
                 (x, y) -> {
