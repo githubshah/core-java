@@ -1,4 +1,4 @@
-package learning.core.functionalInterfaceDemo;
+package learning.core.N_java8.functionalInterfaceDemo;
 
 @FunctionalInterface
 interface Calculator {

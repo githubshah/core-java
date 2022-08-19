@@ -14,13 +14,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcec9eef-3484-471a-8065-7d9de687c6a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/A_callByValueCallByRef/ListManipulateRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/nullAccept/NullAccept.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/F_exception_and_error_flow/ExceptionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/F_exception_and_error_flow/ExceptionFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/ObjectAsKeyInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/ObjectAsKeyInMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/WeekHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/WeekHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/HashEqualsAndHashCodeWorstMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/HashEqualsAndHashCodeWorstMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/multiplekeyswithsameHashcode/WitHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/H_collectiontest/hashmap/multiplekeyswithsameHashcode/WitHashCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/ExtendDiamondPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/default_method/ExtendDiamondPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/ImplementDiamondPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/default_method/ImplementDiamondPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/default_method/MultilevelInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/default_method/MultilevelInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/ConstructorRefrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/functionalInterfaceDemo/ConstructorRefrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/functionalInterfaceDemo/MethodRefrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/N_java8/functionalInterfaceDemo/MethodRefrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning/core/minmax/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/core/minmax/MinMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +107,7 @@
       <recent name="learning.aDataStucture.recusion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringAndStringBufferAsKeyInMap">
+  <component name="RunManager" selected="Application.ListManipulateRef">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -116,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashEqualsAndHashCodeWorstMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.H_collectiontest.hashmap.HashEqualsAndHashCodeWorstMethod" />
+    <configuration name="ListManipulateRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.A_callByValueCallByRef.ListManipulateRef" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.core.H_collectiontest.hashmap.*" />
+          <option name="PATTERN" value="learning.core.A_callByValueCallByRef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cc.Main" />
+    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.minmax.MinMax" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cc.*" />
+          <option name="PATTERN" value="learning.core.minmax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,8 +145,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectAsKeyInMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.H_collectiontest.ObjectAsKeyInMap" />
+    <configuration name="NullAccept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.H_collectiontest.nullAccept.NullAccept" />
+      <module name="core-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.core.H_collectiontest.nullAccept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.core.H_collectiontest.Sample" />
       <module name="core-java" />
       <extension name="coverage">
         <pattern>
@@ -168,26 +184,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.core.H_collectiontest.WeekHashMapDemo" />
-      <module name="core-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.core.H_collectiontest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListManipulateRef" />
+        <item itemvalue="Application.Sample" />
+        <item itemvalue="Application.NullAccept" />
+        <item itemvalue="Application.MinMax" />
         <item itemvalue="Application.StringAndStringBufferAsKeyInMap" />
-        <item itemvalue="Application.WeekHashMapDemo" />
-        <item itemvalue="Application.ObjectAsKeyInMap" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HashEqualsAndHashCodeWorstMethod" />
       </list>
     </recent_temporary>
   </component>

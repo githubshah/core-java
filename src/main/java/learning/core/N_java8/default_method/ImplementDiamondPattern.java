@@ -1,4 +1,4 @@
-package learning.core.default_method;
+package learning.core.N_java8.default_method;
 
 class Fruit1 implements  Apple, Mango {
 
