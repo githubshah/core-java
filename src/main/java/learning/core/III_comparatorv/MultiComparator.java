@@ -1,4 +1,4 @@
-package learning.core.I_comparatorv.iterrator;
+package learning.core.III_comparatorv;
 
 import java.util.Arrays;
 import java.util.Comparator;
