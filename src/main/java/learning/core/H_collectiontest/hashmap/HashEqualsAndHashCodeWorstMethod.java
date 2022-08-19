@@ -20,7 +20,7 @@ class Emp {
 //        Emp emp = (Emp) o;
 //        return Objects.equals(id, emp.id) && Objects.equals(email, emp.email);
 
-        return true;
+        return false;
     }
 
     @Override
@@ -48,6 +48,7 @@ public class HashEqualsAndHashCodeWorstMethod {
         map.put(emp1, "v1");
         map.put(emp2, "v2");
         map.put(emp3, "v3");
+        map.put(emp3, "v4");
 
         System.out.println("map size: " + map.size());
         map.forEach((k,v)->{System.out.println("k: " + k.toString()+", v: "+v);});
@@ -57,6 +58,7 @@ public class HashEqualsAndHashCodeWorstMethod {
         System.out.println("map emp1: " + map.get(emp1));
         System.out.println("map emp2: " + map.get(emp2));
         System.out.println("map emp3: " + map.get(emp3));
+        System.out.println("map emp4: " + map.get(emp3));
 
     }
 
