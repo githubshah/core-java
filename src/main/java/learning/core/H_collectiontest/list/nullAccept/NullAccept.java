@@ -1,4 +1,4 @@
-package learning.core.H_collectiontest.nullAccept;
+package learning.core.H_collectiontest.list.nullAccept;
 
 import java.util.*;
 

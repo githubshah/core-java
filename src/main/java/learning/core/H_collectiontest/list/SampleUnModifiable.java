@@ -1,4 +1,4 @@
-package learning.core.H_collectiontest;
+package learning.core.H_collectiontest.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
