@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Sample {
+public class SampleUnModifiable {
 
     public static void main(String args[]) {
 

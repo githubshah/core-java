@@ -4,7 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-public class Main {
+public class SampleDisjoint {
     public static void main(String[] args) throws ParseException {
         Set<Integer> integersA = new HashSet<>(Arrays.asList(1, 2));
         Set<Integer> integersB = new HashSet<>(Arrays.asList(3, 4));

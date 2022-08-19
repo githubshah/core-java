@@ -1,4 +1,6 @@
-package learning.core.H_collectiontest;
+package learning.core.H_collectiontest.hashmap.stringAndStringBuffer;
+
+import learning.core.H_collectiontest.hashmap.stringAndStringBuffer.Employee;
 
 import java.util.HashMap;
 import java.util.Map;

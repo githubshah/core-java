@@ -1,4 +1,4 @@
-package learning.core.H_collectiontest;
+package learning.core.H_collectiontest.hashmap.stringAndStringBuffer;
 
 import java.util.Objects;
 
