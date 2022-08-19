@@ -1,45 +1,35 @@
 package learning.core.H_collectiontest.hashmap;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.WeakHashMap;
 
-public class WeekHashMapDemo {
+class WeekHashMapDemo {
+    public static void main(String args[]) throws Exception {
+        WeakHashMap<Demo, String> m = new WeakHashMap();
+        Demo d = new Demo();
 
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-        System.out.println("obj destroy");
-    }
+        // puts an entry into WeakHashMap
+        m.put(d, " Hi ");
+        System.out.println(m);
 
-    public static void main(String[] args) throws InterruptedException {
-        String emp1 = new String("1");
-        String emp2 = new String("2");
-        String emp3 = new String("3");
+        d = null;
 
-        Map<String, String> map = new WeakHashMap<>();
-        //Map<String, String> map = new WeakHashMap<>();
-        map.put(emp1, "v1");
-        map.put(emp2, "v2");
-        map.put(emp3, "v3");
-
-        System.out.println("map size: " + map.size());
-        map.forEach((k, v) -> {
-            System.out.println("k: " + k.toString() + ", v: " + v);
-        });
-
-        emp1 = null;
-        emp2 = null;
+        // garbage collector is called
         System.gc();
 
+        // thread sleeps for 1 sec
         Thread.sleep(1000);
 
-        System.out.println("\nmap size: " + map.size());
-        map.forEach((k, v) -> {
-            System.out.println("k: " + k.toString() + ", v: " + v);
-        });
+        System.out.println(m);
+    }
+}
 
+class Demo {
+    public String toString() {
+        return "demo";
     }
 
-
+    // finalize method
+    public void finalize() {
+        System.out.println("finalize method is called");
+    }
 }

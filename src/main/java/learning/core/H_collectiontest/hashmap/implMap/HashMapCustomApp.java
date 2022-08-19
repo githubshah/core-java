@@ -1,4 +1,4 @@
-package learning.core.H_collectiontest.implMap;
+package learning.core.H_collectiontest.hashmap.implMap;
 
 /**
  * @param <K>
