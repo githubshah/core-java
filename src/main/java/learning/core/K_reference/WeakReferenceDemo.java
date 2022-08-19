@@ -7,6 +7,12 @@ class Demo {
     public void fun() {
         System.out.println("demo called");
     }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        System.out.println("finalize called");
+    }
 }
 
 public class WeakReferenceDemo {
