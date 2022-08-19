@@ -3,7 +3,7 @@ package learning.core.III_comparatorv;
 import java.util.*;
 import java.util.Map.Entry;
 
-public class TestSortByValue {
+public class SortValueThenKey {
 
     public static void main(String[] args) {
         Map<String, String> map = new LinkedHashMap<>();
@@ -17,7 +17,6 @@ public class TestSortByValue {
         Set<Entry<String, String>> entries = map.entrySet();
 
         List<Entry<String, String>> list = new ArrayList<>(entries);
-
 
         Comparator<Entry<String, String>> entryComparator =
                 Entry.<String, String>comparingByValue().thenComparing(Entry::getKey);

@@ -49,9 +49,14 @@ public class HashEqualsAndHashCodeWorstMethod {
         map.put(emp2, "v2");
         map.put(emp3, "v3");
         map.put(emp3, "v4");
+        for (int i = 1; i < 10; i++) {
+            map.put(new Emp(i + "", i + "@gmail.com"), "v" + i);
+        }
 
         System.out.println("map size: " + map.size());
-        map.forEach((k,v)->{System.out.println("k: " + k.toString()+", v: "+v);});
+        map.forEach((k, v) -> {
+            System.out.println("k: " + k.toString() + ", v: " + v);
+        });
 
         // because emp1, emp2, emp3 pointed to single object in heap memory because of same hash code in Emp class.
         // but when you do map.get(emp2) then it picks it hashcode which is 1 and go to hash bucket and find 1 hashcode and return value
