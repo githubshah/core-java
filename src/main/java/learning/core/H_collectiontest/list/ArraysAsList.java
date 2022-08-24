@@ -5,6 +5,17 @@ import java.util.List;
 import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 
+abstract class MN{
+    public MN(){
+
+    }
+}
+interface ABC{
+    static void main(){
+
+    }
+}
+
 public class ArraysAsList {
 
     public static void main(String[] args) {
