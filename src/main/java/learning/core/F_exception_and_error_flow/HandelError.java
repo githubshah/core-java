@@ -4,10 +4,11 @@ public class HandelError {
     public static void main(String[] args) {
         // insert code here
         try {
-            //new Example().go();
+            new HandelError().go();
             throw new OutOfMemoryError();
+            //throw new java.lang.StackOverflowError();
         } catch (Error e) {
-            System.out.println("\n" + e);
+            System.out.println("\nerror caught: " + e);
         }
     }
 
