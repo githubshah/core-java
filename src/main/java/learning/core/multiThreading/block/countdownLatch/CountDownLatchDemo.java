@@ -1,4 +1,4 @@
-package learning.core.multiThreading.countdownLatch;
+package learning.core.multiThreading.block.countdownLatch;
 
 import java.util.concurrent.CountDownLatch;
 
