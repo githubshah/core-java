@@ -39,7 +39,7 @@ public class StringReplaceAndReplaceAll {
         String regex = "\\d";
         String replacement = "x";
 
-        String newString = myString.replace(regex, replacement);
+        String newString = myString.replace(regex, replacement); // regex treat as plain text
         // __1_6____3__6_345____0
         System.out.println("repalceOnRegex: "+newString);
     }
