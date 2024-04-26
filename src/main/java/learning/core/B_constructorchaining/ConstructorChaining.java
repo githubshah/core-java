@@ -2,16 +2,21 @@ package learning.core.B_constructorchaining;
 
 class GrandFather {
 
+    static int a = 1;
+
     static {
-        System.out.println("static >> GrandFather method call");
+        a = 2;
+        System.out.println("static >> GrandFather method call " + a);
     }
 
     {
-        System.out.println("GrandFather init block call");
+        a = 3;
+        System.out.println("GrandFather init block call " + a);
     }
 
     public GrandFather() {
-        System.out.println("GrandFather constructor call");
+        a = 4;
+        System.out.println("GrandFather constructor call " + a);
     }
 }
 
@@ -49,6 +54,7 @@ public class ConstructorChaining {
 
     public static void main(String[] args) throws Exception {
 
+        new Child();
         new Child();
 
     }
