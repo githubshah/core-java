@@ -31,7 +31,7 @@ class MultilevelInheritance implements TestInterface2 {
 
     public static void main(String args[]) {
         MultilevelInheritance d = new MultilevelInheritance();
-        d.show();
+        d.show(); // local TestInterface2
     }
 
 }

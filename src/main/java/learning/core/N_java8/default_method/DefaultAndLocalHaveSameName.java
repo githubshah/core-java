@@ -27,7 +27,7 @@ class DefaultAndLocalHaveSameName {
 
     public static void main(String args[]) {
         TestInterface12 d = new children();
-        d.show();
+        d.show(); // class own TestInterface2
     }
 
 }
