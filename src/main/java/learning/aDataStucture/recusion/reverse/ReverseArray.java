@@ -8,7 +8,7 @@ public class ReverseArray {
 
         int[] arr = {1, 2, 3, 4, 5};
         new ReverseArray().fun(arr, -1);
-
+        System.out.println("reverse order array");
         Arrays.stream(arr).forEach(System.out::println);
     }
 
@@ -18,10 +18,8 @@ public class ReverseArray {
             return;
         }
 
-        i++;
-        int x = arr[i];
-        fun(arr, i);
-        arr[arr.length - i - 1] = x;
+        fun(arr, ++i);
+        arr[i] = arr.length - i;
     }
 
 }
