@@ -6,31 +6,25 @@ import java.util.Map.Entry;
 public class SortValueThenKey {
 
     public static void main(String[] args) {
-        Map<String, String> map = new LinkedHashMap<>();
+        // Sample map
+        Map<String, Integer> map = new HashMap<>();
+        map.put("apple", 10);
+        map.put("banana", 5);
+        map.put("orange", 8);
+        map.put("grape", 3);
 
-        map.put("AC", "AA");
-        map.put("ZB", "AB");
-        map.put("CC", "AB");
-        map.put("CB", "BC");
-        map.put("CA", "BC");
+        Comparator<Entry<String, Integer>> entryComparator = Entry.comparingByKey();
+        // Sort the map by keys
+        Map<String, Integer> sortedMap = map.entrySet().stream()
+                .sorted(entryComparator)
+                .collect(
+                        LinkedHashMap::new, // Use LinkedHashMap to maintain insertion order
+                        (newLinkedHashMap, originalMapObj) -> newLinkedHashMap.put(originalMapObj.getKey(), originalMapObj.getValue()),
+                        LinkedHashMap::putAll
+                );
 
-        Set<Entry<String, String>> entries = map.entrySet();
-
-        List<Entry<String, String>> list = new ArrayList<>(entries);
-
-        Comparator<Entry<String, String>> entryComparator =
-                Entry.<String, String>comparingByValue().thenComparing(Entry::getKey);
-
-        list.sort((o1, o2) -> {
-            int i1 = o1.getKey().compareTo(o2.getKey());
-            int i2 = o1.getValue().compareTo(o2.getValue());
-            return i2 != 0 ? i2 : i1;
-        });
-
-        map.clear();
-
-        list.forEach(x -> map.put(x.getKey(), x.getValue()));
-
-        System.out.println(map);
+        // Display the sorted map
+        System.out.println("Sorted Map:");
+        sortedMap.forEach((key, value) -> System.out.println(key + " : " + value));
     }
 }
