@@ -42,7 +42,7 @@ public class WitHashCode {
         map.put(abc2, "value of abc2");
 
         System.out.println("size of map: " + map.size());
-        iterateMap(map);
+        iterateMap(map);;
 
         System.out.println("try to push same key by def -> abc");
         abc2.setName("abc");
