@@ -11,15 +11,15 @@ import java.util.concurrent.locks.ReentrantLock;
 
 class SequenceGeneratorSolutionByReentrantLock extends SequenceGeneratorSolutionByReentrantLockDemo {
 
-    ReentrantLock mutex = new ReentrantLock();
+    ReentrantLock lock = new ReentrantLock();
 
     @Override
     public int getNextSequence() {
         try {
-            mutex.lock();
+            lock.lock();
             return super.getNextSequence();
         } finally {
-            mutex.unlock();
+            lock.unlock();
         }
     }
 }

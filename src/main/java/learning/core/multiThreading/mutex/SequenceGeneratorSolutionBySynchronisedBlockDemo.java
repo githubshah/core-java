@@ -10,11 +10,11 @@ import java.util.concurrent.*;
 
 class SequenceGeneratorUsingSynchronizedBlock extends SequenceGeneratorSolutionBySynchronisedBlockDemo {
 
-    Object mutex = new Object();
+    Object lock = new Object();
 
     @Override
     public int getNextSequence() {
-        synchronized (mutex) {
+        synchronized (lock) {
             return super.getNextSequence();
         }
     }
