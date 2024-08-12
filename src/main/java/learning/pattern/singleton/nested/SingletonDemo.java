@@ -25,11 +25,11 @@ class Singleton {
 	}
 
 	private static class Nested {
-		static Singleton Instance = new Singleton();
-
 		static {
 			System.out.println("inner static class load");
 		}
+
+		static Singleton Instance = new Singleton();
 	}
 
 }
