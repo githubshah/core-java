@@ -1,6 +1,5 @@
 package learning.dateTimeD;
 
-import javax.xml.bind.DatatypeConverter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -14,12 +13,6 @@ public class DateTimeDemo {
     public static void main(String[] args) throws ParseException {
 
         Object dateString = "2019-10-17T07:57:25.750Z";
-
-        Calendar calendar = DatatypeConverter.parseDateTime(dateString.toString());
-
-        Date time = calendar.getTime();
-
-        System.out.println(time);
 
         LocalDate date = LocalDate.parse("2018-05-05");
         LocalDateTime dateTime = LocalDateTime.parse("2018-05-05T11:50:55");
