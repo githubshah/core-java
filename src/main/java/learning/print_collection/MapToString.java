@@ -10,8 +10,6 @@ public class MapToString {
         map.put("a", 1);
         map.put("b", 2);
 
-        List<Map<String, Integer>> maps = Arrays.asList(map);
-        System.out.println(maps); // method 1
-        System.out.println(Collections.singletonList(map)); // method 2
+        System.out.println(map); // method 1
     }
 }
