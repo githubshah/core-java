@@ -8,11 +8,11 @@ public class ArrayToString {
 
         int[] array = {1, 2, 3, 4, 5};
 
-        System.out.println(Arrays.toString(array));
+        System.out.println("tostring " + Arrays.toString(array));
 
 
         int[][] array1 = {{1, 2}, {3, 4}, {5, 6, 7}};
 
-        System.out.println(Arrays.deepToString(array1));
+        System.out.println("deepToString "+Arrays.deepToString(array1));
     }
 }
