@@ -10,7 +10,6 @@ abstract class Device {
 
 interface USB {
     public void attach(Device device);
-
     void loadDevice();
 }
 
