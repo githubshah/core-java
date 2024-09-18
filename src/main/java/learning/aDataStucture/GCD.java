@@ -1,4 +1,4 @@
-package learning;
+package learning.aDataStucture;
 
 public class GCD {
 
