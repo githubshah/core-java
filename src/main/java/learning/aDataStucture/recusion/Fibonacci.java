@@ -9,7 +9,6 @@ public class Fibonacci {
 
     private int fun(int query, int i, int j, int count) {
         if (count == query) return j - i;
-        System.out.println(i);
         return fun(query, j, i + j, count + 1);
     }
 }
