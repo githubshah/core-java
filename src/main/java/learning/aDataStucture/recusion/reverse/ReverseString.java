@@ -6,19 +6,18 @@ public class ReverseString {
 
         String s = "welcome";
         char[] chars = s.toCharArray();
-        String fun = new ReverseString().fun(chars, -1);
+        String fun = new ReverseString().fun(chars, 0);
 
         System.out.println(fun);
     }
 
     private String fun(char[] chars, int i) {
 
-        if (i == chars.length - 1) {
+        if (i == chars.length) {
             return "";
         }
 
-        i++;
-        return fun(chars, i) + chars[i];
+        return fun(chars, i+1) + chars[i];
     }
 
 }
