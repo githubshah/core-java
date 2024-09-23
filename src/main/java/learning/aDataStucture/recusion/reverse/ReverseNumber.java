@@ -12,7 +12,7 @@ public class ReverseNumber {
         if (num < 10) {
             return num;
         }
-        return Integer.valueOf(num % 10 + "" + fun(num / 10));
+        return Integer.parseInt(num % 10 + "" + fun(num / 10));
     }
 
 }
