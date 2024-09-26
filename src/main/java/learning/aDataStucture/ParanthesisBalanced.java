@@ -1,11 +1,11 @@
 package learning.aDataStucture;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
 
 public class ParanthesisBalanced {
 
     public static void main(String[] args) {
-        String str = "(()]";
+        String str = "[]()[(())]";
         if (extracted(str)) {
             System.out.println("balanced");
         } else {
@@ -15,20 +15,20 @@ public class ParanthesisBalanced {
 
     private static boolean extracted(String str) {
         char[] chars = str.toCharArray();
-        Stack<Character> stack = new Stack<>();
+        ArrayDeque<Character> stack = new ArrayDeque();
 
         for (char aChar : chars) {
             if (aChar == '(' || aChar == '[' || aChar == '{') {
                 stack.push(aChar);
             } else if (aChar == ')' || aChar == ']' || aChar == '}') {
-                if (stack.empty() || !bracketEqual(stack.peek(), aChar)) {
+                if (stack.isEmpty() || !bracketEqual(stack.peek(), aChar)) {
                     return false;
                 } else {
                     stack.pop();
                 }
             }
         }
-        return true;
+        return stack.isEmpty();
     }
 
     private static boolean bracketEqual(Character open, Character close) {
@@ -36,6 +36,8 @@ public class ParanthesisBalanced {
             return true;
         } else if (open == '[' && close == ']') {
             return true;
-        } else return open == '{' && close == '}';
+        } else {
+            return open == '{' && close == '}';
+        }
     }
 }
