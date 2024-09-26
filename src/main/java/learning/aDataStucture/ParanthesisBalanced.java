@@ -15,7 +15,7 @@ public class ParanthesisBalanced {
 
     private static boolean extracted(String str) {
         char[] chars = str.toCharArray();
-        ArrayDeque<Character> stack = new ArrayDeque();
+        ArrayDeque<Character> stack = new ArrayDeque<>();
 
         for (char aChar : chars) {
             if (aChar == '(' || aChar == '[' || aChar == '{') {
