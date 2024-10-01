@@ -1,6 +1,7 @@
 package learning.aDataStucture;
 
 import java.util.ArrayDeque;
+import java.util.Map;
 
 public class ParanthesisBalanced {
 
@@ -39,5 +40,36 @@ public class ParanthesisBalanced {
         } else {
             return open == '{' && close == '}';
         }
+    }
+
+    ///////////////////////////////////////////////////////////////////////////
+    static Map<String, String> map = Map.of(
+            "}", "{",
+            "]", "[",
+            ")", "(");
+
+    static boolean arePair(String open, String close) {
+        return map.get(close).equals(open);
+    }
+
+    public static void main1(String[] args) {
+        String as = "{(})";
+        String[] split = as.split("");
+        ArrayDeque<String> arrayDeque = new ArrayDeque<>();
+        boolean isBalanced = true;
+
+        for (String s : split) {
+            if (map.containsValue(s)) {
+                // means open bracket
+                arrayDeque.push(s);
+            } else {
+                // close bracket
+                if (arrayDeque.isEmpty() || !arePair(arrayDeque.pop(), s)) {
+                    isBalanced = false;
+                    break;
+                }
+            }
+        }
+        System.out.println(isBalanced && arrayDeque.isEmpty());
     }
 }
